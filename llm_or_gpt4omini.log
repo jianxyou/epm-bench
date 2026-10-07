@@ -1,0 +1,8 @@
+resume: 75 episodes already in results/llm_or_gpt4omini.csv
+policy llm:bank done (5 total)
+[llm:sched] 25/40 (0.04 ep/s)
+policy llm:sched done (45 total)
+TOTAL 45 episodes in 17.4 min -> results/llm_or_gpt4omini.csv
+resume: 120 episodes already in results/llm_or_gpt4omini.csv
+policy llm:sched1 done (20 total)
+TOTAL 20 episodes in 6.1 min -> results/llm_or_gpt4omini.csv

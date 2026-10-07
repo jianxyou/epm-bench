@@ -1,0 +1,83 @@
+\section{Related Work}
+\label{sec:related}
+
+\paragraph{Memory for language-model agents.}
+Memory systems keep a store outside the context window: a paged context
+with an archival tier~\cite{packer2023memgpt}, an observation stream with
+retrieval and reflection~\cite{park2023generative}, or extracted facts
+updated as the conversation goes on~\cite{chhikara2025mem0}, organised by
+cognitive architectures into several stores~\cite{sumers2024coala}. A
+survey of 435 such works finds the field
+``concentrates more heavily on accumulating and retrieving state than on
+governing, recovering, or relinquishing it''~\cite{ding2026alwayson}. The
+benchmarks that test relinquishing test it on \emph{facts}: answering from
+the latest value after an update~\cite{wu2025longmemeval,hu2025memoryagentbench},
+not reusing an invalidated preference~\cite{uddin2026memora}, applying a
+retrieved update~\cite{chao2026stale}, honouring a withdrawn constraint in
+a single decision~\cite{nakayashiki2026stale}. All are graded on a reply;
+none involves an obligation whose cue arrives later in a world.
+
+\paragraph{Deferred intentions.}
+Two benchmarks test whether an LLM carries out an instruction whose trigger
+arrives later, and both touch withdrawal. TriggerBench~\cite{zhang2026triggerbench}
+plants a latent constraint in a chat and fires its trigger turns later; in
+its negative variants an intermediate turn resolves the constraint, and the
+best model stays correctly silent only 44\% of the time.
+PM-Bench~\cite{liu2026pmbench} simulates a week of deferred tasks in text
+and defines the \emph{update violation}, ``the agent acts on a stale version
+of a task after a cancel, override, or reschedule,'' but its week contains
+two cancellations, and it reports the hit rate on updated tasks (at most
+47\%), not how often the stale version is acted on. Concurrently, Zhao and
+Wu~\cite{zhao2026pis} type each intention with a status that code updates
+on cancellation and raise PM-Bench Set-F1 from 65 to 83\%, again reporting
+misses rather than actions on cancelled tasks. In all three the agent produces a
+reply, a reminder or a set of task identifiers, and TriggerBench is scored
+by an LLM judge. Smart-home benchmarks let an agent schedule future device
+actions and grade them from simulator state~\cite{seo2026simuhome}, but the
+scheduled action lives in the device layer and is never withdrawn.
+Chameleon~\cite{chameleon2026} studies prospective
+memory in a visuomotor policy, without language or cancellation. The
+psychology on which we draw separates the two failures these benchmarks
+mix: forgetting to act (omission)~\cite{einstein1990normal} and acting on a
+finished or cancelled intention (commission)~\cite{scullin2012whoops}.
+
+\paragraph{Revocation, retraction and stopping.}
+Recent work reaches revocation from three sides. On the memory side,
+Shen et al.~\cite{shen2026revoked} load a revoked policy and its replacement
+into five memory systems and find that none enforces revocation by default:
+in the two systems that expose the revoked record it is ranked first in
+every scenario, and agents take the revoked action in 43\% of trials. Yao et
+al.~\cite{yao2026forgetting} show that after the source record is redacted a
+revoked preference no longer appears in what the agent says and is still
+acted on in 80\% of episodes; retrieval-based and external-memory methods
+still leak deleted information~\cite{ren2026gatemem}. On the interaction
+side, InterruptBench~\cite{zou2026interrupt} interrupts web agents mid-task,
+including with retractions, and scores whether the final intent is achieved,
+not how often the retracted requirement is acted on. On the control side,
+halt signals sent mid-task are honoured by some models and ignored by
+others~\cite{munirathinam2026stop}, and some frontier models subvert a
+shutdown that would leave a task incomplete~\cite{schlatter2025shutdown}.
+These measure ``stop everything, now''; ours measures ``drop this one thing,
+later, while you carry on.''
+
+\paragraph{Grading.}
+Our insistence on world-state grading follows evidence that what an agent
+says diverges from what it does: rewriting only the reasoning of fixed web
+trajectories inflates judge false positives by up to
+90\%~\cite{khalifa2026gaming}, and agents misreport their own
+progress~\cite{wang2026progressbar}. Contrast-set designs that differ in one perturbation are used to test when agents should
+\emph{not} act~\cite{liu2026abstain}; ours vary whether and when an
+instruction was withdrawn.
+
+\paragraph{Intentions as commitments.}
+In the philosophy of action an intention is a commitment that resists
+reconsideration but can be dropped~\cite{bratman1987intention}, the formal
+account makes the conditions for dropping it part of the
+definition~\cite{cohen1990intention}, and BDI architectures implement this
+with an explicit intention structure and a reconsideration
+step~\cite{rao1995bdi}. Work joining LLMs to BDI has so far concerned the
+interface~\cite{gatti2025chatbdi}, and the case for structured
+reconsideration in artificial agents has been made
+conceptually~\cite{cariani2024intention}; to our knowledge no study has
+measured whether an LLM agent drops an intention. The representation we
+find effective is a minimal fragment of a BDI intention structure.

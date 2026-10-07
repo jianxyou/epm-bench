@@ -1,0 +1,48 @@
+resume: 537 episodes already in results/llm_or_deepseek_load_v1obs.csv
+[llm:retr] 25/50 (0.01 ep/s)
+[llm:retr] 50/50 (0.01 ep/s)
+policy llm:retr done (43 total)
+TOTAL 43 episodes in 79.1 min -> results/llm_or_deepseek_load_v1obs.csv
+PASS1 llm:retr cancel_early done Mon  5 Oct 2026 20:43:17 EDT
+resume: 717 episodes already in results/llm_or_deepseek_load_v1obs.csv
+[llm:retr] 25/50 (0.01 ep/s)
+[llm:retr] 50/50 (0.01 ep/s)
+policy llm:retr done (50 total)
+TOTAL 50 episodes in 81.2 min -> results/llm_or_deepseek_load_v1obs.csv
+PASS1 llm:retr live done Mon  5 Oct 2026 22:04:33 EDT
+resume: 917 episodes already in results/llm_or_deepseek_load_v1obs.csv
+[llm:retr] 25/50 (0.01 ep/s)
+[llm:retr] 50/50 (0.01 ep/s)
+policy llm:retr done (50 total)
+TOTAL 50 episodes in 71.2 min -> results/llm_or_deepseek_load_v1obs.csv
+PASS1 llm:retr cancel_late done Mon  5 Oct 2026 23:15:48 EDT
+resume: 1009 episodes already in results/llm_or_deepseek_load_v1obs.csv
+[llm:retr] 25/50 (0.01 ep/s)
+TOTAL 28 episodes in 58.6 min -> results/llm_or_deepseek_load_v1obs.csv
+FATAL: API credits exhausted — stopping cleanly.
+PASS1 llm:retr control done Tue  6 Oct 2026 00:14:29 EDT
+GATE: balance -0.21527854099997512 < 1.0, waiting Tue  6 Oct 2026 00:14:29 EDT
+GATE: balance -0.22777997299999697 < 1.0, waiting Tue  6 Oct 2026 00:29:32 EDT
+GATE: balance -0.22777997299999697 < 1.0, waiting Tue  6 Oct 2026 00:44:32 EDT
+GATE: balance -0.22777997299999697 < 1.0, waiting Tue  6 Oct 2026 00:59:33 EDT
+GATE: balance -0.22777997299999697 < 1.0, waiting Tue  6 Oct 2026 01:14:33 EDT
+GATE: balance -0.22777997299999697 < 1.0, waiting Tue  6 Oct 2026 01:29:33 EDT
+GATE: balance -0.22777997299999697 < 1.0, waiting Tue  6 Oct 2026 01:44:33 EDT
+resume: 1063 episodes already in results/llm_or_deepseek_load_v1obs.csv
+policy llm:retr done (0 total)
+TOTAL 0 episodes in 0.0 min -> results/llm_or_deepseek_load_v1obs.csv
+PASS2 llm:retr cancel_early done Tue  6 Oct 2026 02:02:09 EDT
+resume: 1063 episodes already in results/llm_or_deepseek_load_v1obs.csv
+policy llm:retr done (0 total)
+TOTAL 0 episodes in 0.0 min -> results/llm_or_deepseek_load_v1obs.csv
+PASS2 llm:retr live done Tue  6 Oct 2026 02:02:12 EDT
+resume: 1063 episodes already in results/llm_or_deepseek_load_v1obs.csv
+policy llm:retr done (0 total)
+TOTAL 0 episodes in 0.0 min -> results/llm_or_deepseek_load_v1obs.csv
+PASS2 llm:retr cancel_late done Tue  6 Oct 2026 02:02:16 EDT
+resume: 1063 episodes already in results/llm_or_deepseek_load_v1obs.csv
+[llm:retr] 50/50 (0.01 ep/s)
+policy llm:retr done (22 total)
+TOTAL 22 episodes in 30.7 min -> results/llm_or_deepseek_load_v1obs.csv
+PASS2 llm:retr control done Tue  6 Oct 2026 02:32:59 EDT
+LOAD6S50_deepseek_q5_DONE Tue  6 Oct 2026 02:32:59 EDT

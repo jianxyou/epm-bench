@@ -1,0 +1,7 @@
+resume: 223 episodes already in results/llm_or_gpt4omini.csv
+[llm:bank] 25/100 (0.02 ep/s)
+[llm:bank] 50/100 (0.02 ep/s)
+[llm:bank] 75/100 (0.02 ep/s)
+[llm:bank] 100/100 (0.02 ep/s)
+policy llm:bank done (77 total)
+TOTAL 77 episodes in 61.7 min -> results/llm_or_gpt4omini.csv

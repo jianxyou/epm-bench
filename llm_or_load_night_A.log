@@ -1,0 +1,71 @@
+resume: 360 episodes already in results/llm_or_gpt4omini_load_v1obs.csv
+policy llm:summ done (20 total)
+TOTAL 20 episodes in 19.9 min -> results/llm_or_gpt4omini_load_v1obs.csv
+DONE load=2 seeds=0:20 pol=llm:summ var=cancel_early Fri  2 Oct 2026 01:14:19 EDT
+resume: 402 episodes already in results/llm_or_gpt4omini_load_v1obs.csv
+policy llm:summ done (20 total)
+TOTAL 20 episodes in 19.6 min -> results/llm_or_gpt4omini_load_v1obs.csv
+DONE load=3 seeds=0:20 pol=llm:summ var=cancel_early Fri  2 Oct 2026 01:33:58 EDT
+resume: 443 episodes already in results/llm_or_gpt4omini_load_v1obs.csv
+policy llm:summ done (20 total)
+TOTAL 20 episodes in 19.6 min -> results/llm_or_gpt4omini_load_v1obs.csv
+DONE load=4 seeds=0:20 pol=llm:summ var=cancel_early Fri  2 Oct 2026 01:53:40 EDT
+resume: 486 episodes already in results/llm_or_gpt4omini_load_v1obs.csv
+policy llm:summ done (20 total)
+TOTAL 20 episodes in 21.3 min -> results/llm_or_gpt4omini_load_v1obs.csv
+DONE load=5 seeds=0:20 pol=llm:summ var=cancel_early Fri  2 Oct 2026 02:14:57 EDT
+resume: 530 episodes already in results/llm_or_gpt4omini_load_v1obs.csv
+policy llm:summ done (20 total)
+TOTAL 20 episodes in 20.7 min -> results/llm_or_gpt4omini_load_v1obs.csv
+DONE load=6 seeds=0:20 pol=llm:summ var=cancel_early Fri  2 Oct 2026 02:35:41 EDT
+resume: 574 episodes already in results/llm_or_gpt4omini_load_v1obs.csv
+policy llm:rwim5 done (20 total)
+TOTAL 20 episodes in 36.7 min -> results/llm_or_gpt4omini_load_v1obs.csv
+DONE load=2 seeds=0:20 pol=llm:rwim5 var=cancel_early Fri  2 Oct 2026 03:12:27 EDT
+resume: 635 episodes already in results/llm_or_gpt4omini_load_v1obs.csv
+policy llm:rwim5 done (20 total)
+TOTAL 20 episodes in 41.2 min -> results/llm_or_gpt4omini_load_v1obs.csv
+DONE load=3 seeds=0:20 pol=llm:rwim5 var=cancel_early Fri  2 Oct 2026 03:53:44 EDT
+resume: 698 episodes already in results/llm_or_gpt4omini_load_v1obs.csv
+policy llm:rwim5 done (20 total)
+TOTAL 20 episodes in 43.1 min -> results/llm_or_gpt4omini_load_v1obs.csv
+DONE load=4 seeds=0:20 pol=llm:rwim5 var=cancel_early Fri  2 Oct 2026 04:36:54 EDT
+resume: 764 episodes already in results/llm_or_gpt4omini_load_v1obs.csv
+policy llm:rwim5 done (20 total)
+TOTAL 20 episodes in 45.2 min -> results/llm_or_gpt4omini_load_v1obs.csv
+DONE load=5 seeds=0:20 pol=llm:rwim5 var=cancel_early Fri  2 Oct 2026 05:22:07 EDT
+resume: 829 episodes already in results/llm_or_gpt4omini_load_v1obs.csv
+policy llm:rwim5 done (20 total)
+TOTAL 20 episodes in 47.1 min -> results/llm_or_gpt4omini_load_v1obs.csv
+DONE load=6 seeds=0:20 pol=llm:rwim5 var=cancel_early Fri  2 Oct 2026 06:09:17 EDT
+resume: 893 episodes already in results/llm_or_gpt4omini_load_v1obs.csv
+policy llm:bank done (20 total)
+policy llm:sched2 done (40 total)
+TOTAL 40 episodes in 36.9 min -> results/llm_or_gpt4omini_load_v1obs.csv
+DONE load=1 seeds=20:40 pol=llm:bank,llm:sched2 var=cancel_early Fri  2 Oct 2026 06:46:12 EDT
+resume: 940 episodes already in results/llm_or_gpt4omini_load_v1obs.csv
+policy llm:bank done (20 total)
+policy llm:sched2 done (40 total)
+TOTAL 40 episodes in 37.1 min -> results/llm_or_gpt4omini_load_v1obs.csv
+DONE load=2 seeds=20:40 pol=llm:bank,llm:sched2 var=cancel_early Fri  2 Oct 2026 07:23:24 EDT
+resume: 980 episodes already in results/llm_or_gpt4omini_load_v1obs.csv
+policy llm:bank done (20 total)
+policy llm:sched2 done (40 total)
+TOTAL 40 episodes in 38.1 min -> results/llm_or_gpt4omini_load_v1obs.csv
+DONE load=3 seeds=20:40 pol=llm:bank,llm:sched2 var=cancel_early Fri  2 Oct 2026 08:01:31 EDT
+resume: 1020 episodes already in results/llm_or_gpt4omini_load_v1obs.csv
+policy llm:bank done (20 total)
+policy llm:sched2 done (40 total)
+TOTAL 40 episodes in 44.1 min -> results/llm_or_gpt4omini_load_v1obs.csv
+DONE load=4 seeds=20:40 pol=llm:bank,llm:sched2 var=cancel_early Fri  2 Oct 2026 08:45:41 EDT
+resume: 1060 episodes already in results/llm_or_gpt4omini_load_v1obs.csv
+policy llm:bank done (20 total)
+policy llm:sched2 done (40 total)
+TOTAL 40 episodes in 42.2 min -> results/llm_or_gpt4omini_load_v1obs.csv
+DONE load=5 seeds=20:40 pol=llm:bank,llm:sched2 var=cancel_early Fri  2 Oct 2026 09:27:54 EDT
+resume: 1100 episodes already in results/llm_or_gpt4omini_load_v1obs.csv
+policy llm:bank done (20 total)
+policy llm:sched2 done (40 total)
+TOTAL 40 episodes in 40.8 min -> results/llm_or_gpt4omini_load_v1obs.csv
+DONE load=6 seeds=20:40 pol=llm:bank,llm:sched2 var=cancel_early Fri  2 Oct 2026 10:08:43 EDT
+QUEUE_A_DONE Fri  2 Oct 2026 10:08:43 EDT

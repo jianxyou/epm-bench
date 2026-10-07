@@ -1,0 +1,176 @@
+=== D1 visibility sweep Thu  6 Aug 2026 01:01:58 EDT ===
+{'policy': 'opportunistic', 'seed': 0, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 7, 'chores_done': 4}
+{'policy': 'opportunistic', 'seed': 1, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 22, 'chores_done': 5}
+{'policy': 'opportunistic', 'seed': 2, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 16, 'chores_done': 4}
+{'policy': 'opportunistic', 'seed': 3, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 18, 'chores_done': 4}
+{'policy': 'opportunistic', 'seed': 4, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 14, 'chores_done': 4}
+{'policy': 'opportunistic', 'seed': 5, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 22, 'chores_done': 4}
+{'policy': 'opportunistic', 'seed': 6, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 14, 'chores_done': 5}
+{'policy': 'opportunistic', 'seed': 7, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 20, 'chores_done': 0}
+wrote 8 rows -> results/night2.csv
+{'policy': 'patroller6', 'seed': 0, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 8, 'chores_done': 4}
+{'policy': 'patroller6', 'seed': 1, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 8, 'chores_done': 3}
+{'policy': 'patroller6', 'seed': 2, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 8, 'chores_done': 4}
+{'policy': 'patroller6', 'seed': 3, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 4}
+{'policy': 'patroller6', 'seed': 4, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 20, 'chores_done': 4}
+{'policy': 'patroller6', 'seed': 5, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 8, 'chores_done': 4}
+{'policy': 'patroller6', 'seed': 6, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 20, 'chores_done': 5}
+{'policy': 'patroller6', 'seed': 7, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 8, 'chores_done': 0}
+wrote 8 rows -> results/night2.csv
+{'policy': 'opportunistic', 'seed': 0, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 7, 'chores_done': 5}
+{'policy': 'opportunistic', 'seed': 1, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 22, 'chores_done': 5}
+{'policy': 'opportunistic', 'seed': 2, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 16, 'chores_done': 4}
+{'policy': 'opportunistic', 'seed': 3, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 14, 'chores_done': 5}
+{'policy': 'opportunistic', 'seed': 4, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 14, 'chores_done': 4}
+{'policy': 'opportunistic', 'seed': 5, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 8, 'chores_done': 4}
+{'policy': 'opportunistic', 'seed': 6, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 14, 'chores_done': 5}
+{'policy': 'opportunistic', 'seed': 7, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 20, 'chores_done': 0}
+wrote 8 rows -> results/night2.csv
+{'policy': 'patroller6', 'seed': 0, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 8, 'chores_done': 5}
+{'policy': 'patroller6', 'seed': 1, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 8, 'chores_done': 3}
+{'policy': 'patroller6', 'seed': 2, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 8, 'chores_done': 4}
+{'policy': 'patroller6', 'seed': 3, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 5}
+{'policy': 'patroller6', 'seed': 4, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 20, 'chores_done': 4}
+{'policy': 'patroller6', 'seed': 5, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 8, 'chores_done': 4}
+{'policy': 'patroller6', 'seed': 6, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 20, 'chores_done': 5}
+{'policy': 'patroller6', 'seed': 7, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 8, 'chores_done': 0}
+wrote 8 rows -> results/night2.csv
+{'policy': 'opportunistic', 'seed': 0, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 7, 'chores_done': 6}
+{'policy': 'opportunistic', 'seed': 1, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 22, 'chores_done': 5}
+{'policy': 'opportunistic', 'seed': 2, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 16, 'chores_done': 4}
+{'policy': 'opportunistic', 'seed': 3, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 12, 'chores_done': 5}
+{'policy': 'opportunistic', 'seed': 4, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 14, 'chores_done': 4}
+{'policy': 'opportunistic', 'seed': 5, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 8, 'chores_done': 5}
+{'policy': 'opportunistic', 'seed': 6, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 14, 'chores_done': 5}
+{'policy': 'opportunistic', 'seed': 7, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 20, 'chores_done': 2}
+wrote 8 rows -> results/night2.csv
+{'policy': 'patroller6', 'seed': 0, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 8, 'chores_done': 5}
+{'policy': 'patroller6', 'seed': 1, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 8, 'chores_done': 3}
+{'policy': 'patroller6', 'seed': 2, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 8, 'chores_done': 4}
+{'policy': 'patroller6', 'seed': 3, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 14, 'chores_done': 5}
+{'policy': 'patroller6', 'seed': 4, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 20, 'chores_done': 4}
+{'policy': 'patroller6', 'seed': 5, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 8, 'chores_done': 5}
+{'policy': 'patroller6', 'seed': 6, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 20, 'chores_done': 5}
+{'policy': 'patroller6', 'seed': 7, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 8, 'chores_done': 0}
+wrote 8 rows -> results/night2.csv
+=== D2 intention load Thu  6 Aug 2026 01:02:39 EDT ===
+{'policy': 'patroller4', 'seed': 0, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 10, 'chores_done': 3}
+{'policy': 'patroller4', 'seed': 1, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 10, 'chores_done': 3}
+{'policy': 'patroller4', 'seed': 2, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 10, 'chores_done': 2}
+{'policy': 'patroller4', 'seed': 3, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 18, 'chores_done': 5}
+{'policy': 'patroller4', 'seed': 4, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 18, 'chores_done': 4}
+{'policy': 'patroller4', 'seed': 5, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 10, 'chores_done': 3}
+{'policy': 'patroller4', 'seed': 6, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 18, 'chores_done': 5}
+{'policy': 'patroller4', 'seed': 7, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 10, 'chores_done': 0}
+wrote 8 rows -> results/night2.csv
+{'policy': 'opportunistic', 'seed': 0, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 7, 'chores_done': 5}
+{'policy': 'opportunistic', 'seed': 1, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 22, 'chores_done': 5}
+{'policy': 'opportunistic', 'seed': 2, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 16, 'chores_done': 4}
+{'policy': 'opportunistic', 'seed': 3, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 14, 'chores_done': 5}
+{'policy': 'opportunistic', 'seed': 4, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 14, 'chores_done': 4}
+{'policy': 'opportunistic', 'seed': 5, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 8, 'chores_done': 4}
+{'policy': 'opportunistic', 'seed': 6, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 14, 'chores_done': 5}
+{'policy': 'opportunistic', 'seed': 7, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 20, 'chores_done': 0}
+wrote 8 rows -> results/night2.csv
+{'policy': 'patroller4', 'seed': 0, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 14, 'chores_done': 3}
+{'policy': 'patroller4', 'seed': 1, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 14, 'chores_done': 3}
+{'policy': 'patroller4', 'seed': 2, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 14, 'chores_done': 4}
+{'policy': 'patroller4', 'seed': 3, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 3}
+{'policy': 'patroller4', 'seed': 4, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 14, 'chores_done': 4}
+{'policy': 'patroller4', 'seed': 5, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 30, 'chores_done': 3}
+{'policy': 'patroller4', 'seed': 6, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 14, 'chores_done': 3}
+{'policy': 'patroller4', 'seed': 7, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 14, 'chores_done': 1}
+wrote 8 rows -> results/night2.csv
+{'policy': 'opportunistic', 'seed': 0, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': 7, 'chores_done': 5}
+{'policy': 'opportunistic', 'seed': 1, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 22, 'chores_done': 5}
+{'policy': 'opportunistic', 'seed': 2, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 17, 'chores_done': 4}
+{'policy': 'opportunistic', 'seed': 3, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': 14, 'chores_done': 5}
+{'policy': 'opportunistic', 'seed': 4, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 14, 'chores_done': 4}
+{'policy': 'opportunistic', 'seed': 5, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 8, 'chores_done': 4}
+{'policy': 'opportunistic', 'seed': 6, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 14, 'chores_done': 5}
+{'policy': 'opportunistic', 'seed': 7, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 21, 'chores_done': 0}
+wrote 8 rows -> results/night2.csv
+{'policy': 'patroller4', 'seed': 0, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 18, 'chores_done': 4}
+{'policy': 'patroller4', 'seed': 1, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 18, 'chores_done': 3}
+{'policy': 'patroller4', 'seed': 2, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': 18, 'chores_done': 4}
+{'policy': 'patroller4', 'seed': 3, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': 18, 'chores_done': 2}
+{'policy': 'patroller4', 'seed': 4, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 18, 'chores_done': 3}
+{'policy': 'patroller4', 'seed': 5, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': 30, 'chores_done': 3}
+{'policy': 'patroller4', 'seed': 6, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 18, 'chores_done': 4}
+{'policy': 'patroller4', 'seed': 7, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 18, 'chores_done': 0}
+wrote 8 rows -> results/night2.csv
+{'policy': 'opportunistic', 'seed': 0, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': 7, 'chores_done': 5}
+{'policy': 'opportunistic', 'seed': 1, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': 22, 'chores_done': 5}
+{'policy': 'opportunistic', 'seed': 2, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 17, 'chores_done': 4}
+{'policy': 'opportunistic', 'seed': 3, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': 14, 'chores_done': 5}
+{'policy': 'opportunistic', 'seed': 4, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 14, 'chores_done': 4}
+{'policy': 'opportunistic', 'seed': 5, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': 8, 'chores_done': 4}
+{'policy': 'opportunistic', 'seed': 6, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 14, 'chores_done': 5}
+{'policy': 'opportunistic', 'seed': 7, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 21, 'chores_done': 0}
+wrote 8 rows -> results/night2.csv
+=== D3 selective revocation (load 2, cancel first only) Thu  6 Aug 2026 01:03:20 EDT ===
+{'policy': 'patroller4', 'seed': 0, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 4}
+{'policy': 'patroller4', 'seed': 1, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 3}
+{'policy': 'patroller4', 'seed': 2, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 4}
+{'policy': 'patroller4', 'seed': 3, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 3}
+{'policy': 'patroller4', 'seed': 4, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 4}
+{'policy': 'patroller4', 'seed': 5, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 3}
+{'policy': 'patroller4', 'seed': 6, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 4}
+{'policy': 'patroller4', 'seed': 7, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 1}
+wrote 8 rows -> results/night2.csv
+{'policy': 'opportunistic', 'seed': 0, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': True, 'exec_step': 7, 'chores_done': 5}
+{'policy': 'opportunistic', 'seed': 1, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 5}
+{'policy': 'opportunistic', 'seed': 2, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 4}
+{'policy': 'opportunistic', 'seed': 3, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 5}
+{'policy': 'opportunistic', 'seed': 4, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 4}
+{'policy': 'opportunistic', 'seed': 5, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': True, 'exec_step': 8, 'chores_done': 4}
+{'policy': 'opportunistic', 'seed': 6, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 5}
+{'policy': 'opportunistic', 'seed': 7, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 0}
+wrote 8 rows -> results/night2.csv
+{'policy': 'deaf4', 'seed': 0, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': True, 'exec_step': 14, 'chores_done': 3}
+{'policy': 'deaf4', 'seed': 1, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': True, 'exec_step': 14, 'chores_done': 3}
+{'policy': 'deaf4', 'seed': 2, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': True, 'exec_step': 14, 'chores_done': 4}
+{'policy': 'deaf4', 'seed': 3, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 3}
+{'policy': 'deaf4', 'seed': 4, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': True, 'exec_step': 14, 'chores_done': 4}
+{'policy': 'deaf4', 'seed': 5, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': True, 'exec_step': 30, 'chores_done': 3}
+{'policy': 'deaf4', 'seed': 6, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': True, 'exec_step': 14, 'chores_done': 3}
+{'policy': 'deaf4', 'seed': 7, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': True, 'exec_step': 14, 'chores_done': 1}
+wrote 8 rows -> results/night2.csv
+=== D4 early cancel + deaf breadth Thu  6 Aug 2026 01:03:40 EDT ===
+{'policy': 'patroller4', 'seed': 0, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 5}
+{'policy': 'patroller4', 'seed': 1, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 5}
+{'policy': 'patroller4', 'seed': 2, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 4}
+{'policy': 'patroller4', 'seed': 3, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 5}
+{'policy': 'patroller4', 'seed': 4, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 4}
+{'policy': 'patroller4', 'seed': 5, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 4}
+{'policy': 'patroller4', 'seed': 6, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 5}
+{'policy': 'patroller4', 'seed': 7, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 0}
+wrote 8 rows -> results/night2.csv
+{'policy': 'opportunistic', 'seed': 0, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 5}
+{'policy': 'opportunistic', 'seed': 1, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 5}
+{'policy': 'opportunistic', 'seed': 2, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 4}
+{'policy': 'opportunistic', 'seed': 3, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 5}
+{'policy': 'opportunistic', 'seed': 4, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 4}
+{'policy': 'opportunistic', 'seed': 5, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 4}
+{'policy': 'opportunistic', 'seed': 6, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 5}
+{'policy': 'opportunistic', 'seed': 7, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 0}
+wrote 8 rows -> results/night2.csv
+{'policy': 'deaf2', 'seed': 0, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': True, 'exec_step': 8, 'chores_done': 0}
+{'policy': 'deaf2', 'seed': 1, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': True, 'exec_step': 8, 'chores_done': 0}
+{'policy': 'deaf2', 'seed': 2, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': True, 'exec_step': 8, 'chores_done': 0}
+{'policy': 'deaf2', 'seed': 3, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': True, 'exec_step': 8, 'chores_done': 2}
+{'policy': 'deaf2', 'seed': 4, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': True, 'exec_step': 8, 'chores_done': 3}
+{'policy': 'deaf2', 'seed': 5, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': True, 'exec_step': 8, 'chores_done': 2}
+{'policy': 'deaf2', 'seed': 6, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': True, 'exec_step': 8, 'chores_done': 3}
+{'policy': 'deaf2', 'seed': 7, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': True, 'exec_step': 8, 'chores_done': 0}
+wrote 8 rows -> results/night2.csv
+{'policy': 'deaf8', 'seed': 0, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': True, 'exec_step': 10, 'chores_done': 4}
+{'policy': 'deaf8', 'seed': 1, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': True, 'exec_step': 10, 'chores_done': 5}
+{'policy': 'deaf8', 'seed': 2, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': True, 'exec_step': 10, 'chores_done': 3}
+{'policy': 'deaf8', 'seed': 3, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 5}
+{'policy': 'deaf8', 'seed': 4, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': True, 'exec_step': 18, 'chores_done': 4}
+{'policy': 'deaf8', 'seed': 5, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': True, 'exec_step': 26, 'chores_done': 4}
+{'policy': 'deaf8', 'seed': 6, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': True, 'exec_step': 18, 'chores_done': 5}
+{'policy': 'deaf8', 'seed': 7, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': True, 'exec_step': 10, 'chores_done': 0}
+wrote 8 rows -> results/night2.csv
+NIGHT2_DONE Thu  6 Aug 2026 01:04:07 EDT

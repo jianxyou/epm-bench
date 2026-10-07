@@ -1,0 +1,32 @@
+policy llm:none done (20 total)
+TOTAL 20 episodes in 12.4 min -> results/llm_or_gpt4omini_fullctx.csv
+PASS1 cancel_early done Tue  6 Oct 2026 22:08:43 EDT
+resume: 20 episodes already in results/llm_or_gpt4omini_fullctx.csv
+policy llm:none done (20 total)
+TOTAL 20 episodes in 13.3 min -> results/llm_or_gpt4omini_fullctx.csv
+PASS1 cancel_late done Tue  6 Oct 2026 22:22:05 EDT
+resume: 40 episodes already in results/llm_or_gpt4omini_fullctx.csv
+policy llm:none done (20 total)
+TOTAL 20 episodes in 13.0 min -> results/llm_or_gpt4omini_fullctx.csv
+PASS1 live done Tue  6 Oct 2026 22:35:07 EDT
+resume: 60 episodes already in results/llm_or_gpt4omini_fullctx.csv
+policy llm:none done (20 total)
+TOTAL 20 episodes in 17.8 min -> results/llm_or_gpt4omini_fullctx.csv
+PASS1 control done Tue  6 Oct 2026 22:52:59 EDT
+resume: 80 episodes already in results/llm_or_gpt4omini_fullctx.csv
+policy llm:none done (0 total)
+TOTAL 0 episodes in 0.0 min -> results/llm_or_gpt4omini_fullctx.csv
+PASS2 cancel_early done Tue  6 Oct 2026 22:53:02 EDT
+resume: 80 episodes already in results/llm_or_gpt4omini_fullctx.csv
+policy llm:none done (0 total)
+TOTAL 0 episodes in 0.0 min -> results/llm_or_gpt4omini_fullctx.csv
+PASS2 cancel_late done Tue  6 Oct 2026 22:53:05 EDT
+resume: 80 episodes already in results/llm_or_gpt4omini_fullctx.csv
+policy llm:none done (0 total)
+TOTAL 0 episodes in 0.0 min -> results/llm_or_gpt4omini_fullctx.csv
+PASS2 live done Tue  6 Oct 2026 22:53:08 EDT
+resume: 80 episodes already in results/llm_or_gpt4omini_fullctx.csv
+policy llm:none done (0 total)
+TOTAL 0 episodes in 0.0 min -> results/llm_or_gpt4omini_fullctx.csv
+PASS2 control done Tue  6 Oct 2026 22:53:10 EDT
+FULLCTX_gpt4omini_DONE Tue  6 Oct 2026 22:53:10 EDT

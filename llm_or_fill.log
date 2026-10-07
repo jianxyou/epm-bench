@@ -1,0 +1,58 @@
+FILL_START Tue 15 Sep 2026 04:38:11 EDT
+resume: 900 episodes already in results/llm_or_gpt4omini.csv
+resume: 732 episodes already in results/llm_or_deepseek.csv
+policy llm:none done (3 total)
+[llm:none] 75/200 (0.03 ep/s)
+[llm:none] 100/200 (0.02 ep/s)
+policy llm:bank done (15 total)
+policy llm:sched2 done (15 total)
+TOTAL 15 episodes in 22.9 min -> results/llm_or_deepseek.csv
+resume: 600 episodes already in results/llm_or_llama.csv
+policy llm:none done (0 total)
+policy llm:bank done (0 total)
+policy llm:sched2 done (0 total)
+TOTAL 0 episodes in 0.0 min -> results/llm_or_llama.csv
+resume: 600 episodes already in results/llm_or_gemini.csv
+policy llm:none done (0 total)
+policy llm:bank done (0 total)
+policy llm:sched2 done (0 total)
+TOTAL 0 episodes in 0.0 min -> results/llm_or_gemini.csv
+resume: 939 episodes already in results/llm_or_gpt4omini.csv
+policy llm:sched done (0 total)
+[llm:sched1] 25/200 (0.04 ep/s)
+[llm:sched1] 50/200 (0.03 ep/s)
+[llm:none] 175/200 (0.03 ep/s)
+[llm:none] 200/200 (0.03 ep/s)
+policy llm:none done (80 total)
+policy llm:bank done (80 total)
+policy llm:sched2 done (80 total)
+TOTAL 80 episodes in 46.8 min -> results/llm_or_gpt4omini.csv
+resume: 240 episodes already in results/llm_or_gpt4omini_delay.csv
+policy llm:bank done (0 total)
+policy llm:sched2 done (0 total)
+TOTAL 0 episodes in 0.0 min -> results/llm_or_gpt4omini_delay.csv
+resume: 240 episodes already in results/llm_or_gpt4omini_delay.csv
+policy llm:bank done (0 total)
+policy llm:sched2 done (0 total)
+TOTAL 0 episodes in 0.0 min -> results/llm_or_gpt4omini_delay.csv
+resume: 240 episodes already in results/llm_or_gpt4omini_delay.csv
+policy llm:bank done (0 total)
+policy llm:sched2 done (0 total)
+TOTAL 0 episodes in 0.0 min -> results/llm_or_gpt4omini_delay.csv
+resume: 240 episodes already in results/llm_or_gpt4omini_test.csv
+policy llm:bank done (0 total)
+policy llm:sched2 done (0 total)
+TOTAL 0 episodes in 0.0 min -> results/llm_or_gpt4omini_test.csv
+resume: 240 episodes already in results/llm_or_gpt4omini_test.csv
+policy llm:bank done (0 total)
+policy llm:sched2 done (0 total)
+TOTAL 0 episodes in 0.0 min -> results/llm_or_gpt4omini_test.csv
+resume: 240 episodes already in results/llm_or_gpt4omini_test.csv
+policy llm:bank done (0 total)
+policy llm:sched2 done (0 total)
+TOTAL 0 episodes in 0.0 min -> results/llm_or_gpt4omini_test.csv
+[llm:sched1] 125/200 (0.03 ep/s)
+[llm:sched1] 150/200 (0.03 ep/s)
+policy llm:sched1 done (100 total)
+TOTAL 100 episodes in 52.4 min -> results/llm_or_gpt4omini.csv
+FILL_DONE Tue 15 Sep 2026 05:55:40 EDT

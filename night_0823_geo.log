@@ -1,0 +1,83 @@
++ cd /Users/jianxin/Desktop/my_project/embodied_pm
++ CSV=results/sched_geo_0823.csv
++ DUMP=results/grading_records_0823.jsonl
++ python3 sched_geometry.py --policies bank,every5,rr,rrn,sight --loads 1,2,3 --seeds 48 --cancel-arms early,late --window 6 --out results/sched_geo_0823.csv --grade-dump results/grading_records_0823.jsonl
+cell done: load=1 cancel=early pol=bank (total 48)
+cell done: load=1 cancel=early pol=every5 (total 96)
+cell done: load=1 cancel=early pol=rr (total 144)
+cell done: load=1 cancel=early pol=rrn (total 192)
+cell done: load=1 cancel=early pol=sight (total 240)
+cell done: load=1 cancel=late pol=bank (total 288)
+cell done: load=1 cancel=late pol=every5 (total 336)
+cell done: load=1 cancel=late pol=rr (total 384)
+cell done: load=1 cancel=late pol=rrn (total 432)
+cell done: load=1 cancel=late pol=sight (total 480)
+cell done: load=2 cancel=early pol=bank (total 528)
+cell done: load=2 cancel=early pol=every5 (total 576)
+cell done: load=2 cancel=early pol=rr (total 624)
+cell done: load=2 cancel=early pol=rrn (total 672)
+cell done: load=2 cancel=early pol=sight (total 720)
+cell done: load=2 cancel=late pol=bank (total 768)
+cell done: load=2 cancel=late pol=every5 (total 816)
+cell done: load=2 cancel=late pol=rr (total 864)
+cell done: load=2 cancel=late pol=rrn (total 912)
+cell done: load=2 cancel=late pol=sight (total 960)
+cell done: load=3 cancel=early pol=bank (total 1008)
+cell done: load=3 cancel=early pol=every5 (total 1056)
+cell done: load=3 cancel=early pol=rr (total 1104)
+cell done: load=3 cancel=early pol=rrn (total 1152)
+cell done: load=3 cancel=early pol=sight (total 1200)
+cell done: load=3 cancel=late pol=bank (total 1248)
+cell done: load=3 cancel=late pol=every5 (total 1296)
+cell done: load=3 cancel=late pol=rr (total 1344)
+cell done: load=3 cancel=late pol=rrn (total 1392)
+cell done: load=3 cancel=late pol=sight (total 1440)
+TOTAL 1440 episodes -> results/sched_geo_0823.csv
++ python3 sched_geometry.py --policies bank,every5,rr,rrn,sight --loads 1,2,3 --seeds 48 --cancel-arms none --window 6 --out results/sched_geo_0823.csv --grade-dump results/grading_records_0823.jsonl
+cell done: load=1 cancel=none pol=bank (total 48)
+cell done: load=1 cancel=none pol=every5 (total 96)
+cell done: load=1 cancel=none pol=rr (total 144)
+cell done: load=1 cancel=none pol=rrn (total 192)
+cell done: load=1 cancel=none pol=sight (total 240)
+cell done: load=2 cancel=none pol=bank (total 288)
+cell done: load=2 cancel=none pol=every5 (total 336)
+cell done: load=2 cancel=none pol=rr (total 384)
+cell done: load=2 cancel=none pol=rrn (total 432)
+cell done: load=2 cancel=none pol=sight (total 480)
+cell done: load=3 cancel=none pol=bank (total 528)
+cell done: load=3 cancel=none pol=every5 (total 576)
+cell done: load=3 cancel=none pol=rr (total 624)
+cell done: load=3 cancel=none pol=rrn (total 672)
+cell done: load=3 cancel=none pol=sight (total 720)
+TOTAL 720 episodes -> results/sched_geo_0823.csv
++ for W in 2 4 10 16
++ python3 sched_geometry.py --policies bank,rrn --loads 1 --seeds 48 --cancel-arms early,late --window 2 --out results/sched_geo_0823.csv --grade-dump results/grading_records_0823.jsonl
+cell done: load=1 cancel=early pol=bank (total 48)
+cell done: load=1 cancel=early pol=rrn (total 96)
+cell done: load=1 cancel=late pol=bank (total 144)
+cell done: load=1 cancel=late pol=rrn (total 192)
+TOTAL 192 episodes -> results/sched_geo_0823.csv
++ for W in 2 4 10 16
++ python3 sched_geometry.py --policies bank,rrn --loads 1 --seeds 48 --cancel-arms early,late --window 4 --out results/sched_geo_0823.csv --grade-dump results/grading_records_0823.jsonl
+cell done: load=1 cancel=early pol=bank (total 48)
+cell done: load=1 cancel=early pol=rrn (total 96)
+cell done: load=1 cancel=late pol=bank (total 144)
+cell done: load=1 cancel=late pol=rrn (total 192)
+TOTAL 192 episodes -> results/sched_geo_0823.csv
++ for W in 2 4 10 16
++ python3 sched_geometry.py --policies bank,rrn --loads 1 --seeds 48 --cancel-arms early,late --window 10 --out results/sched_geo_0823.csv --grade-dump results/grading_records_0823.jsonl
+cell done: load=1 cancel=early pol=bank (total 48)
+cell done: load=1 cancel=early pol=rrn (total 96)
+cell done: load=1 cancel=late pol=bank (total 144)
+cell done: load=1 cancel=late pol=rrn (total 192)
+TOTAL 192 episodes -> results/sched_geo_0823.csv
++ for W in 2 4 10 16
++ python3 sched_geometry.py --policies bank,rrn --loads 1 --seeds 48 --cancel-arms early,late --window 16 --out results/sched_geo_0823.csv --grade-dump results/grading_records_0823.jsonl
+cell done: load=1 cancel=early pol=bank (total 48)
+cell done: load=1 cancel=early pol=rrn (total 96)
+cell done: load=1 cancel=late pol=bank (total 144)
+cell done: load=1 cancel=late pol=rrn (total 192)
+TOTAL 192 episodes -> results/sched_geo_0823.csv
+++ date
++ echo 'GEO_BATTERY_DONE Sun Aug 23 04:20:39 EDT 2026'
+GEO_BATTERY_DONE Sun Aug 23 04:20:39 EDT 2026

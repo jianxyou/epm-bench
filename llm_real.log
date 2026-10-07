@@ -1,0 +1,70 @@
+{'policy': 'llm-none', 'seed': 0, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 2}
+{'policy': 'llm-none', 'seed': 1, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 1}
+{'policy': 'llm-none', 'seed': 2, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 2}
+{'policy': 'llm-none', 'seed': 3, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 1}
+{'policy': 'llm-none', 'seed': 4, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 2}
+{'policy': 'llm-none', 'seed': 5, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 28, 'chores_done': 2}
+{'policy': 'llm-none', 'seed': 6, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 26, 'chores_done': 2}
+{'policy': 'llm-none', 'seed': 7, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 26, 'chores_done': 5}
+{'policy': 'llm-none', 'seed': 8, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 0}
+{'policy': 'llm-none', 'seed': 9, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 14, 'chores_done': 1}
+wrote 10 rows -> results/llm_real.csv
+episode 0 attempt 1 failed: TimeoutError: Error encountered when running action {'action': 'RotateRight', 'degrees': 90, 'sequenceId': 13} in scene FloorPlan1_phy
+{'policy': 'llm-bank', 'seed': 0, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 27, 'chores_done': 12}
+{'policy': 'llm-bank', 'seed': 1, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 21, 'chores_done': 7}
+{'policy': 'llm-bank', 'seed': 2, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 10, 'chores_done': 9}
+{'policy': 'llm-bank', 'seed': 3, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 7, 'chores_done': 5}
+{'policy': 'llm-bank', 'seed': 4, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 8, 'chores_done': 12}
+{'policy': 'llm-bank', 'seed': 5, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 10, 'chores_done': 0}
+{'policy': 'llm-bank', 'seed': 6, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 11, 'chores_done': 5}
+{'policy': 'llm-bank', 'seed': 7, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 7, 'chores_done': 1}
+{'policy': 'llm-bank', 'seed': 8, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 12, 'chores_done': 1}
+{'policy': 'llm-bank', 'seed': 9, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 9, 'chores_done': 2}
+wrote 10 rows -> results/llm_real.csv
+{'policy': 'llm-rwim', 'seed': 0, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 1}
+{'policy': 'llm-rwim', 'seed': 1, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 1}
+{'policy': 'llm-rwim', 'seed': 2, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 2}
+{'policy': 'llm-rwim', 'seed': 3, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 27, 'chores_done': 0}
+{'policy': 'llm-rwim', 'seed': 4, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 0}
+{'policy': 'llm-rwim', 'seed': 5, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 0}
+{'policy': 'llm-rwim', 'seed': 6, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 2}
+{'policy': 'llm-rwim', 'seed': 7, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 3}
+{'policy': 'llm-rwim', 'seed': 8, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 5}
+episode 9 attempt 1 failed: TimeoutError: Error encountered when running action {'action': 'PickupObject', 'objectId': 'Bread|-00.52|+01.17|-00.03', 'sequenceId':
+{'policy': 'llm-rwim', 'seed': 9, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 2}
+wrote 10 rows -> results/llm_real.csv
+{'policy': 'llm-none', 'seed': 0, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 2}
+{'policy': 'llm-none', 'seed': 1, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 2}
+{'policy': 'llm-none', 'seed': 2, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 2}
+{'policy': 'llm-none', 'seed': 3, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 2}
+{'policy': 'llm-none', 'seed': 4, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 0}
+{'policy': 'llm-none', 'seed': 5, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 4}
+{'policy': 'llm-none', 'seed': 6, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 2}
+{'policy': 'llm-none', 'seed': 7, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': True, 'exec_step': 28, 'chores_done': 1}
+{'policy': 'llm-none', 'seed': 8, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 2}
+{'policy': 'llm-none', 'seed': 9, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': True, 'exec_step': 8, 'chores_done': 1}
+wrote 10 rows -> results/llm_real.csv
+episode 0 attempt 1 failed: TimeoutError: Error encountered when running action {'action': 'PickupObject', 'objectId': 'Lettuce|-01.81|+00.97|-00.94', 'sequenceId
+{'policy': 'llm-bank', 'seed': 0, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': True, 'exec_step': 18, 'chores_done': 13}
+{'policy': 'llm-bank', 'seed': 1, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': True, 'exec_step': 21, 'chores_done': 5}
+{'policy': 'llm-bank', 'seed': 2, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': True, 'exec_step': 10, 'chores_done': 8}
+{'policy': 'llm-bank', 'seed': 3, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': True, 'exec_step': 7, 'chores_done': 10}
+{'policy': 'llm-bank', 'seed': 4, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 14}
+{'policy': 'llm-bank', 'seed': 5, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': True, 'exec_step': 10, 'chores_done': 6}
+{'policy': 'llm-bank', 'seed': 6, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': True, 'exec_step': 9, 'chores_done': 9}
+{'policy': 'llm-bank', 'seed': 7, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': True, 'exec_step': 7, 'chores_done': 5}
+{'policy': 'llm-bank', 'seed': 8, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': True, 'exec_step': 12, 'chores_done': 5}
+{'policy': 'llm-bank', 'seed': 9, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': True, 'exec_step': 10, 'chores_done': 8}
+wrote 10 rows -> results/llm_real.csv
+{'policy': 'llm-rwim', 'seed': 0, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 1}
+{'policy': 'llm-rwim', 'seed': 1, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 1}
+{'policy': 'llm-rwim', 'seed': 2, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 4}
+{'policy': 'llm-rwim', 'seed': 3, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 1}
+{'policy': 'llm-rwim', 'seed': 4, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 3}
+{'policy': 'llm-rwim', 'seed': 5, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 1}
+{'policy': 'llm-rwim', 'seed': 6, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 1}
+{'policy': 'llm-rwim', 'seed': 7, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 0}
+{'policy': 'llm-rwim', 'seed': 8, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': True, 'exec_step': 35, 'chores_done': 5}
+{'policy': 'llm-rwim', 'seed': 9, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 2}
+wrote 10 rows -> results/llm_real.csv
+LLM_PILOT_DONE

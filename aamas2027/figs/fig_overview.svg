@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 290" width="1000" height="290" font-family="Helvetica, Arial, sans-serif">
+<defs><marker id="arr" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#6b6b6b"/></marker></defs>
+<style>.t{font-size:15px;font-weight:700;fill:#1f1f1f}.h{font-size:11.5px;font-weight:700;fill:#1f1f1f}.b{font-size:10px;fill:#1f1f1f}.m{font-size:9.5px;fill:#6b6b6b}.q{font-size:10px;fill:#1f1f1f;font-style:italic}</style>
+<rect x="8" y="8" width="640" height="274" rx="12" fill="#eef3fb"/>
+<text x="24" y="34" class="t">One episode</text>
+<text x="24" y="49" class="m">the agent does chores; nobody asks it anything</text>
+<rect x="24" y="60" width="140" height="150" rx="10" fill="#fff" stroke="#c9c9c9" stroke-width="1"/>
+<rect x="180" y="60" width="140" height="150" rx="10" fill="#fff" stroke="#c9c9c9" stroke-width="1"/>
+<rect x="336" y="60" width="140" height="150" rx="10" fill="#fff" stroke="#c9c9c9" stroke-width="1"/>
+<rect x="492" y="60" width="140" height="150" rx="10" fill="#fff" stroke="#c9c9c9" stroke-width="1"/>
+<path d="M166,135.0 L179,135.0" stroke="#6b6b6b" stroke-width="1.8" fill="none" marker-end="url(#arr)"/>
+<path d="M322,135.0 L335,135.0" stroke="#6b6b6b" stroke-width="1.8" fill="none" marker-end="url(#arr)"/>
+<path d="M478,135.0 L491,135.0" stroke="#6b6b6b" stroke-width="1.8" fill="none" marker-end="url(#arr)"/>
+<g transform="translate(58,104) scale(1.1)" fill="none" stroke="#1f1f1f" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><circle cx="0" cy="-9" r="6"/><path d="M-12,12 a12,10 0 0 1 24,0"/></g>
+<g transform="translate(112,100) scale(1.25)" fill="none" stroke="#1f1f1f" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M-14,-11 h28 a4,4 0 0 1 4,4 v14 a4,4 0 0 1 -4,4 h-14 l-8,7 v-7 h-6 a4,4 0 0 1 -4,-4 v-14 a4,4 0 0 1 4,-4 z"/></g>
+<text x="94.0" y="152" class="h" text-anchor="middle">Deferred instruction</text>
+<text x="94.0" y="170" class="q" text-anchor="middle">“if the toaster is ever on,</text>
+<text x="94.0" y="184" class="q" text-anchor="middle">turn it off”</text>
+<text x="94.0" y="201" class="m" text-anchor="middle">step 0</text>
+<g transform="translate(214,104) scale(1.1)" fill="none" stroke="#1f1f1f" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><circle cx="0" cy="-9" r="6"/><path d="M-12,12 a12,10 0 0 1 24,0"/></g>
+<g transform="translate(268,100) scale(1.25)" fill="none" stroke="#1f1f1f" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M-14,-11 h28 a4,4 0 0 1 4,4 v14 a4,4 0 0 1 -4,4 h-14 l-8,7 v-7 h-6 a4,4 0 0 1 -4,-4 v-14 a4,4 0 0 1 4,-4 z"/></g>
+<g transform="translate(268,98) scale(0.9)" fill="none" stroke="#d03b3b" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M-6,-6 L6,6 M-6,6 L6,-6"/></g>
+<text x="250.0" y="152" class="h" text-anchor="middle">Withdrawn</text>
+<text x="250.0" y="170" class="q" text-anchor="middle">“never mind the toaster”</text>
+<text x="250.0" y="184" class="m" text-anchor="middle">said once, never repeated</text>
+<text x="250.0" y="201" class="m" text-anchor="middle">step 3</text>
+<g transform="translate(384,108) scale(1.25)" fill="none" stroke="#e8702a" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><rect x="-15" y="-4" width="30" height="16" rx="4"/><path d="M-9,-4 v-6 h6 v6 M3,-4 v-6 h6 v6"/><path d="M-9,4 h18"/></g><g transform="translate(384,108) scale(1.25)" fill="none" stroke="#e8702a" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M-20,-16 l-4,-4 M20,-16 l4,-4 M0,-20 v-6" /></g>
+<g transform="translate(436,104) scale(1.1)" fill="none" stroke="#6b6b6b" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M-14,0 q14,-12 28,0 q-14,12 -28,0 z"/><circle cx="0" cy="0" r="4"/><path d="M-13,11 L13,-11"/></g>
+<text x="406.0" y="152" class="h" text-anchor="middle">Trigger switches on</text>
+<text x="406.0" y="170" class="b" text-anchor="middle">out of the agent's view,</text>
+<text x="406.0" y="184" class="b" text-anchor="middle">while it is busy elsewhere</text>
+<text x="406.0" y="201" class="m" text-anchor="middle">step 6</text>
+<g transform="translate(532,104) scale(1.15)" fill="none" stroke="#1f1f1f" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><rect x="-13" y="-9" width="26" height="22" rx="5"/><circle cx="-5" cy="1" r="2" fill="#1f1f1f" stroke="none"/><circle cx="5" cy="1" r="2" fill="#1f1f1f" stroke="none"/><path d="M-5,7 h10"/><path d="M0,-9 v-6"/><circle cx="0" cy="-17" r="2"/></g>
+<g transform="translate(588,108) scale(1.1)" fill="none" stroke="#e8702a" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><rect x="-15" y="-4" width="30" height="16" rx="4"/><path d="M-9,-4 v-6 h6 v6 M3,-4 v-6 h6 v6"/><path d="M-9,4 h18"/></g><g transform="translate(588,108) scale(1.1)" fill="none" stroke="#e8702a" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M-20,-16 l-4,-4 M20,-16 l4,-4 M0,-20 v-6" /></g>
+<text x="562.0" y="152" class="h" text-anchor="middle">Agent meets the cue</text>
+<g transform="translate(516,168) scale(0.75)" fill="none" stroke="#d03b3b" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M-6,-6 L6,6 M-6,6 L6,-6"/></g>
+<text x="528" y="172" class="b"><tspan fill="#d03b3b" font-weight="700">turns it off</tspan></text>
+<text x="528" y="184" class="m">commission error (EAC)</text>
+<g transform="translate(516,198) scale(0.75)" fill="none" stroke="#1ea672" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M-7,0 l5,5 l10,-11"/></g>
+<text x="528" y="202" class="b"><tspan fill="#1ea672" font-weight="700">leaves it</tspan>  <tspan fill="#6b6b6b">correct</tspan></text>
+<text x="24" y="234" class="h">Four matched variants per seed <tspan class="m" font-weight="400">(same scene, chores and trigger; only the messages differ)</tspan></text>
+<rect x="24" y="245" width="127.69999999999999" height="19" rx="9.5" fill="#fff" stroke="#c9c9c9"/>
+<text x="34" y="258" class="b"><tspan font-weight="700">control</tspan> <tspan fill="#6b6b6b">no instruction</tspan></text>
+<rect x="159.7" y="245" width="115.3" height="19" rx="9.5" fill="#fff" stroke="#c9c9c9"/>
+<text x="169.7" y="258" class="b"><tspan font-weight="700">live</tspan> <tspan fill="#6b6b6b">never withdrawn</tspan></text>
+<rect x="283.0" y="245" width="179.7" height="19" rx="9.5" fill="#fff" stroke="#c9c9c9"/>
+<text x="293.0" y="258" class="b"><tspan font-weight="700">cancel-early</tspan> <tspan fill="#6b6b6b">withdrawn at step 3</tspan></text>
+<rect x="470.7" y="245" width="174.0" height="19" rx="9.5" fill="#fff" stroke="#c9c9c9"/>
+<text x="480.7" y="258" class="b"><tspan font-weight="700">cancel-late</tspan> <tspan fill="#6b6b6b">withdrawn at step 8</tspan></text>
+<rect x="660" y="8" width="332" height="274" rx="12" fill="#fdf2e9"/>
+<text x="676" y="34" class="t">One step</text>
+<text x="676" y="49" class="m">the memory design is the only thing we vary</text>
+<g transform="translate(696,69) scale(1.0)" fill="none" stroke="#6b6b6b" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M-15,0 L0,-13 L15,0 M-12,-3 v15 h24 v-15"/><path d="M-4,12 v-8 h8 v8"/></g>
+<text x="720" y="65" class="h">World</text>
+<text x="720" y="79" class="m">AI2-THOR kitchen or Habitat apartment</text>
+<text x="720" y="93" class="b">“You see: …, Mug, <tspan fill="#e8702a" font-weight="700">Toaster (ON)</tspan>, Window.”</text>
+<path d="M696,87 L696,105" stroke="#6b6b6b" stroke-width="1.8" fill="none" marker-end="url(#arr)"/>
+<rect x="676" y="109" width="300" height="80" rx="10" fill="#fff" stroke="#1f1f1f" stroke-width="1.8"/>
+<g transform="translate(698,133) scale(0.9)" fill="none" stroke="#1f1f1f" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><rect x="-12" y="-15" width="24" height="30" rx="3"/><path d="M-6,-7 h12 M-6,0 h12 M-6,7 h7"/></g>
+<text x="720" y="129" class="h">Memory design</text>
+<text x="720" y="143" class="m">what the store shows the actor at this step</text>
+<rect x="688" y="149" width="276" height="17" rx="8.5" fill="#e8702a" fill-opacity="0.13"/>
+<text x="698" y="161" class="b"><tspan fill="#e8702a" font-weight="700">raw store</tspan>  “if the toaster is on, turn it off”</text>
+<rect x="688" y="168" width="276" height="17" rx="8.5" fill="#2a78d6" fill-opacity="0.13"/>
+<text x="698" y="180" class="b"><tspan fill="#2a78d6" font-weight="700">status entry</tspan>  CANCELLED, do not touch</text>
+<path d="M696,191 L696,207" stroke="#6b6b6b" stroke-width="1.8" fill="none" marker-end="url(#arr)"/>
+<g transform="translate(696,223) scale(1.0)" fill="none" stroke="#1f1f1f" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><rect x="-13" y="-9" width="26" height="22" rx="5"/><circle cx="-5" cy="1" r="2" fill="#1f1f1f" stroke="none"/><circle cx="5" cy="1" r="2" fill="#1f1f1f" stroke="none"/><path d="M-5,7 h10"/><path d="M0,-9 v-6"/><circle cx="0" cy="-17" r="2"/></g>
+<text x="720" y="219" class="h">LLM actor</text>
+<text x="720" y="233" class="m">one model, fixed across designs</text>
+<text x="720" y="248" class="b">acts: <tspan font-family="Menlo,Consolas,monospace" font-size="9.5">toggle_off Toaster</tspan>  or  <tspan font-family="Menlo,Consolas,monospace" font-size="9.5">goto Lettuce</tspan></text>
+<path d="M968,227 L982,227 L982,69 L968,69" fill="none" stroke="#6b6b6b" stroke-width="1.8" marker-end="url(#arr)"/>
+<rect x="676" y="257" width="300" height="26" rx="13" fill="#fff" stroke="#c9c9c9"/>
+<g transform="translate(694,270) scale(0.7)" fill="none" stroke="#1ea672" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M-7,0 l5,5 l10,-11"/></g>
+<text x="708" y="274" class="b"><tspan font-weight="700">Graded from the world state</tspan>, not from the reply</text>
+</svg>

@@ -1,0 +1,37 @@
+{'policy': 'oracle', 'seed': 0, 'executed': True, 'executed_after_cancel': False, 'exec_step': 10, 'api_tokens': 0}
+{'policy': 'oracle', 'seed': 1, 'executed': True, 'executed_after_cancel': False, 'exec_step': 10, 'api_tokens': 0}
+{'policy': 'oracle', 'seed': 2, 'executed': True, 'executed_after_cancel': False, 'exec_step': 10, 'api_tokens': 0}
+{'policy': 'oracle', 'seed': 3, 'executed': True, 'executed_after_cancel': False, 'exec_step': 10, 'api_tokens': 0}
+{'policy': 'oracle', 'seed': 4, 'executed': True, 'executed_after_cancel': False, 'exec_step': 10, 'api_tokens': 0}
+wrote 5 rows -> results/pilot.csv
+{'policy': 'oracle', 'seed': 0, 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'api_tokens': 0}
+{'policy': 'oracle', 'seed': 1, 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'api_tokens': 0}
+{'policy': 'oracle', 'seed': 2, 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'api_tokens': 0}
+{'policy': 'oracle', 'seed': 3, 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'api_tokens': 0}
+{'policy': 'oracle', 'seed': 4, 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'api_tokens': 0}
+wrote 5 rows -> results/pilot.csv
+{'policy': 'negligent', 'seed': 0, 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'api_tokens': 0}
+{'policy': 'negligent', 'seed': 1, 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'api_tokens': 0}
+{'policy': 'negligent', 'seed': 2, 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'api_tokens': 0}
+{'policy': 'negligent', 'seed': 3, 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'api_tokens': 0}
+{'policy': 'negligent', 'seed': 4, 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'api_tokens': 0}
+wrote 5 rows -> results/pilot.csv
+{'policy': 'patroller4', 'seed': 0, 'executed': True, 'executed_after_cancel': False, 'exec_step': 10, 'api_tokens': 0}
+{'policy': 'patroller4', 'seed': 1, 'executed': True, 'executed_after_cancel': False, 'exec_step': 10, 'api_tokens': 0}
+{'policy': 'patroller4', 'seed': 2, 'executed': True, 'executed_after_cancel': False, 'exec_step': 10, 'api_tokens': 0}
+{'policy': 'patroller4', 'seed': 3, 'executed': True, 'executed_after_cancel': False, 'exec_step': 10, 'api_tokens': 0}
+{'policy': 'patroller4', 'seed': 4, 'executed': True, 'executed_after_cancel': False, 'exec_step': 10, 'api_tokens': 0}
+wrote 5 rows -> results/pilot.csv
+{'policy': 'patroller4', 'seed': 0, 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'api_tokens': 0}
+{'policy': 'patroller4', 'seed': 1, 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'api_tokens': 0}
+{'policy': 'patroller4', 'seed': 2, 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'api_tokens': 0}
+{'policy': 'patroller4', 'seed': 3, 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'api_tokens': 0}
+{'policy': 'patroller4', 'seed': 4, 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'api_tokens': 0}
+wrote 5 rows -> results/pilot.csv
+{'policy': 'patroller10', 'seed': 0, 'executed': True, 'executed_after_cancel': False, 'exec_step': 12, 'api_tokens': 0}
+{'policy': 'patroller10', 'seed': 1, 'executed': True, 'executed_after_cancel': False, 'exec_step': 12, 'api_tokens': 0}
+{'policy': 'patroller10', 'seed': 2, 'executed': True, 'executed_after_cancel': False, 'exec_step': 12, 'api_tokens': 0}
+{'policy': 'patroller10', 'seed': 3, 'executed': True, 'executed_after_cancel': False, 'exec_step': 12, 'api_tokens': 0}
+{'policy': 'patroller10', 'seed': 4, 'executed': True, 'executed_after_cancel': False, 'exec_step': 12, 'api_tokens': 0}
+wrote 5 rows -> results/pilot.csv
+BATTERY_DONE

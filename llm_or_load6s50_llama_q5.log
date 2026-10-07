@@ -1,0 +1,50 @@
+resume: 559 episodes already in results/llm_or_llama_load_v1obs.csv
+[llm:retr] 25/50 (0.01 ep/s)
+[llm:retr] 50/50 (0.01 ep/s)
+policy llm:retr done (44 total)
+TOTAL 44 episodes in 65.6 min -> results/llm_or_llama_load_v1obs.csv
+PASS1 llm:retr cancel_early done Mon  5 Oct 2026 20:30:48 EDT
+resume: 742 episodes already in results/llm_or_llama_load_v1obs.csv
+[llm:retr] 25/50 (0.01 ep/s)
+[llm:retr] 50/50 (0.01 ep/s)
+policy llm:retr done (50 total)
+TOTAL 50 episodes in 72.3 min -> results/llm_or_llama_load_v1obs.csv
+PASS1 llm:retr live done Mon  5 Oct 2026 21:43:06 EDT
+resume: 942 episodes already in results/llm_or_llama_load_v1obs.csv
+[llm:retr] 25/50 (0.01 ep/s)
+[llm:retr] 50/50 (0.02 ep/s)
+policy llm:retr done (50 total)
+TOTAL 50 episodes in 55.1 min -> results/llm_or_llama_load_v1obs.csv
+PASS1 llm:retr cancel_late done Mon  5 Oct 2026 22:38:17 EDT
+resume: 1095 episodes already in results/llm_or_llama_load_v1obs.csv
+[llm:retr] 25/50 (0.02 ep/s)
+[llm:retr] 50/50 (0.02 ep/s)
+policy llm:retr done (50 total)
+TOTAL 50 episodes in 48.0 min -> results/llm_or_llama_load_v1obs.csv
+PASS1 llm:retr control done Mon  5 Oct 2026 23:26:23 EDT
+GATE: balance 0.7114613260000056 < 1.0, waiting Mon  5 Oct 2026 23:26:23 EDT
+GATE: balance 0.45789781399997764 < 1.0, waiting Mon  5 Oct 2026 23:56:09 EDT
+GATE: balance -0.05796657100000857 < 1.0, waiting Tue  6 Oct 2026 00:11:10 EDT
+GATE: balance -0.22777997299999697 < 1.0, waiting Tue  6 Oct 2026 00:26:10 EDT
+GATE: balance -0.22777997299999697 < 1.0, waiting Tue  6 Oct 2026 00:41:12 EDT
+GATE: balance -0.22777997299999697 < 1.0, waiting Tue  6 Oct 2026 00:56:12 EDT
+GATE: balance -0.22777997299999697 < 1.0, waiting Tue  6 Oct 2026 01:11:13 EDT
+GATE: balance -0.22777997299999697 < 1.0, waiting Tue  6 Oct 2026 01:26:13 EDT
+GATE: balance -0.22777997299999697 < 1.0, waiting Tue  6 Oct 2026 01:41:13 EDT
+resume: 1200 episodes already in results/llm_or_llama_load_v1obs.csv
+policy llm:retr done (0 total)
+TOTAL 0 episodes in 0.0 min -> results/llm_or_llama_load_v1obs.csv
+PASS2 llm:retr cancel_early done Tue  6 Oct 2026 01:58:49 EDT
+resume: 1200 episodes already in results/llm_or_llama_load_v1obs.csv
+policy llm:retr done (0 total)
+TOTAL 0 episodes in 0.0 min -> results/llm_or_llama_load_v1obs.csv
+PASS2 llm:retr live done Tue  6 Oct 2026 01:58:52 EDT
+resume: 1200 episodes already in results/llm_or_llama_load_v1obs.csv
+policy llm:retr done (0 total)
+TOTAL 0 episodes in 0.0 min -> results/llm_or_llama_load_v1obs.csv
+PASS2 llm:retr cancel_late done Tue  6 Oct 2026 01:58:55 EDT
+resume: 1200 episodes already in results/llm_or_llama_load_v1obs.csv
+policy llm:retr done (0 total)
+TOTAL 0 episodes in 0.0 min -> results/llm_or_llama_load_v1obs.csv
+PASS2 llm:retr control done Tue  6 Oct 2026 01:58:58 EDT
+LOAD6S50_llama_q5_DONE Tue  6 Oct 2026 01:58:58 EDT

@@ -1,0 +1,173 @@
+resume: 110 episodes already in results/llm_or_deepseek.csv
+llm:sched thor/FloorPlan1/s10/d6/l1 cancel_late attempt1: RateLimitError Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 
+llm:sched thor/FloorPlan1/s10/d6/l1 cancel_late attempt2: RateLimitError Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 
+llm:sched thor/FloorPlan1/s11/d6/l1 cancel_late attempt1: RateLimitError Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 
+llm:sched thor/FloorPlan1/s11/d6/l1 cancel_late attempt2: RateLimitError Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 
+llm:sched thor/FloorPlan1/s12/d6/l1 cancel_early attempt1: RateLimitError Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 
+[llm:sched] 25/100 (0.03 ep/s)
+llm:sched thor/FloorPlan1/s12/d6/l1 cancel_late attempt1: RateLimitError Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 
+llm:sched thor/FloorPlan1/s12/d6/l1 cancel_late attempt2: RateLimitError Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 
+llm:sched thor/FloorPlan1/s13/d6/l1 cancel_early attempt1: RateLimitError Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 
+llm:sched thor/FloorPlan1/s13/d6/l1 cancel_early attempt2: RateLimitError Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 
+llm:sched thor/FloorPlan1/s13/d6/l1 cancel_late attempt1: RateLimitError Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 
+llm:sched thor/FloorPlan1/s13/d6/l1 cancel_late attempt2: RateLimitError Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 
+llm:sched thor/FloorPlan1/s14/d6/l1 cancel_early attempt1: RateLimitError Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 
+llm:sched thor/FloorPlan1/s14/d6/l1 cancel_early attempt2: RateLimitError Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 
+llm:sched thor/FloorPlan1/s14/d6/l1 cancel_late attempt1: RateLimitError Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 
+llm:sched thor/FloorPlan1/s14/d6/l1 cancel_late attempt2: RateLimitError Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 
+llm:sched thor/FloorPlan1/s15/d6/l1 cancel_early attempt1: RateLimitError Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 
+llm:sched thor/FloorPlan1/s15/d6/l1 cancel_early attempt2: RateLimitError Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 
+llm:sched thor/FloorPlan1/s15/d6/l1 cancel_late attempt1: RateLimitError Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 
+llm:sched thor/FloorPlan1/s15/d6/l1 cancel_late attempt2: RateLimitError Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 
+llm:sched thor/FloorPlan1/s16/d6/l1 cancel_early attempt1: RateLimitError Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 
+llm:sched thor/FloorPlan1/s16/d6/l1 cancel_early attempt2: RateLimitError Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 
+llm:sched thor/FloorPlan1/s16/d6/l1 cancel_late attempt1: RateLimitError Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 
+llm:sched thor/FloorPlan1/s16/d6/l1 cancel_late attempt2: RateLimitError Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 
+llm:sched thor/FloorPlan1/s17/d6/l1 cancel_early attempt1: RateLimitError Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 
+llm:sched thor/FloorPlan1/s17/d6/l1 cancel_early attempt2: RateLimitError Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 
+llm:sched thor/FloorPlan1/s17/d6/l1 cancel_late attempt1: RateLimitError Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 
+llm:sched thor/FloorPlan1/s17/d6/l1 cancel_late attempt2: APITimeoutError Request timed out.
+llm:sched thor/FloorPlan1/s18/d6/l1 cancel_early attempt1: RateLimitError Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 
+llm:sched thor/FloorPlan1/s18/d6/l1 cancel_early attempt2: RateLimitError Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 
+llm:sched thor/FloorPlan1/s18/d6/l1 cancel_late attempt1: RateLimitError Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 
+llm:sched thor/FloorPlan1/s18/d6/l1 cancel_late attempt2: RateLimitError Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 
+llm:sched thor/FloorPlan1/s19/d6/l1 cancel_early attempt1: RateLimitError Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 
+llm:sched thor/FloorPlan1/s19/d6/l1 cancel_early attempt2: RateLimitError Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 
+llm:sched thor/FloorPlan1/s19/d6/l1 cancel_late attempt1: RateLimitError Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 
+llm:sched thor/FloorPlan1/s20/d6/l1 cancel_early attempt1: RateLimitError Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 
+llm:sched thor/FloorPlan1/s20/d6/l1 cancel_early attempt2: RateLimitError Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 
+llm:sched thor/FloorPlan1/s20/d6/l1 cancel_late attempt1: RateLimitError Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 
+llm:sched thor/FloorPlan1/s20/d6/l1 cancel_late attempt2: RateLimitError Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 
+llm:sched thor/FloorPlan1/s21/d6/l1 cancel_early attempt1: RateLimitError Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 
+llm:sched thor/FloorPlan1/s21/d6/l1 cancel_early attempt2: RateLimitError Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 
+llm:sched thor/FloorPlan1/s21/d6/l1 cancel_late attempt1: RateLimitError Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 
+llm:sched thor/FloorPlan1/s21/d6/l1 cancel_late attempt2: RateLimitError Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 
+llm:sched thor/FloorPlan1/s22/d6/l1 cancel_early attempt1: RateLimitError Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 
+llm:sched thor/FloorPlan1/s22/d6/l1 cancel_early attempt2: RateLimitError Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 
+llm:sched thor/FloorPlan1/s22/d6/l1 cancel_late attempt1: RateLimitError Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 
+llm:sched thor/FloorPlan1/s22/d6/l1 cancel_late attempt2: RateLimitError Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 
+llm:sched thor/FloorPlan1/s23/d6/l1 cancel_late attempt1: RateLimitError Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 
+llm:sched thor/FloorPlan1/s23/d6/l1 cancel_late attempt2: RateLimitError Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 
+llm:sched thor/FloorPlan1/s24/d6/l1 cancel_early attempt1: RateLimitError Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 
+llm:sched thor/FloorPlan1/s24/d6/l1 cancel_early attempt2: RateLimitError Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 
+llm:sched thor/FloorPlan1/s24/d6/l1 cancel_late attempt1: RateLimitError Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 
+llm:sched thor/FloorPlan1/s24/d6/l1 cancel_late attempt2: RateLimitError Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 
+llm:sched thor/FloorPlan1/s25/d6/l1 cancel_early attempt1: RateLimitError Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 
+llm:sched thor/FloorPlan1/s25/d6/l1 cancel_early attempt2: RateLimitError Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 
+llm:sched thor/FloorPlan1/s25/d6/l1 cancel_late attempt1: RateLimitError Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 
+llm:sched thor/FloorPlan1/s25/d6/l1 cancel_late attempt2: RateLimitError Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 
+llm:sched thor/FloorPlan1/s26/d6/l1 cancel_early attempt1: RateLimitError Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 
+llm:sched thor/FloorPlan1/s26/d6/l1 cancel_early attempt2: RateLimitError Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 
+llm:sched thor/FloorPlan1/s26/d6/l1 cancel_late attempt1: RateLimitError Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 
+llm:sched thor/FloorPlan1/s27/d6/l1 cancel_early attempt1: RateLimitError Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 
+llm:sched thor/FloorPlan1/s27/d6/l1 cancel_early attempt2: RateLimitError Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 
+llm:sched thor/FloorPlan1/s27/d6/l1 cancel_late attempt1: RateLimitError Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 
+llm:sched thor/FloorPlan1/s27/d6/l1 cancel_late attempt2: RateLimitError Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 
+llm:sched thor/FloorPlan1/s28/d6/l1 cancel_late attempt1: RateLimitError Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 
+llm:sched thor/FloorPlan1/s28/d6/l1 cancel_late attempt2: RateLimitError Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 
+llm:sched thor/FloorPlan1/s29/d6/l1 cancel_early attempt1: RateLimitError Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 
+llm:sched thor/FloorPlan1/s30/d6/l1 cancel_early attempt1: RateLimitError Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 
+llm:sched thor/FloorPlan1/s30/d6/l1 cancel_early attempt2: RateLimitError Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 
+llm:sched thor/FloorPlan1/s30/d6/l1 cancel_late attempt1: RateLimitError Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 
+llm:sched thor/FloorPlan1/s30/d6/l1 cancel_late attempt2: RateLimitError Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 
+llm:sched thor/FloorPlan1/s32/d6/l1 cancel_late attempt1: RateLimitError Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 
+llm:sched thor/FloorPlan1/s33/d6/l1 cancel_late attempt1: RateLimitError Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 
+llm:sched thor/FloorPlan1/s33/d6/l1 cancel_late attempt2: RateLimitError Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 
+llm:sched thor/FloorPlan1/s34/d6/l1 cancel_late attempt1: RateLimitError Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 
+llm:sched thor/FloorPlan1/s34/d6/l1 cancel_late attempt2: RateLimitError Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 
+llm:sched thor/FloorPlan1/s35/d6/l1 cancel_early attempt1: RateLimitError Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 
+llm:sched thor/FloorPlan1/s35/d6/l1 cancel_early attempt2: RateLimitError Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 
+llm:sched thor/FloorPlan1/s35/d6/l1 cancel_late attempt1: RateLimitError Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 
+llm:sched thor/FloorPlan1/s35/d6/l1 cancel_late attempt2: RateLimitError Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 
+llm:sched thor/FloorPlan1/s36/d6/l1 cancel_early attempt1: RateLimitError Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 
+llm:sched thor/FloorPlan1/s36/d6/l1 cancel_early attempt2: RateLimitError Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 
+llm:sched thor/FloorPlan1/s36/d6/l1 cancel_late attempt1: RateLimitError Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 
+[llm:sched] 75/100 (0.01 ep/s)
+llm:sched thor/FloorPlan1/s37/d6/l1 cancel_late attempt1: RateLimitError Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 
+llm:sched thor/FloorPlan1/s37/d6/l1 cancel_late attempt2: RateLimitError Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 
+llm:sched thor/FloorPlan1/s38/d6/l1 cancel_early attempt1: RateLimitError Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 
+llm:sched thor/FloorPlan1/s38/d6/l1 cancel_late attempt1: RateLimitError Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 
+llm:sched thor/FloorPlan1/s38/d6/l1 cancel_late attempt2: RateLimitError Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 
+llm:sched thor/FloorPlan1/s39/d6/l1 cancel_early attempt1: RateLimitError Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 
+llm:sched thor/FloorPlan1/s39/d6/l1 cancel_early attempt2: RateLimitError Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 
+llm:sched thor/FloorPlan1/s40/d6/l1 cancel_early attempt1: RateLimitError Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 
+llm:sched thor/FloorPlan1/s40/d6/l1 cancel_early attempt2: RateLimitError Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 
+llm:sched thor/FloorPlan1/s40/d6/l1 cancel_late attempt1: RateLimitError Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 
+llm:sched thor/FloorPlan1/s40/d6/l1 cancel_late attempt2: RateLimitError Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 
+llm:sched thor/FloorPlan1/s41/d6/l1 cancel_late attempt1: RateLimitError Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 
+llm:sched thor/FloorPlan1/s41/d6/l1 cancel_late attempt2: RateLimitError Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 
+llm:sched thor/FloorPlan1/s42/d6/l1 cancel_early attempt1: RateLimitError Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 
+llm:sched thor/FloorPlan1/s42/d6/l1 cancel_early attempt2: RateLimitError Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 
+llm:sched thor/FloorPlan1/s43/d6/l1 cancel_late attempt1: RateLimitError Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 
+llm:sched thor/FloorPlan1/s43/d6/l1 cancel_late attempt2: RateLimitError Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 
+llm:sched thor/FloorPlan1/s44/d6/l1 cancel_early attempt1: RateLimitError Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 
+llm:sched thor/FloorPlan1/s44/d6/l1 cancel_late attempt1: RateLimitError Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 
+llm:sched thor/FloorPlan1/s44/d6/l1 cancel_late attempt2: RateLimitError Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 
+llm:sched thor/FloorPlan1/s45/d6/l1 cancel_early attempt1: RateLimitError Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 
+llm:sched thor/FloorPlan1/s45/d6/l1 cancel_early attempt2: RateLimitError Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 
+llm:sched thor/FloorPlan1/s46/d6/l1 cancel_late attempt1: RateLimitError Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 
+llm:sched thor/FloorPlan1/s46/d6/l1 cancel_late attempt2: RateLimitError Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 
+llm:sched thor/FloorPlan1/s47/d6/l1 cancel_early attempt1: RateLimitError Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 
+llm:sched thor/FloorPlan1/s47/d6/l1 cancel_early attempt2: RateLimitError Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 
+llm:sched thor/FloorPlan1/s48/d6/l1 cancel_late attempt1: RateLimitError Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 
+llm:sched thor/FloorPlan1/s48/d6/l1 cancel_late attempt2: RateLimitError Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 
+llm:sched thor/FloorPlan1/s49/d6/l1 cancel_early attempt1: RateLimitError Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 
+[llm:sched] 100/100 (0.01 ep/s)
+policy llm:sched done (29 total)
+llm:bank thor/FloorPlan1/s10/d6/l1 cancel_early attempt1: RateLimitError Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 
+llm:bank thor/FloorPlan1/s10/d6/l1 cancel_early attempt2: RateLimitError Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 
+llm:bank thor/FloorPlan1/s10/d6/l1 cancel_late attempt1: RateLimitError Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 
+llm:bank thor/FloorPlan1/s10/d6/l1 cancel_late attempt2: RateLimitError Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 
+llm:bank thor/FloorPlan1/s11/d6/l1 cancel_early attempt1: RateLimitError Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 
+llm:bank thor/FloorPlan1/s11/d6/l1 cancel_early attempt2: RateLimitError Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 
+llm:bank thor/FloorPlan1/s11/d6/l1 cancel_late attempt1: RateLimitError Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 
+llm:bank thor/FloorPlan1/s11/d6/l1 cancel_late attempt2: RateLimitError Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 
+llm:bank thor/FloorPlan1/s12/d6/l1 cancel_early attempt1: RateLimitError Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 
+llm:bank thor/FloorPlan1/s12/d6/l1 cancel_early attempt2: RateLimitError Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 
+llm:bank thor/FloorPlan1/s12/d6/l1 cancel_late attempt1: RateLimitError Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 
+llm:bank thor/FloorPlan1/s12/d6/l1 cancel_late attempt2: RateLimitError Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 
+llm:bank thor/FloorPlan1/s13/d6/l1 cancel_early attempt1: RateLimitError Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 
+llm:bank thor/FloorPlan1/s13/d6/l1 cancel_late attempt1: RateLimitError Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 
+llm:bank thor/FloorPlan1/s13/d6/l1 cancel_late attempt2: RateLimitError Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 
+llm:bank thor/FloorPlan1/s14/d6/l1 cancel_early attempt1: RateLimitError Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 
+llm:bank thor/FloorPlan1/s14/d6/l1 cancel_early attempt2: RateLimitError Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 
+llm:bank thor/FloorPlan1/s15/d6/l1 cancel_early attempt1: RateLimitError Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 
+llm:bank thor/FloorPlan1/s15/d6/l1 cancel_early attempt2: RateLimitError Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 
+llm:bank thor/FloorPlan1/s15/d6/l1 cancel_late attempt1: RateLimitError Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 
+llm:bank thor/FloorPlan1/s15/d6/l1 cancel_late attempt2: RateLimitError Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 
+llm:bank thor/FloorPlan1/s16/d6/l1 cancel_early attempt1: RateLimitError Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 
+llm:bank thor/FloorPlan1/s16/d6/l1 cancel_early attempt2: RateLimitError Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 
+llm:bank thor/FloorPlan1/s16/d6/l1 cancel_late attempt1: RateLimitError Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 
+llm:bank thor/FloorPlan1/s16/d6/l1 cancel_late attempt2: RateLimitError Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 
+llm:bank thor/FloorPlan1/s17/d6/l1 cancel_early attempt1: RateLimitError Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 
+llm:bank thor/FloorPlan1/s17/d6/l1 cancel_early attempt2: RateLimitError Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 
+llm:bank thor/FloorPlan1/s17/d6/l1 cancel_late attempt1: RateLimitError Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 
+llm:bank thor/FloorPlan1/s17/d6/l1 cancel_late attempt2: RateLimitError Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 
+llm:bank thor/FloorPlan1/s18/d6/l1 cancel_early attempt1: RateLimitError Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 
+llm:bank thor/FloorPlan1/s18/d6/l1 cancel_early attempt2: RateLimitError Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 
+llm:bank thor/FloorPlan1/s18/d6/l1 cancel_late attempt1: RateLimitError Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 
+llm:bank thor/FloorPlan1/s19/d6/l1 cancel_early attempt1: RateLimitError Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 
+llm:bank thor/FloorPlan1/s19/d6/l1 cancel_early attempt2: RateLimitError Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 
+llm:bank thor/FloorPlan1/s19/d6/l1 cancel_late attempt1: RateLimitError Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 
+llm:bank thor/FloorPlan1/s19/d6/l1 cancel_late attempt2: RateLimitError Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 
+llm:bank thor/FloorPlan1/s20/d6/l1 cancel_early attempt1: InternalServerError Error code: 504 - {'error': {'message': 'The operation was aborted', 'code': 504, 'metadata': {'prov
+llm:bank thor/FloorPlan1/s20/d6/l1 cancel_early attempt2: RateLimitError Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 
+llm:bank thor/FloorPlan1/s20/d6/l1 cancel_late attempt1: RateLimitError Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 
+llm:bank thor/FloorPlan1/s20/d6/l1 cancel_late attempt2: RateLimitError Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 
+llm:bank thor/FloorPlan1/s21/d6/l1 cancel_early attempt1: RateLimitError Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 
+llm:bank thor/FloorPlan1/s21/d6/l1 cancel_early attempt2: RateLimitError Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 
+llm:bank thor/FloorPlan1/s21/d6/l1 cancel_late attempt1: RateLimitError Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 
+llm:bank thor/FloorPlan1/s21/d6/l1 cancel_late attempt2: RateLimitError Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 
+llm:bank thor/FloorPlan1/s22/d6/l1 cancel_early attempt1: RateLimitError Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 
+llm:bank thor/FloorPlan1/s22/d6/l1 cancel_early attempt2: RateLimitError Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 
+llm:bank thor/FloorPlan1/s22/d6/l1 cancel_late attempt1: APIConnectionError Connection error.
+llm:bank thor/FloorPlan1/s22/d6/l1 cancel_late attempt2: APIConnectionError Connection error.
+llm:bank thor/FloorPlan1/s23/d6/l1 cancel_early attempt1: APIConnectionError Connection error.
+llm:bank thor/FloorPlan1/s23/d6/l1 cancel_early attempt2: APIConnectionError Connection error.
+llm:bank thor/FloorPlan1/s23/d6/l1 cancel_late attempt1: APIConnectionError Connection error.
+llm:bank thor/FloorPlan1/s23/d6/l1 cancel_late attempt2: APIConnectionError Connection error.
+llm:bank thor/FloorPlan1/s24/d6/l1 cancel_early attempt1: APIConnectionError Connection error.
+llm:bank thor/FloorPlan1/s24/d6/l1 cancel_early attempt2: APIConnectionError Connection error.
+llm:bank thor/FloorPlan1/s24/d6/l1 cancel_late attempt1: APIConnectionError Connection error.
+llm:bank thor/FloorPlan1/s24/d6/l1 cancel_late attempt2: APIConnectionError Connection error.
+llm:bank thor/FloorPlan1/s25/d6/l1 cancel_early attempt1: APIConnectionError Connection error.

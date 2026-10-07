@@ -1,0 +1,282 @@
+{
+ "thor_headline": {
+  "adaptive6": {
+   "n_live": 50,
+   "EXEC": 0.94,
+   "CTRL": null,
+   "MEM": null,
+   "EAC_any": 0.0,
+   "EAC_late": 0.0
+  },
+  "deaf6": {
+   "n_live": 50,
+   "EXEC": 0.94,
+   "CTRL": null,
+   "MEM": null,
+   "EAC_any": 0.47,
+   "EAC_late": 0.0
+  },
+  "mock-bankw6": {
+   "n_live": 50,
+   "EXEC": 0.88,
+   "CTRL": 0.0,
+   "MEM": 0.88,
+   "EAC_any": 0.62,
+   "EAC_late": 0.46
+  },
+  "mock-nonew6": {
+   "n_live": 50,
+   "EXEC": 0.0,
+   "CTRL": 0.0,
+   "MEM": 0.0,
+   "EAC_any": 0.0,
+   "EAC_late": 0.0
+  },
+  "mock-schedw6": {
+   "n_live": 50,
+   "EXEC": 0.58,
+   "CTRL": 0.0,
+   "MEM": 0.58,
+   "EAC_any": 0.0,
+   "EAC_late": 0.0
+  },
+  "negligent": {
+   "n_live": 50,
+   "EXEC": 0.0,
+   "CTRL": null,
+   "MEM": null,
+   "EAC_any": 0.0,
+   "EAC_late": 0.0
+  },
+  "opportunistic": {
+   "n_live": 50,
+   "EXEC": 0.88,
+   "CTRL": null,
+   "MEM": null,
+   "EAC_any": 0.0,
+   "EAC_late": 0.0
+  },
+  "oracle": {
+   "n_live": 50,
+   "EXEC": 0.94,
+   "CTRL": null,
+   "MEM": null,
+   "EAC_any": 0.0,
+   "EAC_late": 0.0
+  },
+  "patroller6": {
+   "n_live": 50,
+   "EXEC": 0.94,
+   "CTRL": null,
+   "MEM": null,
+   "EAC_any": 0.0,
+   "EAC_late": 0.0
+  }
+ },
+ "thor_test": {
+  "adaptive6": {
+   "n_live": 72,
+   "EXEC": 0.9583333333333334,
+   "CTRL": null,
+   "MEM": null,
+   "EAC_any": null,
+   "EAC_late": 0.0
+  },
+  "mock-bankw6": {
+   "n_live": 72,
+   "EXEC": 0.6805555555555556,
+   "CTRL": null,
+   "MEM": null,
+   "EAC_any": null,
+   "EAC_late": 0.3888888888888889
+  },
+  "mock-schedw6": {
+   "n_live": 72,
+   "EXEC": 0.4861111111111111,
+   "CTRL": null,
+   "MEM": null,
+   "EAC_any": null,
+   "EAC_late": 0.0
+  },
+  "oracle": {
+   "n_live": 72,
+   "EXEC": 0.9583333333333334,
+   "CTRL": null,
+   "MEM": null,
+   "EAC_any": null,
+   "EAC_late": 0.0
+  },
+  "patroller6": {
+   "n_live": 72,
+   "EXEC": 0.9583333333333334,
+   "CTRL": null,
+   "MEM": null,
+   "EAC_any": null,
+   "EAC_late": 0.0
+  }
+ },
+ "hab_headline": {
+  "deaf": {
+   "n_live": 49,
+   "EXEC": 0.7551020408163265,
+   "CTRL": null,
+   "MEM": null,
+   "EAC_any": 0.7551020408163265,
+   "EAC_late": 0.7551020408163265
+  },
+  "idle": {
+   "n_live": 49,
+   "EXEC": 0.7346938775510204,
+   "CTRL": null,
+   "MEM": null,
+   "EAC_any": 0.0,
+   "EAC_late": 0.0
+  },
+  "mockllm-bank": {
+   "n_live": 49,
+   "EXEC": 0.7346938775510204,
+   "CTRL": 0.0,
+   "MEM": 0.7346938775510204,
+   "EAC_any": 0.6632653061224489,
+   "EAC_late": 0.6326530612244898
+  },
+  "mockllm-none": {
+   "n_live": 49,
+   "EXEC": 0.0,
+   "CTRL": 0.0,
+   "MEM": 0.0,
+   "EAC_any": 0.0,
+   "EAC_late": 0.0
+  },
+  "mockllm-rwim": {
+   "n_live": 49,
+   "EXEC": 0.7346938775510204,
+   "CTRL": 0.0,
+   "MEM": 0.7346938775510204,
+   "EAC_any": 0.0,
+   "EAC_late": 0.0
+  },
+  "mockllm-sched": {
+   "n_live": 49,
+   "EXEC": 0.6122448979591837,
+   "CTRL": 0.0,
+   "MEM": 0.6122448979591837,
+   "EAC_any": 0.0,
+   "EAC_late": 0.0
+  },
+  "negligent": {
+   "n_live": 49,
+   "EXEC": 0.0,
+   "CTRL": null,
+   "MEM": null,
+   "EAC_any": 0.0,
+   "EAC_late": 0.0
+  },
+  "opportunistic": {
+   "n_live": 49,
+   "EXEC": 0.7346938775510204,
+   "CTRL": null,
+   "MEM": null,
+   "EAC_any": 0.0,
+   "EAC_late": 0.0
+  },
+  "oracle": {
+   "n_live": 49,
+   "EXEC": 1.0,
+   "CTRL": null,
+   "MEM": null,
+   "EAC_any": 0.0,
+   "EAC_late": 0.0
+  },
+  "patroller": {
+   "n_live": 49,
+   "EXEC": 0.7551020408163265,
+   "CTRL": null,
+   "MEM": null,
+   "EAC_any": 0.0,
+   "EAC_late": 0.0
+  }
+ },
+ "hab_test": {
+  "mockllm-bank": {
+   "n_live": 24,
+   "EXEC": 0.4583333333333333,
+   "CTRL": null,
+   "MEM": null,
+   "EAC_any": null,
+   "EAC_late": 0.4166666666666667
+  },
+  "mockllm-sched": {
+   "n_live": 24,
+   "EXEC": 0.25,
+   "CTRL": null,
+   "MEM": null,
+   "EAC_any": null,
+   "EAC_late": 0.0
+  },
+  "oracle": {
+   "n_live": 24,
+   "EXEC": 1.0,
+   "CTRL": null,
+   "MEM": null,
+   "EAC_any": null,
+   "EAC_late": 0.0
+  },
+  "patroller": {
+   "n_live": 24,
+   "EXEC": 0.2916666666666667,
+   "CTRL": null,
+   "MEM": null,
+   "EAC_any": null,
+   "EAC_late": 0.0
+  }
+ },
+ "window_parity": {
+  "habitat": {
+   "mockllm-bank": {
+    "2": 0.7021276595744681,
+    "4": 0.6808510638297872,
+    "6": 0.648936170212766,
+    "10": 0.6382978723404256,
+    "16": 0.5531914893617021
+   },
+   "mockllm-rwim": {
+    "2": 0.0,
+    "4": 0.0,
+    "6": 0.0,
+    "10": 0.0,
+    "16": 0.0
+   },
+   "mockllm-sched": {
+    "2": 0.0,
+    "4": 0.0,
+    "6": 0.0,
+    "10": 0.0,
+    "16": 0.0
+   }
+  },
+  "thor_mock": {
+   "bank": {
+    "2": 0.7083333333333334,
+    "4": 0.6979166666666666,
+    "6": 0.6145833333333334,
+    "10": 0.46875,
+    "16": 0.17708333333333334
+   },
+   "rrn": {
+    "2": 0.0,
+    "4": 0.0,
+    "6": 0.0,
+    "10": 0.0,
+    "16": 0.0
+   }
+  }
+ },
+ "grading_ablation": {
+  "n_cancelled": 1440,
+  "n_world_violations": 654,
+  "qa_passes_violators": 0.0,
+  "selection_passes_violators": 0.5290519877675841,
+  "qa_fails_clean": 0.6335877862595419
+ }
+}

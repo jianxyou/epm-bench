@@ -1,0 +1,103 @@
++ python3 run_suite.py --resume --split dev --delay 6 --load 1 --seeds 0:50 --policies llm:sched,llm:none,llm:bank --variant live,control --model openai/gpt-4o-mini --out results/llm_or_gpt4omini.csv --dump-dir results/or_gpt4omini
+resume: 300 episodes already in results/llm_or_gpt4omini.csv
+[llm:sched] 25/100 (0.04 ep/s)
+llm:sched thor/FloorPlan1/s12/d6/l1 live attempt1: TimeoutError Error encountered when running action {'action': 'RotateRight', 'degrees': 90, 'sequenceId': 21} in 
+[llm:sched] 50/100 (0.03 ep/s)
+[llm:sched] 75/100 (0.03 ep/s)
+[llm:sched] 100/100 (0.03 ep/s)
+policy llm:sched done (80 total)
+[llm:none] 25/100 (0.03 ep/s)
+[llm:none] 50/100 (0.03 ep/s)
+llm:none thor/FloorPlan1/s36/d6/l1 control attempt1: APIConnectionError Connection error.
+[llm:none] 75/100 (0.02 ep/s)
+[llm:none] 100/100 (0.02 ep/s)
+policy llm:none done (160 total)
+[llm:bank] 25/100 (0.02 ep/s)
+[llm:bank] 50/100 (0.02 ep/s)
+[llm:bank] 75/100 (0.02 ep/s)
+[llm:bank] 100/100 (0.02 ep/s)
+policy llm:bank done (240 total)
+TOTAL 240 episodes in 162.6 min -> results/llm_or_gpt4omini.csv
++ python3 run_suite.py --resume --split dev --delay 6 --load 1 --seeds 0:50 --policies llm:sched1 --variant cancel_early,cancel_late --model openai/gpt-4o-mini --out results/llm_or_gpt4omini.csv --dump-dir results/or_gpt4omini
+resume: 638 episodes already in results/llm_or_gpt4omini.csv
+[llm:sched1] 25/100 (0.03 ep/s)
+[llm:sched1] 50/100 (0.03 ep/s)
+[llm:sched1] 75/100 (0.03 ep/s)
+[llm:sched1] 100/100 (0.04 ep/s)
+policy llm:sched1 done (80 total)
+TOTAL 80 episodes in 36.6 min -> results/llm_or_gpt4omini.csv
++ python3 run_suite.py --resume --split dev --delay 6 --load 1 --seeds 0:50 --policies llm:sched,llm:none,llm:bank --variant live,control --model deepseek/deepseek-chat --out results/llm_or_deepseek.csv --dump-dir results/or_deepseek
+resume: 159 episodes already in results/llm_or_deepseek.csv
+[llm:sched] 25/100 (0.02 ep/s)
+[llm:sched] 50/100 (0.02 ep/s)
+llm:sched thor/FloorPlan1/s31/d6/l1 control attempt1: TypeError 'NoneType' object is not subscriptable
+[llm:sched] 75/100 (0.02 ep/s)
+llm:sched thor/FloorPlan1/s45/d6/l1 control attempt1: TypeError 'NoneType' object is not subscriptable
+llm:sched thor/FloorPlan1/s45/d6/l1 control attempt2: RateLimitError Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 
+llm:sched thor/FloorPlan1/s46/d6/l1 live attempt1: TypeError 'NoneType' object is not subscriptable
+llm:sched thor/FloorPlan1/s46/d6/l1 live attempt2: TypeError 'NoneType' object is not subscriptable
+llm:sched thor/FloorPlan1/s48/d6/l1 control attempt1: TypeError 'NoneType' object is not subscriptable
+[llm:sched] 100/100 (0.02 ep/s)
+policy llm:sched done (78 total)
+llm:none thor/FloorPlan1/s3/d6/l1 control attempt1: TypeError 'NoneType' object is not subscriptable
+llm:none thor/FloorPlan1/s7/d6/l1 control attempt1: RateLimitError Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 
+llm:none thor/FloorPlan1/s7/d6/l1 control attempt2: RateLimitError Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 
+llm:none thor/FloorPlan1/s9/d6/l1 control attempt1: RateLimitError Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 
+llm:none thor/FloorPlan1/s9/d6/l1 control attempt2: RateLimitError Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 
+llm:none thor/FloorPlan1/s10/d6/l1 control attempt1: RateLimitError Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 
+llm:none thor/FloorPlan1/s11/d6/l1 control attempt1: RateLimitError Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 
+llm:none thor/FloorPlan1/s11/d6/l1 live attempt1: TypeError 'NoneType' object is not subscriptable
+llm:none thor/FloorPlan1/s11/d6/l1 live attempt2: TypeError 'NoneType' object is not subscriptable
+[llm:none] 25/100 (0.02 ep/s)
+llm:none thor/FloorPlan1/s18/d6/l1 live attempt1: RateLimitError Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 
+[llm:none] 50/100 (0.02 ep/s)
+llm:none thor/FloorPlan1/s30/d6/l1 live attempt1: TypeError 'NoneType' object is not subscriptable
+llm:none thor/FloorPlan1/s31/d6/l1 control attempt1: TypeError 'NoneType' object is not subscriptable
+llm:none thor/FloorPlan1/s34/d6/l1 live attempt1: RateLimitError Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 
+[llm:none] 75/100 (0.02 ep/s)
+llm:none thor/FloorPlan1/s44/d6/l1 live attempt1: TypeError 'NoneType' object is not subscriptable
+llm:none thor/FloorPlan1/s45/d6/l1 live attempt1: RateLimitError Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 
+[llm:none] 100/100 (0.02 ep/s)
+policy llm:none done (165 total)
+[llm:bank] 25/100 (0.02 ep/s)
+llm:bank thor/FloorPlan1/s13/d6/l1 live attempt1: RateLimitError Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 
+llm:bank thor/FloorPlan1/s13/d6/l1 live attempt2: RateLimitError Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 
+llm:bank thor/FloorPlan1/s14/d6/l1 control attempt1: RateLimitError Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 
+llm:bank thor/FloorPlan1/s14/d6/l1 control attempt2: RateLimitError Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 
+llm:bank thor/FloorPlan1/s14/d6/l1 live attempt1: RateLimitError Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 
+llm:bank thor/FloorPlan1/s21/d6/l1 live attempt1: TimeoutError Error encountered when running action {'action': 'PickupObject', 'objectId': 'Lettuce|-01.81|+00.97|
+llm:bank thor/FloorPlan1/s21/d6/l1 live attempt2: RateLimitError Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 
+[llm:bank] 50/100 (0.01 ep/s)
+llm:bank thor/FloorPlan1/s26/d6/l1 control attempt1: RateLimitError Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 
+llm:bank thor/FloorPlan1/s26/d6/l1 control attempt2: RateLimitError Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 
+llm:bank thor/FloorPlan1/s26/d6/l1 live attempt1: RateLimitError Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 
+llm:bank thor/FloorPlan1/s26/d6/l1 live attempt2: RateLimitError Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 
+llm:bank thor/FloorPlan1/s27/d6/l1 live attempt1: RateLimitError Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 
+llm:bank thor/FloorPlan1/s27/d6/l1 live attempt2: RateLimitError Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 
+llm:bank thor/FloorPlan1/s28/d6/l1 control attempt1: RateLimitError Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 
+llm:bank thor/FloorPlan1/s28/d6/l1 live attempt1: RateLimitError Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 
+llm:bank thor/FloorPlan1/s28/d6/l1 live attempt2: RateLimitError Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 
+llm:bank thor/FloorPlan1/s29/d6/l1 live attempt1: RateLimitError Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 
+llm:bank thor/FloorPlan1/s30/d6/l1 control attempt1: RateLimitError Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 
+llm:bank thor/FloorPlan1/s30/d6/l1 control attempt2: RateLimitError Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 
+llm:bank thor/FloorPlan1/s30/d6/l1 live attempt1: RateLimitError Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 
+llm:bank thor/FloorPlan1/s30/d6/l1 live attempt2: RateLimitError Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 
+llm:bank thor/FloorPlan1/s31/d6/l1 live attempt1: RateLimitError Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 
+llm:bank thor/FloorPlan1/s32/d6/l1 live attempt1: RateLimitError Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 
+llm:bank thor/FloorPlan1/s32/d6/l1 live attempt2: RateLimitError Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 
+llm:bank thor/FloorPlan1/s33/d6/l1 control attempt1: RateLimitError Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 
+llm:bank thor/FloorPlan1/s36/d6/l1 live attempt1: RateLimitError Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 
+[llm:bank] 75/100 (0.00 ep/s)
+llm:bank thor/FloorPlan1/s39/d6/l1 control attempt1: RateLimitError Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 
+llm:bank thor/FloorPlan1/s40/d6/l1 live attempt1: RateLimitError Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 
+llm:bank thor/FloorPlan1/s40/d6/l1 live attempt2: RateLimitError Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 
+llm:bank thor/FloorPlan1/s41/d6/l1 live attempt1: RateLimitError Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 
+llm:bank thor/FloorPlan1/s42/d6/l1 live attempt1: RateLimitError Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 
+llm:bank thor/FloorPlan1/s43/d6/l1 live attempt1: TypeError 'NoneType' object is not subscriptable
+llm:bank thor/FloorPlan1/s43/d6/l1 live attempt2: TypeError 'NoneType' object is not subscriptable
+[llm:bank] 100/100 (0.00 ep/s)
+policy llm:bank done (233 total)
+TOTAL 233 episodes in 796.4 min -> results/llm_or_deepseek.csv
+++ date
++ echo 'QUEUE_DONE Mon 14 Sep 2026 12:49:52 EDT'
+QUEUE_DONE Mon 14 Sep 2026 12:49:52 EDT

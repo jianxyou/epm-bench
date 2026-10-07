@@ -1,0 +1,17 @@
+FRONTIER_START Mon 14 Sep 2026 15:36:42 EDT
+[llm:bank] 25/40 (0.01 ep/s)
+policy llm:bank done (40 total)
+[llm:sched2] 25/40 (0.00 ep/s)
+policy llm:sched2 done (80 total)
+TOTAL 80 episodes in 332.1 min -> results/llm_or_sonnet5.csv
+[llm:bank] 25/40 (0.01 ep/s)
+policy llm:bank done (40 total)
+TOTAL 57 episodes in 135.5 min -> results/llm_or_gpt55.csv
+FATAL: API credits exhausted — stopping cleanly.
+FRONTIER_DONE Mon 14 Sep 2026 23:28:22 EDT
+resume: 57 episodes already in results/llm_or_gpt55.csv
+llm:sched2 thor/FloorPlan1/s10/d6/l1 cancel_late attempt1: APIConnectionError Connection error.
+[llm:sched2] 25/40 (0.00 ep/s)
+policy llm:sched2 done (23 total)
+TOTAL 23 episodes in 222.6 min -> results/llm_or_gpt55.csv
+GPT55_FILL_DONE Tue 15 Sep 2026 14:32:24 EDT

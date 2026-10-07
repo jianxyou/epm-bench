@@ -1,0 +1,3 @@
+ts,suite,engine,split,scene,seed,delay,load,variant,twin_group,policy,executed,executed_frac,event_step,first_visible_step,exec_step,cancelled,cancel_step,executed_after_cancel,eac_strict,n_intentions,chores_done,steps_total,api_tokens
+1789245704,epm_v0.1,thor,dev,FloorPlan1,0,6,1,control,thor/FloorPlan1/s0/d6/l1,llm-none,True,1.0,6,16,26,False,,False,False,1,1,30,28508
+1789245730,epm_v0.1,thor,dev,FloorPlan1,0,6,1,live,thor/FloorPlan1/s0/d6/l1,llm-none,True,1.0,6,7,14,False,,False,False,1,2,17,15116

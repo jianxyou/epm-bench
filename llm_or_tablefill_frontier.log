@@ -1,0 +1,33 @@
+GATE: balance 8.47688242999999 < 12, waiting Sat  3 Oct 2026 18:35:15 EDT
+policy llm:bank done (20 total)
+TOTAL 20 episodes in 42.0 min -> results/llm_or_gpt55_ctrl2.csv
+FRONTIER_FLOOR_gpt55_DONE balance=11.450218688999996 Sat  3 Oct 2026 19:32:18 EDT
+policy llm:bank done (20 total)
+TOTAL 20 episodes in 47.0 min -> results/llm_or_sonnet5_ctrl2.csv
+FRONTIER_FLOOR_sonnet5_DONE balance=6.797941100000003 Sat  3 Oct 2026 20:19:21 EDT
+GATE: balance 6.632163451999986 < 30, waiting Sat  3 Oct 2026 20:19:21 EDT
+GATE: balance 6.422736450000002 < 30, waiting Sat  3 Oct 2026 20:34:21 EDT
+GATE: balance 6.234149221999985 < 30, waiting Sat  3 Oct 2026 20:49:21 EDT
+GATE: balance 6.090597274999993 < 30, waiting Sat  3 Oct 2026 21:04:21 EDT
+GATE: balance 5.944421689000023 < 30, waiting Sat  3 Oct 2026 21:21:00 EDT
+GATE: balance 5.714424147999978 < 30, waiting Sat  3 Oct 2026 21:36:01 EDT
+GATE: balance 5.4798400130000005 < 30, waiting Sat  3 Oct 2026 21:51:01 EDT
+GATE: balance 5.306650251999997 < 30, waiting Sat  3 Oct 2026 22:06:01 EDT
+GATE: balance 5.144560909000006 < 30, waiting Sat  3 Oct 2026 22:21:01 EDT
+GATE: balance 5.0069138019999855 < 30, waiting Sat  3 Oct 2026 22:36:01 EDT
+GATE: balance 4.901815866999982 < 30, waiting Sat  3 Oct 2026 22:51:02 EDT
+GATE: balance 4.901815866999982 < 30, waiting Sat  3 Oct 2026 23:24:47 EDT
+GATE: balance 4.901815866999982 < 30, waiting Sat  3 Oct 2026 23:47:07 EDT
+GATE: balance 4.901815866999982 < 30, waiting Sun  4 Oct 2026 00:12:26 EDT
+GATE: balance 4.901815866999982 < 30, waiting Sun  4 Oct 2026 00:27:26 EDT
+GATE: balance 4.901815866999982 < 30, waiting Sun  4 Oct 2026 00:42:26 EDT
+GATE: balance 4.901815866999982 < 30, waiting Sun  4 Oct 2026 00:59:54 EDT
+GATE: balance 4.901815866999982 < 30, waiting Sun  4 Oct 2026 01:14:55 EDT
+GATE: balance 4.901815866999982 < 30, waiting Sun  4 Oct 2026 04:28:39 EDT
+GATE: balance 4.901815866999982 < 30, waiting Sun  4 Oct 2026 11:07:39 EDT
+GATE: balance 4.901815866999982 < 30, waiting Sun  4 Oct 2026 11:59:56 EDT
+GATE: balance 4.901815866999982 < 30, waiting Sun  4 Oct 2026 13:12:47 EDT
+GATE: balance 4.901815866999982 < 30, waiting Sun  4 Oct 2026 13:35:34 EDT
+GATE: balance 4.901815866999982 < 30, waiting Sun  4 Oct 2026 13:50:34 EDT
+GATE: balance 4.901815866999982 < 30, waiting Sun  4 Oct 2026 14:05:34 EDT
+GATE: balance 4.901815866999982 < 30, waiting Sun  4 Oct 2026 14:20:35 EDT

@@ -1,0 +1,15 @@
+ts,sim,policy,seed,scene,delay,cancel,k,event_step,first_visible_step,exec_step,executed,cancelled,cancel_step,eac_strict,steps_total,chores_done
+1785994763,habitat,negligent,0,apartment_1,10,none,8,10,40,,False,False,,False,60,3
+1785994763,habitat,negligent,1,apartment_1,10,none,8,10,39,,False,False,,False,59,6
+1785994763,habitat,negligent,2,apartment_1,10,none,8,10,38,,False,False,,False,59,6
+1785994763,habitat,negligent,3,apartment_1,10,none,8,10,38,,False,False,,False,60,5
+1785994763,habitat,negligent,4,apartment_1,10,none,8,10,,,False,False,,False,59,6
+1785994763,habitat,negligent,5,apartment_1,10,none,8,10,34,,False,False,,False,60,5
+1785994764,habitat,oracle,0,apartment_1,10,none,8,10,11,21,True,False,,False,60,2
+1785994764,habitat,oracle,1,apartment_1,10,none,8,10,13,23,True,False,,False,60,4
+1785994764,habitat,oracle,2,apartment_1,10,none,8,10,15,19,True,False,,False,60,5
+1785994764,habitat,oracle,3,apartment_1,10,none,8,10,19,28,True,False,,False,60,4
+1785994766,habitat,patroller8,0,apartment_1,10,none,8,10,10,19,True,False,,False,60,0
+1785994766,habitat,patroller8,1,apartment_1,10,none,8,10,34,44,True,False,,False,60,2
+1785994766,habitat,patroller8,2,apartment_1,10,none,8,10,15,20,True,False,,False,60,1
+1785994766,habitat,patroller8,3,apartment_1,10,none,8,10,32,40,True,False,,False,60,1

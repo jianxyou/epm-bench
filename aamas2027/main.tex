@@ -1,0 +1,72 @@
+\documentclass[sigconf,anonymous]{aamas}
+\usepackage{booktabs}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{multirow}
+\graphicspath{{figs/}}
+\newcommand{\bench}{EPM-Bench}
+
+\setcopyright{ifaamas}
+\acmConference[AAMAS 2027]{Proc.\@ of the 26th International Conference
+on Autonomous Agents and Multiagent Systems (AAMAS 2027)}{3--7 May 2027}{Hanoi, Vietnam}{M.~Baldoni, F.~Fang, W.~Yeoh, N.~Yorke-Smith (eds.)}
+\copyrightyear{2027}
+\acmYear{2027}
+\acmDOI{}
+\acmISBN{}
+\acmSubmissionID{<<OpenReview submission id>>}
+
+\title{Remembering Not To: Commission Errors of Deferred Intentions in Embodied LLM Agents}
+
+\author{Anonymous Authors}
+\affiliation{\institution{Anonymous Institution}\country{}}
+
+\begin{abstract}
+Users give embodied agents instructions to carry out later, and sometimes
+they withdraw them. Whether the agent respects the withdrawal is only
+tested when the cue appears and nobody is asking. We measure what embodied
+language-model agents do at that moment. In \bench{} an agent does chores
+in AI2-THOR kitchens and Habitat apartments. The user gives it a deferred
+instruction (``if you notice the toaster is on, turn it off''), the world
+switches the trigger on out of the agent's view, and in matched
+counterfactual episodes the user has cancelled the instruction beforehand.
+Every outcome is read from the state of the simulated world, not from what
+the agent says. We keep the actor fixed and vary only how its memory stores
+the instruction. Across six model families, re-injecting the briefing makes the agent carry
+out the cancelled instruction in 55 to 64\% of episodes with mid-sized
+models and in 32\% with frontier models; retrieval does so in 31 to 53\%
+and a rolling summary in 12 to 39\%. The problem is how the instruction
+is stored rather than the model itself: if the instruction is stored as an
+entry with a status that is rewritten when the user cancels, the rate drops
+to 7\% or less for every model, and live instructions are still executed as
+often as before. The actor's own model can keep the entry without access to
+the ground truth and does as well, but two of the four models we tried also
+write in instructions that nobody gave. With six standing intentions the task is hard for all four models we ran:
+the agents carry out about a third of the live instructions at most, and
+the rewritten entry still lowers the error for three of the four models,
+from 34 to 45\% to 4 to 18\%, but not for the fourth. This setting, and revocations
+that are implied rather than stated, remain open. We release the suite, the grader and all
+traces.
+\end{abstract}
+
+\begin{CCSXML}
+<ccs2012>
+<concept><concept_id>10010147.10010178.10010199</concept_id><concept_desc>Computing methodologies~Intelligent agents</concept_desc><concept_significance>500</concept_significance></concept>
+</ccs2012>
+\end{CCSXML}
+\ccsdesc[500]{Computing methodologies~Intelligent agents}
+\keywords{prospective memory; agent memory; embodied agents; benchmark; intention revocation}
+
+\begin{document}
+\maketitle
+
+\input{sections/01_intro}
+\input{sections/02_related}
+\input{sections/03_benchmark}
+\input{sections/04_memory_designs}
+\input{sections/05_results}
+\input{sections/06_discussion}
+\input{sections/07_conclusion}
+
+\bibliographystyle{ACM-Reference-Format}
+\bibliography{refs}
+\end{document}

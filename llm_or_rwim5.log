@@ -1,0 +1,12 @@
+resume: 1480 episodes already in results/llm_or_gpt4omini.csv
+[llm:rwim5] 25/60 (0.01 ep/s)
+[llm:rwim5] 50/60 (0.01 ep/s)
+policy llm:rwim5 done (60 total)
+TOTAL 60 episodes in 148.9 min -> results/llm_or_gpt4omini.csv
+RWIM5_MINI_DONE Wed 23 Sep 2026 14:36:21 EDT
+resume: 1540 episodes already in results/llm_or_gpt4omini.csv
+[llm:rwim5] 25/60 (0.00 ep/s)
+[llm:rwim5] 50/60 (0.00 ep/s)
+policy llm:rwim5 done (60 total)
+TOTAL 60 episodes in 231.2 min -> results/llm_or_gpt4omini.csv
+RWIM5_SONNET_DONE Wed 23 Sep 2026 18:27:37 EDT

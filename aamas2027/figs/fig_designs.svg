@@ -1,0 +1,173 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 520" width="1000" height="520" font-family="Helvetica, Arial, sans-serif">
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1c1c1c"/></marker></defs>
+<style>.t{font-size:14.5px;font-weight:700;fill:#1c1c1c}.b{font-size:11px;fill:#1c1c1c}.bb{font-size:11px;font-weight:700;fill:#1c1c1c}.m{font-size:9.6px;fill:#5f5f5f}.c{font-size:9.6px;fill:#1c1c1c;font-family:Menlo,Consolas,monospace}.w{fill:#ffffff}</style>
+<rect x="10" y="10" width="318" height="242" rx="14" fill="#e8ebf2"/>
+<text x="169.0" y="36" class="t" text-anchor="middle">A. NONE</text>
+<rect x="24" y="156" width="96" height="46" rx="8" fill="#ffffff" stroke="#1c1c1c" stroke-width="1.6"/>
+<g transform="translate(41,179.0)" fill="none" stroke="#1c1c1c" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M-9,0 q9,-8 18,0 q-9,8 -18,0 z"/><circle cx="0" cy="0" r="2.6"/></g>
+<text x="56" y="176.25" class="b">Observation</text>
+<text x="56" y="189.75" class="m">+ last 6 steps</text>
+<rect x="140" y="156" width="90" height="46" rx="8" fill="#b9c8e6" stroke="#3d5a8a" stroke-width="1.6"/>
+<g transform="translate(157,179.0)" fill="none" stroke="#1c1c1c" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="-8" y="-5" width="16" height="13" rx="3"/><circle cx="-3" cy="1.5" r="1.3" fill="#1c1c1c" stroke="none"/><circle cx="3" cy="1.5" r="1.3" fill="#1c1c1c" stroke="none"/><path d="M0,-5 v-4 M-2,-9 h4"/></g>
+<text x="172" y="183.0" class="b">Actor LLM</text>
+<rect x="248" y="156" width="66" height="46" rx="8" fill="#cdb08b" stroke="#8a6b45" stroke-width="1.6"/>
+<g transform="translate(265,179.0)" fill="none" stroke="#1c1c1c" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M2,-9 L-5,1 h5 L-2,9 L6,-1 h-5 z"/></g>
+<text x="280" y="183.0" class="b">Action</text>
+<path d="M120,179 L140,179" fill="none" stroke="#1c1c1c" stroke-width="1.6" marker-end="url(#arr)"/>
+<path d="M230,179 L248,179" fill="none" stroke="#1c1c1c" stroke-width="1.6" marker-end="url(#arr)"/>
+<path d="M281,202 L281,220 L72,220 L72,202" fill="none" stroke="#1c1c1c" stroke-width="1.6" marker-end="url(#arr)"/>
+<rect x="96" y="60" width="146" height="44" rx="8" fill="none" stroke="#5f5f5f" stroke-width="1.4" stroke-dasharray="5,4"/>
+<text x="169.0" y="86" class="m" text-anchor="middle">no store</text>
+<text x="169.0" y="243" class="m" text-anchor="middle">the briefing leaves the window after 6 steps</text>
+<rect x="341" y="10" width="318" height="242" rx="14" fill="#e8ebf2"/>
+<text x="500.0" y="36" class="t" text-anchor="middle">B. BANK (re-injected briefing)</text>
+<rect x="355" y="156" width="96" height="46" rx="8" fill="#ffffff" stroke="#1c1c1c" stroke-width="1.6"/>
+<g transform="translate(372,179.0)" fill="none" stroke="#1c1c1c" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M-9,0 q9,-8 18,0 q-9,8 -18,0 z"/><circle cx="0" cy="0" r="2.6"/></g>
+<text x="387" y="176.25" class="b">Observation</text>
+<text x="387" y="189.75" class="m">+ last 6 steps</text>
+<rect x="471" y="156" width="90" height="46" rx="8" fill="#b9c8e6" stroke="#3d5a8a" stroke-width="1.6"/>
+<g transform="translate(488,179.0)" fill="none" stroke="#1c1c1c" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="-8" y="-5" width="16" height="13" rx="3"/><circle cx="-3" cy="1.5" r="1.3" fill="#1c1c1c" stroke="none"/><circle cx="3" cy="1.5" r="1.3" fill="#1c1c1c" stroke="none"/><path d="M0,-5 v-4 M-2,-9 h4"/></g>
+<text x="503" y="183.0" class="b">Actor LLM</text>
+<rect x="579" y="156" width="66" height="46" rx="8" fill="#cdb08b" stroke="#8a6b45" stroke-width="1.6"/>
+<g transform="translate(596,179.0)" fill="none" stroke="#1c1c1c" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M2,-9 L-5,1 h5 L-2,9 L6,-1 h-5 z"/></g>
+<text x="611" y="183.0" class="b">Action</text>
+<path d="M451,179 L471,179" fill="none" stroke="#1c1c1c" stroke-width="1.6" marker-end="url(#arr)"/>
+<path d="M561,179 L579,179" fill="none" stroke="#1c1c1c" stroke-width="1.6" marker-end="url(#arr)"/>
+<path d="M612,202 L612,220 L403,220 L403,202" fill="none" stroke="#1c1c1c" stroke-width="1.6" marker-end="url(#arr)"/>
+<rect x="405" y="60" width="200" height="58" rx="8" fill="#ffffff" stroke="#1c1c1c" stroke-width="1.6"/>
+<g transform="translate(422,89.0)" fill="none" stroke="#1c1c1c" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M-6,-9 h8 l5,5 v13 h-13 z"/><path d="M2,-9 v5 h5 M-3,0 h7 M-3,4 h7"/></g>
+<text x="437" y="80.0" class="b">Briefing, verbatim</text>
+<text x="437" y="93.0" class="m">chores + “if you notice the</text>
+<text x="437" y="106.0" class="m">Toaster is ON, turn it off”</text>
+<path d="M517,134 L517,156" fill="none" stroke="#1c1c1c" stroke-width="1.6" marker-end="url(#arr)"/>
+<text x="523" y="148" class="m">prepended at every step</text>
+<text x="500.0" y="243" class="m" text-anchor="middle">never updated; the cancel message is only in the history</text>
+<rect x="672" y="10" width="318" height="242" rx="14" fill="#e8ebf2"/>
+<text x="831.0" y="36" class="t" text-anchor="middle">C. RETR (lexical retrieval)</text>
+<rect x="686" y="156" width="96" height="46" rx="8" fill="#ffffff" stroke="#1c1c1c" stroke-width="1.6"/>
+<g transform="translate(703,179.0)" fill="none" stroke="#1c1c1c" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M-9,0 q9,-8 18,0 q-9,8 -18,0 z"/><circle cx="0" cy="0" r="2.6"/></g>
+<text x="718" y="176.25" class="b">Observation</text>
+<text x="718" y="189.75" class="m">+ last 6 steps</text>
+<rect x="802" y="156" width="90" height="46" rx="8" fill="#b9c8e6" stroke="#3d5a8a" stroke-width="1.6"/>
+<g transform="translate(819,179.0)" fill="none" stroke="#1c1c1c" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="-8" y="-5" width="16" height="13" rx="3"/><circle cx="-3" cy="1.5" r="1.3" fill="#1c1c1c" stroke="none"/><circle cx="3" cy="1.5" r="1.3" fill="#1c1c1c" stroke="none"/><path d="M0,-5 v-4 M-2,-9 h4"/></g>
+<text x="834" y="183.0" class="b">Actor LLM</text>
+<rect x="910" y="156" width="66" height="46" rx="8" fill="#cdb08b" stroke="#8a6b45" stroke-width="1.6"/>
+<g transform="translate(927,179.0)" fill="none" stroke="#1c1c1c" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M2,-9 L-5,1 h5 L-2,9 L6,-1 h-5 z"/></g>
+<text x="942" y="183.0" class="b">Action</text>
+<path d="M782,179 L802,179" fill="none" stroke="#1c1c1c" stroke-width="1.6" marker-end="url(#arr)"/>
+<path d="M892,179 L910,179" fill="none" stroke="#1c1c1c" stroke-width="1.6" marker-end="url(#arr)"/>
+<path d="M943,202 L943,220 L734,220 L734,202" fill="none" stroke="#1c1c1c" stroke-width="1.6" marker-end="url(#arr)"/>
+<path d="M686,65 v48 a47.0,7 0 0 0 94,0 v-48" fill="#ffffff" stroke="#1c1c1c" stroke-width="1.6"/>
+<ellipse cx="733.0" cy="65" rx="47.0" ry="7" fill="#ffffff" stroke="#1c1c1c" stroke-width="1.6"/>
+<text x="733.0" y="90.0" class="b" text-anchor="middle">All past</text>
+<text x="733.0" y="103.0" class="b" text-anchor="middle">messages</text>
+<rect x="804" y="66" width="172" height="46" rx="8" fill="#ffffff" stroke="#1c1c1c" stroke-width="1.6"/>
+<g transform="translate(821,89.0)" fill="none" stroke="#1c1c1c" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="-2" cy="-2" r="6"/><path d="M2.5,2.5 L8,8"/></g>
+<text x="836" y="86.5" class="b">Top-3 by lexical</text>
+<text x="836" y="99.5" class="m">match to the observation</text>
+<path d="M780,90 L804,90" fill="none" stroke="#1c1c1c" stroke-width="1.6" marker-end="url(#arr)"/>
+<path d="M890,112 L890,122 L848,122 L848,156" fill="none" stroke="#1c1c1c" stroke-width="1.6" marker-end="url(#arr)"/>
+<text x="854" y="148" class="m">prepended</text>
+<text x="831.0" y="243" class="m" text-anchor="middle">the cancel message is stored, but rarely retrieved</text>
+<rect x="10" y="268" width="318" height="242" rx="14" fill="#e8ebf2"/>
+<text x="169.0" y="294" class="t" text-anchor="middle">D. SUMM (rolling summary)</text>
+<rect x="24" y="414" width="96" height="46" rx="8" fill="#ffffff" stroke="#1c1c1c" stroke-width="1.6"/>
+<g transform="translate(41,437.0)" fill="none" stroke="#1c1c1c" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M-9,0 q9,-8 18,0 q-9,8 -18,0 z"/><circle cx="0" cy="0" r="2.6"/></g>
+<text x="56" y="434.25" class="b">Observation</text>
+<text x="56" y="447.75" class="m">+ last 6 steps</text>
+<rect x="140" y="414" width="90" height="46" rx="8" fill="#b9c8e6" stroke="#3d5a8a" stroke-width="1.6"/>
+<g transform="translate(157,437.0)" fill="none" stroke="#1c1c1c" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="-8" y="-5" width="16" height="13" rx="3"/><circle cx="-3" cy="1.5" r="1.3" fill="#1c1c1c" stroke="none"/><circle cx="3" cy="1.5" r="1.3" fill="#1c1c1c" stroke="none"/><path d="M0,-5 v-4 M-2,-9 h4"/></g>
+<text x="172" y="441.0" class="b">Actor LLM</text>
+<rect x="248" y="414" width="66" height="46" rx="8" fill="#cdb08b" stroke="#8a6b45" stroke-width="1.6"/>
+<g transform="translate(265,437.0)" fill="none" stroke="#1c1c1c" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M2,-9 L-5,1 h5 L-2,9 L6,-1 h-5 z"/></g>
+<text x="280" y="441.0" class="b">Action</text>
+<path d="M120,437 L140,437" fill="none" stroke="#1c1c1c" stroke-width="1.6" marker-end="url(#arr)"/>
+<path d="M230,437 L248,437" fill="none" stroke="#1c1c1c" stroke-width="1.6" marker-end="url(#arr)"/>
+<path d="M281,460 L281,478 L72,478 L72,460" fill="none" stroke="#1c1c1c" stroke-width="1.6" marker-end="url(#arr)"/>
+<rect x="24" y="320" width="128" height="50" rx="8" fill="#b9c8e6" stroke="#3d5a8a" stroke-width="1.6"/>
+<g transform="translate(41,345.0)" fill="none" stroke="#1c1c1c" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="-8" y="-5" width="16" height="13" rx="3"/><circle cx="-3" cy="1.5" r="1.3" fill="#1c1c1c" stroke="none"/><circle cx="3" cy="1.5" r="1.3" fill="#1c1c1c" stroke="none"/><path d="M0,-5 v-4 M-2,-9 h4"/></g>
+<text x="56" y="342.25" class="b">Summarizer LLM</text>
+<text x="56" y="355.75" class="m">every 6 steps</text>
+<path d="M72,414 L72,370" fill="none" stroke="#1c1c1c" stroke-width="1.6" stroke-dasharray="4,3" marker-end="url(#arr)"/>
+<text x="78" y="394" class="m">reads</text>
+<rect x="174" y="320" width="140" height="50" rx="8" fill="#ffffff" stroke="#1c1c1c" stroke-width="1.6"/>
+<g transform="translate(191,345.0)" fill="none" stroke="#1c1c1c" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M-8,8 l2,-6 l10,-10 l4,4 l-10,10 z"/><path d="M2,-6 l4,4"/></g>
+<text x="206" y="342.5" class="b">Summary</text>
+<text x="206" y="355.5" class="m">free text, rewritten</text>
+<path d="M152,345 L174,345" fill="none" stroke="#1c1c1c" stroke-width="1.6" marker-end="url(#arr)"/>
+<path d="M244,370 L244,380 L186,380 L186,414" fill="none" stroke="#1c1c1c" stroke-width="1.6" marker-end="url(#arr)"/>
+<text x="192" y="406" class="m">prepended</text>
+<text x="169.0" y="501" class="m" text-anchor="middle">the summary usually says “(cancelled)” and keeps the imperative</text>
+<rect x="341" y="268" width="318" height="242" rx="14" fill="#e8ebf2"/>
+<text x="500.0" y="294" class="t" text-anchor="middle">E. RWIM-LEDGER (self-kept ledger)</text>
+<rect x="355" y="414" width="96" height="46" rx="8" fill="#ffffff" stroke="#1c1c1c" stroke-width="1.6"/>
+<g transform="translate(372,437.0)" fill="none" stroke="#1c1c1c" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M-9,0 q9,-8 18,0 q-9,8 -18,0 z"/><circle cx="0" cy="0" r="2.6"/></g>
+<text x="387" y="434.25" class="b">Observation</text>
+<text x="387" y="447.75" class="m">+ last 6 steps</text>
+<rect x="471" y="414" width="90" height="46" rx="8" fill="#b9c8e6" stroke="#3d5a8a" stroke-width="1.6"/>
+<g transform="translate(488,437.0)" fill="none" stroke="#1c1c1c" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="-8" y="-5" width="16" height="13" rx="3"/><circle cx="-3" cy="1.5" r="1.3" fill="#1c1c1c" stroke="none"/><circle cx="3" cy="1.5" r="1.3" fill="#1c1c1c" stroke="none"/><path d="M0,-5 v-4 M-2,-9 h4"/></g>
+<text x="503" y="441.0" class="b">Actor LLM</text>
+<rect x="579" y="414" width="66" height="46" rx="8" fill="#cdb08b" stroke="#8a6b45" stroke-width="1.6"/>
+<g transform="translate(596,437.0)" fill="none" stroke="#1c1c1c" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M2,-9 L-5,1 h5 L-2,9 L6,-1 h-5 z"/></g>
+<text x="611" y="441.0" class="b">Action</text>
+<path d="M451,437 L471,437" fill="none" stroke="#1c1c1c" stroke-width="1.6" marker-end="url(#arr)"/>
+<path d="M561,437 L579,437" fill="none" stroke="#1c1c1c" stroke-width="1.6" marker-end="url(#arr)"/>
+<path d="M612,460 L612,478 L403,478 L403,460" fill="none" stroke="#1c1c1c" stroke-width="1.6" marker-end="url(#arr)"/>
+<rect x="355" y="318" width="136" height="50" rx="8" fill="#b9c8e6" stroke="#3d5a8a" stroke-width="1.6"/>
+<g transform="translate(372,343.0)" fill="none" stroke="#1c1c1c" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="-8" y="-5" width="16" height="13" rx="3"/><circle cx="-3" cy="1.5" r="1.3" fill="#1c1c1c" stroke="none"/><circle cx="3" cy="1.5" r="1.3" fill="#1c1c1c" stroke="none"/><path d="M0,-5 v-4 M-2,-9 h4"/></g>
+<text x="387" y="340.5" class="b">Bookkeeper LLM</text>
+<text x="387" y="353.5" class="m">same model, each step</text>
+<path d="M403,414 L403,368" fill="none" stroke="#1c1c1c" stroke-width="1.6" stroke-dasharray="4,3" marker-end="url(#arr)"/>
+<text x="409" y="394" class="m">reads</text>
+<rect x="519" y="314" width="126" height="51" fill="#ffffff" stroke="#1c1c1c" stroke-width="1.4"/>
+<rect x="519" y="314" width="126" height="17" fill="#ececec" stroke="#1c1c1c" stroke-width="1.4"/>
+<line x1="519" y1="331" x2="645" y2="331" stroke="#1c1c1c" stroke-width="0.8"/>
+<line x1="519" y1="348" x2="645" y2="348" stroke="#1c1c1c" stroke-width="0.8"/>
+<line x1="577" y1="314" x2="577" y2="365" stroke="#1c1c1c" stroke-width="0.8"/>
+<text x="548.0" y="326" class="bb" text-anchor="middle" font-size="9.6">trigger</text>
+<text x="611.0" y="326" class="bb" text-anchor="middle">status</text>
+<text x="548.0" y="343" class="c" text-anchor="middle" font-size="9.6">Toaster</text>
+<text x="611.0" y="343" class="c" text-anchor="middle" style="font-size:9px">CANCELLED</text>
+<text x="548.0" y="360" class="c" text-anchor="middle" font-size="9.6">Faucet</text>
+<text x="611.0" y="360" class="c" text-anchor="middle" style="font-size:9px">active</text>
+<path d="M491,343 L519,343" fill="none" stroke="#1c1c1c" stroke-width="1.6" marker-end="url(#arr)"/>
+<path d="M582,365 L582,380 L517,380 L517,414" fill="none" stroke="#1c1c1c" stroke-width="1.6" marker-end="url(#arr)"/>
+<text x="523" y="395" class="m">+ task board (chores)</text>
+<text x="523" y="407" class="m">rendered in fixed wording</text>
+<text x="500.0" y="501" class="m" text-anchor="middle">reads the messages itself; no access to the true cancel step</text>
+<rect x="672" y="268" width="318" height="242" rx="14" fill="#e8ebf2"/>
+<text x="831.0" y="294" class="t" text-anchor="middle">F. SCHED (status-tracked, reference)</text>
+<rect x="686" y="414" width="96" height="46" rx="8" fill="#ffffff" stroke="#1c1c1c" stroke-width="1.6"/>
+<g transform="translate(703,437.0)" fill="none" stroke="#1c1c1c" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M-9,0 q9,-8 18,0 q-9,8 -18,0 z"/><circle cx="0" cy="0" r="2.6"/></g>
+<text x="718" y="434.25" class="b">Observation</text>
+<text x="718" y="447.75" class="m">+ last 6 steps</text>
+<rect x="802" y="414" width="90" height="46" rx="8" fill="#b9c8e6" stroke="#3d5a8a" stroke-width="1.6"/>
+<g transform="translate(819,437.0)" fill="none" stroke="#1c1c1c" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="-8" y="-5" width="16" height="13" rx="3"/><circle cx="-3" cy="1.5" r="1.3" fill="#1c1c1c" stroke="none"/><circle cx="3" cy="1.5" r="1.3" fill="#1c1c1c" stroke="none"/><path d="M0,-5 v-4 M-2,-9 h4"/></g>
+<text x="834" y="441.0" class="b">Actor LLM</text>
+<rect x="910" y="414" width="66" height="46" rx="8" fill="#cdb08b" stroke="#8a6b45" stroke-width="1.6"/>
+<g transform="translate(927,437.0)" fill="none" stroke="#1c1c1c" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M2,-9 L-5,1 h5 L-2,9 L6,-1 h-5 z"/></g>
+<text x="942" y="441.0" class="b">Action</text>
+<path d="M782,437 L802,437" fill="none" stroke="#1c1c1c" stroke-width="1.6" marker-end="url(#arr)"/>
+<path d="M892,437 L910,437" fill="none" stroke="#1c1c1c" stroke-width="1.6" marker-end="url(#arr)"/>
+<path d="M943,460 L943,478 L734,478 L734,460" fill="none" stroke="#1c1c1c" stroke-width="1.6" marker-end="url(#arr)"/>
+<rect x="686" y="318" width="136" height="50" rx="8" fill="#d9d9d9" stroke="#6b6b6b" stroke-width="1.6"/>
+<g transform="translate(703,343.0)" fill="none" stroke="#1c1c1c" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="0" cy="0" r="3.2"/><path d="M0,-9 v3 M0,9 v-3 M-9,0 h3 M9,0 h-3 M-6.4,-6.4 l2.1,2.1 M6.4,6.4 l-2.1,-2.1 M-6.4,6.4 l2.1,-2.1 M6.4,-6.4 l-2.1,2.1"/></g>
+<text x="718" y="340.5" class="b">Harness (program)</text>
+<text x="718" y="353.5" class="m">status from cancel step</text>
+<rect x="850" y="314" width="126" height="51" fill="#ffffff" stroke="#1c1c1c" stroke-width="1.4"/>
+<rect x="850" y="314" width="126" height="17" fill="#ececec" stroke="#1c1c1c" stroke-width="1.4"/>
+<line x1="850" y1="331" x2="976" y2="331" stroke="#1c1c1c" stroke-width="0.8"/>
+<line x1="850" y1="348" x2="976" y2="348" stroke="#1c1c1c" stroke-width="0.8"/>
+<line x1="908" y1="314" x2="908" y2="365" stroke="#1c1c1c" stroke-width="0.8"/>
+<text x="879.0" y="326" class="bb" text-anchor="middle" font-size="9.6">trigger</text>
+<text x="942.0" y="326" class="bb" text-anchor="middle">status</text>
+<text x="879.0" y="343" class="c" text-anchor="middle" font-size="9.6">Toaster</text>
+<text x="942.0" y="343" class="c" text-anchor="middle" style="font-size:9px">CANCELLED</text>
+<text x="879.0" y="360" class="c" text-anchor="middle" font-size="9.6">Faucet</text>
+<text x="942.0" y="360" class="c" text-anchor="middle" style="font-size:9px">active</text>
+<path d="M822,343 L850,343" fill="none" stroke="#1c1c1c" stroke-width="1.6" marker-end="url(#arr)"/>
+<path d="M913,365 L913,380 L848,380 L848,414" fill="none" stroke="#1c1c1c" stroke-width="1.6" marker-end="url(#arr)"/>
+<text x="854" y="395" class="m">+ task board (chores)</text>
+<text x="854" y="407" class="m">rendered in fixed wording</text>
+<text x="831.0" y="501" class="m" text-anchor="middle">same ledger as E, written from ground truth</text>
+</svg>

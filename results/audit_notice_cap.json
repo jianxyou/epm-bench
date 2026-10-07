@@ -1,0 +1,236 @@
+[
+ {
+  "seed": 0,
+  "policy": "llm-bank",
+  "t": 7,
+  "trigger": "CoffeeMachine",
+  "in_text": false,
+  "n_visible": 16,
+  "thor_says_visible": true
+ },
+ {
+  "seed": 2,
+  "policy": "llm-bank",
+  "t": 18,
+  "trigger": "Microwave",
+  "in_text": true,
+  "n_visible": 26,
+  "thor_says_visible": true
+ },
+ {
+  "seed": 4,
+  "policy": "llm-bank",
+  "t": 25,
+  "trigger": "Toaster",
+  "in_text": true,
+  "n_visible": 13,
+  "thor_says_visible": true
+ },
+ {
+  "seed": 5,
+  "policy": "llm-bank",
+  "t": 17,
+  "trigger": "Toaster",
+  "in_text": true,
+  "n_visible": 7,
+  "thor_says_visible": true
+ },
+ {
+  "seed": 8,
+  "policy": "llm-bank",
+  "t": 11,
+  "trigger": "Toaster",
+  "in_text": true,
+  "n_visible": 13,
+  "thor_says_visible": true
+ },
+ {
+  "seed": 9,
+  "policy": "llm-bank",
+  "t": 7,
+  "trigger": "Toaster",
+  "in_text": true,
+  "n_visible": 14,
+  "thor_says_visible": true
+ },
+ {
+  "seed": 10,
+  "policy": "llm-bank",
+  "t": 11,
+  "trigger": "Faucet",
+  "in_text": true,
+  "n_visible": 13,
+  "thor_says_visible": true
+ },
+ {
+  "seed": 11,
+  "policy": "llm-bank",
+  "t": 34,
+  "trigger": "Faucet",
+  "in_text": true,
+  "n_visible": 11,
+  "thor_says_visible": true
+ },
+ {
+  "seed": 12,
+  "policy": "llm-bank",
+  "t": 10,
+  "trigger": "Toaster",
+  "in_text": true,
+  "n_visible": 14,
+  "thor_says_visible": true
+ },
+ {
+  "seed": 13,
+  "policy": "llm-bank",
+  "t": 7,
+  "trigger": "Faucet",
+  "in_text": true,
+  "n_visible": 16,
+  "thor_says_visible": true
+ },
+ {
+  "seed": 14,
+  "policy": "llm-bank",
+  "t": 8,
+  "trigger": "Microwave",
+  "in_text": true,
+  "n_visible": 26,
+  "thor_says_visible": true
+ },
+ {
+  "seed": 16,
+  "policy": "llm-bank",
+  "t": 7,
+  "trigger": "CoffeeMachine",
+  "in_text": false,
+  "n_visible": 13,
+  "thor_says_visible": true
+ },
+ {
+  "seed": 17,
+  "policy": "llm-bank",
+  "t": 23,
+  "trigger": "Microwave",
+  "in_text": false,
+  "n_visible": 26,
+  "thor_says_visible": true
+ },
+ {
+  "seed": 18,
+  "policy": "llm-bank",
+  "t": 11,
+  "trigger": "CoffeeMachine",
+  "in_text": true,
+  "n_visible": 13,
+  "thor_says_visible": true
+ },
+ {
+  "seed": 19,
+  "policy": "llm-bank",
+  "t": 11,
+  "trigger": "CoffeeMachine",
+  "in_text": true,
+  "n_visible": 14,
+  "thor_says_visible": true
+ },
+ {
+  "seed": 0,
+  "policy": "llm-sched2",
+  "t": 7,
+  "trigger": "CoffeeMachine",
+  "in_text": false,
+  "n_visible": 16,
+  "thor_says_visible": true
+ },
+ {
+  "seed": 5,
+  "policy": "llm-sched2",
+  "t": 9,
+  "trigger": "Toaster",
+  "in_text": true,
+  "n_visible": 8,
+  "thor_says_visible": true
+ },
+ {
+  "seed": 8,
+  "policy": "llm-sched2",
+  "t": 11,
+  "trigger": "Toaster",
+  "in_text": true,
+  "n_visible": 13,
+  "thor_says_visible": true
+ },
+ {
+  "seed": 9,
+  "policy": "llm-sched2",
+  "t": 20,
+  "trigger": "Toaster",
+  "in_text": true,
+  "n_visible": 7,
+  "thor_says_visible": true
+ },
+ {
+  "seed": 10,
+  "policy": "llm-sched2",
+  "t": 11,
+  "trigger": "Faucet",
+  "in_text": true,
+  "n_visible": 13,
+  "thor_says_visible": true
+ },
+ {
+  "seed": 11,
+  "policy": "llm-sched2",
+  "t": 18,
+  "trigger": "Faucet",
+  "in_text": true,
+  "n_visible": 13,
+  "thor_says_visible": true
+ },
+ {
+  "seed": 12,
+  "policy": "llm-sched2",
+  "t": 7,
+  "trigger": "Toaster",
+  "in_text": true,
+  "n_visible": 8,
+  "thor_says_visible": true
+ },
+ {
+  "seed": 13,
+  "policy": "llm-sched2",
+  "t": 7,
+  "trigger": "Faucet",
+  "in_text": true,
+  "n_visible": 16,
+  "thor_says_visible": true
+ },
+ {
+  "seed": 15,
+  "policy": "llm-sched2",
+  "t": 21,
+  "trigger": "Toaster",
+  "in_text": true,
+  "n_visible": 13,
+  "thor_says_visible": true
+ },
+ {
+  "seed": 16,
+  "policy": "llm-sched2",
+  "t": 7,
+  "trigger": "CoffeeMachine",
+  "in_text": true,
+  "n_visible": 13,
+  "thor_says_visible": true
+ },
+ {
+  "seed": 19,
+  "policy": "llm-sched2",
+  "t": 10,
+  "trigger": "CoffeeMachine",
+  "in_text": true,
+  "n_visible": 14,
+  "thor_says_visible": true
+ }
+]

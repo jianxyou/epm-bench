@@ -1,0 +1,3 @@
+ts,policy,seed,scene,delay,cancel,trigger,visibility,n_intentions,event_step,first_visible_step,exec_step,executed,executed_frac,cancelled,cancel_step,executed_after_cancel,eac_strict,trigger_on_route,steps_total,chores_done,api_tokens
+1786849043,mock-bankw6,0,FloorPlan1,6,none,CoffeeMachine,1.5,1,6,7,7,True,1.0,False,,False,False,True,40,5,0
+1786849044,mock-bankw6,1,FloorPlan1,6,none,CoffeeMachine,1.5,1,6,21,22,True,1.0,False,,False,False,False,40,5,0

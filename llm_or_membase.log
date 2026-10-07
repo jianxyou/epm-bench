@@ -1,0 +1,25 @@
+resume: 1080 episodes already in results/llm_or_gpt4omini.csv
+[llm:retr] 25/40 (0.02 ep/s)
+policy llm:retr done (40 total)
+[llm:summ] 25/40 (0.02 ep/s)
+policy llm:summ done (80 total)
+TOTAL 80 episodes in 71.1 min -> results/llm_or_gpt4omini.csv
+resume: 1160 episodes already in results/llm_or_gpt4omini.csv
+[llm:retr] 25/40 (0.02 ep/s)
+policy llm:retr done (40 total)
+[llm:summ] 25/40 (0.00 ep/s)
+policy llm:summ done (80 total)
+TOTAL 80 episodes in 273.6 min -> results/llm_or_gpt4omini.csv
+resume: 720 episodes already in results/llm_or_gemini.csv
+[llm:retr] 25/40 (0.00 ep/s)
+policy llm:retr done (40 total)
+[llm:summ] 25/40 (0.00 ep/s)
+policy llm:summ done (80 total)
+TOTAL 80 episodes in 317.7 min -> results/llm_or_gemini.csv
+resume: 800 episodes already in results/llm_or_gemini.csv
+[llm:retr] 25/40 (0.01 ep/s)
+policy llm:retr done (40 total)
+[llm:summ] 25/40 (0.02 ep/s)
+policy llm:summ done (80 total)
+TOTAL 80 episodes in 59.7 min -> results/llm_or_gemini.csv
+MEMBASE_DONE Thu 17 Sep 2026 10:29:48 EDT

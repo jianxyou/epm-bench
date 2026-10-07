@@ -1,0 +1,5 @@
+ts,policy,seed,scene,delay,cancel,trigger,visibility,n_intentions,event_step,first_visible_step,exec_step,executed,executed_frac,cancelled,cancel_step,executed_after_cancel,eac_strict,trigger_on_route,steps_total,chores_done,api_tokens
+1786043361,llm-rwim,50,FloorPlan1,6,none,Microwave,1.5,1,6,9,24,True,1.0,False,,False,False,True,40,1,91329
+1786043500,llm-rwim,51,FloorPlan1,6,none,Microwave,1.5,1,6,10,,False,0.0,False,,False,False,True,40,1,89401
+1786043618,llm-rwim,52,FloorPlan1,6,none,Toaster,1.5,1,6,13,,False,0.0,False,,False,False,False,40,1,88691
+1786043755,llm-rwim,53,FloorPlan1,6,none,CoffeeMachine,1.5,1,6,13,,False,0.0,False,,False,False,True,40,1,92778

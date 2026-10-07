@@ -1,0 +1,61 @@
+resume: 1063 episodes already in results/llm_or_gemini.csv
+[llm:retr] 25/30 (0.05 ep/s)
+policy llm:retr done (30 total)
+TOTAL 30 episodes in 10.8 min -> results/llm_or_gemini.csv
+resume: 1093 episodes already in results/llm_or_gemini.csv
+[llm:retr] 25/30 (0.05 ep/s)
+policy llm:retr done (30 total)
+TOTAL 30 episodes in 10.4 min -> results/llm_or_gemini.csv
+resume: 1123 episodes already in results/llm_or_gemini.csv
+[llm:retr] 25/30 (0.05 ep/s)
+policy llm:retr done (30 total)
+TOTAL 30 episodes in 10.8 min -> results/llm_or_gemini.csv
+resume: 200 episodes already in results/llm_or_gemini_ctrl2.csv
+[llm:retr] 25/30 (0.05 ep/s)
+policy llm:retr done (30 total)
+TOTAL 30 episodes in 10.7 min -> results/llm_or_gemini_ctrl2.csv
+PASS1 llm:retr done balance=22.677088520999973 Sun  4 Oct 2026 15:18:12 EDT
+resume: 1153 episodes already in results/llm_or_gemini.csv
+[llm:summ] 25/30 (0.02 ep/s)
+policy llm:summ done (30 total)
+TOTAL 30 episodes in 22.6 min -> results/llm_or_gemini.csv
+resume: 1183 episodes already in results/llm_or_gemini.csv
+[llm:summ] 25/30 (0.04 ep/s)
+policy llm:summ done (30 total)
+TOTAL 30 episodes in 11.6 min -> results/llm_or_gemini.csv
+resume: 1225 episodes already in results/llm_or_gemini.csv
+[llm:summ] 25/30 (0.04 ep/s)
+policy llm:summ done (30 total)
+TOTAL 30 episodes in 12.1 min -> results/llm_or_gemini.csv
+resume: 230 episodes already in results/llm_or_gemini_ctrl2.csv
+[llm:summ] 25/30 (0.04 ep/s)
+policy llm:summ done (30 total)
+TOTAL 30 episodes in 11.3 min -> results/llm_or_gemini_ctrl2.csv
+PASS1 llm:summ done balance=19.454440750999993 Sun  4 Oct 2026 16:15:55 EDT
+resume: 1284 episodes already in results/llm_or_gemini.csv
+policy llm:retr done (0 total)
+TOTAL 0 episodes in 0.0 min -> results/llm_or_gemini.csv
+resume: 1284 episodes already in results/llm_or_gemini.csv
+policy llm:retr done (0 total)
+TOTAL 0 episodes in 0.0 min -> results/llm_or_gemini.csv
+resume: 1284 episodes already in results/llm_or_gemini.csv
+policy llm:retr done (0 total)
+TOTAL 0 episodes in 0.0 min -> results/llm_or_gemini.csv
+resume: 260 episodes already in results/llm_or_gemini_ctrl2.csv
+policy llm:retr done (0 total)
+TOTAL 0 episodes in 0.0 min -> results/llm_or_gemini_ctrl2.csv
+PASS2 llm:retr done balance=19.430843217000017 Sun  4 Oct 2026 16:16:07 EDT
+resume: 1285 episodes already in results/llm_or_gemini.csv
+policy llm:summ done (0 total)
+TOTAL 0 episodes in 0.0 min -> results/llm_or_gemini.csv
+resume: 1285 episodes already in results/llm_or_gemini.csv
+policy llm:summ done (0 total)
+TOTAL 0 episodes in 0.0 min -> results/llm_or_gemini.csv
+resume: 1285 episodes already in results/llm_or_gemini.csv
+policy llm:summ done (0 total)
+TOTAL 0 episodes in 0.0 min -> results/llm_or_gemini.csv
+resume: 260 episodes already in results/llm_or_gemini_ctrl2.csv
+policy llm:summ done (0 total)
+TOTAL 0 episodes in 0.0 min -> results/llm_or_gemini_ctrl2.csv
+PASS2 llm:summ done balance=19.430843217000017 Sun  4 Oct 2026 16:16:18 EDT
+SEED50_gemini_DONE Sun  4 Oct 2026 16:16:18 EDT

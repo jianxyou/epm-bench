@@ -1,0 +1,24 @@
+resume: 820 episodes already in results/llm_or_gpt4omini.csv
+[llm:bank] 25/40 (0.01 ep/s)
+[llm:rwim3] 25/40 (0.01 ep/s)
+policy llm:bank done (40 total)
+policy llm:rwim3 done (40 total)
+TOTAL 40 episodes in 74.3 min -> results/llm_or_gpt4omini.csv
+resume: 860 episodes already in results/llm_or_gpt4omini.csv
+[llm:sched2] 25/40 (0.01 ep/s)
+[llm:rwim3] 25/40 (0.01 ep/s)
+policy llm:sched2 done (80 total)
+TOTAL 80 episodes in 111.7 min -> results/llm_or_gpt4omini_rgb.csv
+NIGHT2_DONE Tue 15 Sep 2026 03:05:36 EDT
+policy llm:rwim3 done (40 total)
+TOTAL 40 episodes in 51.4 min -> results/llm_or_gpt4omini.csv
+RWIM_DONE Tue 15 Sep 2026 03:18:06 EDT
+RGB_GEMINI_SMOKE_OK Tue 15 Sep 2026 10:53:20 EDT
+llm:bank thor/FloorPlan1/s2/d6/l1 cancel_early attempt1: APIConnectionError Connection error.
+llm:bank thor/FloorPlan1/s2/d6/l1 cancel_early attempt2: APIConnectionError Connection error.
+[llm:bank] 25/40 (0.00 ep/s)
+policy llm:bank done (39 total)
+[llm:sched2] 25/40 (0.00 ep/s)
+policy llm:sched2 done (79 total)
+TOTAL 79 episodes in 290.5 min -> results/llm_or_gemini_rgb.csv
+RGB_GEMINI_DONE Tue 15 Sep 2026 15:43:54 EDT

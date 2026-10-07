@@ -1,0 +1,60 @@
+TOPUP_QUEUE_START balance=20.531488620000005 Sun 20 Sep 2026 13:14:21 EDT
+[llm:bank] 25/50 (0.04 ep/s)
+[llm:bank] 25/50 (0.02 ep/s)
+[llm:bank] 50/50 (0.04 ep/s)
+policy llm:bank done (50 total)
+[llm:sched2] 25/50 (0.04 ep/s)
+[llm:bank] 25/50 (0.01 ep/s)
+[llm:bank] 50/50 (0.02 ep/s)
+policy llm:bank done (50 total)
+[llm:sched2] 50/50 (0.04 ep/s)
+policy llm:sched2 done (100 total)
+TOTAL 100 episodes in 45.4 min -> results/llm_or_gemini_ctrl2.csv
+[llm:sched2] 25/50 (0.02 ep/s)
+[llm:bank] 25/50 (0.01 ep/s)
+[llm:bank] 50/50 (0.01 ep/s)
+policy llm:bank done (50 total)
+[llm:sched2] 50/50 (0.02 ep/s)
+policy llm:sched2 done (100 total)
+TOTAL 100 episodes in 83.1 min -> results/llm_or_gpt4omini_ctrl2.csv
+[llm:sched2] 25/50 (0.01 ep/s)
+[llm:bank] 50/50 (0.01 ep/s)
+policy llm:bank done (50 total)
+[llm:sched2] 50/50 (0.01 ep/s)
+policy llm:sched2 done (100 total)
+TOTAL 100 episodes in 172.7 min -> results/llm_or_llama_ctrl2.csv
+[llm:sched2] 25/50 (0.01 ep/s)
+resume: 1300 episodes already in results/llm_or_gpt4omini.csv
+resume: 880 episodes already in results/llm_or_gemini.csv
+resume: 100 episodes already in results/llm_or_gpt4omini_ctrl2.csv
+[llm:retr2] 25/60 (0.04 ep/s)
+[llm:retr2] 25/60 (0.03 ep/s)
+policy llm:retr done (20 total)
+[llm:sched2] 50/50 (0.01 ep/s)
+policy llm:sched2 done (100 total)
+TOTAL 100 episodes in 219.3 min -> results/llm_or_deepseek_ctrl2.csv
+[llm:retr2] 50/60 (0.04 ep/s)
+policy llm:retr2 done (60 total)
+TOTAL 60 episodes in 22.7 min -> results/llm_or_gemini.csv
+resume: 100 episodes already in results/llm_or_gemini_ctrl2.csv
+policy llm:retr2 done (20 total)
+TOTAL 20 episodes in 7.5 min -> results/llm_or_gemini_ctrl2.csv
+[llm:retr2] 50/60 (0.03 ep/s)
+policy llm:summ done (40 total)
+policy llm:retr2 done (60 total)
+TOTAL 60 episodes in 39.1 min -> results/llm_or_gpt4omini.csv
+resume: 142 episodes already in results/llm_or_gpt4omini_ctrl2.csv
+policy llm:retr2 done (20 total)
+TOTAL 20 episodes in 12.4 min -> results/llm_or_gpt4omini_ctrl2.csv
+resume: 120 episodes already in results/llm_or_gemini_ctrl2.csv
+policy llm:retr done (20 total)
+policy llm:rwim3 done (60 total)
+TOTAL 60 episodes in 62.1 min -> results/llm_or_gpt4omini_ctrl2.csv
+policy llm:summ done (40 total)
+policy llm:rwim3 done (60 total)
+TOTAL 60 episodes in 31.6 min -> results/llm_or_gemini_ctrl2.csv
+resume: 100 episodes already in results/llm_or_deepseek_ctrl2.csv
+policy llm:bank done (0 total)
+policy llm:sched2 done (0 total)
+TOTAL 0 episodes in 0.0 min -> results/llm_or_deepseek_ctrl2.csv
+TOPUP_CORE_DONE Sun 20 Sep 2026 18:03:05 EDT

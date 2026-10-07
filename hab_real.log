@@ -1,0 +1,424 @@
++ cd /Users/jianxin/Desktop/my_project/embodied_pm
++ source /Users/jianxin/miniforge3-x86/bin/activate
+++ _CONDA_ROOT=/Users/jianxin/miniforge3-x86
+++ . /Users/jianxin/miniforge3-x86/etc/profile.d/conda.sh
++++ export CONDA_EXE=/Users/jianxin/miniforge3-x86/bin/conda
++++ CONDA_EXE=/Users/jianxin/miniforge3-x86/bin/conda
++++ export _CONDA_EXE=/Users/jianxin/miniforge3-x86/bin/conda
++++ _CONDA_EXE=/Users/jianxin/miniforge3-x86/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/Users/jianxin/miniforge3-x86/bin/python
++++ CONDA_PYTHON_EXE=/Users/jianxin/miniforge3-x86/bin/python
++++ export _CONDA_ROOT=/Users/jianxin/miniforge3-x86
++++ _CONDA_ROOT=/Users/jianxin/miniforge3-x86
++++ '[' -z '' ']'
++++ export CONDA_SHLVL=0
++++ CONDA_SHLVL=0
++++ '[' -n '' ']'
++++++ dirname /Users/jianxin/miniforge3-x86/bin/conda
+++++ dirname /Users/jianxin/miniforge3-x86/bin
++++ PATH=/Users/jianxin/miniforge3-x86/condabin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/pkg/env/global/bin:/Users/jianxin/.local/bin
++++ export PATH
++++ '[' -z '' ']'
++++ PS1=
+++ conda activate
+++ local cmd=activate
+++ case "$cmd" in
+++ __conda_activate activate
+++ '[' -n '' ']'
+++ local ask_conda
++++ PS1=
++++ __conda_exe shell.posix activate
++++ '[' -n '' ']'
++++ /Users/jianxin/miniforge3-x86/bin/conda shell.posix activate
+++ ask_conda='export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+PS1='\''(base) '\''
+export PATH='\''/Users/jianxin/miniforge3-x86/bin:/Users/jianxin/miniforge3-x86/condabin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/pkg/env/global/bin:/Users/jianxin/.local/bin'\''
+export CONDA_PREFIX='\''/Users/jianxin/miniforge3-x86'\''
+export CONDA_SHLVL='\''1'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_EXE='\''/Users/jianxin/miniforge3-x86/bin/conda'\''
+export _CONDA_EXE='\''/Users/jianxin/miniforge3-x86/bin/conda'\''
+export CONDA_PYTHON_EXE='\''/Users/jianxin/miniforge3-x86/bin/python'\''
+export _CONDA_ROOT='\''/Users/jianxin/miniforge3-x86'\''
+. "/Users/jianxin/miniforge3-x86/etc/conda/activate.d/libxml2-split_activate.sh"'
+++ eval 'export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+PS1='\''(base) '\''
+export PATH='\''/Users/jianxin/miniforge3-x86/bin:/Users/jianxin/miniforge3-x86/condabin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/pkg/env/global/bin:/Users/jianxin/.local/bin'\''
+export CONDA_PREFIX='\''/Users/jianxin/miniforge3-x86'\''
+export CONDA_SHLVL='\''1'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_EXE='\''/Users/jianxin/miniforge3-x86/bin/conda'\''
+export _CONDA_EXE='\''/Users/jianxin/miniforge3-x86/bin/conda'\''
+export CONDA_PYTHON_EXE='\''/Users/jianxin/miniforge3-x86/bin/python'\''
+export _CONDA_ROOT='\''/Users/jianxin/miniforge3-x86'\''
+. "/Users/jianxin/miniforge3-x86/etc/conda/activate.d/libxml2-split_activate.sh"'
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ PS1='(base) '
++++ export PATH=/Users/jianxin/miniforge3-x86/bin:/Users/jianxin/miniforge3-x86/condabin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/pkg/env/global/bin:/Users/jianxin/.local/bin
++++ PATH=/Users/jianxin/miniforge3-x86/bin:/Users/jianxin/miniforge3-x86/condabin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/pkg/env/global/bin:/Users/jianxin/.local/bin
++++ export CONDA_PREFIX=/Users/jianxin/miniforge3-x86
++++ CONDA_PREFIX=/Users/jianxin/miniforge3-x86
++++ export CONDA_SHLVL=1
++++ CONDA_SHLVL=1
++++ export CONDA_DEFAULT_ENV=base
++++ CONDA_DEFAULT_ENV=base
++++ export 'CONDA_PROMPT_MODIFIER=(base) '
++++ CONDA_PROMPT_MODIFIER='(base) '
++++ export CONDA_EXE=/Users/jianxin/miniforge3-x86/bin/conda
++++ CONDA_EXE=/Users/jianxin/miniforge3-x86/bin/conda
++++ export _CONDA_EXE=/Users/jianxin/miniforge3-x86/bin/conda
++++ _CONDA_EXE=/Users/jianxin/miniforge3-x86/bin/conda
++++ export CONDA_PYTHON_EXE=/Users/jianxin/miniforge3-x86/bin/python
++++ CONDA_PYTHON_EXE=/Users/jianxin/miniforge3-x86/bin/python
++++ export _CONDA_ROOT=/Users/jianxin/miniforge3-x86
++++ _CONDA_ROOT=/Users/jianxin/miniforge3-x86
++++ . /Users/jianxin/miniforge3-x86/etc/conda/activate.d/libxml2-split_activate.sh
+++++ test -n ''
+++++ xml_catalog_files_libxml2=
+++++ XML_CATALOG_FILES=
+++++ conda_catalog_files=
+++++ ifs_libxml2=' 	
+'
+++++ IFS=' '
+++++ rem=/Users/jianxin/miniforge3-x86
+++++ for pre in '${rem}'
+++++ test '' = /Users/jianxin/miniforge3-x86
+++++ conda_catalog_files=/Users/jianxin/miniforge3-x86
+++++ rem=
+++++ IFS=' 	
+'
+++++ conda_catalog_files='file:///Users/jianxin/miniforge3-x86/etc/xml/catalog file:///etc/xml/catalog'
+++++ export 'XML_CATALOG_FILES=file:///Users/jianxin/miniforge3-x86/etc/xml/catalog file:///etc/xml/catalog'
+++++ XML_CATALOG_FILES='file:///Users/jianxin/miniforge3-x86/etc/xml/catalog file:///etc/xml/catalog'
+++++ unset conda_catalog_files ifs_libxml2 rem
+++ __conda_hashr
+++ '[' -n '' ']'
+++ '[' -n '' ']'
+++ hash -r
++ conda activate habitat
++ local cmd=activate
++ case "$cmd" in
++ __conda_activate activate habitat
++ '[' -n '' ']'
++ local ask_conda
+++ PS1='(base) '
+++ __conda_exe shell.posix activate habitat
+++ '[' -n '' ']'
+++ /Users/jianxin/miniforge3-x86/bin/conda shell.posix activate habitat
++ ask_conda='export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+PS1='\''(habitat) '\''
+export PATH='\''/Users/jianxin/miniforge3-x86/envs/habitat/bin:/Users/jianxin/miniforge3-x86/condabin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/pkg/env/global/bin:/Users/jianxin/.local/bin'\''
+export CONDA_PREFIX='\''/Users/jianxin/miniforge3-x86/envs/habitat'\''
+export CONDA_SHLVL='\''2'\''
+export CONDA_DEFAULT_ENV='\''habitat'\''
+export CONDA_PROMPT_MODIFIER='\''(habitat) '\''
+export CONDA_PREFIX_1='\''/Users/jianxin/miniforge3-x86'\''
+export CONDA_EXE='\''/Users/jianxin/miniforge3-x86/bin/conda'\''
+export _CONDA_EXE='\''/Users/jianxin/miniforge3-x86/bin/conda'\''
+export CONDA_PYTHON_EXE='\''/Users/jianxin/miniforge3-x86/bin/python'\''
+export _CONDA_ROOT='\''/Users/jianxin/miniforge3-x86'\''
+. "/Users/jianxin/miniforge3-x86/envs/habitat/etc/conda/activate.d/libglib_activate.sh"
+. "/Users/jianxin/miniforge3-x86/envs/habitat/etc/conda/activate.d/libxml2_activate.sh"'
++ eval 'export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+PS1='\''(habitat) '\''
+export PATH='\''/Users/jianxin/miniforge3-x86/envs/habitat/bin:/Users/jianxin/miniforge3-x86/condabin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/pkg/env/global/bin:/Users/jianxin/.local/bin'\''
+export CONDA_PREFIX='\''/Users/jianxin/miniforge3-x86/envs/habitat'\''
+export CONDA_SHLVL='\''2'\''
+export CONDA_DEFAULT_ENV='\''habitat'\''
+export CONDA_PROMPT_MODIFIER='\''(habitat) '\''
+export CONDA_PREFIX_1='\''/Users/jianxin/miniforge3-x86'\''
+export CONDA_EXE='\''/Users/jianxin/miniforge3-x86/bin/conda'\''
+export _CONDA_EXE='\''/Users/jianxin/miniforge3-x86/bin/conda'\''
+export CONDA_PYTHON_EXE='\''/Users/jianxin/miniforge3-x86/bin/python'\''
+export _CONDA_ROOT='\''/Users/jianxin/miniforge3-x86'\''
+. "/Users/jianxin/miniforge3-x86/envs/habitat/etc/conda/activate.d/libglib_activate.sh"
+. "/Users/jianxin/miniforge3-x86/envs/habitat/etc/conda/activate.d/libxml2_activate.sh"'
+++ export _CE_M=
+++ _CE_M=
+++ export _CE_CONDA=
+++ _CE_CONDA=
+++ PS1='(habitat) '
+++ export PATH=/Users/jianxin/miniforge3-x86/envs/habitat/bin:/Users/jianxin/miniforge3-x86/condabin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/pkg/env/global/bin:/Users/jianxin/.local/bin
+++ PATH=/Users/jianxin/miniforge3-x86/envs/habitat/bin:/Users/jianxin/miniforge3-x86/condabin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/pkg/env/global/bin:/Users/jianxin/.local/bin
+++ export CONDA_PREFIX=/Users/jianxin/miniforge3-x86/envs/habitat
+++ CONDA_PREFIX=/Users/jianxin/miniforge3-x86/envs/habitat
+++ export CONDA_SHLVL=2
+++ CONDA_SHLVL=2
+++ export CONDA_DEFAULT_ENV=habitat
+++ CONDA_DEFAULT_ENV=habitat
+++ export 'CONDA_PROMPT_MODIFIER=(habitat) '
+++ CONDA_PROMPT_MODIFIER='(habitat) '
+++ export CONDA_PREFIX_1=/Users/jianxin/miniforge3-x86
+++ CONDA_PREFIX_1=/Users/jianxin/miniforge3-x86
+++ export CONDA_EXE=/Users/jianxin/miniforge3-x86/bin/conda
+++ CONDA_EXE=/Users/jianxin/miniforge3-x86/bin/conda
+++ export _CONDA_EXE=/Users/jianxin/miniforge3-x86/bin/conda
+++ _CONDA_EXE=/Users/jianxin/miniforge3-x86/bin/conda
+++ export CONDA_PYTHON_EXE=/Users/jianxin/miniforge3-x86/bin/python
+++ CONDA_PYTHON_EXE=/Users/jianxin/miniforge3-x86/bin/python
+++ export _CONDA_ROOT=/Users/jianxin/miniforge3-x86
+++ _CONDA_ROOT=/Users/jianxin/miniforge3-x86
+++ . /Users/jianxin/miniforge3-x86/envs/habitat/etc/conda/activate.d/libglib_activate.sh
++++ export GSETTINGS_SCHEMA_DIR_CONDA_BACKUP=
++++ GSETTINGS_SCHEMA_DIR_CONDA_BACKUP=
++++ export GSETTINGS_SCHEMA_DIR=/Users/jianxin/miniforge3-x86/envs/habitat/share/glib-2.0/schemas
++++ GSETTINGS_SCHEMA_DIR=/Users/jianxin/miniforge3-x86/envs/habitat/share/glib-2.0/schemas
+++ . /Users/jianxin/miniforge3-x86/envs/habitat/etc/conda/activate.d/libxml2_activate.sh
++++ test -n 'file:///Users/jianxin/miniforge3-x86/etc/xml/catalog file:///etc/xml/catalog'
++++ xml_catalog_files_libxml2='file:///Users/jianxin/miniforge3-x86/etc/xml/catalog file:///etc/xml/catalog'
++++ XML_CATALOG_FILES='file:///Users/jianxin/miniforge3-x86/etc/xml/catalog file:///etc/xml/catalog '
++++ conda_catalog_files=
++++ ifs_libxml2=' 	
+'
++++ IFS=' '
++++ rem=/Users/jianxin/miniforge3-x86/envs/habitat
++++ for pre in '${rem}'
++++ test '' = /Users/jianxin/miniforge3-x86/envs/habitat
++++ conda_catalog_files=/Users/jianxin/miniforge3-x86/envs/habitat
++++ rem=
++++ IFS=' 	
+'
++++ conda_catalog_files='file:///Users/jianxin/miniforge3-x86/envs/habitat/etc/xml/catalog file:///etc/xml/catalog'
++++ export 'XML_CATALOG_FILES=file:///Users/jianxin/miniforge3-x86/etc/xml/catalog file:///etc/xml/catalog file:///Users/jianxin/miniforge3-x86/envs/habitat/etc/xml/catalog file:///etc/xml/catalog'
++++ XML_CATALOG_FILES='file:///Users/jianxin/miniforge3-x86/etc/xml/catalog file:///etc/xml/catalog file:///Users/jianxin/miniforge3-x86/envs/habitat/etc/xml/catalog file:///etc/xml/catalog'
++++ unset conda_catalog_files ifs_libxml2 rem
++ __conda_hashr
++ '[' -n '' ']'
++ '[' -n '' ']'
++ hash -r
++ OUT=results/hab_real.csv
++ for mem in none bank sched
++ python pm_habitat.py --policy llm --mem none --real --episodes 10 --out results/hab_real.csv
+PluginManager::Manager: duplicate static plugin AssimpImporter, ignoring
+PluginManager::Manager: duplicate static plugin BasisImporter, ignoring
+PluginManager::Manager: duplicate static plugin AnySceneImporter, ignoring
+PluginManager::Manager: duplicate static plugin StbImageImporter, ignoring
+PluginManager::Manager: duplicate static plugin AnyImageImporter, ignoring
+PluginManager::Manager: duplicate static plugin GltfImporter, ignoring
+Renderer: Apple M5 Pro by Apple
+OpenGL version: 4.1 Metal - 90.5
+Using optional features:
+    GL_ARB_vertex_array_object
+    GL_ARB_ES2_compatibility
+    GL_ARB_separate_shader_objects
+    GL_ARB_texture_storage
+    GL_EXT_texture_filter_anisotropic
+    GL_EXT_debug_label
+    GL_EXT_debug_marker
+Using driver workarounds:
+    no-layout-qualifiers-on-old-glsl
+    apple-buffer-texture-unbind-on-buffer-modify
+[07:12:55:283945]:[Warning]:[Metadata] SceneDatasetAttributes.cpp(107)::addNewSceneInstanceToDataset : Dataset : 'default' : Lighting Layout Attributes 'no_lights' specified in Scene Attributes but does not exist in dataset, so creating default.
+[07:12:55:284258]:[Warning]:[Scene] SemanticScene.h(328)::checkFileExists : ::loadSemanticSceneDescriptor: File/Users/jianxin/Desktop/my_project/embodied_pm/data/scene_datasets/habitat-test-scenes/apartment_1.scndoes not exist.  Aborting load.
+[07:12:55:284280]:[Warning]:[Scene] SemanticScene.cpp(121)::loadSemanticSceneDescriptor : SSD File Naming Issue! Neither SemanticAttributes-provided name : `/Users/jianxin/Desktop/my_project/embodied_pm/data/scene_datasets/habitat-test-scenes/apartment_1.scn` nor constructed filename : `/Users/jianxin/Desktop/my_project/embodied_pm/data/scene_datasets/habitat-test-scenes/info_semantic.json` exist on disk.
+[07:12:55:284293]:[Error]:[Scene] SemanticScene.cpp(137)::loadSemanticSceneDescriptor : SSD Load Failure! File with SemanticAttributes-provided name `/Users/jianxin/Desktop/my_project/embodied_pm/data/scene_datasets/habitat-test-scenes/apartment_1.scn` exists but failed to load.
+[07:12:55:767466]:[Warning]:[Sim] Simulator.cpp(594)::instanceStageForSceneAttributes : The active scene does not contain semantic annotations : activeSemanticSceneID_ = 0
+{'policy': 'llm-nonew6-real', 'seed': 0, 'executed': False, 'exec_step': None, 'first_visible_step': 10, 'chores_done': 3}
+{'policy': 'llm-nonew6-real', 'seed': 1, 'executed': False, 'exec_step': None, 'first_visible_step': 10, 'chores_done': 6}
+{'policy': 'llm-nonew6-real', 'seed': 2, 'executed': False, 'exec_step': None, 'first_visible_step': 10, 'chores_done': 6}
+{'policy': 'llm-nonew6-real', 'seed': 3, 'executed': False, 'exec_step': None, 'first_visible_step': 18, 'chores_done': 5}
+{'policy': 'llm-nonew6-real', 'seed': 4, 'executed': False, 'exec_step': None, 'first_visible_step': None, 'chores_done': 6}
+{'policy': 'llm-nonew6-real', 'seed': 5, 'executed': False, 'exec_step': None, 'first_visible_step': 16, 'chores_done': 5}
+{'policy': 'llm-nonew6-real', 'seed': 6, 'executed': False, 'exec_step': None, 'first_visible_step': 14, 'chores_done': 5}
+{'policy': 'llm-nonew6-real', 'seed': 7, 'executed': False, 'exec_step': None, 'first_visible_step': None, 'chores_done': 4}
+{'policy': 'llm-nonew6-real', 'seed': 8, 'executed': False, 'exec_step': None, 'first_visible_step': None, 'chores_done': 5}
+{'policy': 'llm-nonew6-real', 'seed': 9, 'executed': False, 'exec_step': None, 'first_visible_step': None, 'chores_done': 6}
+wrote 10 rows -> results/hab_real.csv
++ python pm_habitat.py --policy llm --mem none --real --episodes 10 --cancel late --out results/hab_real.csv
+PluginManager::Manager: duplicate static plugin AssimpImporter, ignoring
+PluginManager::Manager: duplicate static plugin BasisImporter, ignoring
+PluginManager::Manager: duplicate static plugin AnySceneImporter, ignoring
+PluginManager::Manager: duplicate static plugin StbImageImporter, ignoring
+PluginManager::Manager: duplicate static plugin AnyImageImporter, ignoring
+PluginManager::Manager: duplicate static plugin GltfImporter, ignoring
+Renderer: Apple M5 Pro by Apple
+OpenGL version: 4.1 Metal - 90.5
+Using optional features:
+    GL_ARB_vertex_array_object
+    GL_ARB_ES2_compatibility
+    GL_ARB_separate_shader_objects
+    GL_ARB_texture_storage
+    GL_EXT_texture_filter_anisotropic
+    GL_EXT_debug_label
+    GL_EXT_debug_marker
+Using driver workarounds:
+    no-layout-qualifiers-on-old-glsl
+    apple-buffer-texture-unbind-on-buffer-modify
+[07:26:47:790448]:[Warning]:[Metadata] SceneDatasetAttributes.cpp(107)::addNewSceneInstanceToDataset : Dataset : 'default' : Lighting Layout Attributes 'no_lights' specified in Scene Attributes but does not exist in dataset, so creating default.
+[07:26:47:790918]:[Warning]:[Scene] SemanticScene.h(328)::checkFileExists : ::loadSemanticSceneDescriptor: File/Users/jianxin/Desktop/my_project/embodied_pm/data/scene_datasets/habitat-test-scenes/apartment_1.scndoes not exist.  Aborting load.
+[07:26:47:790939]:[Warning]:[Scene] SemanticScene.cpp(121)::loadSemanticSceneDescriptor : SSD File Naming Issue! Neither SemanticAttributes-provided name : `/Users/jianxin/Desktop/my_project/embodied_pm/data/scene_datasets/habitat-test-scenes/apartment_1.scn` nor constructed filename : `/Users/jianxin/Desktop/my_project/embodied_pm/data/scene_datasets/habitat-test-scenes/info_semantic.json` exist on disk.
+[07:26:47:790954]:[Error]:[Scene] SemanticScene.cpp(137)::loadSemanticSceneDescriptor : SSD Load Failure! File with SemanticAttributes-provided name `/Users/jianxin/Desktop/my_project/embodied_pm/data/scene_datasets/habitat-test-scenes/apartment_1.scn` exists but failed to load.
+[07:26:48:219160]:[Warning]:[Sim] Simulator.cpp(594)::instanceStageForSceneAttributes : The active scene does not contain semantic annotations : activeSemanticSceneID_ = 0
+{'policy': 'llm-nonew6-real', 'seed': 0, 'executed': False, 'exec_step': None, 'first_visible_step': 10, 'chores_done': 3}
+{'policy': 'llm-nonew6-real', 'seed': 1, 'executed': False, 'exec_step': None, 'first_visible_step': 10, 'chores_done': 6}
+{'policy': 'llm-nonew6-real', 'seed': 2, 'executed': False, 'exec_step': None, 'first_visible_step': 10, 'chores_done': 6}
+{'policy': 'llm-nonew6-real', 'seed': 3, 'executed': False, 'exec_step': None, 'first_visible_step': 18, 'chores_done': 5}
+{'policy': 'llm-nonew6-real', 'seed': 4, 'executed': False, 'exec_step': None, 'first_visible_step': None, 'chores_done': 6}
+{'policy': 'llm-nonew6-real', 'seed': 5, 'executed': False, 'exec_step': None, 'first_visible_step': 16, 'chores_done': 5}
+{'policy': 'llm-nonew6-real', 'seed': 6, 'executed': False, 'exec_step': None, 'first_visible_step': 14, 'chores_done': 5}
+{'policy': 'llm-nonew6-real', 'seed': 7, 'executed': False, 'exec_step': None, 'first_visible_step': None, 'chores_done': 4}
+{'policy': 'llm-nonew6-real', 'seed': 8, 'executed': False, 'exec_step': None, 'first_visible_step': None, 'chores_done': 5}
+{'policy': 'llm-nonew6-real', 'seed': 9, 'executed': False, 'exec_step': None, 'first_visible_step': None, 'chores_done': 6}
+wrote 10 rows -> results/hab_real.csv
++ for mem in none bank sched
++ python pm_habitat.py --policy llm --mem bank --real --episodes 10 --out results/hab_real.csv
+PluginManager::Manager: duplicate static plugin AssimpImporter, ignoring
+PluginManager::Manager: duplicate static plugin BasisImporter, ignoring
+PluginManager::Manager: duplicate static plugin AnySceneImporter, ignoring
+PluginManager::Manager: duplicate static plugin StbImageImporter, ignoring
+PluginManager::Manager: duplicate static plugin AnyImageImporter, ignoring
+PluginManager::Manager: duplicate static plugin GltfImporter, ignoring
+Renderer: Apple M5 Pro by Apple
+OpenGL version: 4.1 Metal - 90.5
+Using optional features:
+    GL_ARB_vertex_array_object
+    GL_ARB_ES2_compatibility
+    GL_ARB_separate_shader_objects
+    GL_ARB_texture_storage
+    GL_EXT_texture_filter_anisotropic
+    GL_EXT_debug_label
+    GL_EXT_debug_marker
+Using driver workarounds:
+    no-layout-qualifiers-on-old-glsl
+    apple-buffer-texture-unbind-on-buffer-modify
+[07:40:48:478801]:[Warning]:[Metadata] SceneDatasetAttributes.cpp(107)::addNewSceneInstanceToDataset : Dataset : 'default' : Lighting Layout Attributes 'no_lights' specified in Scene Attributes but does not exist in dataset, so creating default.
+[07:40:48:479240]:[Warning]:[Scene] SemanticScene.h(328)::checkFileExists : ::loadSemanticSceneDescriptor: File/Users/jianxin/Desktop/my_project/embodied_pm/data/scene_datasets/habitat-test-scenes/apartment_1.scndoes not exist.  Aborting load.
+[07:40:48:479258]:[Warning]:[Scene] SemanticScene.cpp(121)::loadSemanticSceneDescriptor : SSD File Naming Issue! Neither SemanticAttributes-provided name : `/Users/jianxin/Desktop/my_project/embodied_pm/data/scene_datasets/habitat-test-scenes/apartment_1.scn` nor constructed filename : `/Users/jianxin/Desktop/my_project/embodied_pm/data/scene_datasets/habitat-test-scenes/info_semantic.json` exist on disk.
+[07:40:48:479270]:[Error]:[Scene] SemanticScene.cpp(137)::loadSemanticSceneDescriptor : SSD Load Failure! File with SemanticAttributes-provided name `/Users/jianxin/Desktop/my_project/embodied_pm/data/scene_datasets/habitat-test-scenes/apartment_1.scn` exists but failed to load.
+[07:40:48:881386]:[Warning]:[Sim] Simulator.cpp(594)::instanceStageForSceneAttributes : The active scene does not contain semantic annotations : activeSemanticSceneID_ = 0
+{'policy': 'llm-bankw6-real', 'seed': 0, 'executed': True, 'exec_step': 16, 'first_visible_step': 10, 'chores_done': 3}
+{'policy': 'llm-bankw6-real', 'seed': 1, 'executed': True, 'exec_step': 20, 'first_visible_step': 10, 'chores_done': 5}
+{'policy': 'llm-bankw6-real', 'seed': 2, 'executed': True, 'exec_step': 16, 'first_visible_step': 10, 'chores_done': 6}
+{'policy': 'llm-bankw6-real', 'seed': 3, 'executed': True, 'exec_step': 25, 'first_visible_step': 18, 'chores_done': 5}
+{'policy': 'llm-bankw6-real', 'seed': 4, 'executed': False, 'exec_step': None, 'first_visible_step': None, 'chores_done': 6}
+{'policy': 'llm-bankw6-real', 'seed': 5, 'executed': True, 'exec_step': 27, 'first_visible_step': 16, 'chores_done': 4}
+{'policy': 'llm-bankw6-real', 'seed': 6, 'executed': True, 'exec_step': 17, 'first_visible_step': 14, 'chores_done': 4}
+{'policy': 'llm-bankw6-real', 'seed': 7, 'executed': False, 'exec_step': None, 'first_visible_step': None, 'chores_done': 4}
+{'policy': 'llm-bankw6-real', 'seed': 8, 'executed': False, 'exec_step': None, 'first_visible_step': None, 'chores_done': 5}
+{'policy': 'llm-bankw6-real', 'seed': 9, 'executed': False, 'exec_step': None, 'first_visible_step': None, 'chores_done': 6}
+wrote 10 rows -> results/hab_real.csv
++ python pm_habitat.py --policy llm --mem bank --real --episodes 10 --cancel late --out results/hab_real.csv
+PluginManager::Manager: duplicate static plugin AssimpImporter, ignoring
+PluginManager::Manager: duplicate static plugin BasisImporter, ignoring
+PluginManager::Manager: duplicate static plugin AnySceneImporter, ignoring
+PluginManager::Manager: duplicate static plugin StbImageImporter, ignoring
+PluginManager::Manager: duplicate static plugin AnyImageImporter, ignoring
+PluginManager::Manager: duplicate static plugin GltfImporter, ignoring
+Renderer: Apple M5 Pro by Apple
+OpenGL version: 4.1 Metal - 90.5
+Using optional features:
+    GL_ARB_vertex_array_object
+    GL_ARB_ES2_compatibility
+    GL_ARB_separate_shader_objects
+    GL_ARB_texture_storage
+    GL_EXT_texture_filter_anisotropic
+    GL_EXT_debug_label
+    GL_EXT_debug_marker
+Using driver workarounds:
+    no-layout-qualifiers-on-old-glsl
+    apple-buffer-texture-unbind-on-buffer-modify
+[07:56:27:985016]:[Warning]:[Metadata] SceneDatasetAttributes.cpp(107)::addNewSceneInstanceToDataset : Dataset : 'default' : Lighting Layout Attributes 'no_lights' specified in Scene Attributes but does not exist in dataset, so creating default.
+[07:56:27:985435]:[Warning]:[Scene] SemanticScene.h(328)::checkFileExists : ::loadSemanticSceneDescriptor: File/Users/jianxin/Desktop/my_project/embodied_pm/data/scene_datasets/habitat-test-scenes/apartment_1.scndoes not exist.  Aborting load.
+[07:56:27:985473]:[Warning]:[Scene] SemanticScene.cpp(121)::loadSemanticSceneDescriptor : SSD File Naming Issue! Neither SemanticAttributes-provided name : `/Users/jianxin/Desktop/my_project/embodied_pm/data/scene_datasets/habitat-test-scenes/apartment_1.scn` nor constructed filename : `/Users/jianxin/Desktop/my_project/embodied_pm/data/scene_datasets/habitat-test-scenes/info_semantic.json` exist on disk.
+[07:56:27:985491]:[Error]:[Scene] SemanticScene.cpp(137)::loadSemanticSceneDescriptor : SSD Load Failure! File with SemanticAttributes-provided name `/Users/jianxin/Desktop/my_project/embodied_pm/data/scene_datasets/habitat-test-scenes/apartment_1.scn` exists but failed to load.
+[07:56:28:502045]:[Warning]:[Sim] Simulator.cpp(594)::instanceStageForSceneAttributes : The active scene does not contain semantic annotations : activeSemanticSceneID_ = 0
+{'policy': 'llm-bankw6-real', 'seed': 0, 'executed': True, 'exec_step': 43, 'first_visible_step': 10, 'chores_done': 3}
+{'policy': 'llm-bankw6-real', 'seed': 1, 'executed': True, 'exec_step': 26, 'first_visible_step': 10, 'chores_done': 5}
+{'policy': 'llm-bankw6-real', 'seed': 2, 'executed': True, 'exec_step': 40, 'first_visible_step': 10, 'chores_done': 6}
+{'policy': 'llm-bankw6-real', 'seed': 3, 'executed': True, 'exec_step': 25, 'first_visible_step': 18, 'chores_done': 5}
+{'policy': 'llm-bankw6-real', 'seed': 4, 'executed': False, 'exec_step': None, 'first_visible_step': None, 'chores_done': 6}
+{'policy': 'llm-bankw6-real', 'seed': 5, 'executed': True, 'exec_step': 27, 'first_visible_step': 16, 'chores_done': 4}
+{'policy': 'llm-bankw6-real', 'seed': 6, 'executed': True, 'exec_step': 23, 'first_visible_step': 14, 'chores_done': 3}
+{'policy': 'llm-bankw6-real', 'seed': 7, 'executed': False, 'exec_step': None, 'first_visible_step': None, 'chores_done': 4}
+{'policy': 'llm-bankw6-real', 'seed': 8, 'executed': False, 'exec_step': None, 'first_visible_step': None, 'chores_done': 5}
+{'policy': 'llm-bankw6-real', 'seed': 9, 'executed': False, 'exec_step': None, 'first_visible_step': None, 'chores_done': 6}
+wrote 10 rows -> results/hab_real.csv
++ for mem in none bank sched
++ python pm_habitat.py --policy llm --mem sched --real --episodes 10 --out results/hab_real.csv
+PluginManager::Manager: duplicate static plugin AssimpImporter, ignoring
+PluginManager::Manager: duplicate static plugin BasisImporter, ignoring
+PluginManager::Manager: duplicate static plugin AnySceneImporter, ignoring
+PluginManager::Manager: duplicate static plugin StbImageImporter, ignoring
+PluginManager::Manager: duplicate static plugin AnyImageImporter, ignoring
+PluginManager::Manager: duplicate static plugin GltfImporter, ignoring
+Renderer: Apple M5 Pro by Apple
+OpenGL version: 4.1 Metal - 90.5
+Using optional features:
+    GL_ARB_vertex_array_object
+    GL_ARB_ES2_compatibility
+    GL_ARB_separate_shader_objects
+    GL_ARB_texture_storage
+    GL_EXT_texture_filter_anisotropic
+    GL_EXT_debug_label
+    GL_EXT_debug_marker
+Using driver workarounds:
+    no-layout-qualifiers-on-old-glsl
+    apple-buffer-texture-unbind-on-buffer-modify
+[08:11:21:014190]:[Warning]:[Metadata] SceneDatasetAttributes.cpp(107)::addNewSceneInstanceToDataset : Dataset : 'default' : Lighting Layout Attributes 'no_lights' specified in Scene Attributes but does not exist in dataset, so creating default.
+[08:11:21:014771]:[Warning]:[Scene] SemanticScene.h(328)::checkFileExists : ::loadSemanticSceneDescriptor: File/Users/jianxin/Desktop/my_project/embodied_pm/data/scene_datasets/habitat-test-scenes/apartment_1.scndoes not exist.  Aborting load.
+[08:11:21:014810]:[Warning]:[Scene] SemanticScene.cpp(121)::loadSemanticSceneDescriptor : SSD File Naming Issue! Neither SemanticAttributes-provided name : `/Users/jianxin/Desktop/my_project/embodied_pm/data/scene_datasets/habitat-test-scenes/apartment_1.scn` nor constructed filename : `/Users/jianxin/Desktop/my_project/embodied_pm/data/scene_datasets/habitat-test-scenes/info_semantic.json` exist on disk.
+[08:11:21:014826]:[Error]:[Scene] SemanticScene.cpp(137)::loadSemanticSceneDescriptor : SSD Load Failure! File with SemanticAttributes-provided name `/Users/jianxin/Desktop/my_project/embodied_pm/data/scene_datasets/habitat-test-scenes/apartment_1.scn` exists but failed to load.
+[08:11:21:622384]:[Warning]:[Sim] Simulator.cpp(594)::instanceStageForSceneAttributes : The active scene does not contain semantic annotations : activeSemanticSceneID_ = 0
+{'policy': 'llm-schedw6-real', 'seed': 0, 'executed': True, 'exec_step': 17, 'first_visible_step': 10, 'chores_done': 3}
+{'policy': 'llm-schedw6-real', 'seed': 1, 'executed': True, 'exec_step': 20, 'first_visible_step': 10, 'chores_done': 5}
+{'policy': 'llm-schedw6-real', 'seed': 2, 'executed': True, 'exec_step': 16, 'first_visible_step': 10, 'chores_done': 6}
+{'policy': 'llm-schedw6-real', 'seed': 3, 'executed': True, 'exec_step': 25, 'first_visible_step': 18, 'chores_done': 5}
+{'policy': 'llm-schedw6-real', 'seed': 4, 'executed': False, 'exec_step': None, 'first_visible_step': None, 'chores_done': 6}
+{'policy': 'llm-schedw6-real', 'seed': 5, 'executed': True, 'exec_step': 27, 'first_visible_step': 16, 'chores_done': 4}
+{'policy': 'llm-schedw6-real', 'seed': 6, 'executed': True, 'exec_step': 21, 'first_visible_step': 14, 'chores_done': 3}
+{'policy': 'llm-schedw6-real', 'seed': 7, 'executed': False, 'exec_step': None, 'first_visible_step': None, 'chores_done': 4}
+{'policy': 'llm-schedw6-real', 'seed': 8, 'executed': False, 'exec_step': None, 'first_visible_step': None, 'chores_done': 5}
+{'policy': 'llm-schedw6-real', 'seed': 9, 'executed': False, 'exec_step': None, 'first_visible_step': None, 'chores_done': 6}
+wrote 10 rows -> results/hab_real.csv
++ python pm_habitat.py --policy llm --mem sched --real --episodes 10 --cancel late --out results/hab_real.csv
+PluginManager::Manager: duplicate static plugin AssimpImporter, ignoring
+PluginManager::Manager: duplicate static plugin BasisImporter, ignoring
+PluginManager::Manager: duplicate static plugin AnySceneImporter, ignoring
+PluginManager::Manager: duplicate static plugin StbImageImporter, ignoring
+PluginManager::Manager: duplicate static plugin AnyImageImporter, ignoring
+PluginManager::Manager: duplicate static plugin GltfImporter, ignoring
+Renderer: Apple M5 Pro by Apple
+OpenGL version: 4.1 Metal - 90.5
+Using optional features:
+    GL_ARB_vertex_array_object
+    GL_ARB_ES2_compatibility
+    GL_ARB_separate_shader_objects
+    GL_ARB_texture_storage
+    GL_EXT_texture_filter_anisotropic
+    GL_EXT_debug_label
+    GL_EXT_debug_marker
+Using driver workarounds:
+    no-layout-qualifiers-on-old-glsl
+    apple-buffer-texture-unbind-on-buffer-modify
+[08:24:51:008625]:[Warning]:[Metadata] SceneDatasetAttributes.cpp(107)::addNewSceneInstanceToDataset : Dataset : 'default' : Lighting Layout Attributes 'no_lights' specified in Scene Attributes but does not exist in dataset, so creating default.
+[08:24:51:009197]:[Warning]:[Scene] SemanticScene.h(328)::checkFileExists : ::loadSemanticSceneDescriptor: File/Users/jianxin/Desktop/my_project/embodied_pm/data/scene_datasets/habitat-test-scenes/apartment_1.scndoes not exist.  Aborting load.
+[08:24:51:009240]:[Warning]:[Scene] SemanticScene.cpp(121)::loadSemanticSceneDescriptor : SSD File Naming Issue! Neither SemanticAttributes-provided name : `/Users/jianxin/Desktop/my_project/embodied_pm/data/scene_datasets/habitat-test-scenes/apartment_1.scn` nor constructed filename : `/Users/jianxin/Desktop/my_project/embodied_pm/data/scene_datasets/habitat-test-scenes/info_semantic.json` exist on disk.
+[08:24:51:009260]:[Error]:[Scene] SemanticScene.cpp(137)::loadSemanticSceneDescriptor : SSD Load Failure! File with SemanticAttributes-provided name `/Users/jianxin/Desktop/my_project/embodied_pm/data/scene_datasets/habitat-test-scenes/apartment_1.scn` exists but failed to load.
+[08:24:51:501858]:[Warning]:[Sim] Simulator.cpp(594)::instanceStageForSceneAttributes : The active scene does not contain semantic annotations : activeSemanticSceneID_ = 0
+{'policy': 'llm-schedw6-real', 'seed': 0, 'executed': False, 'exec_step': None, 'first_visible_step': 10, 'chores_done': 3}
+{'policy': 'llm-schedw6-real', 'seed': 1, 'executed': False, 'exec_step': None, 'first_visible_step': 10, 'chores_done': 6}
+{'policy': 'llm-schedw6-real', 'seed': 2, 'executed': False, 'exec_step': None, 'first_visible_step': 10, 'chores_done': 6}
+{'policy': 'llm-schedw6-real', 'seed': 3, 'executed': False, 'exec_step': None, 'first_visible_step': 18, 'chores_done': 5}
+{'policy': 'llm-schedw6-real', 'seed': 4, 'executed': False, 'exec_step': None, 'first_visible_step': None, 'chores_done': 6}
+{'policy': 'llm-schedw6-real', 'seed': 5, 'executed': False, 'exec_step': None, 'first_visible_step': 16, 'chores_done': 5}
+{'policy': 'llm-schedw6-real', 'seed': 6, 'executed': False, 'exec_step': None, 'first_visible_step': 14, 'chores_done': 5}
+{'policy': 'llm-schedw6-real', 'seed': 7, 'executed': False, 'exec_step': None, 'first_visible_step': None, 'chores_done': 4}
+{'policy': 'llm-schedw6-real', 'seed': 8, 'executed': False, 'exec_step': None, 'first_visible_step': None, 'chores_done': 5}
+{'policy': 'llm-schedw6-real', 'seed': 9, 'executed': False, 'exec_step': None, 'first_visible_step': None, 'chores_done': 6}
+wrote 10 rows -> results/hab_real.csv
+++ date
++ echo HAB_REAL_DONE Thu 6 Aug 2026 17:37:48 EDT
+HAB_REAL_DONE Thu 6 Aug 2026 17:37:48 EDT

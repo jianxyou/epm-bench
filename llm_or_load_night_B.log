@@ -1,0 +1,51 @@
+resume: 360 episodes already in results/llm_or_gpt4omini_load_v1obs.csv
+policy llm:bank done (20 total)
+policy llm:sched2 done (40 total)
+TOTAL 40 episodes in 35.8 min -> results/llm_or_gpt4omini_load_v1obs.csv
+DONE load=1 seeds=20:40 pol=llm:bank,llm:sched2 var=live Fri  2 Oct 2026 01:30:29 EDT
+resume: 435 episodes already in results/llm_or_gpt4omini_load_v1obs.csv
+policy llm:bank done (20 total)
+policy llm:sched2 done (40 total)
+TOTAL 40 episodes in 34.7 min -> results/llm_or_gpt4omini_load_v1obs.csv
+DONE load=2 seeds=20:40 pol=llm:bank,llm:sched2 var=live Fri  2 Oct 2026 02:05:17 EDT
+resume: 511 episodes already in results/llm_or_gpt4omini_load_v1obs.csv
+policy llm:bank done (20 total)
+policy llm:sched2 done (40 total)
+TOTAL 40 episodes in 35.2 min -> results/llm_or_gpt4omini_load_v1obs.csv
+DONE load=3 seeds=20:40 pol=llm:bank,llm:sched2 var=live Fri  2 Oct 2026 02:40:33 EDT
+resume: 582 episodes already in results/llm_or_gpt4omini_load_v1obs.csv
+policy llm:bank done (20 total)
+policy llm:sched2 done (40 total)
+TOTAL 40 episodes in 36.3 min -> results/llm_or_gpt4omini_load_v1obs.csv
+DONE load=4 seeds=20:40 pol=llm:bank,llm:sched2 var=live Fri  2 Oct 2026 03:16:52 EDT
+resume: 642 episodes already in results/llm_or_gpt4omini_load_v1obs.csv
+policy llm:bank done (20 total)
+policy llm:sched2 done (40 total)
+TOTAL 40 episodes in 38.1 min -> results/llm_or_gpt4omini_load_v1obs.csv
+DONE load=5 seeds=20:40 pol=llm:bank,llm:sched2 var=live Fri  2 Oct 2026 03:55:01 EDT
+resume: 700 episodes already in results/llm_or_gpt4omini_load_v1obs.csv
+policy llm:bank done (20 total)
+policy llm:sched2 done (40 total)
+TOTAL 40 episodes in 36.6 min -> results/llm_or_gpt4omini_load_v1obs.csv
+DONE load=6 seeds=20:40 pol=llm:bank,llm:sched2 var=live Fri  2 Oct 2026 04:31:42 EDT
+resume: 757 episodes already in results/llm_or_gpt4omini_load_v1obs.csv
+policy llm:summ done (20 total)
+TOTAL 20 episodes in 20.7 min -> results/llm_or_gpt4omini_load_v1obs.csv
+DONE load=2 seeds=0:20 pol=llm:summ var=live Fri  2 Oct 2026 04:52:29 EDT
+resume: 786 episodes already in results/llm_or_gpt4omini_load_v1obs.csv
+policy llm:summ done (20 total)
+TOTAL 20 episodes in 20.6 min -> results/llm_or_gpt4omini_load_v1obs.csv
+DONE load=3 seeds=0:20 pol=llm:summ var=live Fri  2 Oct 2026 05:13:06 EDT
+resume: 816 episodes already in results/llm_or_gpt4omini_load_v1obs.csv
+policy llm:summ done (20 total)
+TOTAL 20 episodes in 21.1 min -> results/llm_or_gpt4omini_load_v1obs.csv
+DONE load=4 seeds=0:20 pol=llm:summ var=live Fri  2 Oct 2026 05:34:12 EDT
+resume: 845 episodes already in results/llm_or_gpt4omini_load_v1obs.csv
+policy llm:summ done (20 total)
+TOTAL 20 episodes in 21.2 min -> results/llm_or_gpt4omini_load_v1obs.csv
+DONE load=5 seeds=0:20 pol=llm:summ var=live Fri  2 Oct 2026 05:55:26 EDT
+resume: 874 episodes already in results/llm_or_gpt4omini_load_v1obs.csv
+policy llm:summ done (20 total)
+TOTAL 20 episodes in 20.5 min -> results/llm_or_gpt4omini_load_v1obs.csv
+DONE load=6 seeds=0:20 pol=llm:summ var=live Fri  2 Oct 2026 06:15:57 EDT
+QUEUE_B_DONE Fri  2 Oct 2026 06:15:57 EDT

@@ -1,0 +1,41 @@
+resume: 537 episodes already in results/llm_or_deepseek_load_v1obs.csv
+[llm:none] 25/50 (0.03 ep/s)
+[llm:none] 50/50 (0.02 ep/s)
+policy llm:none done (50 total)
+TOTAL 50 episodes in 34.2 min -> results/llm_or_deepseek_load_v1obs.csv
+PASS1 llm:none cancel_early done Mon  5 Oct 2026 19:58:04 EDT
+resume: 620 episodes already in results/llm_or_deepseek_load_v1obs.csv
+[llm:none] 25/50 (0.02 ep/s)
+[llm:none] 50/50 (0.02 ep/s)
+policy llm:none done (50 total)
+TOTAL 50 episodes in 43.4 min -> results/llm_or_deepseek_load_v1obs.csv
+PASS1 llm:none live done Mon  5 Oct 2026 20:41:29 EDT
+resume: 715 episodes already in results/llm_or_deepseek_load_v1obs.csv
+[llm:none] 25/50 (0.03 ep/s)
+[llm:none] 50/50 (0.03 ep/s)
+policy llm:none done (50 total)
+TOTAL 50 episodes in 28.4 min -> results/llm_or_deepseek_load_v1obs.csv
+PASS1 llm:none cancel_late done Mon  5 Oct 2026 21:09:57 EDT
+resume: 799 episodes already in results/llm_or_deepseek_load_v1obs.csv
+[llm:none] 25/50 (0.02 ep/s)
+[llm:none] 50/50 (0.03 ep/s)
+policy llm:none done (50 total)
+TOTAL 50 episodes in 32.5 min -> results/llm_or_deepseek_load_v1obs.csv
+PASS1 llm:none control done Mon  5 Oct 2026 21:42:29 EDT
+resume: 890 episodes already in results/llm_or_deepseek_load_v1obs.csv
+policy llm:none done (0 total)
+TOTAL 0 episodes in 0.0 min -> results/llm_or_deepseek_load_v1obs.csv
+PASS2 llm:none cancel_early done Mon  5 Oct 2026 21:42:31 EDT
+resume: 890 episodes already in results/llm_or_deepseek_load_v1obs.csv
+policy llm:none done (0 total)
+TOTAL 0 episodes in 0.0 min -> results/llm_or_deepseek_load_v1obs.csv
+PASS2 llm:none live done Mon  5 Oct 2026 21:42:34 EDT
+resume: 890 episodes already in results/llm_or_deepseek_load_v1obs.csv
+policy llm:none done (0 total)
+TOTAL 0 episodes in 0.0 min -> results/llm_or_deepseek_load_v1obs.csv
+PASS2 llm:none cancel_late done Mon  5 Oct 2026 21:42:37 EDT
+resume: 890 episodes already in results/llm_or_deepseek_load_v1obs.csv
+policy llm:none done (0 total)
+TOTAL 0 episodes in 0.0 min -> results/llm_or_deepseek_load_v1obs.csv
+PASS2 llm:none control done Mon  5 Oct 2026 21:42:40 EDT
+LOAD6S50_deepseek_q4_DONE Mon  5 Oct 2026 21:42:40 EDT

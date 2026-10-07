@@ -1,0 +1,18 @@
+resume: 461 episodes already in results/llm_or_deepseek.csv
+[llm:bank] 25/100 (0.01 ep/s)
+[llm:bank] 50/100 (0.00 ep/s)
+[llm:bank] 75/100 (0.01 ep/s)
+[llm:bank] 100/100 (0.01 ep/s)
+policy llm:bank done (70 total)
+TOTAL 70 episodes in 210.3 min -> results/llm_or_deepseek.csv
+resume: 611 episodes already in results/llm_or_deepseek.csv
+[llm:none] 25/100 (0.02 ep/s)
+[llm:none] 50/100 (0.03 ep/s)
+[llm:none] 75/100 (0.03 ep/s)
+[llm:none] 100/100 (0.01 ep/s)
+policy llm:none done (80 total)
+TOTAL 80 episodes in 90.6 min -> results/llm_or_deepseek.csv
+resume: 711 episodes already in results/llm_or_deepseek.csv
+policy llm:sched2 done (21 total)
+TOTAL 21 episodes in 100.3 min -> results/llm_or_deepseek.csv
+DSFILL_DONE Mon 14 Sep 2026 20:19:04 EDT

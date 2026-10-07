@@ -1,0 +1,85 @@
+{
+ "GPT-4o-mini": {
+  "instruction given": {
+   "episodes": 150,
+   "with a fabricated entry": 84,
+   "  of which chore-derived only": 83,
+   "  of which includes a non-chore object": 1,
+   "actor switched off a fabricated trigger": 29,
+   "steps with unparseable ledger": 0
+  },
+  "control (no instruction)": {
+   "episodes": 50,
+   "with a fabricated entry": 50,
+   "  of which chore-derived only": 47,
+   "  of which includes a non-chore object": 3,
+   "actor switched off a fabricated trigger": 32,
+   "steps with unparseable ledger": 0
+  }
+ },
+ "Gemini-2.5-FL": {
+  "instruction given": {
+   "episodes": 150,
+   "with a fabricated entry": 81,
+   "  of which chore-derived only": 79,
+   "  of which includes a non-chore object": 2,
+   "actor switched off a fabricated trigger": 3,
+   "steps with unparseable ledger": 1
+  },
+  "control (no instruction)": {
+   "episodes": 50,
+   "with a fabricated entry": 50,
+   "  of which chore-derived only": 43,
+   "  of which includes a non-chore object": 7,
+   "actor switched off a fabricated trigger": 11,
+   "steps with unparseable ledger": 0
+  }
+ },
+ "DeepSeek-V3": {
+  "instruction given": {
+   "episodes": 150,
+   "with a fabricated entry": 0,
+   "  of which chore-derived only": 0,
+   "  of which includes a non-chore object": 0,
+   "actor switched off a fabricated trigger": 0,
+   "steps with unparseable ledger": 1
+  },
+  "control (no instruction)": {
+   "episodes": 50,
+   "with a fabricated entry": 0,
+   "  of which chore-derived only": 0,
+   "  of which includes a non-chore object": 0,
+   "actor switched off a fabricated trigger": 0,
+   "steps with unparseable ledger": 0
+  }
+ },
+ "Llama-3.3-70B": {
+  "instruction given": {
+   "episodes": 150,
+   "with a fabricated entry": 0,
+   "  of which chore-derived only": 0,
+   "  of which includes a non-chore object": 0,
+   "actor switched off a fabricated trigger": 0,
+   "steps with unparseable ledger": 82
+  },
+  "control (no instruction)": {
+   "episodes": 50,
+   "with a fabricated entry": 0,
+   "  of which chore-derived only": 0,
+   "  of which includes a non-chore object": 0,
+   "actor switched off a fabricated trigger": 0,
+   "steps with unparseable ledger": 1
+  }
+ },
+ "Sonnet 5 bookkeeper (actor mini)": {
+  "instruction given": {
+   "episodes": 60,
+   "with a fabricated entry": 0,
+   "  of which chore-derived only": 0,
+   "  of which includes a non-chore object": 0,
+   "actor switched off a fabricated trigger": 0,
+   "steps with unparseable ledger": 3
+  },
+  "control (no instruction)": {}
+ }
+}

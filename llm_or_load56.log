@@ -1,0 +1,38 @@
+policy llm:bank done (20 total)
+policy llm:sched2 done (40 total)
+policy llm:retr2 done (60 total)
+TOTAL 60 episodes in 56.9 min -> results/llm_or_gpt4omini_load_v1obs.csv
+resume: 60 episodes already in results/llm_or_gpt4omini_load_v1obs.csv
+policy llm:bank done (20 total)
+policy llm:sched2 done (40 total)
+policy llm:retr2 done (60 total)
+TOTAL 60 episodes in 53.4 min -> results/llm_or_gpt4omini_load_v1obs.csv
+resume: 120 episodes already in results/llm_or_gpt4omini_load_v1obs.csv
+policy llm:bank done (20 total)
+policy llm:sched2 done (40 total)
+policy llm:retr2 done (60 total)
+TOTAL 60 episodes in 99.7 min -> results/llm_or_gpt4omini_load_v1obs.csv
+LOAD456_CANCEL_DONE Thu  1 Oct 2026 18:45:04 EDT
+resume: 180 episodes already in results/llm_or_gpt4omini_load_v1obs.csv
+policy llm:bank done (20 total)
+policy llm:sched2 done (40 total)
+TOTAL 40 episodes in 38.6 min -> results/llm_or_gpt4omini_load_v1obs.csv
+resume: 220 episodes already in results/llm_or_gpt4omini_load_v1obs.csv
+policy llm:bank done (20 total)
+policy llm:sched2 done (40 total)
+TOTAL 40 episodes in 37.3 min -> results/llm_or_gpt4omini_load_v1obs.csv
+resume: 260 episodes already in results/llm_or_gpt4omini_load_v1obs.csv
+policy llm:bank done (20 total)
+policy llm:sched2 done (40 total)
+TOTAL 40 episodes in 36.2 min -> results/llm_or_gpt4omini_load_v1obs.csv
+LOAD456_ALL_DONE Thu  1 Oct 2026 20:37:20 EDT
+resume: 300 episodes already in results/llm_or_gpt4omini_load_v1obs.csv
+policy llm:retr done (20 total)
+TOTAL 20 episodes in 16.6 min -> results/llm_or_gpt4omini_load_v1obs.csv
+resume: 320 episodes already in results/llm_or_gpt4omini_load_v1obs.csv
+policy llm:retr done (20 total)
+TOTAL 20 episodes in 14.9 min -> results/llm_or_gpt4omini_load_v1obs.csv
+resume: 340 episodes already in results/llm_or_gpt4omini_load_v1obs.csv
+policy llm:retr done (20 total)
+TOTAL 20 episodes in 15.6 min -> results/llm_or_gpt4omini_load_v1obs.csv
+LOAD456_RETR_DONE Thu  1 Oct 2026 21:25:52 EDT

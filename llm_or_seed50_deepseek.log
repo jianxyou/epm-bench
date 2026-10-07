@@ -1,0 +1,61 @@
+resume: 867 episodes already in results/llm_or_deepseek.csv
+[llm:retr] 25/30 (0.02 ep/s)
+policy llm:retr done (30 total)
+TOTAL 30 episodes in 33.3 min -> results/llm_or_deepseek.csv
+resume: 897 episodes already in results/llm_or_deepseek.csv
+[llm:retr] 25/30 (0.01 ep/s)
+policy llm:retr done (30 total)
+TOTAL 30 episodes in 47.8 min -> results/llm_or_deepseek.csv
+resume: 931 episodes already in results/llm_or_deepseek.csv
+[llm:retr] 25/30 (0.01 ep/s)
+policy llm:retr done (30 total)
+TOTAL 30 episodes in 34.6 min -> results/llm_or_deepseek.csv
+resume: 140 episodes already in results/llm_or_deepseek_ctrl2.csv
+[llm:retr] 25/30 (0.01 ep/s)
+policy llm:retr done (30 total)
+TOTAL 30 episodes in 35.0 min -> results/llm_or_deepseek_ctrl2.csv
+PASS1 llm:retr done balance=16.15171244999999 Sun  4 Oct 2026 17:06:21 EDT
+resume: 987 episodes already in results/llm_or_deepseek.csv
+[llm:summ] 25/30 (0.01 ep/s)
+policy llm:summ done (30 total)
+TOTAL 30 episodes in 35.7 min -> results/llm_or_deepseek.csv
+resume: 1031 episodes already in results/llm_or_deepseek.csv
+[llm:summ] 25/30 (0.01 ep/s)
+policy llm:summ done (30 total)
+TOTAL 30 episodes in 41.5 min -> results/llm_or_deepseek.csv
+resume: 1078 episodes already in results/llm_or_deepseek.csv
+[llm:summ] 25/30 (0.01 ep/s)
+policy llm:summ done (30 total)
+TOTAL 30 episodes in 38.7 min -> results/llm_or_deepseek.csv
+resume: 170 episodes already in results/llm_or_deepseek_ctrl2.csv
+[llm:summ] 25/30 (0.01 ep/s)
+policy llm:summ done (30 total)
+TOTAL 30 episodes in 51.9 min -> results/llm_or_deepseek_ctrl2.csv
+PASS1 llm:summ done balance=7.365724178999983 Sun  4 Oct 2026 19:54:20 EDT
+resume: 1139 episodes already in results/llm_or_deepseek.csv
+policy llm:retr done (0 total)
+TOTAL 0 episodes in 0.0 min -> results/llm_or_deepseek.csv
+resume: 1139 episodes already in results/llm_or_deepseek.csv
+policy llm:retr done (0 total)
+TOTAL 0 episodes in 0.0 min -> results/llm_or_deepseek.csv
+resume: 1139 episodes already in results/llm_or_deepseek.csv
+policy llm:retr done (0 total)
+TOTAL 0 episodes in 0.0 min -> results/llm_or_deepseek.csv
+resume: 200 episodes already in results/llm_or_deepseek_ctrl2.csv
+policy llm:retr done (0 total)
+TOTAL 0 episodes in 0.0 min -> results/llm_or_deepseek_ctrl2.csv
+PASS2 llm:retr done balance=7.341900919000011 Sun  4 Oct 2026 19:54:32 EDT
+resume: 1139 episodes already in results/llm_or_deepseek.csv
+policy llm:summ done (0 total)
+TOTAL 0 episodes in 0.0 min -> results/llm_or_deepseek.csv
+resume: 1139 episodes already in results/llm_or_deepseek.csv
+policy llm:summ done (0 total)
+TOTAL 0 episodes in 0.0 min -> results/llm_or_deepseek.csv
+resume: 1139 episodes already in results/llm_or_deepseek.csv
+policy llm:summ done (0 total)
+TOTAL 0 episodes in 0.0 min -> results/llm_or_deepseek.csv
+resume: 200 episodes already in results/llm_or_deepseek_ctrl2.csv
+policy llm:summ done (0 total)
+TOTAL 0 episodes in 0.0 min -> results/llm_or_deepseek_ctrl2.csv
+PASS2 llm:summ done balance=7.365724178999983 Sun  4 Oct 2026 19:54:43 EDT
+SEED50_deepseek_DONE Sun  4 Oct 2026 19:54:43 EDT

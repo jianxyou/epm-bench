@@ -1,0 +1,1501 @@
+++ dirname /Users/jianxin/Desktop/my_project/embodied_pm/final_consolidation.sh
++ cd /Users/jianxin/Desktop/my_project/embodied_pm
++ OUT=results/final_bigN.csv
++ for mem in none bank rwim
++ python3 run_pilot.py --policy mock --mem none --episodes 76 --seed0 100 --out results/final_bigN.csv
+{'policy': 'mock-nonew6', 'seed': 100, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 5}
+{'policy': 'mock-nonew6', 'seed': 101, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 4}
+{'policy': 'mock-nonew6', 'seed': 102, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 4}
+{'policy': 'mock-nonew6', 'seed': 103, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 4}
+{'policy': 'mock-nonew6', 'seed': 104, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 5}
+{'policy': 'mock-nonew6', 'seed': 105, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 4}
+{'policy': 'mock-nonew6', 'seed': 106, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 4}
+{'policy': 'mock-nonew6', 'seed': 107, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 5}
+{'policy': 'mock-nonew6', 'seed': 108, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 5}
+{'policy': 'mock-nonew6', 'seed': 109, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 0}
+{'policy': 'mock-nonew6', 'seed': 110, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 5}
+{'policy': 'mock-nonew6', 'seed': 111, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 5}
+{'policy': 'mock-nonew6', 'seed': 112, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 4}
+{'policy': 'mock-nonew6', 'seed': 113, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 5}
+{'policy': 'mock-nonew6', 'seed': 114, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 5}
+{'policy': 'mock-nonew6', 'seed': 115, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 0}
+{'policy': 'mock-nonew6', 'seed': 116, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 4}
+{'policy': 'mock-nonew6', 'seed': 117, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 4}
+{'policy': 'mock-nonew6', 'seed': 118, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 3}
+{'policy': 'mock-nonew6', 'seed': 119, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 0}
+{'policy': 'mock-nonew6', 'seed': 120, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 4}
+{'policy': 'mock-nonew6', 'seed': 121, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 4}
+{'policy': 'mock-nonew6', 'seed': 122, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 4}
+{'policy': 'mock-nonew6', 'seed': 123, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 5}
+{'policy': 'mock-nonew6', 'seed': 124, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 0}
+{'policy': 'mock-nonew6', 'seed': 125, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 4}
+{'policy': 'mock-nonew6', 'seed': 126, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 5}
+{'policy': 'mock-nonew6', 'seed': 127, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 5}
+{'policy': 'mock-nonew6', 'seed': 128, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 5}
+{'policy': 'mock-nonew6', 'seed': 129, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 4}
+{'policy': 'mock-nonew6', 'seed': 130, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 4}
+{'policy': 'mock-nonew6', 'seed': 131, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 0}
+{'policy': 'mock-nonew6', 'seed': 132, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 4}
+{'policy': 'mock-nonew6', 'seed': 133, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 5}
+{'policy': 'mock-nonew6', 'seed': 134, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 4}
+{'policy': 'mock-nonew6', 'seed': 135, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 4}
+{'policy': 'mock-nonew6', 'seed': 136, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 3}
+{'policy': 'mock-nonew6', 'seed': 137, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 5}
+{'policy': 'mock-nonew6', 'seed': 138, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 5}
+{'policy': 'mock-nonew6', 'seed': 139, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 5}
+{'policy': 'mock-nonew6', 'seed': 140, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 3}
+{'policy': 'mock-nonew6', 'seed': 141, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 5}
+{'policy': 'mock-nonew6', 'seed': 142, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 5}
+{'policy': 'mock-nonew6', 'seed': 143, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 4}
+{'policy': 'mock-nonew6', 'seed': 144, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 5}
+{'policy': 'mock-nonew6', 'seed': 145, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 5}
+{'policy': 'mock-nonew6', 'seed': 146, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 4}
+{'policy': 'mock-nonew6', 'seed': 147, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 5}
+{'policy': 'mock-nonew6', 'seed': 148, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 5}
+{'policy': 'mock-nonew6', 'seed': 149, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 5}
+{'policy': 'mock-nonew6', 'seed': 150, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 4}
+{'policy': 'mock-nonew6', 'seed': 151, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 4}
+{'policy': 'mock-nonew6', 'seed': 152, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 5}
+{'policy': 'mock-nonew6', 'seed': 153, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 6}
+{'policy': 'mock-nonew6', 'seed': 154, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 5}
+{'policy': 'mock-nonew6', 'seed': 155, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 5}
+{'policy': 'mock-nonew6', 'seed': 156, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 5}
+{'policy': 'mock-nonew6', 'seed': 157, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 3}
+{'policy': 'mock-nonew6', 'seed': 158, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 3}
+{'policy': 'mock-nonew6', 'seed': 159, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 5}
+{'policy': 'mock-nonew6', 'seed': 160, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 5}
+{'policy': 'mock-nonew6', 'seed': 161, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 4}
+{'policy': 'mock-nonew6', 'seed': 162, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 4}
+{'policy': 'mock-nonew6', 'seed': 163, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 5}
+{'policy': 'mock-nonew6', 'seed': 164, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 5}
+{'policy': 'mock-nonew6', 'seed': 165, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 5}
+{'policy': 'mock-nonew6', 'seed': 166, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 3}
+{'policy': 'mock-nonew6', 'seed': 167, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 5}
+{'policy': 'mock-nonew6', 'seed': 168, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 4}
+{'policy': 'mock-nonew6', 'seed': 169, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 0}
+{'policy': 'mock-nonew6', 'seed': 170, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 4}
+{'policy': 'mock-nonew6', 'seed': 171, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 3}
+{'policy': 'mock-nonew6', 'seed': 172, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 0}
+{'policy': 'mock-nonew6', 'seed': 173, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 0}
+{'policy': 'mock-nonew6', 'seed': 174, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 5}
+{'policy': 'mock-nonew6', 'seed': 175, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 4}
+wrote 76 rows -> results/final_bigN.csv
++ python3 run_pilot.py --policy mock --mem none --episodes 76 --seed0 100 --cancel late --out results/final_bigN.csv
+{'policy': 'mock-nonew6', 'seed': 100, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 5}
+{'policy': 'mock-nonew6', 'seed': 101, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 4}
+{'policy': 'mock-nonew6', 'seed': 102, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 4}
+{'policy': 'mock-nonew6', 'seed': 103, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 4}
+{'policy': 'mock-nonew6', 'seed': 104, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 5}
+{'policy': 'mock-nonew6', 'seed': 105, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 4}
+{'policy': 'mock-nonew6', 'seed': 106, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 4}
+{'policy': 'mock-nonew6', 'seed': 107, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 5}
+{'policy': 'mock-nonew6', 'seed': 108, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 5}
+{'policy': 'mock-nonew6', 'seed': 109, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 0}
+{'policy': 'mock-nonew6', 'seed': 110, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 5}
+{'policy': 'mock-nonew6', 'seed': 111, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 5}
+{'policy': 'mock-nonew6', 'seed': 112, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 4}
+{'policy': 'mock-nonew6', 'seed': 113, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 5}
+{'policy': 'mock-nonew6', 'seed': 114, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 5}
+{'policy': 'mock-nonew6', 'seed': 115, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 0}
+{'policy': 'mock-nonew6', 'seed': 116, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 4}
+{'policy': 'mock-nonew6', 'seed': 117, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 4}
+{'policy': 'mock-nonew6', 'seed': 118, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 3}
+{'policy': 'mock-nonew6', 'seed': 119, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 0}
+{'policy': 'mock-nonew6', 'seed': 120, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 4}
+{'policy': 'mock-nonew6', 'seed': 121, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 4}
+{'policy': 'mock-nonew6', 'seed': 122, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 4}
+{'policy': 'mock-nonew6', 'seed': 123, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 5}
+{'policy': 'mock-nonew6', 'seed': 124, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 0}
+{'policy': 'mock-nonew6', 'seed': 125, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 4}
+{'policy': 'mock-nonew6', 'seed': 126, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 5}
+{'policy': 'mock-nonew6', 'seed': 127, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 5}
+{'policy': 'mock-nonew6', 'seed': 128, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 5}
+{'policy': 'mock-nonew6', 'seed': 129, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 4}
+{'policy': 'mock-nonew6', 'seed': 130, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 4}
+{'policy': 'mock-nonew6', 'seed': 131, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 0}
+{'policy': 'mock-nonew6', 'seed': 132, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 4}
+{'policy': 'mock-nonew6', 'seed': 133, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 5}
+{'policy': 'mock-nonew6', 'seed': 134, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 4}
+{'policy': 'mock-nonew6', 'seed': 135, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 4}
+{'policy': 'mock-nonew6', 'seed': 136, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 3}
+{'policy': 'mock-nonew6', 'seed': 137, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 5}
+{'policy': 'mock-nonew6', 'seed': 138, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 5}
+{'policy': 'mock-nonew6', 'seed': 139, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 5}
+{'policy': 'mock-nonew6', 'seed': 140, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 3}
+{'policy': 'mock-nonew6', 'seed': 141, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 5}
+{'policy': 'mock-nonew6', 'seed': 142, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 5}
+{'policy': 'mock-nonew6', 'seed': 143, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 4}
+{'policy': 'mock-nonew6', 'seed': 144, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 5}
+{'policy': 'mock-nonew6', 'seed': 145, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 5}
+{'policy': 'mock-nonew6', 'seed': 146, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 4}
+{'policy': 'mock-nonew6', 'seed': 147, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 5}
+{'policy': 'mock-nonew6', 'seed': 148, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 5}
+{'policy': 'mock-nonew6', 'seed': 149, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 5}
+{'policy': 'mock-nonew6', 'seed': 150, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 4}
+{'policy': 'mock-nonew6', 'seed': 151, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 4}
+{'policy': 'mock-nonew6', 'seed': 152, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 5}
+{'policy': 'mock-nonew6', 'seed': 153, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 6}
+{'policy': 'mock-nonew6', 'seed': 154, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 5}
+{'policy': 'mock-nonew6', 'seed': 155, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 5}
+{'policy': 'mock-nonew6', 'seed': 156, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 5}
+{'policy': 'mock-nonew6', 'seed': 157, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 3}
+{'policy': 'mock-nonew6', 'seed': 158, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 3}
+{'policy': 'mock-nonew6', 'seed': 159, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 5}
+{'policy': 'mock-nonew6', 'seed': 160, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 5}
+{'policy': 'mock-nonew6', 'seed': 161, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 4}
+{'policy': 'mock-nonew6', 'seed': 162, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 4}
+{'policy': 'mock-nonew6', 'seed': 163, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 5}
+{'policy': 'mock-nonew6', 'seed': 164, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 5}
+{'policy': 'mock-nonew6', 'seed': 165, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 5}
+{'policy': 'mock-nonew6', 'seed': 166, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 3}
+{'policy': 'mock-nonew6', 'seed': 167, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 5}
+{'policy': 'mock-nonew6', 'seed': 168, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 4}
+{'policy': 'mock-nonew6', 'seed': 169, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 0}
+{'policy': 'mock-nonew6', 'seed': 170, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 4}
+{'policy': 'mock-nonew6', 'seed': 171, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 3}
+{'policy': 'mock-nonew6', 'seed': 172, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 0}
+{'policy': 'mock-nonew6', 'seed': 173, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 0}
+{'policy': 'mock-nonew6', 'seed': 174, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 5}
+{'policy': 'mock-nonew6', 'seed': 175, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 4}
+wrote 76 rows -> results/final_bigN.csv
++ for mem in none bank rwim
++ python3 run_pilot.py --policy mock --mem bank --episodes 76 --seed0 100 --out results/final_bigN.csv
+{'policy': 'mock-bankw6', 'seed': 100, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 24, 'chores_done': 5}
+{'policy': 'mock-bankw6', 'seed': 101, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 10, 'chores_done': 4}
+{'policy': 'mock-bankw6', 'seed': 102, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 22, 'chores_done': 4}
+{'policy': 'mock-bankw6', 'seed': 103, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 7, 'chores_done': 4}
+{'policy': 'mock-bankw6', 'seed': 104, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 14, 'chores_done': 5}
+{'policy': 'mock-bankw6', 'seed': 105, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 4}
+{'policy': 'mock-bankw6', 'seed': 106, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 7, 'chores_done': 4}
+{'policy': 'mock-bankw6', 'seed': 107, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 7, 'chores_done': 5}
+{'policy': 'mock-bankw6', 'seed': 108, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 14, 'chores_done': 5}
+{'policy': 'mock-bankw6', 'seed': 109, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 10, 'chores_done': 0}
+{'policy': 'mock-bankw6', 'seed': 110, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 12, 'chores_done': 5}
+{'policy': 'mock-bankw6', 'seed': 111, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 14, 'chores_done': 5}
+{'policy': 'mock-bankw6', 'seed': 112, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 18, 'chores_done': 4}
+{'policy': 'mock-bankw6', 'seed': 113, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 14, 'chores_done': 5}
+{'policy': 'mock-bankw6', 'seed': 114, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 18, 'chores_done': 5}
+{'policy': 'mock-bankw6', 'seed': 115, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 16, 'chores_done': 0}
+{'policy': 'mock-bankw6', 'seed': 116, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 10, 'chores_done': 4}
+{'policy': 'mock-bankw6', 'seed': 117, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 7, 'chores_done': 4}
+{'policy': 'mock-bankw6', 'seed': 118, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 24, 'chores_done': 3}
+{'policy': 'mock-bankw6', 'seed': 119, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 14, 'chores_done': 0}
+{'policy': 'mock-bankw6', 'seed': 120, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 14, 'chores_done': 4}
+{'policy': 'mock-bankw6', 'seed': 121, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 10, 'chores_done': 4}
+{'policy': 'mock-bankw6', 'seed': 122, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 10, 'chores_done': 4}
+{'policy': 'mock-bankw6', 'seed': 123, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 14, 'chores_done': 5}
+{'policy': 'mock-bankw6', 'seed': 124, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 8, 'chores_done': 0}
+{'policy': 'mock-bankw6', 'seed': 125, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 12, 'chores_done': 4}
+{'policy': 'mock-bankw6', 'seed': 126, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 10, 'chores_done': 5}
+{'policy': 'mock-bankw6', 'seed': 127, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 8, 'chores_done': 5}
+{'policy': 'mock-bankw6', 'seed': 128, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 10, 'chores_done': 5}
+{'policy': 'mock-bankw6', 'seed': 129, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 7, 'chores_done': 4}
+{'policy': 'mock-bankw6', 'seed': 130, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 7, 'chores_done': 4}
+{'policy': 'mock-bankw6', 'seed': 131, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 0}
+{'policy': 'mock-bankw6', 'seed': 132, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 20, 'chores_done': 4}
+{'policy': 'mock-bankw6', 'seed': 133, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 8, 'chores_done': 5}
+{'policy': 'mock-bankw6', 'seed': 134, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 12, 'chores_done': 4}
+{'policy': 'mock-bankw6', 'seed': 135, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 8, 'chores_done': 4}
+{'policy': 'mock-bankw6', 'seed': 136, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 7, 'chores_done': 3}
+{'policy': 'mock-bankw6', 'seed': 137, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 10, 'chores_done': 5}
+{'policy': 'mock-bankw6', 'seed': 138, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 7, 'chores_done': 5}
+{'policy': 'mock-bankw6', 'seed': 139, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 12, 'chores_done': 5}
+{'policy': 'mock-bankw6', 'seed': 140, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 18, 'chores_done': 3}
+{'policy': 'mock-bankw6', 'seed': 141, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 8, 'chores_done': 5}
+{'policy': 'mock-bankw6', 'seed': 142, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 5}
+{'policy': 'mock-bankw6', 'seed': 143, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 4}
+{'policy': 'mock-bankw6', 'seed': 144, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 10, 'chores_done': 5}
+{'policy': 'mock-bankw6', 'seed': 145, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 12, 'chores_done': 5}
+{'policy': 'mock-bankw6', 'seed': 146, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 12, 'chores_done': 4}
+{'policy': 'mock-bankw6', 'seed': 147, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 14, 'chores_done': 5}
+{'policy': 'mock-bankw6', 'seed': 148, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 5}
+{'policy': 'mock-bankw6', 'seed': 149, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 14, 'chores_done': 5}
+{'policy': 'mock-bankw6', 'seed': 150, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 10, 'chores_done': 4}
+{'policy': 'mock-bankw6', 'seed': 151, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 7, 'chores_done': 4}
+{'policy': 'mock-bankw6', 'seed': 152, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 7, 'chores_done': 5}
+{'policy': 'mock-bankw6', 'seed': 153, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 6}
+{'policy': 'mock-bankw6', 'seed': 154, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 7, 'chores_done': 5}
+{'policy': 'mock-bankw6', 'seed': 155, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 7, 'chores_done': 5}
+{'policy': 'mock-bankw6', 'seed': 156, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 7, 'chores_done': 5}
+{'policy': 'mock-bankw6', 'seed': 157, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 3}
+{'policy': 'mock-bankw6', 'seed': 158, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 18, 'chores_done': 3}
+{'policy': 'mock-bankw6', 'seed': 159, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 10, 'chores_done': 5}
+{'policy': 'mock-bankw6', 'seed': 160, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 14, 'chores_done': 5}
+{'policy': 'mock-bankw6', 'seed': 161, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 8, 'chores_done': 4}
+{'policy': 'mock-bankw6', 'seed': 162, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 16, 'chores_done': 4}
+{'policy': 'mock-bankw6', 'seed': 163, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 7, 'chores_done': 5}
+{'policy': 'mock-bankw6', 'seed': 164, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 22, 'chores_done': 5}
+{'policy': 'mock-bankw6', 'seed': 165, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 7, 'chores_done': 5}
+{'policy': 'mock-bankw6', 'seed': 166, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 12, 'chores_done': 3}
+{'policy': 'mock-bankw6', 'seed': 167, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 14, 'chores_done': 5}
+{'policy': 'mock-bankw6', 'seed': 168, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 10, 'chores_done': 4}
+{'policy': 'mock-bankw6', 'seed': 169, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 8, 'chores_done': 0}
+{'policy': 'mock-bankw6', 'seed': 170, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 10, 'chores_done': 4}
+{'policy': 'mock-bankw6', 'seed': 171, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 7, 'chores_done': 3}
+{'policy': 'mock-bankw6', 'seed': 172, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 14, 'chores_done': 0}
+{'policy': 'mock-bankw6', 'seed': 173, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 7, 'chores_done': 0}
+{'policy': 'mock-bankw6', 'seed': 174, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 10, 'chores_done': 5}
+{'policy': 'mock-bankw6', 'seed': 175, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 18, 'chores_done': 4}
+wrote 76 rows -> results/final_bigN.csv
++ python3 run_pilot.py --policy mock --mem bank --episodes 76 --seed0 100 --cancel late --out results/final_bigN.csv
+{'policy': 'mock-bankw6', 'seed': 100, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': True, 'exec_step': 24, 'chores_done': 5}
+{'policy': 'mock-bankw6', 'seed': 101, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 4}
+{'policy': 'mock-bankw6', 'seed': 102, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': True, 'exec_step': 22, 'chores_done': 4}
+{'policy': 'mock-bankw6', 'seed': 103, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': True, 'exec_step': 7, 'chores_done': 4}
+{'policy': 'mock-bankw6', 'seed': 104, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': True, 'exec_step': 15, 'chores_done': 5}
+{'policy': 'mock-bankw6', 'seed': 105, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 4}
+{'policy': 'mock-bankw6', 'seed': 106, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': True, 'exec_step': 7, 'chores_done': 4}
+{'policy': 'mock-bankw6', 'seed': 107, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': True, 'exec_step': 7, 'chores_done': 5}
+{'policy': 'mock-bankw6', 'seed': 108, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': True, 'exec_step': 15, 'chores_done': 5}
+{'policy': 'mock-bankw6', 'seed': 109, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 0}
+{'policy': 'mock-bankw6', 'seed': 110, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 5}
+{'policy': 'mock-bankw6', 'seed': 111, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': True, 'exec_step': 15, 'chores_done': 5}
+{'policy': 'mock-bankw6', 'seed': 112, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': True, 'exec_step': 18, 'chores_done': 4}
+{'policy': 'mock-bankw6', 'seed': 113, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': True, 'exec_step': 15, 'chores_done': 5}
+{'policy': 'mock-bankw6', 'seed': 114, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': True, 'exec_step': 18, 'chores_done': 5}
+{'policy': 'mock-bankw6', 'seed': 115, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': True, 'exec_step': 16, 'chores_done': 0}
+{'policy': 'mock-bankw6', 'seed': 116, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': True, 'exec_step': 22, 'chores_done': 4}
+{'policy': 'mock-bankw6', 'seed': 117, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': True, 'exec_step': 7, 'chores_done': 4}
+{'policy': 'mock-bankw6', 'seed': 118, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': True, 'exec_step': 24, 'chores_done': 3}
+{'policy': 'mock-bankw6', 'seed': 119, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': True, 'exec_step': 15, 'chores_done': 0}
+{'policy': 'mock-bankw6', 'seed': 120, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': True, 'exec_step': 15, 'chores_done': 4}
+{'policy': 'mock-bankw6', 'seed': 121, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': True, 'exec_step': 15, 'chores_done': 4}
+{'policy': 'mock-bankw6', 'seed': 122, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 4}
+{'policy': 'mock-bankw6', 'seed': 123, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': True, 'exec_step': 15, 'chores_done': 5}
+{'policy': 'mock-bankw6', 'seed': 124, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': True, 'exec_step': 8, 'chores_done': 0}
+{'policy': 'mock-bankw6', 'seed': 125, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 4}
+{'policy': 'mock-bankw6', 'seed': 126, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': True, 'exec_step': 15, 'chores_done': 5}
+{'policy': 'mock-bankw6', 'seed': 127, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': True, 'exec_step': 8, 'chores_done': 5}
+{'policy': 'mock-bankw6', 'seed': 128, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 5}
+{'policy': 'mock-bankw6', 'seed': 129, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': True, 'exec_step': 7, 'chores_done': 4}
+{'policy': 'mock-bankw6', 'seed': 130, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': True, 'exec_step': 7, 'chores_done': 4}
+{'policy': 'mock-bankw6', 'seed': 131, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 0}
+{'policy': 'mock-bankw6', 'seed': 132, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': True, 'exec_step': 20, 'chores_done': 4}
+{'policy': 'mock-bankw6', 'seed': 133, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': True, 'exec_step': 8, 'chores_done': 5}
+{'policy': 'mock-bankw6', 'seed': 134, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 4}
+{'policy': 'mock-bankw6', 'seed': 135, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': True, 'exec_step': 8, 'chores_done': 4}
+{'policy': 'mock-bankw6', 'seed': 136, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': True, 'exec_step': 7, 'chores_done': 3}
+{'policy': 'mock-bankw6', 'seed': 137, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': True, 'exec_step': 18, 'chores_done': 5}
+{'policy': 'mock-bankw6', 'seed': 138, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': True, 'exec_step': 7, 'chores_done': 5}
+{'policy': 'mock-bankw6', 'seed': 139, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 5}
+{'policy': 'mock-bankw6', 'seed': 140, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': True, 'exec_step': 18, 'chores_done': 3}
+{'policy': 'mock-bankw6', 'seed': 141, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': True, 'exec_step': 8, 'chores_done': 5}
+{'policy': 'mock-bankw6', 'seed': 142, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 5}
+{'policy': 'mock-bankw6', 'seed': 143, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 4}
+{'policy': 'mock-bankw6', 'seed': 144, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 5}
+{'policy': 'mock-bankw6', 'seed': 145, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': True, 'exec_step': 15, 'chores_done': 5}
+{'policy': 'mock-bankw6', 'seed': 146, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 4}
+{'policy': 'mock-bankw6', 'seed': 147, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': True, 'exec_step': 15, 'chores_done': 5}
+{'policy': 'mock-bankw6', 'seed': 148, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 5}
+{'policy': 'mock-bankw6', 'seed': 149, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': True, 'exec_step': 15, 'chores_done': 5}
+{'policy': 'mock-bankw6', 'seed': 150, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 4}
+{'policy': 'mock-bankw6', 'seed': 151, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': True, 'exec_step': 7, 'chores_done': 4}
+{'policy': 'mock-bankw6', 'seed': 152, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': True, 'exec_step': 7, 'chores_done': 5}
+{'policy': 'mock-bankw6', 'seed': 153, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 6}
+{'policy': 'mock-bankw6', 'seed': 154, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': True, 'exec_step': 7, 'chores_done': 5}
+{'policy': 'mock-bankw6', 'seed': 155, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': True, 'exec_step': 7, 'chores_done': 5}
+{'policy': 'mock-bankw6', 'seed': 156, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': True, 'exec_step': 7, 'chores_done': 5}
+{'policy': 'mock-bankw6', 'seed': 157, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 3}
+{'policy': 'mock-bankw6', 'seed': 158, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': True, 'exec_step': 18, 'chores_done': 3}
+{'policy': 'mock-bankw6', 'seed': 159, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 5}
+{'policy': 'mock-bankw6', 'seed': 160, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': True, 'exec_step': 15, 'chores_done': 5}
+{'policy': 'mock-bankw6', 'seed': 161, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': True, 'exec_step': 8, 'chores_done': 4}
+{'policy': 'mock-bankw6', 'seed': 162, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': True, 'exec_step': 16, 'chores_done': 4}
+{'policy': 'mock-bankw6', 'seed': 163, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': True, 'exec_step': 7, 'chores_done': 5}
+{'policy': 'mock-bankw6', 'seed': 164, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': True, 'exec_step': 22, 'chores_done': 5}
+{'policy': 'mock-bankw6', 'seed': 165, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': True, 'exec_step': 7, 'chores_done': 5}
+{'policy': 'mock-bankw6', 'seed': 166, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 3}
+{'policy': 'mock-bankw6', 'seed': 167, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': True, 'exec_step': 15, 'chores_done': 5}
+{'policy': 'mock-bankw6', 'seed': 168, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': True, 'exec_step': 22, 'chores_done': 4}
+{'policy': 'mock-bankw6', 'seed': 169, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': True, 'exec_step': 8, 'chores_done': 0}
+{'policy': 'mock-bankw6', 'seed': 170, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 4}
+{'policy': 'mock-bankw6', 'seed': 171, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': True, 'exec_step': 7, 'chores_done': 3}
+{'policy': 'mock-bankw6', 'seed': 172, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': True, 'exec_step': 15, 'chores_done': 0}
+{'policy': 'mock-bankw6', 'seed': 173, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': True, 'exec_step': 7, 'chores_done': 0}
+{'policy': 'mock-bankw6', 'seed': 174, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 5}
+{'policy': 'mock-bankw6', 'seed': 175, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': True, 'exec_step': 18, 'chores_done': 4}
+wrote 76 rows -> results/final_bigN.csv
++ for mem in none bank rwim
++ python3 run_pilot.py --policy mock --mem rwim --episodes 76 --seed0 100 --out results/final_bigN.csv
+{'policy': 'mock-rwimw6', 'seed': 100, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 24, 'chores_done': 5}
+{'policy': 'mock-rwimw6', 'seed': 101, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 10, 'chores_done': 4}
+{'policy': 'mock-rwimw6', 'seed': 102, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 22, 'chores_done': 4}
+{'policy': 'mock-rwimw6', 'seed': 103, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 7, 'chores_done': 4}
+{'policy': 'mock-rwimw6', 'seed': 104, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 14, 'chores_done': 5}
+{'policy': 'mock-rwimw6', 'seed': 105, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 4}
+{'policy': 'mock-rwimw6', 'seed': 106, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 7, 'chores_done': 4}
+{'policy': 'mock-rwimw6', 'seed': 107, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 7, 'chores_done': 5}
+{'policy': 'mock-rwimw6', 'seed': 108, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 14, 'chores_done': 5}
+{'policy': 'mock-rwimw6', 'seed': 109, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 10, 'chores_done': 0}
+{'policy': 'mock-rwimw6', 'seed': 110, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 12, 'chores_done': 5}
+{'policy': 'mock-rwimw6', 'seed': 111, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 14, 'chores_done': 5}
+{'policy': 'mock-rwimw6', 'seed': 112, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 18, 'chores_done': 4}
+{'policy': 'mock-rwimw6', 'seed': 113, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 14, 'chores_done': 5}
+{'policy': 'mock-rwimw6', 'seed': 114, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 18, 'chores_done': 5}
+{'policy': 'mock-rwimw6', 'seed': 115, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 16, 'chores_done': 0}
+{'policy': 'mock-rwimw6', 'seed': 116, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 10, 'chores_done': 4}
+{'policy': 'mock-rwimw6', 'seed': 117, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 7, 'chores_done': 4}
+{'policy': 'mock-rwimw6', 'seed': 118, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 24, 'chores_done': 3}
+{'policy': 'mock-rwimw6', 'seed': 119, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 14, 'chores_done': 0}
+{'policy': 'mock-rwimw6', 'seed': 120, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 14, 'chores_done': 4}
+{'policy': 'mock-rwimw6', 'seed': 121, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 10, 'chores_done': 4}
+{'policy': 'mock-rwimw6', 'seed': 122, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 10, 'chores_done': 4}
+{'policy': 'mock-rwimw6', 'seed': 123, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 14, 'chores_done': 5}
+{'policy': 'mock-rwimw6', 'seed': 124, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 8, 'chores_done': 0}
+{'policy': 'mock-rwimw6', 'seed': 125, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 12, 'chores_done': 4}
+{'policy': 'mock-rwimw6', 'seed': 126, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 10, 'chores_done': 5}
+{'policy': 'mock-rwimw6', 'seed': 127, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 8, 'chores_done': 5}
+{'policy': 'mock-rwimw6', 'seed': 128, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 10, 'chores_done': 5}
+{'policy': 'mock-rwimw6', 'seed': 129, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 7, 'chores_done': 4}
+{'policy': 'mock-rwimw6', 'seed': 130, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 7, 'chores_done': 4}
+{'policy': 'mock-rwimw6', 'seed': 131, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 0}
+{'policy': 'mock-rwimw6', 'seed': 132, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 20, 'chores_done': 4}
+{'policy': 'mock-rwimw6', 'seed': 133, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 8, 'chores_done': 5}
+{'policy': 'mock-rwimw6', 'seed': 134, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 12, 'chores_done': 4}
+{'policy': 'mock-rwimw6', 'seed': 135, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 8, 'chores_done': 4}
+{'policy': 'mock-rwimw6', 'seed': 136, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 7, 'chores_done': 3}
+{'policy': 'mock-rwimw6', 'seed': 137, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 10, 'chores_done': 5}
+{'policy': 'mock-rwimw6', 'seed': 138, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 7, 'chores_done': 5}
+{'policy': 'mock-rwimw6', 'seed': 139, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 12, 'chores_done': 5}
+{'policy': 'mock-rwimw6', 'seed': 140, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 18, 'chores_done': 3}
+{'policy': 'mock-rwimw6', 'seed': 141, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 8, 'chores_done': 5}
+{'policy': 'mock-rwimw6', 'seed': 142, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 5}
+{'policy': 'mock-rwimw6', 'seed': 143, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 4}
+{'policy': 'mock-rwimw6', 'seed': 144, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 10, 'chores_done': 5}
+{'policy': 'mock-rwimw6', 'seed': 145, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 12, 'chores_done': 5}
+{'policy': 'mock-rwimw6', 'seed': 146, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 12, 'chores_done': 4}
+{'policy': 'mock-rwimw6', 'seed': 147, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 14, 'chores_done': 5}
+{'policy': 'mock-rwimw6', 'seed': 148, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 5}
+{'policy': 'mock-rwimw6', 'seed': 149, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 14, 'chores_done': 5}
+{'policy': 'mock-rwimw6', 'seed': 150, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 10, 'chores_done': 4}
+{'policy': 'mock-rwimw6', 'seed': 151, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 7, 'chores_done': 4}
+{'policy': 'mock-rwimw6', 'seed': 152, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 7, 'chores_done': 5}
+{'policy': 'mock-rwimw6', 'seed': 153, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 6}
+{'policy': 'mock-rwimw6', 'seed': 154, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 7, 'chores_done': 5}
+{'policy': 'mock-rwimw6', 'seed': 155, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 7, 'chores_done': 5}
+{'policy': 'mock-rwimw6', 'seed': 156, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 7, 'chores_done': 5}
+{'policy': 'mock-rwimw6', 'seed': 157, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 3}
+{'policy': 'mock-rwimw6', 'seed': 158, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 18, 'chores_done': 3}
+{'policy': 'mock-rwimw6', 'seed': 159, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 10, 'chores_done': 5}
+{'policy': 'mock-rwimw6', 'seed': 160, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 14, 'chores_done': 5}
+{'policy': 'mock-rwimw6', 'seed': 161, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 8, 'chores_done': 4}
+{'policy': 'mock-rwimw6', 'seed': 162, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 16, 'chores_done': 4}
+{'policy': 'mock-rwimw6', 'seed': 163, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 7, 'chores_done': 5}
+{'policy': 'mock-rwimw6', 'seed': 164, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 22, 'chores_done': 5}
+{'policy': 'mock-rwimw6', 'seed': 165, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 7, 'chores_done': 5}
+{'policy': 'mock-rwimw6', 'seed': 166, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 12, 'chores_done': 3}
+{'policy': 'mock-rwimw6', 'seed': 167, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 14, 'chores_done': 5}
+{'policy': 'mock-rwimw6', 'seed': 168, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 10, 'chores_done': 4}
+{'policy': 'mock-rwimw6', 'seed': 169, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 8, 'chores_done': 0}
+{'policy': 'mock-rwimw6', 'seed': 170, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 10, 'chores_done': 4}
+{'policy': 'mock-rwimw6', 'seed': 171, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 7, 'chores_done': 3}
+{'policy': 'mock-rwimw6', 'seed': 172, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 14, 'chores_done': 0}
+{'policy': 'mock-rwimw6', 'seed': 173, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 7, 'chores_done': 0}
+{'policy': 'mock-rwimw6', 'seed': 174, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 10, 'chores_done': 5}
+{'policy': 'mock-rwimw6', 'seed': 175, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 18, 'chores_done': 4}
+wrote 76 rows -> results/final_bigN.csv
++ python3 run_pilot.py --policy mock --mem rwim --episodes 76 --seed0 100 --cancel late --out results/final_bigN.csv
+{'policy': 'mock-rwimw6', 'seed': 100, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 5}
+{'policy': 'mock-rwimw6', 'seed': 101, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 4}
+{'policy': 'mock-rwimw6', 'seed': 102, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 4}
+{'policy': 'mock-rwimw6', 'seed': 103, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': True, 'exec_step': 7, 'chores_done': 4}
+{'policy': 'mock-rwimw6', 'seed': 104, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 5}
+{'policy': 'mock-rwimw6', 'seed': 105, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 4}
+{'policy': 'mock-rwimw6', 'seed': 106, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': True, 'exec_step': 7, 'chores_done': 4}
+{'policy': 'mock-rwimw6', 'seed': 107, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': True, 'exec_step': 7, 'chores_done': 5}
+{'policy': 'mock-rwimw6', 'seed': 108, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 5}
+{'policy': 'mock-rwimw6', 'seed': 109, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 0}
+{'policy': 'mock-rwimw6', 'seed': 110, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 5}
+{'policy': 'mock-rwimw6', 'seed': 111, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 5}
+{'policy': 'mock-rwimw6', 'seed': 112, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 4}
+{'policy': 'mock-rwimw6', 'seed': 113, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 5}
+{'policy': 'mock-rwimw6', 'seed': 114, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 5}
+{'policy': 'mock-rwimw6', 'seed': 115, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 0}
+{'policy': 'mock-rwimw6', 'seed': 116, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 4}
+{'policy': 'mock-rwimw6', 'seed': 117, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': True, 'exec_step': 7, 'chores_done': 4}
+{'policy': 'mock-rwimw6', 'seed': 118, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 3}
+{'policy': 'mock-rwimw6', 'seed': 119, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 0}
+{'policy': 'mock-rwimw6', 'seed': 120, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 4}
+{'policy': 'mock-rwimw6', 'seed': 121, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 4}
+{'policy': 'mock-rwimw6', 'seed': 122, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 4}
+{'policy': 'mock-rwimw6', 'seed': 123, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 5}
+{'policy': 'mock-rwimw6', 'seed': 124, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': True, 'exec_step': 8, 'chores_done': 0}
+{'policy': 'mock-rwimw6', 'seed': 125, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 4}
+{'policy': 'mock-rwimw6', 'seed': 126, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 5}
+{'policy': 'mock-rwimw6', 'seed': 127, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': True, 'exec_step': 8, 'chores_done': 5}
+{'policy': 'mock-rwimw6', 'seed': 128, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 5}
+{'policy': 'mock-rwimw6', 'seed': 129, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': True, 'exec_step': 7, 'chores_done': 4}
+{'policy': 'mock-rwimw6', 'seed': 130, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': True, 'exec_step': 7, 'chores_done': 4}
+{'policy': 'mock-rwimw6', 'seed': 131, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 0}
+{'policy': 'mock-rwimw6', 'seed': 132, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 4}
+{'policy': 'mock-rwimw6', 'seed': 133, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': True, 'exec_step': 8, 'chores_done': 5}
+{'policy': 'mock-rwimw6', 'seed': 134, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 4}
+{'policy': 'mock-rwimw6', 'seed': 135, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': True, 'exec_step': 8, 'chores_done': 4}
+{'policy': 'mock-rwimw6', 'seed': 136, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': True, 'exec_step': 7, 'chores_done': 3}
+{'policy': 'mock-rwimw6', 'seed': 137, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 5}
+{'policy': 'mock-rwimw6', 'seed': 138, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': True, 'exec_step': 7, 'chores_done': 5}
+{'policy': 'mock-rwimw6', 'seed': 139, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 5}
+{'policy': 'mock-rwimw6', 'seed': 140, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 3}
+{'policy': 'mock-rwimw6', 'seed': 141, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': True, 'exec_step': 8, 'chores_done': 5}
+{'policy': 'mock-rwimw6', 'seed': 142, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 5}
+{'policy': 'mock-rwimw6', 'seed': 143, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 4}
+{'policy': 'mock-rwimw6', 'seed': 144, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 5}
+{'policy': 'mock-rwimw6', 'seed': 145, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 5}
+{'policy': 'mock-rwimw6', 'seed': 146, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 4}
+{'policy': 'mock-rwimw6', 'seed': 147, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 5}
+{'policy': 'mock-rwimw6', 'seed': 148, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 5}
+{'policy': 'mock-rwimw6', 'seed': 149, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 5}
+{'policy': 'mock-rwimw6', 'seed': 150, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 4}
+{'policy': 'mock-rwimw6', 'seed': 151, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': True, 'exec_step': 7, 'chores_done': 4}
+{'policy': 'mock-rwimw6', 'seed': 152, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': True, 'exec_step': 7, 'chores_done': 5}
+{'policy': 'mock-rwimw6', 'seed': 153, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 6}
+{'policy': 'mock-rwimw6', 'seed': 154, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': True, 'exec_step': 7, 'chores_done': 5}
+{'policy': 'mock-rwimw6', 'seed': 155, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': True, 'exec_step': 7, 'chores_done': 5}
+{'policy': 'mock-rwimw6', 'seed': 156, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': True, 'exec_step': 7, 'chores_done': 5}
+{'policy': 'mock-rwimw6', 'seed': 157, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 3}
+{'policy': 'mock-rwimw6', 'seed': 158, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 3}
+{'policy': 'mock-rwimw6', 'seed': 159, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 5}
+{'policy': 'mock-rwimw6', 'seed': 160, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 5}
+{'policy': 'mock-rwimw6', 'seed': 161, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': True, 'exec_step': 8, 'chores_done': 4}
+{'policy': 'mock-rwimw6', 'seed': 162, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 4}
+{'policy': 'mock-rwimw6', 'seed': 163, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': True, 'exec_step': 7, 'chores_done': 5}
+{'policy': 'mock-rwimw6', 'seed': 164, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 5}
+{'policy': 'mock-rwimw6', 'seed': 165, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': True, 'exec_step': 7, 'chores_done': 5}
+{'policy': 'mock-rwimw6', 'seed': 166, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 3}
+{'policy': 'mock-rwimw6', 'seed': 167, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 5}
+{'policy': 'mock-rwimw6', 'seed': 168, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 4}
+{'policy': 'mock-rwimw6', 'seed': 169, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': True, 'exec_step': 8, 'chores_done': 0}
+{'policy': 'mock-rwimw6', 'seed': 170, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 4}
+{'policy': 'mock-rwimw6', 'seed': 171, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': True, 'exec_step': 7, 'chores_done': 3}
+{'policy': 'mock-rwimw6', 'seed': 172, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 0}
+{'policy': 'mock-rwimw6', 'seed': 173, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': True, 'exec_step': 7, 'chores_done': 0}
+{'policy': 'mock-rwimw6', 'seed': 174, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 5}
+{'policy': 'mock-rwimw6', 'seed': 175, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 4}
+wrote 76 rows -> results/final_bigN.csv
++ for w in 3 12 24 48
++ python3 run_pilot.py --policy mock --mem none --window 3 --episodes 24 --seed0 200 --out results/final_bigN.csv
+{'policy': 'mock-nonew3', 'seed': 200, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 6}
+{'policy': 'mock-nonew3', 'seed': 201, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 6}
+{'policy': 'mock-nonew3', 'seed': 202, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 5}
+{'policy': 'mock-nonew3', 'seed': 203, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 5}
+{'policy': 'mock-nonew3', 'seed': 204, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 5}
+{'policy': 'mock-nonew3', 'seed': 205, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 4}
+{'policy': 'mock-nonew3', 'seed': 206, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 5}
+{'policy': 'mock-nonew3', 'seed': 207, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 4}
+{'policy': 'mock-nonew3', 'seed': 208, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 0}
+{'policy': 'mock-nonew3', 'seed': 209, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 5}
+{'policy': 'mock-nonew3', 'seed': 210, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 6}
+{'policy': 'mock-nonew3', 'seed': 211, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 4}
+{'policy': 'mock-nonew3', 'seed': 212, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 5}
+{'policy': 'mock-nonew3', 'seed': 213, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 5}
+{'policy': 'mock-nonew3', 'seed': 214, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 5}
+{'policy': 'mock-nonew3', 'seed': 215, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 6}
+{'policy': 'mock-nonew3', 'seed': 216, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 5}
+{'policy': 'mock-nonew3', 'seed': 217, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 0}
+{'policy': 'mock-nonew3', 'seed': 218, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 0}
+{'policy': 'mock-nonew3', 'seed': 219, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 4}
+{'policy': 'mock-nonew3', 'seed': 220, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 4}
+{'policy': 'mock-nonew3', 'seed': 221, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 4}
+{'policy': 'mock-nonew3', 'seed': 222, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 4}
+{'policy': 'mock-nonew3', 'seed': 223, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 0}
+wrote 24 rows -> results/final_bigN.csv
++ for w in 3 12 24 48
++ python3 run_pilot.py --policy mock --mem none --window 12 --episodes 24 --seed0 200 --out results/final_bigN.csv
+{'policy': 'mock-nonew12', 'seed': 200, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 6}
+{'policy': 'mock-nonew12', 'seed': 201, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 6}
+{'policy': 'mock-nonew12', 'seed': 202, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 7, 'chores_done': 5}
+{'policy': 'mock-nonew12', 'seed': 203, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 7, 'chores_done': 5}
+{'policy': 'mock-nonew12', 'seed': 204, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 5}
+{'policy': 'mock-nonew12', 'seed': 205, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 7, 'chores_done': 4}
+{'policy': 'mock-nonew12', 'seed': 206, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 7, 'chores_done': 5}
+{'policy': 'mock-nonew12', 'seed': 207, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 12, 'chores_done': 4}
+{'policy': 'mock-nonew12', 'seed': 208, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 0}
+{'policy': 'mock-nonew12', 'seed': 209, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 12, 'chores_done': 5}
+{'policy': 'mock-nonew12', 'seed': 210, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 6}
+{'policy': 'mock-nonew12', 'seed': 211, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 4}
+{'policy': 'mock-nonew12', 'seed': 212, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 7, 'chores_done': 5}
+{'policy': 'mock-nonew12', 'seed': 213, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 7, 'chores_done': 5}
+{'policy': 'mock-nonew12', 'seed': 214, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 5}
+{'policy': 'mock-nonew12', 'seed': 215, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 6}
+{'policy': 'mock-nonew12', 'seed': 216, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 5}
+{'policy': 'mock-nonew12', 'seed': 217, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 0}
+{'policy': 'mock-nonew12', 'seed': 218, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 0}
+{'policy': 'mock-nonew12', 'seed': 219, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 4}
+{'policy': 'mock-nonew12', 'seed': 220, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 10, 'chores_done': 4}
+{'policy': 'mock-nonew12', 'seed': 221, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 4}
+{'policy': 'mock-nonew12', 'seed': 222, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 4}
+{'policy': 'mock-nonew12', 'seed': 223, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 10, 'chores_done': 0}
+wrote 24 rows -> results/final_bigN.csv
++ for w in 3 12 24 48
++ python3 run_pilot.py --policy mock --mem none --window 24 --episodes 24 --seed0 200 --out results/final_bigN.csv
+{'policy': 'mock-nonew24', 'seed': 200, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 22, 'chores_done': 6}
+{'policy': 'mock-nonew24', 'seed': 201, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 6}
+{'policy': 'mock-nonew24', 'seed': 202, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 7, 'chores_done': 5}
+{'policy': 'mock-nonew24', 'seed': 203, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 7, 'chores_done': 5}
+{'policy': 'mock-nonew24', 'seed': 204, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 22, 'chores_done': 5}
+{'policy': 'mock-nonew24', 'seed': 205, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 7, 'chores_done': 4}
+{'policy': 'mock-nonew24', 'seed': 206, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 7, 'chores_done': 5}
+{'policy': 'mock-nonew24', 'seed': 207, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 12, 'chores_done': 4}
+{'policy': 'mock-nonew24', 'seed': 208, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 18, 'chores_done': 0}
+{'policy': 'mock-nonew24', 'seed': 209, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 12, 'chores_done': 5}
+{'policy': 'mock-nonew24', 'seed': 210, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 6}
+{'policy': 'mock-nonew24', 'seed': 211, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 18, 'chores_done': 4}
+{'policy': 'mock-nonew24', 'seed': 212, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 7, 'chores_done': 5}
+{'policy': 'mock-nonew24', 'seed': 213, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 7, 'chores_done': 5}
+{'policy': 'mock-nonew24', 'seed': 214, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 14, 'chores_done': 5}
+{'policy': 'mock-nonew24', 'seed': 215, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 22, 'chores_done': 6}
+{'policy': 'mock-nonew24', 'seed': 216, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 14, 'chores_done': 5}
+{'policy': 'mock-nonew24', 'seed': 217, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 18, 'chores_done': 0}
+{'policy': 'mock-nonew24', 'seed': 218, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 0}
+{'policy': 'mock-nonew24', 'seed': 219, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 4}
+{'policy': 'mock-nonew24', 'seed': 220, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 10, 'chores_done': 4}
+{'policy': 'mock-nonew24', 'seed': 221, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 24, 'chores_done': 4}
+{'policy': 'mock-nonew24', 'seed': 222, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 4}
+{'policy': 'mock-nonew24', 'seed': 223, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 10, 'chores_done': 0}
+wrote 24 rows -> results/final_bigN.csv
++ for w in 3 12 24 48
++ python3 run_pilot.py --policy mock --mem none --window 48 --episodes 24 --seed0 200 --out results/final_bigN.csv
+{'policy': 'mock-nonew48', 'seed': 200, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 22, 'chores_done': 6}
+{'policy': 'mock-nonew48', 'seed': 201, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 6}
+{'policy': 'mock-nonew48', 'seed': 202, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 7, 'chores_done': 5}
+{'policy': 'mock-nonew48', 'seed': 203, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 7, 'chores_done': 5}
+{'policy': 'mock-nonew48', 'seed': 204, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 22, 'chores_done': 5}
+{'policy': 'mock-nonew48', 'seed': 205, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 7, 'chores_done': 4}
+{'policy': 'mock-nonew48', 'seed': 206, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 7, 'chores_done': 5}
+{'policy': 'mock-nonew48', 'seed': 207, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 12, 'chores_done': 4}
+{'policy': 'mock-nonew48', 'seed': 208, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 18, 'chores_done': 0}
+{'policy': 'mock-nonew48', 'seed': 209, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 12, 'chores_done': 5}
+{'policy': 'mock-nonew48', 'seed': 210, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 6}
+{'policy': 'mock-nonew48', 'seed': 211, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 18, 'chores_done': 4}
+{'policy': 'mock-nonew48', 'seed': 212, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 7, 'chores_done': 5}
+{'policy': 'mock-nonew48', 'seed': 213, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 7, 'chores_done': 5}
+{'policy': 'mock-nonew48', 'seed': 214, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 14, 'chores_done': 5}
+{'policy': 'mock-nonew48', 'seed': 215, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 22, 'chores_done': 6}
+{'policy': 'mock-nonew48', 'seed': 216, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 14, 'chores_done': 5}
+{'policy': 'mock-nonew48', 'seed': 217, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 18, 'chores_done': 0}
+{'policy': 'mock-nonew48', 'seed': 218, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 0}
+{'policy': 'mock-nonew48', 'seed': 219, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 4}
+{'policy': 'mock-nonew48', 'seed': 220, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 10, 'chores_done': 4}
+{'policy': 'mock-nonew48', 'seed': 221, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 24, 'chores_done': 4}
+{'policy': 'mock-nonew48', 'seed': 222, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 4}
+{'policy': 'mock-nonew48', 'seed': 223, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 10, 'chores_done': 0}
+wrote 24 rows -> results/final_bigN.csv
++ python3 run_pilot.py --policy adaptive --k 8 --episodes 48 --seed0 300 --out results/final_bigN.csv
+{'policy': 'adaptive8', 'seed': 300, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 10, 'chores_done': 4}
+{'policy': 'adaptive8', 'seed': 301, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 10, 'chores_done': 3}
+{'policy': 'adaptive8', 'seed': 302, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 7, 'chores_done': 4}
+{'policy': 'adaptive8', 'seed': 303, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 10, 'chores_done': 5}
+{'policy': 'adaptive8', 'seed': 304, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 10, 'chores_done': 5}
+{'policy': 'adaptive8', 'seed': 305, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 7, 'chores_done': 5}
+{'policy': 'adaptive8', 'seed': 306, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 14, 'chores_done': 4}
+{'policy': 'adaptive8', 'seed': 307, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 10, 'chores_done': 4}
+{'policy': 'adaptive8', 'seed': 308, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 7, 'chores_done': 5}
+{'policy': 'adaptive8', 'seed': 309, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 10, 'chores_done': 5}
+{'policy': 'adaptive8', 'seed': 310, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 5}
+{'policy': 'adaptive8', 'seed': 311, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 12, 'chores_done': 4}
+{'policy': 'adaptive8', 'seed': 312, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 10, 'chores_done': 3}
+{'policy': 'adaptive8', 'seed': 313, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 10, 'chores_done': 4}
+{'policy': 'adaptive8', 'seed': 314, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 7, 'chores_done': 4}
+{'policy': 'adaptive8', 'seed': 315, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 10, 'chores_done': 4}
+{'policy': 'adaptive8', 'seed': 316, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 7, 'chores_done': 5}
+{'policy': 'adaptive8', 'seed': 317, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 10, 'chores_done': 5}
+{'policy': 'adaptive8', 'seed': 318, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 7, 'chores_done': 4}
+{'policy': 'adaptive8', 'seed': 319, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 10, 'chores_done': 3}
+{'policy': 'adaptive8', 'seed': 320, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 12, 'chores_done': 5}
+{'policy': 'adaptive8', 'seed': 321, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 10, 'chores_done': 0}
+{'policy': 'adaptive8', 'seed': 322, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 10, 'chores_done': 5}
+{'policy': 'adaptive8', 'seed': 323, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 7, 'chores_done': 4}
+{'policy': 'adaptive8', 'seed': 324, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 4}
+{'policy': 'adaptive8', 'seed': 325, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 10, 'chores_done': 4}
+{'policy': 'adaptive8', 'seed': 326, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 7, 'chores_done': 5}
+{'policy': 'adaptive8', 'seed': 327, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 10, 'chores_done': 3}
+{'policy': 'adaptive8', 'seed': 328, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 10, 'chores_done': 3}
+{'policy': 'adaptive8', 'seed': 329, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 10, 'chores_done': 5}
+{'policy': 'adaptive8', 'seed': 330, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 5}
+{'policy': 'adaptive8', 'seed': 331, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 12, 'chores_done': 4}
+{'policy': 'adaptive8', 'seed': 332, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 7, 'chores_done': 5}
+{'policy': 'adaptive8', 'seed': 333, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 4}
+{'policy': 'adaptive8', 'seed': 334, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 8, 'chores_done': 3}
+{'policy': 'adaptive8', 'seed': 335, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 10, 'chores_done': 4}
+{'policy': 'adaptive8', 'seed': 336, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 10, 'chores_done': 5}
+{'policy': 'adaptive8', 'seed': 337, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 10, 'chores_done': 4}
+{'policy': 'adaptive8', 'seed': 338, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 7, 'chores_done': 6}
+{'policy': 'adaptive8', 'seed': 339, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 10, 'chores_done': 5}
+{'policy': 'adaptive8', 'seed': 340, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 7, 'chores_done': 5}
+{'policy': 'adaptive8', 'seed': 341, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 4}
+{'policy': 'adaptive8', 'seed': 342, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 10, 'chores_done': 5}
+{'policy': 'adaptive8', 'seed': 343, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 10, 'chores_done': 5}
+{'policy': 'adaptive8', 'seed': 344, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 10, 'chores_done': 5}
+{'policy': 'adaptive8', 'seed': 345, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 12, 'chores_done': 4}
+{'policy': 'adaptive8', 'seed': 346, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 10, 'chores_done': 4}
+{'policy': 'adaptive8', 'seed': 347, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 7, 'chores_done': 0}
+wrote 48 rows -> results/final_bigN.csv
++ python3 run_pilot.py --policy patroller --k 8 --episodes 48 --seed0 300 --out results/final_bigN.csv
+{'policy': 'patroller8', 'seed': 300, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 10, 'chores_done': 4}
+{'policy': 'patroller8', 'seed': 301, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 10, 'chores_done': 3}
+{'policy': 'patroller8', 'seed': 302, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 18, 'chores_done': 4}
+{'policy': 'patroller8', 'seed': 303, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 10, 'chores_done': 5}
+{'policy': 'patroller8', 'seed': 304, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 10, 'chores_done': 4}
+{'policy': 'patroller8', 'seed': 305, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 10, 'chores_done': 5}
+{'policy': 'patroller8', 'seed': 306, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 10, 'chores_done': 4}
+{'policy': 'patroller8', 'seed': 307, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 10, 'chores_done': 3}
+{'policy': 'patroller8', 'seed': 308, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 10, 'chores_done': 5}
+{'policy': 'patroller8', 'seed': 309, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 10, 'chores_done': 5}
+{'policy': 'patroller8', 'seed': 310, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 3}
+{'policy': 'patroller8', 'seed': 311, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 10, 'chores_done': 4}
+{'policy': 'patroller8', 'seed': 312, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 10, 'chores_done': 3}
+{'policy': 'patroller8', 'seed': 313, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 10, 'chores_done': 3}
+{'policy': 'patroller8', 'seed': 314, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 10, 'chores_done': 4}
+{'policy': 'patroller8', 'seed': 315, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 10, 'chores_done': 4}
+{'policy': 'patroller8', 'seed': 316, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 10, 'chores_done': 5}
+{'policy': 'patroller8', 'seed': 317, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 10, 'chores_done': 5}
+{'policy': 'patroller8', 'seed': 318, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 10, 'chores_done': 3}
+{'policy': 'patroller8', 'seed': 319, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 10, 'chores_done': 2}
+{'policy': 'patroller8', 'seed': 320, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 10, 'chores_done': 5}
+{'policy': 'patroller8', 'seed': 321, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 10, 'chores_done': 0}
+{'policy': 'patroller8', 'seed': 322, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 10, 'chores_done': 4}
+{'policy': 'patroller8', 'seed': 323, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 26, 'chores_done': 4}
+{'policy': 'patroller8', 'seed': 324, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 4}
+{'policy': 'patroller8', 'seed': 325, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 10, 'chores_done': 4}
+{'policy': 'patroller8', 'seed': 326, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 10, 'chores_done': 5}
+{'policy': 'patroller8', 'seed': 327, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 10, 'chores_done': 2}
+{'policy': 'patroller8', 'seed': 328, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 10, 'chores_done': 3}
+{'policy': 'patroller8', 'seed': 329, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 10, 'chores_done': 4}
+{'policy': 'patroller8', 'seed': 330, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 4}
+{'policy': 'patroller8', 'seed': 331, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 10, 'chores_done': 4}
+{'policy': 'patroller8', 'seed': 332, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 10, 'chores_done': 5}
+{'policy': 'patroller8', 'seed': 333, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 3}
+{'policy': 'patroller8', 'seed': 334, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 10, 'chores_done': 2}
+{'policy': 'patroller8', 'seed': 335, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 10, 'chores_done': 3}
+{'policy': 'patroller8', 'seed': 336, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 10, 'chores_done': 5}
+{'policy': 'patroller8', 'seed': 337, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 10, 'chores_done': 4}
+{'policy': 'patroller8', 'seed': 338, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 10, 'chores_done': 6}
+{'policy': 'patroller8', 'seed': 339, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 10, 'chores_done': 4}
+{'policy': 'patroller8', 'seed': 340, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 10, 'chores_done': 4}
+{'policy': 'patroller8', 'seed': 341, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 4}
+{'policy': 'patroller8', 'seed': 342, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 10, 'chores_done': 4}
+{'policy': 'patroller8', 'seed': 343, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 10, 'chores_done': 5}
+{'policy': 'patroller8', 'seed': 344, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 10, 'chores_done': 4}
+{'policy': 'patroller8', 'seed': 345, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 10, 'chores_done': 4}
+{'policy': 'patroller8', 'seed': 346, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 10, 'chores_done': 3}
+{'policy': 'patroller8', 'seed': 347, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 10, 'chores_done': 0}
+wrote 48 rows -> results/final_bigN.csv
++ source /Users/jianxin/miniforge3-x86/bin/activate
+++ _CONDA_ROOT=/Users/jianxin/miniforge3-x86
+++ . /Users/jianxin/miniforge3-x86/etc/profile.d/conda.sh
++++ export CONDA_EXE=/Users/jianxin/miniforge3-x86/bin/conda
++++ CONDA_EXE=/Users/jianxin/miniforge3-x86/bin/conda
++++ export _CONDA_EXE=/Users/jianxin/miniforge3-x86/bin/conda
++++ _CONDA_EXE=/Users/jianxin/miniforge3-x86/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/Users/jianxin/miniforge3-x86/bin/python
++++ CONDA_PYTHON_EXE=/Users/jianxin/miniforge3-x86/bin/python
++++ export _CONDA_ROOT=/Users/jianxin/miniforge3-x86
++++ _CONDA_ROOT=/Users/jianxin/miniforge3-x86
++++ '[' -z '' ']'
++++ export CONDA_SHLVL=0
++++ CONDA_SHLVL=0
++++ '[' -n '' ']'
++++++ dirname /Users/jianxin/miniforge3-x86/bin/conda
+++++ dirname /Users/jianxin/miniforge3-x86/bin
++++ PATH=/Users/jianxin/miniforge3-x86/condabin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/pkg/env/global/bin:/Users/jianxin/.local/bin
++++ export PATH
++++ '[' -z '' ']'
++++ PS1=
+++ conda activate
+++ local cmd=activate
+++ case "$cmd" in
+++ __conda_activate activate
+++ '[' -n '' ']'
+++ local ask_conda
++++ PS1=
++++ __conda_exe shell.posix activate
++++ '[' -n '' ']'
++++ /Users/jianxin/miniforge3-x86/bin/conda shell.posix activate
+++ ask_conda='export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+PS1='\''(base) '\''
+export PATH='\''/Users/jianxin/miniforge3-x86/bin:/Users/jianxin/miniforge3-x86/condabin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/pkg/env/global/bin:/Users/jianxin/.local/bin'\''
+export CONDA_PREFIX='\''/Users/jianxin/miniforge3-x86'\''
+export CONDA_SHLVL='\''1'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_EXE='\''/Users/jianxin/miniforge3-x86/bin/conda'\''
+export _CONDA_EXE='\''/Users/jianxin/miniforge3-x86/bin/conda'\''
+export CONDA_PYTHON_EXE='\''/Users/jianxin/miniforge3-x86/bin/python'\''
+export _CONDA_ROOT='\''/Users/jianxin/miniforge3-x86'\''
+. "/Users/jianxin/miniforge3-x86/etc/conda/activate.d/libxml2-split_activate.sh"'
+++ eval 'export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+PS1='\''(base) '\''
+export PATH='\''/Users/jianxin/miniforge3-x86/bin:/Users/jianxin/miniforge3-x86/condabin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/pkg/env/global/bin:/Users/jianxin/.local/bin'\''
+export CONDA_PREFIX='\''/Users/jianxin/miniforge3-x86'\''
+export CONDA_SHLVL='\''1'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_EXE='\''/Users/jianxin/miniforge3-x86/bin/conda'\''
+export _CONDA_EXE='\''/Users/jianxin/miniforge3-x86/bin/conda'\''
+export CONDA_PYTHON_EXE='\''/Users/jianxin/miniforge3-x86/bin/python'\''
+export _CONDA_ROOT='\''/Users/jianxin/miniforge3-x86'\''
+. "/Users/jianxin/miniforge3-x86/etc/conda/activate.d/libxml2-split_activate.sh"'
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ PS1='(base) '
++++ export PATH=/Users/jianxin/miniforge3-x86/bin:/Users/jianxin/miniforge3-x86/condabin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/pkg/env/global/bin:/Users/jianxin/.local/bin
++++ PATH=/Users/jianxin/miniforge3-x86/bin:/Users/jianxin/miniforge3-x86/condabin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/pkg/env/global/bin:/Users/jianxin/.local/bin
++++ export CONDA_PREFIX=/Users/jianxin/miniforge3-x86
++++ CONDA_PREFIX=/Users/jianxin/miniforge3-x86
++++ export CONDA_SHLVL=1
++++ CONDA_SHLVL=1
++++ export CONDA_DEFAULT_ENV=base
++++ CONDA_DEFAULT_ENV=base
++++ export 'CONDA_PROMPT_MODIFIER=(base) '
++++ CONDA_PROMPT_MODIFIER='(base) '
++++ export CONDA_EXE=/Users/jianxin/miniforge3-x86/bin/conda
++++ CONDA_EXE=/Users/jianxin/miniforge3-x86/bin/conda
++++ export _CONDA_EXE=/Users/jianxin/miniforge3-x86/bin/conda
++++ _CONDA_EXE=/Users/jianxin/miniforge3-x86/bin/conda
++++ export CONDA_PYTHON_EXE=/Users/jianxin/miniforge3-x86/bin/python
++++ CONDA_PYTHON_EXE=/Users/jianxin/miniforge3-x86/bin/python
++++ export _CONDA_ROOT=/Users/jianxin/miniforge3-x86
++++ _CONDA_ROOT=/Users/jianxin/miniforge3-x86
++++ . /Users/jianxin/miniforge3-x86/etc/conda/activate.d/libxml2-split_activate.sh
+++++ test -n ''
+++++ xml_catalog_files_libxml2=
+++++ XML_CATALOG_FILES=
+++++ conda_catalog_files=
+++++ ifs_libxml2=' 	
+'
+++++ IFS=' '
+++++ rem=/Users/jianxin/miniforge3-x86
+++++ for pre in '${rem}'
+++++ test '' = /Users/jianxin/miniforge3-x86
+++++ conda_catalog_files=/Users/jianxin/miniforge3-x86
+++++ rem=
+++++ IFS=' 	
+'
+++++ conda_catalog_files='file:///Users/jianxin/miniforge3-x86/etc/xml/catalog file:///etc/xml/catalog'
+++++ export 'XML_CATALOG_FILES=file:///Users/jianxin/miniforge3-x86/etc/xml/catalog file:///etc/xml/catalog'
+++++ XML_CATALOG_FILES='file:///Users/jianxin/miniforge3-x86/etc/xml/catalog file:///etc/xml/catalog'
+++++ unset conda_catalog_files ifs_libxml2 rem
+++ __conda_hashr
+++ '[' -n '' ']'
+++ '[' -n '' ']'
+++ hash -r
++ conda activate habitat
++ local cmd=activate
++ case "$cmd" in
++ __conda_activate activate habitat
++ '[' -n '' ']'
++ local ask_conda
+++ PS1='(base) '
+++ __conda_exe shell.posix activate habitat
+++ '[' -n '' ']'
+++ /Users/jianxin/miniforge3-x86/bin/conda shell.posix activate habitat
++ ask_conda='export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+PS1='\''(habitat) '\''
+export PATH='\''/Users/jianxin/miniforge3-x86/envs/habitat/bin:/Users/jianxin/miniforge3-x86/condabin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/pkg/env/global/bin:/Users/jianxin/.local/bin'\''
+export CONDA_PREFIX='\''/Users/jianxin/miniforge3-x86/envs/habitat'\''
+export CONDA_SHLVL='\''2'\''
+export CONDA_DEFAULT_ENV='\''habitat'\''
+export CONDA_PROMPT_MODIFIER='\''(habitat) '\''
+export CONDA_PREFIX_1='\''/Users/jianxin/miniforge3-x86'\''
+export CONDA_EXE='\''/Users/jianxin/miniforge3-x86/bin/conda'\''
+export _CONDA_EXE='\''/Users/jianxin/miniforge3-x86/bin/conda'\''
+export CONDA_PYTHON_EXE='\''/Users/jianxin/miniforge3-x86/bin/python'\''
+export _CONDA_ROOT='\''/Users/jianxin/miniforge3-x86'\''
+. "/Users/jianxin/miniforge3-x86/envs/habitat/etc/conda/activate.d/libglib_activate.sh"
+. "/Users/jianxin/miniforge3-x86/envs/habitat/etc/conda/activate.d/libxml2_activate.sh"'
++ eval 'export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+PS1='\''(habitat) '\''
+export PATH='\''/Users/jianxin/miniforge3-x86/envs/habitat/bin:/Users/jianxin/miniforge3-x86/condabin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/pkg/env/global/bin:/Users/jianxin/.local/bin'\''
+export CONDA_PREFIX='\''/Users/jianxin/miniforge3-x86/envs/habitat'\''
+export CONDA_SHLVL='\''2'\''
+export CONDA_DEFAULT_ENV='\''habitat'\''
+export CONDA_PROMPT_MODIFIER='\''(habitat) '\''
+export CONDA_PREFIX_1='\''/Users/jianxin/miniforge3-x86'\''
+export CONDA_EXE='\''/Users/jianxin/miniforge3-x86/bin/conda'\''
+export _CONDA_EXE='\''/Users/jianxin/miniforge3-x86/bin/conda'\''
+export CONDA_PYTHON_EXE='\''/Users/jianxin/miniforge3-x86/bin/python'\''
+export _CONDA_ROOT='\''/Users/jianxin/miniforge3-x86'\''
+. "/Users/jianxin/miniforge3-x86/envs/habitat/etc/conda/activate.d/libglib_activate.sh"
+. "/Users/jianxin/miniforge3-x86/envs/habitat/etc/conda/activate.d/libxml2_activate.sh"'
+++ export _CE_M=
+++ _CE_M=
+++ export _CE_CONDA=
+++ _CE_CONDA=
+++ PS1='(habitat) '
+++ export PATH=/Users/jianxin/miniforge3-x86/envs/habitat/bin:/Users/jianxin/miniforge3-x86/condabin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/pkg/env/global/bin:/Users/jianxin/.local/bin
+++ PATH=/Users/jianxin/miniforge3-x86/envs/habitat/bin:/Users/jianxin/miniforge3-x86/condabin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/pkg/env/global/bin:/Users/jianxin/.local/bin
+++ export CONDA_PREFIX=/Users/jianxin/miniforge3-x86/envs/habitat
+++ CONDA_PREFIX=/Users/jianxin/miniforge3-x86/envs/habitat
+++ export CONDA_SHLVL=2
+++ CONDA_SHLVL=2
+++ export CONDA_DEFAULT_ENV=habitat
+++ CONDA_DEFAULT_ENV=habitat
+++ export 'CONDA_PROMPT_MODIFIER=(habitat) '
+++ CONDA_PROMPT_MODIFIER='(habitat) '
+++ export CONDA_PREFIX_1=/Users/jianxin/miniforge3-x86
+++ CONDA_PREFIX_1=/Users/jianxin/miniforge3-x86
+++ export CONDA_EXE=/Users/jianxin/miniforge3-x86/bin/conda
+++ CONDA_EXE=/Users/jianxin/miniforge3-x86/bin/conda
+++ export _CONDA_EXE=/Users/jianxin/miniforge3-x86/bin/conda
+++ _CONDA_EXE=/Users/jianxin/miniforge3-x86/bin/conda
+++ export CONDA_PYTHON_EXE=/Users/jianxin/miniforge3-x86/bin/python
+++ CONDA_PYTHON_EXE=/Users/jianxin/miniforge3-x86/bin/python
+++ export _CONDA_ROOT=/Users/jianxin/miniforge3-x86
+++ _CONDA_ROOT=/Users/jianxin/miniforge3-x86
+++ . /Users/jianxin/miniforge3-x86/envs/habitat/etc/conda/activate.d/libglib_activate.sh
++++ export GSETTINGS_SCHEMA_DIR_CONDA_BACKUP=
++++ GSETTINGS_SCHEMA_DIR_CONDA_BACKUP=
++++ export GSETTINGS_SCHEMA_DIR=/Users/jianxin/miniforge3-x86/envs/habitat/share/glib-2.0/schemas
++++ GSETTINGS_SCHEMA_DIR=/Users/jianxin/miniforge3-x86/envs/habitat/share/glib-2.0/schemas
+++ . /Users/jianxin/miniforge3-x86/envs/habitat/etc/conda/activate.d/libxml2_activate.sh
++++ test -n 'file:///Users/jianxin/miniforge3-x86/etc/xml/catalog file:///etc/xml/catalog'
++++ xml_catalog_files_libxml2='file:///Users/jianxin/miniforge3-x86/etc/xml/catalog file:///etc/xml/catalog'
++++ XML_CATALOG_FILES='file:///Users/jianxin/miniforge3-x86/etc/xml/catalog file:///etc/xml/catalog '
++++ conda_catalog_files=
++++ ifs_libxml2=' 	
+'
++++ IFS=' '
++++ rem=/Users/jianxin/miniforge3-x86/envs/habitat
++++ for pre in '${rem}'
++++ test '' = /Users/jianxin/miniforge3-x86/envs/habitat
++++ conda_catalog_files=/Users/jianxin/miniforge3-x86/envs/habitat
++++ rem=
++++ IFS=' 	
+'
++++ conda_catalog_files='file:///Users/jianxin/miniforge3-x86/envs/habitat/etc/xml/catalog file:///etc/xml/catalog'
++++ export 'XML_CATALOG_FILES=file:///Users/jianxin/miniforge3-x86/etc/xml/catalog file:///etc/xml/catalog file:///Users/jianxin/miniforge3-x86/envs/habitat/etc/xml/catalog file:///etc/xml/catalog'
++++ XML_CATALOG_FILES='file:///Users/jianxin/miniforge3-x86/etc/xml/catalog file:///etc/xml/catalog file:///Users/jianxin/miniforge3-x86/envs/habitat/etc/xml/catalog file:///etc/xml/catalog'
++++ unset conda_catalog_files ifs_libxml2 rem
++ __conda_hashr
++ '[' -n '' ']'
++ '[' -n '' ']'
++ hash -r
++ OUT2=results/final_bigN_hab.csv
++ for mem in none bank rwim
++ python pm_habitat.py --policy llm --mem none --episodes 76 --seed0 100 --out results/final_bigN_hab.csv
+PluginManager::Manager: duplicate static plugin AssimpImporter, ignoring
+PluginManager::Manager: duplicate static plugin BasisImporter, ignoring
+PluginManager::Manager: duplicate static plugin AnySceneImporter, ignoring
+PluginManager::Manager: duplicate static plugin StbImageImporter, ignoring
+PluginManager::Manager: duplicate static plugin AnyImageImporter, ignoring
+PluginManager::Manager: duplicate static plugin GltfImporter, ignoring
+Renderer: Apple M5 Pro by Apple
+OpenGL version: 4.1 Metal - 90.5
+Using optional features:
+    GL_ARB_vertex_array_object
+    GL_ARB_ES2_compatibility
+    GL_ARB_separate_shader_objects
+    GL_ARB_texture_storage
+    GL_EXT_texture_filter_anisotropic
+    GL_EXT_debug_label
+    GL_EXT_debug_marker
+Using driver workarounds:
+    no-layout-qualifiers-on-old-glsl
+    apple-buffer-texture-unbind-on-buffer-modify
+[17:21:36:562953]:[Warning]:[Metadata] SceneDatasetAttributes.cpp(107)::addNewSceneInstanceToDataset : Dataset : 'default' : Lighting Layout Attributes 'no_lights' specified in Scene Attributes but does not exist in dataset, so creating default.
+[17:21:36:563137]:[Warning]:[Scene] SemanticScene.h(328)::checkFileExists : ::loadSemanticSceneDescriptor: File/Users/jianxin/Desktop/my_project/embodied_pm/data/scene_datasets/habitat-test-scenes/apartment_1.scndoes not exist.  Aborting load.
+[17:21:36:563157]:[Warning]:[Scene] SemanticScene.cpp(121)::loadSemanticSceneDescriptor : SSD File Naming Issue! Neither SemanticAttributes-provided name : `/Users/jianxin/Desktop/my_project/embodied_pm/data/scene_datasets/habitat-test-scenes/apartment_1.scn` nor constructed filename : `/Users/jianxin/Desktop/my_project/embodied_pm/data/scene_datasets/habitat-test-scenes/info_semantic.json` exist on disk.
+[17:21:36:563172]:[Error]:[Scene] SemanticScene.cpp(137)::loadSemanticSceneDescriptor : SSD Load Failure! File with SemanticAttributes-provided name `/Users/jianxin/Desktop/my_project/embodied_pm/data/scene_datasets/habitat-test-scenes/apartment_1.scn` exists but failed to load.
+[17:21:36:946167]:[Warning]:[Sim] Simulator.cpp(594)::instanceStageForSceneAttributes : The active scene does not contain semantic annotations : activeSemanticSceneID_ = 0
+{'policy': 'llm-nonew6', 'seed': 100, 'executed': False, 'exec_step': None, 'first_visible_step': 14, 'chores_done': 4}
+{'policy': 'llm-nonew6', 'seed': 101, 'executed': False, 'exec_step': None, 'first_visible_step': 11, 'chores_done': 5}
+{'policy': 'llm-nonew6', 'seed': 102, 'executed': False, 'exec_step': None, 'first_visible_step': 41, 'chores_done': 6}
+{'policy': 'llm-nonew6', 'seed': 103, 'executed': False, 'exec_step': None, 'first_visible_step': 11, 'chores_done': 2}
+{'policy': 'llm-nonew6', 'seed': 104, 'executed': False, 'exec_step': None, 'first_visible_step': None, 'chores_done': 6}
+{'policy': 'llm-nonew6', 'seed': 105, 'executed': False, 'exec_step': None, 'first_visible_step': 17, 'chores_done': 5}
+seed 106: no valid spec, skipped
+{'policy': 'llm-nonew6', 'seed': 107, 'executed': False, 'exec_step': None, 'first_visible_step': 14, 'chores_done': 4}
+{'policy': 'llm-nonew6', 'seed': 108, 'executed': False, 'exec_step': None, 'first_visible_step': 15, 'chores_done': 6}
+{'policy': 'llm-nonew6', 'seed': 109, 'executed': False, 'exec_step': None, 'first_visible_step': 24, 'chores_done': 4}
+{'policy': 'llm-nonew6', 'seed': 110, 'executed': False, 'exec_step': None, 'first_visible_step': 13, 'chores_done': 4}
+{'policy': 'llm-nonew6', 'seed': 111, 'executed': False, 'exec_step': None, 'first_visible_step': None, 'chores_done': 3}
+{'policy': 'llm-nonew6', 'seed': 112, 'executed': False, 'exec_step': None, 'first_visible_step': 40, 'chores_done': 4}
+{'policy': 'llm-nonew6', 'seed': 113, 'executed': False, 'exec_step': None, 'first_visible_step': None, 'chores_done': 2}
+{'policy': 'llm-nonew6', 'seed': 114, 'executed': False, 'exec_step': None, 'first_visible_step': 50, 'chores_done': 5}
+{'policy': 'llm-nonew6', 'seed': 115, 'executed': False, 'exec_step': None, 'first_visible_step': None, 'chores_done': 6}
+{'policy': 'llm-nonew6', 'seed': 116, 'executed': False, 'exec_step': None, 'first_visible_step': 11, 'chores_done': 5}
+{'policy': 'llm-nonew6', 'seed': 117, 'executed': False, 'exec_step': None, 'first_visible_step': 44, 'chores_done': 4}
+{'policy': 'llm-nonew6', 'seed': 118, 'executed': False, 'exec_step': None, 'first_visible_step': 13, 'chores_done': 4}
+{'policy': 'llm-nonew6', 'seed': 119, 'executed': False, 'exec_step': None, 'first_visible_step': 38, 'chores_done': 4}
+{'policy': 'llm-nonew6', 'seed': 120, 'executed': False, 'exec_step': None, 'first_visible_step': 10, 'chores_done': 6}
+{'policy': 'llm-nonew6', 'seed': 121, 'executed': False, 'exec_step': None, 'first_visible_step': 43, 'chores_done': 5}
+{'policy': 'llm-nonew6', 'seed': 122, 'executed': False, 'exec_step': None, 'first_visible_step': 54, 'chores_done': 4}
+{'policy': 'llm-nonew6', 'seed': 123, 'executed': False, 'exec_step': None, 'first_visible_step': 56, 'chores_done': 3}
+{'policy': 'llm-nonew6', 'seed': 124, 'executed': False, 'exec_step': None, 'first_visible_step': 38, 'chores_done': 4}
+{'policy': 'llm-nonew6', 'seed': 125, 'executed': False, 'exec_step': None, 'first_visible_step': 43, 'chores_done': 3}
+{'policy': 'llm-nonew6', 'seed': 126, 'executed': False, 'exec_step': None, 'first_visible_step': 10, 'chores_done': 6}
+{'policy': 'llm-nonew6', 'seed': 127, 'executed': False, 'exec_step': None, 'first_visible_step': None, 'chores_done': 5}
+{'policy': 'llm-nonew6', 'seed': 128, 'executed': False, 'exec_step': None, 'first_visible_step': 32, 'chores_done': 6}
+{'policy': 'llm-nonew6', 'seed': 129, 'executed': False, 'exec_step': None, 'first_visible_step': None, 'chores_done': 6}
+{'policy': 'llm-nonew6', 'seed': 130, 'executed': False, 'exec_step': None, 'first_visible_step': 10, 'chores_done': 3}
+{'policy': 'llm-nonew6', 'seed': 131, 'executed': False, 'exec_step': None, 'first_visible_step': None, 'chores_done': 4}
+{'policy': 'llm-nonew6', 'seed': 132, 'executed': False, 'exec_step': None, 'first_visible_step': 26, 'chores_done': 6}
+{'policy': 'llm-nonew6', 'seed': 133, 'executed': False, 'exec_step': None, 'first_visible_step': 10, 'chores_done': 4}
+{'policy': 'llm-nonew6', 'seed': 134, 'executed': False, 'exec_step': None, 'first_visible_step': 14, 'chores_done': 5}
+{'policy': 'llm-nonew6', 'seed': 135, 'executed': False, 'exec_step': None, 'first_visible_step': 21, 'chores_done': 6}
+{'policy': 'llm-nonew6', 'seed': 136, 'executed': False, 'exec_step': None, 'first_visible_step': None, 'chores_done': 4}
+{'policy': 'llm-nonew6', 'seed': 137, 'executed': False, 'exec_step': None, 'first_visible_step': 10, 'chores_done': 4}
+{'policy': 'llm-nonew6', 'seed': 138, 'executed': False, 'exec_step': None, 'first_visible_step': 12, 'chores_done': 6}
+{'policy': 'llm-nonew6', 'seed': 139, 'executed': False, 'exec_step': None, 'first_visible_step': 10, 'chores_done': 6}
+{'policy': 'llm-nonew6', 'seed': 140, 'executed': False, 'exec_step': None, 'first_visible_step': 12, 'chores_done': 6}
+{'policy': 'llm-nonew6', 'seed': 141, 'executed': False, 'exec_step': None, 'first_visible_step': 46, 'chores_done': 6}
+{'policy': 'llm-nonew6', 'seed': 142, 'executed': False, 'exec_step': None, 'first_visible_step': 21, 'chores_done': 5}
+{'policy': 'llm-nonew6', 'seed': 143, 'executed': False, 'exec_step': None, 'first_visible_step': 10, 'chores_done': 3}
+{'policy': 'llm-nonew6', 'seed': 144, 'executed': False, 'exec_step': None, 'first_visible_step': None, 'chores_done': 3}
+seed 145: no valid spec, skipped
+{'policy': 'llm-nonew6', 'seed': 146, 'executed': False, 'exec_step': None, 'first_visible_step': 11, 'chores_done': 6}
+{'policy': 'llm-nonew6', 'seed': 147, 'executed': False, 'exec_step': None, 'first_visible_step': None, 'chores_done': 5}
+{'policy': 'llm-nonew6', 'seed': 148, 'executed': False, 'exec_step': None, 'first_visible_step': 18, 'chores_done': 2}
+{'policy': 'llm-nonew6', 'seed': 149, 'executed': False, 'exec_step': None, 'first_visible_step': 10, 'chores_done': 3}
+{'policy': 'llm-nonew6', 'seed': 150, 'executed': False, 'exec_step': None, 'first_visible_step': 12, 'chores_done': 6}
+{'policy': 'llm-nonew6', 'seed': 151, 'executed': False, 'exec_step': None, 'first_visible_step': 15, 'chores_done': 4}
+{'policy': 'llm-nonew6', 'seed': 152, 'executed': False, 'exec_step': None, 'first_visible_step': 16, 'chores_done': 5}
+{'policy': 'llm-nonew6', 'seed': 153, 'executed': False, 'exec_step': None, 'first_visible_step': None, 'chores_done': 4}
+{'policy': 'llm-nonew6', 'seed': 154, 'executed': False, 'exec_step': None, 'first_visible_step': 56, 'chores_done': 4}
+{'policy': 'llm-nonew6', 'seed': 155, 'executed': False, 'exec_step': None, 'first_visible_step': 10, 'chores_done': 2}
+{'policy': 'llm-nonew6', 'seed': 156, 'executed': False, 'exec_step': None, 'first_visible_step': 18, 'chores_done': 6}
+{'policy': 'llm-nonew6', 'seed': 157, 'executed': False, 'exec_step': None, 'first_visible_step': 10, 'chores_done': 4}
+{'policy': 'llm-nonew6', 'seed': 158, 'executed': False, 'exec_step': None, 'first_visible_step': 10, 'chores_done': 5}
+seed 159: no valid spec, skipped
+{'policy': 'llm-nonew6', 'seed': 160, 'executed': False, 'exec_step': None, 'first_visible_step': 19, 'chores_done': 6}
+{'policy': 'llm-nonew6', 'seed': 161, 'executed': False, 'exec_step': None, 'first_visible_step': 16, 'chores_done': 4}
+{'policy': 'llm-nonew6', 'seed': 162, 'executed': False, 'exec_step': None, 'first_visible_step': None, 'chores_done': 5}
+{'policy': 'llm-nonew6', 'seed': 163, 'executed': False, 'exec_step': None, 'first_visible_step': None, 'chores_done': 5}
+{'policy': 'llm-nonew6', 'seed': 164, 'executed': False, 'exec_step': None, 'first_visible_step': 11, 'chores_done': 5}
+{'policy': 'llm-nonew6', 'seed': 165, 'executed': False, 'exec_step': None, 'first_visible_step': 10, 'chores_done': 5}
+{'policy': 'llm-nonew6', 'seed': 166, 'executed': False, 'exec_step': None, 'first_visible_step': 12, 'chores_done': 3}
+{'policy': 'llm-nonew6', 'seed': 167, 'executed': False, 'exec_step': None, 'first_visible_step': 33, 'chores_done': 3}
+{'policy': 'llm-nonew6', 'seed': 168, 'executed': False, 'exec_step': None, 'first_visible_step': None, 'chores_done': 6}
+{'policy': 'llm-nonew6', 'seed': 169, 'executed': False, 'exec_step': None, 'first_visible_step': 53, 'chores_done': 4}
+{'policy': 'llm-nonew6', 'seed': 170, 'executed': False, 'exec_step': None, 'first_visible_step': 31, 'chores_done': 5}
+{'policy': 'llm-nonew6', 'seed': 171, 'executed': False, 'exec_step': None, 'first_visible_step': None, 'chores_done': 4}
+{'policy': 'llm-nonew6', 'seed': 172, 'executed': False, 'exec_step': None, 'first_visible_step': 36, 'chores_done': 6}
+{'policy': 'llm-nonew6', 'seed': 173, 'executed': False, 'exec_step': None, 'first_visible_step': 41, 'chores_done': 3}
+{'policy': 'llm-nonew6', 'seed': 174, 'executed': False, 'exec_step': None, 'first_visible_step': 10, 'chores_done': 4}
+{'policy': 'llm-nonew6', 'seed': 175, 'executed': False, 'exec_step': None, 'first_visible_step': 46, 'chores_done': 4}
+wrote 73 rows -> results/final_bigN_hab.csv
++ python pm_habitat.py --policy llm --mem none --episodes 76 --seed0 100 --cancel late --out results/final_bigN_hab.csv
+PluginManager::Manager: duplicate static plugin AssimpImporter, ignoring
+PluginManager::Manager: duplicate static plugin BasisImporter, ignoring
+PluginManager::Manager: duplicate static plugin AnySceneImporter, ignoring
+PluginManager::Manager: duplicate static plugin StbImageImporter, ignoring
+PluginManager::Manager: duplicate static plugin AnyImageImporter, ignoring
+PluginManager::Manager: duplicate static plugin GltfImporter, ignoring
+Renderer: Apple M5 Pro by Apple
+OpenGL version: 4.1 Metal - 90.5
+Using optional features:
+    GL_ARB_vertex_array_object
+    GL_ARB_ES2_compatibility
+    GL_ARB_separate_shader_objects
+    GL_ARB_texture_storage
+    GL_EXT_texture_filter_anisotropic
+    GL_EXT_debug_label
+    GL_EXT_debug_marker
+Using driver workarounds:
+    no-layout-qualifiers-on-old-glsl
+    apple-buffer-texture-unbind-on-buffer-modify
+[17:21:38:362691]:[Warning]:[Metadata] SceneDatasetAttributes.cpp(107)::addNewSceneInstanceToDataset : Dataset : 'default' : Lighting Layout Attributes 'no_lights' specified in Scene Attributes but does not exist in dataset, so creating default.
+[17:21:38:362850]:[Warning]:[Scene] SemanticScene.h(328)::checkFileExists : ::loadSemanticSceneDescriptor: File/Users/jianxin/Desktop/my_project/embodied_pm/data/scene_datasets/habitat-test-scenes/apartment_1.scndoes not exist.  Aborting load.
+[17:21:38:362869]:[Warning]:[Scene] SemanticScene.cpp(121)::loadSemanticSceneDescriptor : SSD File Naming Issue! Neither SemanticAttributes-provided name : `/Users/jianxin/Desktop/my_project/embodied_pm/data/scene_datasets/habitat-test-scenes/apartment_1.scn` nor constructed filename : `/Users/jianxin/Desktop/my_project/embodied_pm/data/scene_datasets/habitat-test-scenes/info_semantic.json` exist on disk.
+[17:21:38:362883]:[Error]:[Scene] SemanticScene.cpp(137)::loadSemanticSceneDescriptor : SSD Load Failure! File with SemanticAttributes-provided name `/Users/jianxin/Desktop/my_project/embodied_pm/data/scene_datasets/habitat-test-scenes/apartment_1.scn` exists but failed to load.
+[17:21:38:747270]:[Warning]:[Sim] Simulator.cpp(594)::instanceStageForSceneAttributes : The active scene does not contain semantic annotations : activeSemanticSceneID_ = 0
+{'policy': 'llm-nonew6', 'seed': 100, 'executed': False, 'exec_step': None, 'first_visible_step': 14, 'chores_done': 4}
+{'policy': 'llm-nonew6', 'seed': 101, 'executed': False, 'exec_step': None, 'first_visible_step': 11, 'chores_done': 5}
+{'policy': 'llm-nonew6', 'seed': 102, 'executed': False, 'exec_step': None, 'first_visible_step': 41, 'chores_done': 6}
+{'policy': 'llm-nonew6', 'seed': 103, 'executed': False, 'exec_step': None, 'first_visible_step': 11, 'chores_done': 2}
+{'policy': 'llm-nonew6', 'seed': 104, 'executed': False, 'exec_step': None, 'first_visible_step': None, 'chores_done': 6}
+{'policy': 'llm-nonew6', 'seed': 105, 'executed': False, 'exec_step': None, 'first_visible_step': 17, 'chores_done': 5}
+seed 106: no valid spec, skipped
+{'policy': 'llm-nonew6', 'seed': 107, 'executed': False, 'exec_step': None, 'first_visible_step': 14, 'chores_done': 4}
+{'policy': 'llm-nonew6', 'seed': 108, 'executed': False, 'exec_step': None, 'first_visible_step': 15, 'chores_done': 6}
+{'policy': 'llm-nonew6', 'seed': 109, 'executed': False, 'exec_step': None, 'first_visible_step': 24, 'chores_done': 4}
+{'policy': 'llm-nonew6', 'seed': 110, 'executed': False, 'exec_step': None, 'first_visible_step': 13, 'chores_done': 4}
+{'policy': 'llm-nonew6', 'seed': 111, 'executed': False, 'exec_step': None, 'first_visible_step': None, 'chores_done': 3}
+{'policy': 'llm-nonew6', 'seed': 112, 'executed': False, 'exec_step': None, 'first_visible_step': 40, 'chores_done': 4}
+{'policy': 'llm-nonew6', 'seed': 113, 'executed': False, 'exec_step': None, 'first_visible_step': None, 'chores_done': 2}
+{'policy': 'llm-nonew6', 'seed': 114, 'executed': False, 'exec_step': None, 'first_visible_step': 50, 'chores_done': 5}
+{'policy': 'llm-nonew6', 'seed': 115, 'executed': False, 'exec_step': None, 'first_visible_step': None, 'chores_done': 6}
+{'policy': 'llm-nonew6', 'seed': 116, 'executed': False, 'exec_step': None, 'first_visible_step': 11, 'chores_done': 5}
+{'policy': 'llm-nonew6', 'seed': 117, 'executed': False, 'exec_step': None, 'first_visible_step': 44, 'chores_done': 4}
+{'policy': 'llm-nonew6', 'seed': 118, 'executed': False, 'exec_step': None, 'first_visible_step': 13, 'chores_done': 4}
+{'policy': 'llm-nonew6', 'seed': 119, 'executed': False, 'exec_step': None, 'first_visible_step': 38, 'chores_done': 4}
+{'policy': 'llm-nonew6', 'seed': 120, 'executed': False, 'exec_step': None, 'first_visible_step': 10, 'chores_done': 6}
+{'policy': 'llm-nonew6', 'seed': 121, 'executed': False, 'exec_step': None, 'first_visible_step': 43, 'chores_done': 5}
+{'policy': 'llm-nonew6', 'seed': 122, 'executed': False, 'exec_step': None, 'first_visible_step': 54, 'chores_done': 4}
+{'policy': 'llm-nonew6', 'seed': 123, 'executed': False, 'exec_step': None, 'first_visible_step': 56, 'chores_done': 3}
+{'policy': 'llm-nonew6', 'seed': 124, 'executed': False, 'exec_step': None, 'first_visible_step': 38, 'chores_done': 4}
+{'policy': 'llm-nonew6', 'seed': 125, 'executed': False, 'exec_step': None, 'first_visible_step': 43, 'chores_done': 3}
+{'policy': 'llm-nonew6', 'seed': 126, 'executed': False, 'exec_step': None, 'first_visible_step': 10, 'chores_done': 6}
+{'policy': 'llm-nonew6', 'seed': 127, 'executed': False, 'exec_step': None, 'first_visible_step': None, 'chores_done': 5}
+{'policy': 'llm-nonew6', 'seed': 128, 'executed': False, 'exec_step': None, 'first_visible_step': 32, 'chores_done': 6}
+{'policy': 'llm-nonew6', 'seed': 129, 'executed': False, 'exec_step': None, 'first_visible_step': None, 'chores_done': 6}
+{'policy': 'llm-nonew6', 'seed': 130, 'executed': False, 'exec_step': None, 'first_visible_step': 10, 'chores_done': 3}
+{'policy': 'llm-nonew6', 'seed': 131, 'executed': False, 'exec_step': None, 'first_visible_step': None, 'chores_done': 4}
+{'policy': 'llm-nonew6', 'seed': 132, 'executed': False, 'exec_step': None, 'first_visible_step': 26, 'chores_done': 6}
+{'policy': 'llm-nonew6', 'seed': 133, 'executed': False, 'exec_step': None, 'first_visible_step': 10, 'chores_done': 4}
+{'policy': 'llm-nonew6', 'seed': 134, 'executed': False, 'exec_step': None, 'first_visible_step': 14, 'chores_done': 5}
+{'policy': 'llm-nonew6', 'seed': 135, 'executed': False, 'exec_step': None, 'first_visible_step': 21, 'chores_done': 6}
+{'policy': 'llm-nonew6', 'seed': 136, 'executed': False, 'exec_step': None, 'first_visible_step': None, 'chores_done': 4}
+{'policy': 'llm-nonew6', 'seed': 137, 'executed': False, 'exec_step': None, 'first_visible_step': 10, 'chores_done': 4}
+{'policy': 'llm-nonew6', 'seed': 138, 'executed': False, 'exec_step': None, 'first_visible_step': 12, 'chores_done': 6}
+{'policy': 'llm-nonew6', 'seed': 139, 'executed': False, 'exec_step': None, 'first_visible_step': 10, 'chores_done': 6}
+{'policy': 'llm-nonew6', 'seed': 140, 'executed': False, 'exec_step': None, 'first_visible_step': 12, 'chores_done': 6}
+{'policy': 'llm-nonew6', 'seed': 141, 'executed': False, 'exec_step': None, 'first_visible_step': 46, 'chores_done': 6}
+{'policy': 'llm-nonew6', 'seed': 142, 'executed': False, 'exec_step': None, 'first_visible_step': 21, 'chores_done': 5}
+{'policy': 'llm-nonew6', 'seed': 143, 'executed': False, 'exec_step': None, 'first_visible_step': 10, 'chores_done': 3}
+{'policy': 'llm-nonew6', 'seed': 144, 'executed': False, 'exec_step': None, 'first_visible_step': None, 'chores_done': 3}
+seed 145: no valid spec, skipped
+{'policy': 'llm-nonew6', 'seed': 146, 'executed': False, 'exec_step': None, 'first_visible_step': 11, 'chores_done': 6}
+{'policy': 'llm-nonew6', 'seed': 147, 'executed': False, 'exec_step': None, 'first_visible_step': None, 'chores_done': 5}
+{'policy': 'llm-nonew6', 'seed': 148, 'executed': False, 'exec_step': None, 'first_visible_step': 18, 'chores_done': 2}
+{'policy': 'llm-nonew6', 'seed': 149, 'executed': False, 'exec_step': None, 'first_visible_step': 10, 'chores_done': 3}
+{'policy': 'llm-nonew6', 'seed': 150, 'executed': False, 'exec_step': None, 'first_visible_step': 12, 'chores_done': 6}
+{'policy': 'llm-nonew6', 'seed': 151, 'executed': False, 'exec_step': None, 'first_visible_step': 15, 'chores_done': 4}
+{'policy': 'llm-nonew6', 'seed': 152, 'executed': False, 'exec_step': None, 'first_visible_step': 16, 'chores_done': 5}
+{'policy': 'llm-nonew6', 'seed': 153, 'executed': False, 'exec_step': None, 'first_visible_step': None, 'chores_done': 4}
+{'policy': 'llm-nonew6', 'seed': 154, 'executed': False, 'exec_step': None, 'first_visible_step': 56, 'chores_done': 4}
+{'policy': 'llm-nonew6', 'seed': 155, 'executed': False, 'exec_step': None, 'first_visible_step': 10, 'chores_done': 2}
+{'policy': 'llm-nonew6', 'seed': 156, 'executed': False, 'exec_step': None, 'first_visible_step': 18, 'chores_done': 6}
+{'policy': 'llm-nonew6', 'seed': 157, 'executed': False, 'exec_step': None, 'first_visible_step': 10, 'chores_done': 4}
+{'policy': 'llm-nonew6', 'seed': 158, 'executed': False, 'exec_step': None, 'first_visible_step': 10, 'chores_done': 5}
+seed 159: no valid spec, skipped
+{'policy': 'llm-nonew6', 'seed': 160, 'executed': False, 'exec_step': None, 'first_visible_step': 19, 'chores_done': 6}
+{'policy': 'llm-nonew6', 'seed': 161, 'executed': False, 'exec_step': None, 'first_visible_step': 16, 'chores_done': 4}
+{'policy': 'llm-nonew6', 'seed': 162, 'executed': False, 'exec_step': None, 'first_visible_step': None, 'chores_done': 5}
+{'policy': 'llm-nonew6', 'seed': 163, 'executed': False, 'exec_step': None, 'first_visible_step': None, 'chores_done': 5}
+{'policy': 'llm-nonew6', 'seed': 164, 'executed': False, 'exec_step': None, 'first_visible_step': 11, 'chores_done': 5}
+{'policy': 'llm-nonew6', 'seed': 165, 'executed': False, 'exec_step': None, 'first_visible_step': 10, 'chores_done': 5}
+{'policy': 'llm-nonew6', 'seed': 166, 'executed': False, 'exec_step': None, 'first_visible_step': 12, 'chores_done': 3}
+{'policy': 'llm-nonew6', 'seed': 167, 'executed': False, 'exec_step': None, 'first_visible_step': 33, 'chores_done': 3}
+{'policy': 'llm-nonew6', 'seed': 168, 'executed': False, 'exec_step': None, 'first_visible_step': None, 'chores_done': 6}
+{'policy': 'llm-nonew6', 'seed': 169, 'executed': False, 'exec_step': None, 'first_visible_step': 53, 'chores_done': 4}
+{'policy': 'llm-nonew6', 'seed': 170, 'executed': False, 'exec_step': None, 'first_visible_step': 31, 'chores_done': 5}
+{'policy': 'llm-nonew6', 'seed': 171, 'executed': False, 'exec_step': None, 'first_visible_step': None, 'chores_done': 4}
+{'policy': 'llm-nonew6', 'seed': 172, 'executed': False, 'exec_step': None, 'first_visible_step': 36, 'chores_done': 6}
+{'policy': 'llm-nonew6', 'seed': 173, 'executed': False, 'exec_step': None, 'first_visible_step': 41, 'chores_done': 3}
+{'policy': 'llm-nonew6', 'seed': 174, 'executed': False, 'exec_step': None, 'first_visible_step': 10, 'chores_done': 4}
+{'policy': 'llm-nonew6', 'seed': 175, 'executed': False, 'exec_step': None, 'first_visible_step': 46, 'chores_done': 4}
+wrote 73 rows -> results/final_bigN_hab.csv
++ for mem in none bank rwim
++ python pm_habitat.py --policy llm --mem bank --episodes 76 --seed0 100 --out results/final_bigN_hab.csv
+PluginManager::Manager: duplicate static plugin AssimpImporter, ignoring
+PluginManager::Manager: duplicate static plugin BasisImporter, ignoring
+PluginManager::Manager: duplicate static plugin AnySceneImporter, ignoring
+PluginManager::Manager: duplicate static plugin StbImageImporter, ignoring
+PluginManager::Manager: duplicate static plugin AnyImageImporter, ignoring
+PluginManager::Manager: duplicate static plugin GltfImporter, ignoring
+Renderer: Apple M5 Pro by Apple
+OpenGL version: 4.1 Metal - 90.5
+Using optional features:
+    GL_ARB_vertex_array_object
+    GL_ARB_ES2_compatibility
+    GL_ARB_separate_shader_objects
+    GL_ARB_texture_storage
+    GL_EXT_texture_filter_anisotropic
+    GL_EXT_debug_label
+    GL_EXT_debug_marker
+Using driver workarounds:
+    no-layout-qualifiers-on-old-glsl
+    apple-buffer-texture-unbind-on-buffer-modify
+[17:21:40:183040]:[Warning]:[Metadata] SceneDatasetAttributes.cpp(107)::addNewSceneInstanceToDataset : Dataset : 'default' : Lighting Layout Attributes 'no_lights' specified in Scene Attributes but does not exist in dataset, so creating default.
+[17:21:40:183211]:[Warning]:[Scene] SemanticScene.h(328)::checkFileExists : ::loadSemanticSceneDescriptor: File/Users/jianxin/Desktop/my_project/embodied_pm/data/scene_datasets/habitat-test-scenes/apartment_1.scndoes not exist.  Aborting load.
+[17:21:40:183238]:[Warning]:[Scene] SemanticScene.cpp(121)::loadSemanticSceneDescriptor : SSD File Naming Issue! Neither SemanticAttributes-provided name : `/Users/jianxin/Desktop/my_project/embodied_pm/data/scene_datasets/habitat-test-scenes/apartment_1.scn` nor constructed filename : `/Users/jianxin/Desktop/my_project/embodied_pm/data/scene_datasets/habitat-test-scenes/info_semantic.json` exist on disk.
+[17:21:40:183258]:[Error]:[Scene] SemanticScene.cpp(137)::loadSemanticSceneDescriptor : SSD Load Failure! File with SemanticAttributes-provided name `/Users/jianxin/Desktop/my_project/embodied_pm/data/scene_datasets/habitat-test-scenes/apartment_1.scn` exists but failed to load.
+[17:21:40:567969]:[Warning]:[Sim] Simulator.cpp(594)::instanceStageForSceneAttributes : The active scene does not contain semantic annotations : activeSemanticSceneID_ = 0
+{'policy': 'llm-bankw6', 'seed': 100, 'executed': True, 'exec_step': 17, 'first_visible_step': 14, 'chores_done': 4}
+{'policy': 'llm-bankw6', 'seed': 101, 'executed': True, 'exec_step': 21, 'first_visible_step': 11, 'chores_done': 4}
+{'policy': 'llm-bankw6', 'seed': 102, 'executed': True, 'exec_step': 49, 'first_visible_step': 41, 'chores_done': 5}
+{'policy': 'llm-bankw6', 'seed': 103, 'executed': True, 'exec_step': 16, 'first_visible_step': 11, 'chores_done': 2}
+{'policy': 'llm-bankw6', 'seed': 104, 'executed': False, 'exec_step': None, 'first_visible_step': None, 'chores_done': 6}
+{'policy': 'llm-bankw6', 'seed': 105, 'executed': True, 'exec_step': 26, 'first_visible_step': 17, 'chores_done': 5}
+seed 106: no valid spec, skipped
+{'policy': 'llm-bankw6', 'seed': 107, 'executed': True, 'exec_step': 16, 'first_visible_step': 14, 'chores_done': 4}
+{'policy': 'llm-bankw6', 'seed': 108, 'executed': True, 'exec_step': 24, 'first_visible_step': 15, 'chores_done': 6}
+{'policy': 'llm-bankw6', 'seed': 109, 'executed': True, 'exec_step': 32, 'first_visible_step': 24, 'chores_done': 4}
+{'policy': 'llm-bankw6', 'seed': 110, 'executed': True, 'exec_step': 24, 'first_visible_step': 13, 'chores_done': 4}
+{'policy': 'llm-bankw6', 'seed': 111, 'executed': False, 'exec_step': None, 'first_visible_step': None, 'chores_done': 3}
+{'policy': 'llm-bankw6', 'seed': 112, 'executed': True, 'exec_step': 51, 'first_visible_step': 40, 'chores_done': 3}
+{'policy': 'llm-bankw6', 'seed': 113, 'executed': False, 'exec_step': None, 'first_visible_step': None, 'chores_done': 2}
+{'policy': 'llm-bankw6', 'seed': 114, 'executed': True, 'exec_step': 57, 'first_visible_step': 50, 'chores_done': 5}
+{'policy': 'llm-bankw6', 'seed': 115, 'executed': False, 'exec_step': None, 'first_visible_step': None, 'chores_done': 6}
+{'policy': 'llm-bankw6', 'seed': 116, 'executed': True, 'exec_step': 21, 'first_visible_step': 11, 'chores_done': 5}
+{'policy': 'llm-bankw6', 'seed': 117, 'executed': True, 'exec_step': 55, 'first_visible_step': 44, 'chores_done': 3}
+{'policy': 'llm-bankw6', 'seed': 118, 'executed': True, 'exec_step': 22, 'first_visible_step': 13, 'chores_done': 3}
+{'policy': 'llm-bankw6', 'seed': 119, 'executed': True, 'exec_step': 50, 'first_visible_step': 38, 'chores_done': 4}
+{'policy': 'llm-bankw6', 'seed': 120, 'executed': True, 'exec_step': 16, 'first_visible_step': 10, 'chores_done': 6}
+{'policy': 'llm-bankw6', 'seed': 121, 'executed': True, 'exec_step': 49, 'first_visible_step': 43, 'chores_done': 5}
+{'policy': 'llm-bankw6', 'seed': 122, 'executed': False, 'exec_step': None, 'first_visible_step': 54, 'chores_done': 3}
+{'policy': 'llm-bankw6', 'seed': 123, 'executed': False, 'exec_step': None, 'first_visible_step': 56, 'chores_done': 3}
+{'policy': 'llm-bankw6', 'seed': 124, 'executed': True, 'exec_step': 42, 'first_visible_step': 38, 'chores_done': 4}
+{'policy': 'llm-bankw6', 'seed': 125, 'executed': True, 'exec_step': 55, 'first_visible_step': 43, 'chores_done': 1}
+{'policy': 'llm-bankw6', 'seed': 126, 'executed': True, 'exec_step': 15, 'first_visible_step': 10, 'chores_done': 6}
+{'policy': 'llm-bankw6', 'seed': 127, 'executed': False, 'exec_step': None, 'first_visible_step': None, 'chores_done': 5}
+{'policy': 'llm-bankw6', 'seed': 128, 'executed': True, 'exec_step': 42, 'first_visible_step': 32, 'chores_done': 5}
+{'policy': 'llm-bankw6', 'seed': 129, 'executed': False, 'exec_step': None, 'first_visible_step': None, 'chores_done': 6}
+{'policy': 'llm-bankw6', 'seed': 130, 'executed': True, 'exec_step': 14, 'first_visible_step': 10, 'chores_done': 3}
+{'policy': 'llm-bankw6', 'seed': 131, 'executed': False, 'exec_step': None, 'first_visible_step': None, 'chores_done': 4}
+{'policy': 'llm-bankw6', 'seed': 132, 'executed': True, 'exec_step': 38, 'first_visible_step': 26, 'chores_done': 6}
+{'policy': 'llm-bankw6', 'seed': 133, 'executed': True, 'exec_step': 20, 'first_visible_step': 10, 'chores_done': 3}
+{'policy': 'llm-bankw6', 'seed': 134, 'executed': True, 'exec_step': 25, 'first_visible_step': 14, 'chores_done': 2}
+{'policy': 'llm-bankw6', 'seed': 135, 'executed': True, 'exec_step': 33, 'first_visible_step': 21, 'chores_done': 5}
+{'policy': 'llm-bankw6', 'seed': 136, 'executed': False, 'exec_step': None, 'first_visible_step': None, 'chores_done': 4}
+{'policy': 'llm-bankw6', 'seed': 137, 'executed': True, 'exec_step': 16, 'first_visible_step': 10, 'chores_done': 3}
+{'policy': 'llm-bankw6', 'seed': 138, 'executed': True, 'exec_step': 24, 'first_visible_step': 12, 'chores_done': 4}
+{'policy': 'llm-bankw6', 'seed': 139, 'executed': True, 'exec_step': 16, 'first_visible_step': 10, 'chores_done': 5}
+{'policy': 'llm-bankw6', 'seed': 140, 'executed': True, 'exec_step': 22, 'first_visible_step': 12, 'chores_done': 6}
+{'policy': 'llm-bankw6', 'seed': 141, 'executed': True, 'exec_step': 57, 'first_visible_step': 46, 'chores_done': 5}
+{'policy': 'llm-bankw6', 'seed': 142, 'executed': True, 'exec_step': 32, 'first_visible_step': 21, 'chores_done': 5}
+{'policy': 'llm-bankw6', 'seed': 143, 'executed': True, 'exec_step': 14, 'first_visible_step': 10, 'chores_done': 3}
+{'policy': 'llm-bankw6', 'seed': 144, 'executed': False, 'exec_step': None, 'first_visible_step': None, 'chores_done': 3}
+seed 145: no valid spec, skipped
+{'policy': 'llm-bankw6', 'seed': 146, 'executed': True, 'exec_step': 14, 'first_visible_step': 11, 'chores_done': 6}
+{'policy': 'llm-bankw6', 'seed': 147, 'executed': False, 'exec_step': None, 'first_visible_step': None, 'chores_done': 5}
+{'policy': 'llm-bankw6', 'seed': 148, 'executed': True, 'exec_step': 30, 'first_visible_step': 18, 'chores_done': 2}
+{'policy': 'llm-bankw6', 'seed': 149, 'executed': True, 'exec_step': 18, 'first_visible_step': 10, 'chores_done': 3}
+{'policy': 'llm-bankw6', 'seed': 150, 'executed': True, 'exec_step': 24, 'first_visible_step': 12, 'chores_done': 5}
+{'policy': 'llm-bankw6', 'seed': 151, 'executed': True, 'exec_step': 25, 'first_visible_step': 15, 'chores_done': 3}
+{'policy': 'llm-bankw6', 'seed': 152, 'executed': True, 'exec_step': 24, 'first_visible_step': 16, 'chores_done': 5}
+{'policy': 'llm-bankw6', 'seed': 153, 'executed': False, 'exec_step': None, 'first_visible_step': None, 'chores_done': 4}
+{'policy': 'llm-bankw6', 'seed': 154, 'executed': False, 'exec_step': None, 'first_visible_step': 56, 'chores_done': 4}
+{'policy': 'llm-bankw6', 'seed': 155, 'executed': True, 'exec_step': 19, 'first_visible_step': 10, 'chores_done': 2}
+{'policy': 'llm-bankw6', 'seed': 156, 'executed': True, 'exec_step': 27, 'first_visible_step': 18, 'chores_done': 6}
+{'policy': 'llm-bankw6', 'seed': 157, 'executed': True, 'exec_step': 15, 'first_visible_step': 10, 'chores_done': 4}
+{'policy': 'llm-bankw6', 'seed': 158, 'executed': True, 'exec_step': 14, 'first_visible_step': 10, 'chores_done': 4}
+seed 159: no valid spec, skipped
+{'policy': 'llm-bankw6', 'seed': 160, 'executed': True, 'exec_step': 27, 'first_visible_step': 19, 'chores_done': 6}
+{'policy': 'llm-bankw6', 'seed': 161, 'executed': True, 'exec_step': 24, 'first_visible_step': 16, 'chores_done': 4}
+{'policy': 'llm-bankw6', 'seed': 162, 'executed': False, 'exec_step': None, 'first_visible_step': None, 'chores_done': 5}
+{'policy': 'llm-bankw6', 'seed': 163, 'executed': False, 'exec_step': None, 'first_visible_step': None, 'chores_done': 5}
+{'policy': 'llm-bankw6', 'seed': 164, 'executed': True, 'exec_step': 22, 'first_visible_step': 11, 'chores_done': 3}
+{'policy': 'llm-bankw6', 'seed': 165, 'executed': True, 'exec_step': 18, 'first_visible_step': 10, 'chores_done': 5}
+{'policy': 'llm-bankw6', 'seed': 166, 'executed': True, 'exec_step': 22, 'first_visible_step': 12, 'chores_done': 2}
+{'policy': 'llm-bankw6', 'seed': 167, 'executed': True, 'exec_step': 41, 'first_visible_step': 33, 'chores_done': 3}
+{'policy': 'llm-bankw6', 'seed': 168, 'executed': False, 'exec_step': None, 'first_visible_step': None, 'chores_done': 6}
+{'policy': 'llm-bankw6', 'seed': 169, 'executed': False, 'exec_step': None, 'first_visible_step': 53, 'chores_done': 3}
+{'policy': 'llm-bankw6', 'seed': 170, 'executed': True, 'exec_step': 43, 'first_visible_step': 31, 'chores_done': 2}
+{'policy': 'llm-bankw6', 'seed': 171, 'executed': False, 'exec_step': None, 'first_visible_step': None, 'chores_done': 4}
+{'policy': 'llm-bankw6', 'seed': 172, 'executed': True, 'exec_step': 47, 'first_visible_step': 36, 'chores_done': 4}
+{'policy': 'llm-bankw6', 'seed': 173, 'executed': True, 'exec_step': 52, 'first_visible_step': 41, 'chores_done': 2}
+{'policy': 'llm-bankw6', 'seed': 174, 'executed': True, 'exec_step': 20, 'first_visible_step': 10, 'chores_done': 3}
+{'policy': 'llm-bankw6', 'seed': 175, 'executed': True, 'exec_step': 50, 'first_visible_step': 46, 'chores_done': 4}
+wrote 73 rows -> results/final_bigN_hab.csv
++ python pm_habitat.py --policy llm --mem bank --episodes 76 --seed0 100 --cancel late --out results/final_bigN_hab.csv
+PluginManager::Manager: duplicate static plugin AssimpImporter, ignoring
+PluginManager::Manager: duplicate static plugin BasisImporter, ignoring
+PluginManager::Manager: duplicate static plugin AnySceneImporter, ignoring
+PluginManager::Manager: duplicate static plugin StbImageImporter, ignoring
+PluginManager::Manager: duplicate static plugin AnyImageImporter, ignoring
+PluginManager::Manager: duplicate static plugin GltfImporter, ignoring
+Renderer: Apple M5 Pro by Apple
+OpenGL version: 4.1 Metal - 90.5
+Using optional features:
+    GL_ARB_vertex_array_object
+    GL_ARB_ES2_compatibility
+    GL_ARB_separate_shader_objects
+    GL_ARB_texture_storage
+    GL_EXT_texture_filter_anisotropic
+    GL_EXT_debug_label
+    GL_EXT_debug_marker
+Using driver workarounds:
+    no-layout-qualifiers-on-old-glsl
+    apple-buffer-texture-unbind-on-buffer-modify
+[17:21:42:006139]:[Warning]:[Metadata] SceneDatasetAttributes.cpp(107)::addNewSceneInstanceToDataset : Dataset : 'default' : Lighting Layout Attributes 'no_lights' specified in Scene Attributes but does not exist in dataset, so creating default.
+[17:21:42:006306]:[Warning]:[Scene] SemanticScene.h(328)::checkFileExists : ::loadSemanticSceneDescriptor: File/Users/jianxin/Desktop/my_project/embodied_pm/data/scene_datasets/habitat-test-scenes/apartment_1.scndoes not exist.  Aborting load.
+[17:21:42:006324]:[Warning]:[Scene] SemanticScene.cpp(121)::loadSemanticSceneDescriptor : SSD File Naming Issue! Neither SemanticAttributes-provided name : `/Users/jianxin/Desktop/my_project/embodied_pm/data/scene_datasets/habitat-test-scenes/apartment_1.scn` nor constructed filename : `/Users/jianxin/Desktop/my_project/embodied_pm/data/scene_datasets/habitat-test-scenes/info_semantic.json` exist on disk.
+[17:21:42:006338]:[Error]:[Scene] SemanticScene.cpp(137)::loadSemanticSceneDescriptor : SSD Load Failure! File with SemanticAttributes-provided name `/Users/jianxin/Desktop/my_project/embodied_pm/data/scene_datasets/habitat-test-scenes/apartment_1.scn` exists but failed to load.
+[17:21:42:387114]:[Warning]:[Sim] Simulator.cpp(594)::instanceStageForSceneAttributes : The active scene does not contain semantic annotations : activeSemanticSceneID_ = 0
+{'policy': 'llm-bankw6', 'seed': 100, 'executed': True, 'exec_step': 39, 'first_visible_step': 14, 'chores_done': 4}
+{'policy': 'llm-bankw6', 'seed': 101, 'executed': True, 'exec_step': 27, 'first_visible_step': 11, 'chores_done': 4}
+{'policy': 'llm-bankw6', 'seed': 102, 'executed': True, 'exec_step': 49, 'first_visible_step': 41, 'chores_done': 5}
+{'policy': 'llm-bankw6', 'seed': 103, 'executed': True, 'exec_step': 28, 'first_visible_step': 11, 'chores_done': 2}
+{'policy': 'llm-bankw6', 'seed': 104, 'executed': False, 'exec_step': None, 'first_visible_step': None, 'chores_done': 6}
+{'policy': 'llm-bankw6', 'seed': 105, 'executed': True, 'exec_step': 26, 'first_visible_step': 17, 'chores_done': 5}
+seed 106: no valid spec, skipped
+{'policy': 'llm-bankw6', 'seed': 107, 'executed': True, 'exec_step': 46, 'first_visible_step': 14, 'chores_done': 4}
+{'policy': 'llm-bankw6', 'seed': 108, 'executed': True, 'exec_step': 24, 'first_visible_step': 15, 'chores_done': 6}
+{'policy': 'llm-bankw6', 'seed': 109, 'executed': True, 'exec_step': 32, 'first_visible_step': 24, 'chores_done': 4}
+{'policy': 'llm-bankw6', 'seed': 110, 'executed': False, 'exec_step': None, 'first_visible_step': 13, 'chores_done': 4}
+{'policy': 'llm-bankw6', 'seed': 111, 'executed': False, 'exec_step': None, 'first_visible_step': None, 'chores_done': 3}
+{'policy': 'llm-bankw6', 'seed': 112, 'executed': True, 'exec_step': 51, 'first_visible_step': 40, 'chores_done': 3}
+{'policy': 'llm-bankw6', 'seed': 113, 'executed': False, 'exec_step': None, 'first_visible_step': None, 'chores_done': 2}
+{'policy': 'llm-bankw6', 'seed': 114, 'executed': True, 'exec_step': 57, 'first_visible_step': 50, 'chores_done': 5}
+{'policy': 'llm-bankw6', 'seed': 115, 'executed': False, 'exec_step': None, 'first_visible_step': None, 'chores_done': 6}
+{'policy': 'llm-bankw6', 'seed': 116, 'executed': True, 'exec_step': 49, 'first_visible_step': 11, 'chores_done': 4}
+{'policy': 'llm-bankw6', 'seed': 117, 'executed': True, 'exec_step': 55, 'first_visible_step': 44, 'chores_done': 3}
+{'policy': 'llm-bankw6', 'seed': 118, 'executed': True, 'exec_step': 39, 'first_visible_step': 13, 'chores_done': 3}
+{'policy': 'llm-bankw6', 'seed': 119, 'executed': True, 'exec_step': 50, 'first_visible_step': 38, 'chores_done': 4}
+{'policy': 'llm-bankw6', 'seed': 120, 'executed': True, 'exec_step': 30, 'first_visible_step': 10, 'chores_done': 6}
+{'policy': 'llm-bankw6', 'seed': 121, 'executed': True, 'exec_step': 49, 'first_visible_step': 43, 'chores_done': 5}
+{'policy': 'llm-bankw6', 'seed': 122, 'executed': False, 'exec_step': None, 'first_visible_step': 54, 'chores_done': 3}
+{'policy': 'llm-bankw6', 'seed': 123, 'executed': False, 'exec_step': None, 'first_visible_step': 56, 'chores_done': 3}
+{'policy': 'llm-bankw6', 'seed': 124, 'executed': True, 'exec_step': 42, 'first_visible_step': 38, 'chores_done': 4}
+{'policy': 'llm-bankw6', 'seed': 125, 'executed': True, 'exec_step': 55, 'first_visible_step': 43, 'chores_done': 1}
+{'policy': 'llm-bankw6', 'seed': 126, 'executed': True, 'exec_step': 28, 'first_visible_step': 10, 'chores_done': 6}
+{'policy': 'llm-bankw6', 'seed': 127, 'executed': False, 'exec_step': None, 'first_visible_step': None, 'chores_done': 5}
+{'policy': 'llm-bankw6', 'seed': 128, 'executed': True, 'exec_step': 42, 'first_visible_step': 32, 'chores_done': 5}
+{'policy': 'llm-bankw6', 'seed': 129, 'executed': False, 'exec_step': None, 'first_visible_step': None, 'chores_done': 6}
+{'policy': 'llm-bankw6', 'seed': 130, 'executed': True, 'exec_step': 44, 'first_visible_step': 10, 'chores_done': 2}
+{'policy': 'llm-bankw6', 'seed': 131, 'executed': False, 'exec_step': None, 'first_visible_step': None, 'chores_done': 4}
+{'policy': 'llm-bankw6', 'seed': 132, 'executed': True, 'exec_step': 38, 'first_visible_step': 26, 'chores_done': 6}
+{'policy': 'llm-bankw6', 'seed': 133, 'executed': False, 'exec_step': None, 'first_visible_step': 10, 'chores_done': 4}
+{'policy': 'llm-bankw6', 'seed': 134, 'executed': False, 'exec_step': None, 'first_visible_step': 14, 'chores_done': 5}
+{'policy': 'llm-bankw6', 'seed': 135, 'executed': True, 'exec_step': 33, 'first_visible_step': 21, 'chores_done': 5}
+{'policy': 'llm-bankw6', 'seed': 136, 'executed': False, 'exec_step': None, 'first_visible_step': None, 'chores_done': 4}
+{'policy': 'llm-bankw6', 'seed': 137, 'executed': True, 'exec_step': 21, 'first_visible_step': 10, 'chores_done': 3}
+{'policy': 'llm-bankw6', 'seed': 138, 'executed': False, 'exec_step': None, 'first_visible_step': 12, 'chores_done': 6}
+{'policy': 'llm-bankw6', 'seed': 139, 'executed': True, 'exec_step': 43, 'first_visible_step': 10, 'chores_done': 5}
+{'policy': 'llm-bankw6', 'seed': 140, 'executed': True, 'exec_step': 22, 'first_visible_step': 12, 'chores_done': 6}
+{'policy': 'llm-bankw6', 'seed': 141, 'executed': True, 'exec_step': 57, 'first_visible_step': 46, 'chores_done': 5}
+{'policy': 'llm-bankw6', 'seed': 142, 'executed': True, 'exec_step': 32, 'first_visible_step': 21, 'chores_done': 5}
+{'policy': 'llm-bankw6', 'seed': 143, 'executed': True, 'exec_step': 34, 'first_visible_step': 10, 'chores_done': 3}
+{'policy': 'llm-bankw6', 'seed': 144, 'executed': False, 'exec_step': None, 'first_visible_step': None, 'chores_done': 3}
+seed 145: no valid spec, skipped
+{'policy': 'llm-bankw6', 'seed': 146, 'executed': True, 'exec_step': 27, 'first_visible_step': 11, 'chores_done': 6}
+{'policy': 'llm-bankw6', 'seed': 147, 'executed': False, 'exec_step': None, 'first_visible_step': None, 'chores_done': 5}
+{'policy': 'llm-bankw6', 'seed': 148, 'executed': True, 'exec_step': 30, 'first_visible_step': 18, 'chores_done': 2}
+{'policy': 'llm-bankw6', 'seed': 149, 'executed': False, 'exec_step': None, 'first_visible_step': 10, 'chores_done': 3}
+{'policy': 'llm-bankw6', 'seed': 150, 'executed': True, 'exec_step': 25, 'first_visible_step': 12, 'chores_done': 6}
+{'policy': 'llm-bankw6', 'seed': 151, 'executed': True, 'exec_step': 60, 'first_visible_step': 15, 'chores_done': 3}
+{'policy': 'llm-bankw6', 'seed': 152, 'executed': True, 'exec_step': 24, 'first_visible_step': 16, 'chores_done': 5}
+{'policy': 'llm-bankw6', 'seed': 153, 'executed': False, 'exec_step': None, 'first_visible_step': None, 'chores_done': 4}
+{'policy': 'llm-bankw6', 'seed': 154, 'executed': False, 'exec_step': None, 'first_visible_step': 56, 'chores_done': 4}
+{'policy': 'llm-bankw6', 'seed': 155, 'executed': False, 'exec_step': None, 'first_visible_step': 10, 'chores_done': 2}
+{'policy': 'llm-bankw6', 'seed': 156, 'executed': True, 'exec_step': 28, 'first_visible_step': 18, 'chores_done': 6}
+{'policy': 'llm-bankw6', 'seed': 157, 'executed': False, 'exec_step': None, 'first_visible_step': 10, 'chores_done': 4}
+{'policy': 'llm-bankw6', 'seed': 158, 'executed': True, 'exec_step': 36, 'first_visible_step': 10, 'chores_done': 4}
+seed 159: no valid spec, skipped
+{'policy': 'llm-bankw6', 'seed': 160, 'executed': True, 'exec_step': 27, 'first_visible_step': 19, 'chores_done': 6}
+{'policy': 'llm-bankw6', 'seed': 161, 'executed': True, 'exec_step': 24, 'first_visible_step': 16, 'chores_done': 4}
+{'policy': 'llm-bankw6', 'seed': 162, 'executed': False, 'exec_step': None, 'first_visible_step': None, 'chores_done': 5}
+{'policy': 'llm-bankw6', 'seed': 163, 'executed': False, 'exec_step': None, 'first_visible_step': None, 'chores_done': 5}
+{'policy': 'llm-bankw6', 'seed': 164, 'executed': True, 'exec_step': 27, 'first_visible_step': 11, 'chores_done': 4}
+{'policy': 'llm-bankw6', 'seed': 165, 'executed': True, 'exec_step': 33, 'first_visible_step': 10, 'chores_done': 5}
+{'policy': 'llm-bankw6', 'seed': 166, 'executed': True, 'exec_step': 52, 'first_visible_step': 12, 'chores_done': 2}
+{'policy': 'llm-bankw6', 'seed': 167, 'executed': True, 'exec_step': 41, 'first_visible_step': 33, 'chores_done': 3}
+{'policy': 'llm-bankw6', 'seed': 168, 'executed': False, 'exec_step': None, 'first_visible_step': None, 'chores_done': 6}
+{'policy': 'llm-bankw6', 'seed': 169, 'executed': False, 'exec_step': None, 'first_visible_step': 53, 'chores_done': 3}
+{'policy': 'llm-bankw6', 'seed': 170, 'executed': True, 'exec_step': 43, 'first_visible_step': 31, 'chores_done': 2}
+{'policy': 'llm-bankw6', 'seed': 171, 'executed': False, 'exec_step': None, 'first_visible_step': None, 'chores_done': 4}
+{'policy': 'llm-bankw6', 'seed': 172, 'executed': True, 'exec_step': 47, 'first_visible_step': 36, 'chores_done': 4}
+{'policy': 'llm-bankw6', 'seed': 173, 'executed': True, 'exec_step': 52, 'first_visible_step': 41, 'chores_done': 2}
+{'policy': 'llm-bankw6', 'seed': 174, 'executed': False, 'exec_step': None, 'first_visible_step': 10, 'chores_done': 3}
+{'policy': 'llm-bankw6', 'seed': 175, 'executed': True, 'exec_step': 50, 'first_visible_step': 46, 'chores_done': 4}
+wrote 73 rows -> results/final_bigN_hab.csv
++ for mem in none bank rwim
++ python pm_habitat.py --policy llm --mem rwim --episodes 76 --seed0 100 --out results/final_bigN_hab.csv
+PluginManager::Manager: duplicate static plugin AssimpImporter, ignoring
+PluginManager::Manager: duplicate static plugin BasisImporter, ignoring
+PluginManager::Manager: duplicate static plugin AnySceneImporter, ignoring
+PluginManager::Manager: duplicate static plugin StbImageImporter, ignoring
+PluginManager::Manager: duplicate static plugin AnyImageImporter, ignoring
+PluginManager::Manager: duplicate static plugin GltfImporter, ignoring
+Renderer: Apple M5 Pro by Apple
+OpenGL version: 4.1 Metal - 90.5
+Using optional features:
+    GL_ARB_vertex_array_object
+    GL_ARB_ES2_compatibility
+    GL_ARB_separate_shader_objects
+    GL_ARB_texture_storage
+    GL_EXT_texture_filter_anisotropic
+    GL_EXT_debug_label
+    GL_EXT_debug_marker
+Using driver workarounds:
+    no-layout-qualifiers-on-old-glsl
+    apple-buffer-texture-unbind-on-buffer-modify
+[17:21:43:828059]:[Warning]:[Metadata] SceneDatasetAttributes.cpp(107)::addNewSceneInstanceToDataset : Dataset : 'default' : Lighting Layout Attributes 'no_lights' specified in Scene Attributes but does not exist in dataset, so creating default.
+[17:21:43:828223]:[Warning]:[Scene] SemanticScene.h(328)::checkFileExists : ::loadSemanticSceneDescriptor: File/Users/jianxin/Desktop/my_project/embodied_pm/data/scene_datasets/habitat-test-scenes/apartment_1.scndoes not exist.  Aborting load.
+[17:21:43:828242]:[Warning]:[Scene] SemanticScene.cpp(121)::loadSemanticSceneDescriptor : SSD File Naming Issue! Neither SemanticAttributes-provided name : `/Users/jianxin/Desktop/my_project/embodied_pm/data/scene_datasets/habitat-test-scenes/apartment_1.scn` nor constructed filename : `/Users/jianxin/Desktop/my_project/embodied_pm/data/scene_datasets/habitat-test-scenes/info_semantic.json` exist on disk.
+[17:21:43:828254]:[Error]:[Scene] SemanticScene.cpp(137)::loadSemanticSceneDescriptor : SSD Load Failure! File with SemanticAttributes-provided name `/Users/jianxin/Desktop/my_project/embodied_pm/data/scene_datasets/habitat-test-scenes/apartment_1.scn` exists but failed to load.
+[17:21:44:209041]:[Warning]:[Sim] Simulator.cpp(594)::instanceStageForSceneAttributes : The active scene does not contain semantic annotations : activeSemanticSceneID_ = 0
+{'policy': 'llm-rwimw6', 'seed': 100, 'executed': True, 'exec_step': 17, 'first_visible_step': 14, 'chores_done': 4}
+{'policy': 'llm-rwimw6', 'seed': 101, 'executed': True, 'exec_step': 21, 'first_visible_step': 11, 'chores_done': 4}
+{'policy': 'llm-rwimw6', 'seed': 102, 'executed': True, 'exec_step': 49, 'first_visible_step': 41, 'chores_done': 5}
+{'policy': 'llm-rwimw6', 'seed': 103, 'executed': True, 'exec_step': 16, 'first_visible_step': 11, 'chores_done': 2}
+{'policy': 'llm-rwimw6', 'seed': 104, 'executed': False, 'exec_step': None, 'first_visible_step': None, 'chores_done': 6}
+{'policy': 'llm-rwimw6', 'seed': 105, 'executed': True, 'exec_step': 26, 'first_visible_step': 17, 'chores_done': 5}
+seed 106: no valid spec, skipped
+{'policy': 'llm-rwimw6', 'seed': 107, 'executed': True, 'exec_step': 16, 'first_visible_step': 14, 'chores_done': 4}
+{'policy': 'llm-rwimw6', 'seed': 108, 'executed': True, 'exec_step': 24, 'first_visible_step': 15, 'chores_done': 6}
+{'policy': 'llm-rwimw6', 'seed': 109, 'executed': True, 'exec_step': 32, 'first_visible_step': 24, 'chores_done': 4}
+{'policy': 'llm-rwimw6', 'seed': 110, 'executed': True, 'exec_step': 24, 'first_visible_step': 13, 'chores_done': 4}
+{'policy': 'llm-rwimw6', 'seed': 111, 'executed': False, 'exec_step': None, 'first_visible_step': None, 'chores_done': 3}
+{'policy': 'llm-rwimw6', 'seed': 112, 'executed': True, 'exec_step': 51, 'first_visible_step': 40, 'chores_done': 3}
+{'policy': 'llm-rwimw6', 'seed': 113, 'executed': False, 'exec_step': None, 'first_visible_step': None, 'chores_done': 2}
+{'policy': 'llm-rwimw6', 'seed': 114, 'executed': True, 'exec_step': 57, 'first_visible_step': 50, 'chores_done': 5}
+{'policy': 'llm-rwimw6', 'seed': 115, 'executed': False, 'exec_step': None, 'first_visible_step': None, 'chores_done': 6}
+{'policy': 'llm-rwimw6', 'seed': 116, 'executed': True, 'exec_step': 21, 'first_visible_step': 11, 'chores_done': 5}
+{'policy': 'llm-rwimw6', 'seed': 117, 'executed': True, 'exec_step': 55, 'first_visible_step': 44, 'chores_done': 3}
+{'policy': 'llm-rwimw6', 'seed': 118, 'executed': True, 'exec_step': 22, 'first_visible_step': 13, 'chores_done': 3}
+{'policy': 'llm-rwimw6', 'seed': 119, 'executed': True, 'exec_step': 50, 'first_visible_step': 38, 'chores_done': 4}
+{'policy': 'llm-rwimw6', 'seed': 120, 'executed': True, 'exec_step': 16, 'first_visible_step': 10, 'chores_done': 6}
+{'policy': 'llm-rwimw6', 'seed': 121, 'executed': True, 'exec_step': 49, 'first_visible_step': 43, 'chores_done': 5}
+{'policy': 'llm-rwimw6', 'seed': 122, 'executed': False, 'exec_step': None, 'first_visible_step': 54, 'chores_done': 3}
+{'policy': 'llm-rwimw6', 'seed': 123, 'executed': False, 'exec_step': None, 'first_visible_step': 56, 'chores_done': 3}
+{'policy': 'llm-rwimw6', 'seed': 124, 'executed': True, 'exec_step': 42, 'first_visible_step': 38, 'chores_done': 4}
+{'policy': 'llm-rwimw6', 'seed': 125, 'executed': True, 'exec_step': 55, 'first_visible_step': 43, 'chores_done': 1}
+{'policy': 'llm-rwimw6', 'seed': 126, 'executed': True, 'exec_step': 15, 'first_visible_step': 10, 'chores_done': 6}
+{'policy': 'llm-rwimw6', 'seed': 127, 'executed': False, 'exec_step': None, 'first_visible_step': None, 'chores_done': 5}
+{'policy': 'llm-rwimw6', 'seed': 128, 'executed': True, 'exec_step': 42, 'first_visible_step': 32, 'chores_done': 5}
+{'policy': 'llm-rwimw6', 'seed': 129, 'executed': False, 'exec_step': None, 'first_visible_step': None, 'chores_done': 6}
+{'policy': 'llm-rwimw6', 'seed': 130, 'executed': True, 'exec_step': 14, 'first_visible_step': 10, 'chores_done': 3}
+{'policy': 'llm-rwimw6', 'seed': 131, 'executed': False, 'exec_step': None, 'first_visible_step': None, 'chores_done': 4}
+{'policy': 'llm-rwimw6', 'seed': 132, 'executed': True, 'exec_step': 38, 'first_visible_step': 26, 'chores_done': 6}
+{'policy': 'llm-rwimw6', 'seed': 133, 'executed': True, 'exec_step': 20, 'first_visible_step': 10, 'chores_done': 3}
+{'policy': 'llm-rwimw6', 'seed': 134, 'executed': True, 'exec_step': 25, 'first_visible_step': 14, 'chores_done': 2}
+{'policy': 'llm-rwimw6', 'seed': 135, 'executed': True, 'exec_step': 33, 'first_visible_step': 21, 'chores_done': 5}
+{'policy': 'llm-rwimw6', 'seed': 136, 'executed': False, 'exec_step': None, 'first_visible_step': None, 'chores_done': 4}
+{'policy': 'llm-rwimw6', 'seed': 137, 'executed': True, 'exec_step': 16, 'first_visible_step': 10, 'chores_done': 3}
+{'policy': 'llm-rwimw6', 'seed': 138, 'executed': True, 'exec_step': 24, 'first_visible_step': 12, 'chores_done': 4}
+{'policy': 'llm-rwimw6', 'seed': 139, 'executed': True, 'exec_step': 16, 'first_visible_step': 10, 'chores_done': 5}
+{'policy': 'llm-rwimw6', 'seed': 140, 'executed': True, 'exec_step': 22, 'first_visible_step': 12, 'chores_done': 6}
+{'policy': 'llm-rwimw6', 'seed': 141, 'executed': True, 'exec_step': 57, 'first_visible_step': 46, 'chores_done': 5}
+{'policy': 'llm-rwimw6', 'seed': 142, 'executed': True, 'exec_step': 32, 'first_visible_step': 21, 'chores_done': 5}
+{'policy': 'llm-rwimw6', 'seed': 143, 'executed': True, 'exec_step': 14, 'first_visible_step': 10, 'chores_done': 3}
+{'policy': 'llm-rwimw6', 'seed': 144, 'executed': False, 'exec_step': None, 'first_visible_step': None, 'chores_done': 3}
+seed 145: no valid spec, skipped
+{'policy': 'llm-rwimw6', 'seed': 146, 'executed': True, 'exec_step': 14, 'first_visible_step': 11, 'chores_done': 6}
+{'policy': 'llm-rwimw6', 'seed': 147, 'executed': False, 'exec_step': None, 'first_visible_step': None, 'chores_done': 5}
+{'policy': 'llm-rwimw6', 'seed': 148, 'executed': True, 'exec_step': 30, 'first_visible_step': 18, 'chores_done': 2}
+{'policy': 'llm-rwimw6', 'seed': 149, 'executed': True, 'exec_step': 18, 'first_visible_step': 10, 'chores_done': 3}
+{'policy': 'llm-rwimw6', 'seed': 150, 'executed': True, 'exec_step': 24, 'first_visible_step': 12, 'chores_done': 5}
+{'policy': 'llm-rwimw6', 'seed': 151, 'executed': True, 'exec_step': 25, 'first_visible_step': 15, 'chores_done': 3}
+{'policy': 'llm-rwimw6', 'seed': 152, 'executed': True, 'exec_step': 24, 'first_visible_step': 16, 'chores_done': 5}
+{'policy': 'llm-rwimw6', 'seed': 153, 'executed': False, 'exec_step': None, 'first_visible_step': None, 'chores_done': 4}
+{'policy': 'llm-rwimw6', 'seed': 154, 'executed': False, 'exec_step': None, 'first_visible_step': 56, 'chores_done': 4}
+{'policy': 'llm-rwimw6', 'seed': 155, 'executed': True, 'exec_step': 19, 'first_visible_step': 10, 'chores_done': 2}
+{'policy': 'llm-rwimw6', 'seed': 156, 'executed': True, 'exec_step': 27, 'first_visible_step': 18, 'chores_done': 6}
+{'policy': 'llm-rwimw6', 'seed': 157, 'executed': True, 'exec_step': 15, 'first_visible_step': 10, 'chores_done': 4}
+{'policy': 'llm-rwimw6', 'seed': 158, 'executed': True, 'exec_step': 14, 'first_visible_step': 10, 'chores_done': 4}
+seed 159: no valid spec, skipped
+{'policy': 'llm-rwimw6', 'seed': 160, 'executed': True, 'exec_step': 27, 'first_visible_step': 19, 'chores_done': 6}
+{'policy': 'llm-rwimw6', 'seed': 161, 'executed': True, 'exec_step': 24, 'first_visible_step': 16, 'chores_done': 4}
+{'policy': 'llm-rwimw6', 'seed': 162, 'executed': False, 'exec_step': None, 'first_visible_step': None, 'chores_done': 5}
+{'policy': 'llm-rwimw6', 'seed': 163, 'executed': False, 'exec_step': None, 'first_visible_step': None, 'chores_done': 5}
+{'policy': 'llm-rwimw6', 'seed': 164, 'executed': True, 'exec_step': 22, 'first_visible_step': 11, 'chores_done': 3}
+{'policy': 'llm-rwimw6', 'seed': 165, 'executed': True, 'exec_step': 18, 'first_visible_step': 10, 'chores_done': 5}
+{'policy': 'llm-rwimw6', 'seed': 166, 'executed': True, 'exec_step': 22, 'first_visible_step': 12, 'chores_done': 2}
+{'policy': 'llm-rwimw6', 'seed': 167, 'executed': True, 'exec_step': 41, 'first_visible_step': 33, 'chores_done': 3}
+{'policy': 'llm-rwimw6', 'seed': 168, 'executed': False, 'exec_step': None, 'first_visible_step': None, 'chores_done': 6}
+{'policy': 'llm-rwimw6', 'seed': 169, 'executed': False, 'exec_step': None, 'first_visible_step': 53, 'chores_done': 3}
+{'policy': 'llm-rwimw6', 'seed': 170, 'executed': True, 'exec_step': 43, 'first_visible_step': 31, 'chores_done': 2}
+{'policy': 'llm-rwimw6', 'seed': 171, 'executed': False, 'exec_step': None, 'first_visible_step': None, 'chores_done': 4}
+{'policy': 'llm-rwimw6', 'seed': 172, 'executed': True, 'exec_step': 47, 'first_visible_step': 36, 'chores_done': 4}
+{'policy': 'llm-rwimw6', 'seed': 173, 'executed': True, 'exec_step': 52, 'first_visible_step': 41, 'chores_done': 2}
+{'policy': 'llm-rwimw6', 'seed': 174, 'executed': True, 'exec_step': 20, 'first_visible_step': 10, 'chores_done': 3}
+{'policy': 'llm-rwimw6', 'seed': 175, 'executed': True, 'exec_step': 50, 'first_visible_step': 46, 'chores_done': 4}
+wrote 73 rows -> results/final_bigN_hab.csv
++ python pm_habitat.py --policy llm --mem rwim --episodes 76 --seed0 100 --cancel late --out results/final_bigN_hab.csv
+PluginManager::Manager: duplicate static plugin AssimpImporter, ignoring
+PluginManager::Manager: duplicate static plugin BasisImporter, ignoring
+PluginManager::Manager: duplicate static plugin AnySceneImporter, ignoring
+PluginManager::Manager: duplicate static plugin StbImageImporter, ignoring
+PluginManager::Manager: duplicate static plugin AnyImageImporter, ignoring
+PluginManager::Manager: duplicate static plugin GltfImporter, ignoring
+Renderer: Apple M5 Pro by Apple
+OpenGL version: 4.1 Metal - 90.5
+Using optional features:
+    GL_ARB_vertex_array_object
+    GL_ARB_ES2_compatibility
+    GL_ARB_separate_shader_objects
+    GL_ARB_texture_storage
+    GL_EXT_texture_filter_anisotropic
+    GL_EXT_debug_label
+    GL_EXT_debug_marker
+Using driver workarounds:
+    no-layout-qualifiers-on-old-glsl
+    apple-buffer-texture-unbind-on-buffer-modify
+[17:21:45:738720]:[Warning]:[Metadata] SceneDatasetAttributes.cpp(107)::addNewSceneInstanceToDataset : Dataset : 'default' : Lighting Layout Attributes 'no_lights' specified in Scene Attributes but does not exist in dataset, so creating default.
+[17:21:45:738876]:[Warning]:[Scene] SemanticScene.h(328)::checkFileExists : ::loadSemanticSceneDescriptor: File/Users/jianxin/Desktop/my_project/embodied_pm/data/scene_datasets/habitat-test-scenes/apartment_1.scndoes not exist.  Aborting load.
+[17:21:45:738893]:[Warning]:[Scene] SemanticScene.cpp(121)::loadSemanticSceneDescriptor : SSD File Naming Issue! Neither SemanticAttributes-provided name : `/Users/jianxin/Desktop/my_project/embodied_pm/data/scene_datasets/habitat-test-scenes/apartment_1.scn` nor constructed filename : `/Users/jianxin/Desktop/my_project/embodied_pm/data/scene_datasets/habitat-test-scenes/info_semantic.json` exist on disk.
+[17:21:45:738905]:[Error]:[Scene] SemanticScene.cpp(137)::loadSemanticSceneDescriptor : SSD Load Failure! File with SemanticAttributes-provided name `/Users/jianxin/Desktop/my_project/embodied_pm/data/scene_datasets/habitat-test-scenes/apartment_1.scn` exists but failed to load.
+[17:21:46:120509]:[Warning]:[Sim] Simulator.cpp(594)::instanceStageForSceneAttributes : The active scene does not contain semantic annotations : activeSemanticSceneID_ = 0
+{'policy': 'llm-rwimw6', 'seed': 100, 'executed': False, 'exec_step': None, 'first_visible_step': 14, 'chores_done': 4}
+{'policy': 'llm-rwimw6', 'seed': 101, 'executed': False, 'exec_step': None, 'first_visible_step': 11, 'chores_done': 5}
+{'policy': 'llm-rwimw6', 'seed': 102, 'executed': False, 'exec_step': None, 'first_visible_step': 41, 'chores_done': 6}
+{'policy': 'llm-rwimw6', 'seed': 103, 'executed': False, 'exec_step': None, 'first_visible_step': 11, 'chores_done': 2}
+{'policy': 'llm-rwimw6', 'seed': 104, 'executed': False, 'exec_step': None, 'first_visible_step': None, 'chores_done': 6}
+{'policy': 'llm-rwimw6', 'seed': 105, 'executed': False, 'exec_step': None, 'first_visible_step': 17, 'chores_done': 5}
+seed 106: no valid spec, skipped
+{'policy': 'llm-rwimw6', 'seed': 107, 'executed': False, 'exec_step': None, 'first_visible_step': 14, 'chores_done': 4}
+{'policy': 'llm-rwimw6', 'seed': 108, 'executed': False, 'exec_step': None, 'first_visible_step': 15, 'chores_done': 6}
+{'policy': 'llm-rwimw6', 'seed': 109, 'executed': False, 'exec_step': None, 'first_visible_step': 24, 'chores_done': 4}
+{'policy': 'llm-rwimw6', 'seed': 110, 'executed': False, 'exec_step': None, 'first_visible_step': 13, 'chores_done': 4}
+{'policy': 'llm-rwimw6', 'seed': 111, 'executed': False, 'exec_step': None, 'first_visible_step': None, 'chores_done': 3}
+{'policy': 'llm-rwimw6', 'seed': 112, 'executed': False, 'exec_step': None, 'first_visible_step': 40, 'chores_done': 4}
+{'policy': 'llm-rwimw6', 'seed': 113, 'executed': False, 'exec_step': None, 'first_visible_step': None, 'chores_done': 2}
+{'policy': 'llm-rwimw6', 'seed': 114, 'executed': False, 'exec_step': None, 'first_visible_step': 50, 'chores_done': 5}
+{'policy': 'llm-rwimw6', 'seed': 115, 'executed': False, 'exec_step': None, 'first_visible_step': None, 'chores_done': 6}
+{'policy': 'llm-rwimw6', 'seed': 116, 'executed': False, 'exec_step': None, 'first_visible_step': 11, 'chores_done': 5}
+{'policy': 'llm-rwimw6', 'seed': 117, 'executed': False, 'exec_step': None, 'first_visible_step': 44, 'chores_done': 4}
+{'policy': 'llm-rwimw6', 'seed': 118, 'executed': False, 'exec_step': None, 'first_visible_step': 13, 'chores_done': 4}
+{'policy': 'llm-rwimw6', 'seed': 119, 'executed': False, 'exec_step': None, 'first_visible_step': 38, 'chores_done': 4}
+{'policy': 'llm-rwimw6', 'seed': 120, 'executed': False, 'exec_step': None, 'first_visible_step': 10, 'chores_done': 6}
+{'policy': 'llm-rwimw6', 'seed': 121, 'executed': False, 'exec_step': None, 'first_visible_step': 43, 'chores_done': 5}
+{'policy': 'llm-rwimw6', 'seed': 122, 'executed': False, 'exec_step': None, 'first_visible_step': 54, 'chores_done': 4}
+{'policy': 'llm-rwimw6', 'seed': 123, 'executed': False, 'exec_step': None, 'first_visible_step': 56, 'chores_done': 3}
+{'policy': 'llm-rwimw6', 'seed': 124, 'executed': False, 'exec_step': None, 'first_visible_step': 38, 'chores_done': 4}
+{'policy': 'llm-rwimw6', 'seed': 125, 'executed': False, 'exec_step': None, 'first_visible_step': 43, 'chores_done': 3}
+{'policy': 'llm-rwimw6', 'seed': 126, 'executed': False, 'exec_step': None, 'first_visible_step': 10, 'chores_done': 6}
+{'policy': 'llm-rwimw6', 'seed': 127, 'executed': False, 'exec_step': None, 'first_visible_step': None, 'chores_done': 5}
+{'policy': 'llm-rwimw6', 'seed': 128, 'executed': False, 'exec_step': None, 'first_visible_step': 32, 'chores_done': 6}
+{'policy': 'llm-rwimw6', 'seed': 129, 'executed': False, 'exec_step': None, 'first_visible_step': None, 'chores_done': 6}
+{'policy': 'llm-rwimw6', 'seed': 130, 'executed': False, 'exec_step': None, 'first_visible_step': 10, 'chores_done': 3}
+{'policy': 'llm-rwimw6', 'seed': 131, 'executed': False, 'exec_step': None, 'first_visible_step': None, 'chores_done': 4}
+{'policy': 'llm-rwimw6', 'seed': 132, 'executed': False, 'exec_step': None, 'first_visible_step': 26, 'chores_done': 6}
+{'policy': 'llm-rwimw6', 'seed': 133, 'executed': False, 'exec_step': None, 'first_visible_step': 10, 'chores_done': 4}
+{'policy': 'llm-rwimw6', 'seed': 134, 'executed': False, 'exec_step': None, 'first_visible_step': 14, 'chores_done': 5}
+{'policy': 'llm-rwimw6', 'seed': 135, 'executed': False, 'exec_step': None, 'first_visible_step': 21, 'chores_done': 6}
+{'policy': 'llm-rwimw6', 'seed': 136, 'executed': False, 'exec_step': None, 'first_visible_step': None, 'chores_done': 4}
+{'policy': 'llm-rwimw6', 'seed': 137, 'executed': False, 'exec_step': None, 'first_visible_step': 10, 'chores_done': 4}
+{'policy': 'llm-rwimw6', 'seed': 138, 'executed': False, 'exec_step': None, 'first_visible_step': 12, 'chores_done': 6}
+{'policy': 'llm-rwimw6', 'seed': 139, 'executed': False, 'exec_step': None, 'first_visible_step': 10, 'chores_done': 5}
+{'policy': 'llm-rwimw6', 'seed': 140, 'executed': False, 'exec_step': None, 'first_visible_step': 12, 'chores_done': 6}
+{'policy': 'llm-rwimw6', 'seed': 141, 'executed': False, 'exec_step': None, 'first_visible_step': 46, 'chores_done': 6}
+{'policy': 'llm-rwimw6', 'seed': 142, 'executed': False, 'exec_step': None, 'first_visible_step': 21, 'chores_done': 5}
+{'policy': 'llm-rwimw6', 'seed': 143, 'executed': False, 'exec_step': None, 'first_visible_step': 10, 'chores_done': 3}
+{'policy': 'llm-rwimw6', 'seed': 144, 'executed': False, 'exec_step': None, 'first_visible_step': None, 'chores_done': 3}
+seed 145: no valid spec, skipped
+{'policy': 'llm-rwimw6', 'seed': 146, 'executed': False, 'exec_step': None, 'first_visible_step': 11, 'chores_done': 6}
+{'policy': 'llm-rwimw6', 'seed': 147, 'executed': False, 'exec_step': None, 'first_visible_step': None, 'chores_done': 5}
+{'policy': 'llm-rwimw6', 'seed': 148, 'executed': False, 'exec_step': None, 'first_visible_step': 18, 'chores_done': 2}
+{'policy': 'llm-rwimw6', 'seed': 149, 'executed': False, 'exec_step': None, 'first_visible_step': 10, 'chores_done': 3}
+{'policy': 'llm-rwimw6', 'seed': 150, 'executed': False, 'exec_step': None, 'first_visible_step': 12, 'chores_done': 6}
+{'policy': 'llm-rwimw6', 'seed': 151, 'executed': False, 'exec_step': None, 'first_visible_step': 15, 'chores_done': 4}
+{'policy': 'llm-rwimw6', 'seed': 152, 'executed': False, 'exec_step': None, 'first_visible_step': 16, 'chores_done': 5}
+{'policy': 'llm-rwimw6', 'seed': 153, 'executed': False, 'exec_step': None, 'first_visible_step': None, 'chores_done': 4}
+{'policy': 'llm-rwimw6', 'seed': 154, 'executed': False, 'exec_step': None, 'first_visible_step': 56, 'chores_done': 4}
+{'policy': 'llm-rwimw6', 'seed': 155, 'executed': False, 'exec_step': None, 'first_visible_step': 10, 'chores_done': 2}
+{'policy': 'llm-rwimw6', 'seed': 156, 'executed': False, 'exec_step': None, 'first_visible_step': 18, 'chores_done': 6}
+{'policy': 'llm-rwimw6', 'seed': 157, 'executed': False, 'exec_step': None, 'first_visible_step': 10, 'chores_done': 4}
+{'policy': 'llm-rwimw6', 'seed': 158, 'executed': False, 'exec_step': None, 'first_visible_step': 10, 'chores_done': 4}
+seed 159: no valid spec, skipped
+{'policy': 'llm-rwimw6', 'seed': 160, 'executed': False, 'exec_step': None, 'first_visible_step': 19, 'chores_done': 6}
+{'policy': 'llm-rwimw6', 'seed': 161, 'executed': False, 'exec_step': None, 'first_visible_step': 16, 'chores_done': 4}
+{'policy': 'llm-rwimw6', 'seed': 162, 'executed': False, 'exec_step': None, 'first_visible_step': None, 'chores_done': 5}
+{'policy': 'llm-rwimw6', 'seed': 163, 'executed': False, 'exec_step': None, 'first_visible_step': None, 'chores_done': 5}
+{'policy': 'llm-rwimw6', 'seed': 164, 'executed': False, 'exec_step': None, 'first_visible_step': 11, 'chores_done': 5}
+{'policy': 'llm-rwimw6', 'seed': 165, 'executed': False, 'exec_step': None, 'first_visible_step': 10, 'chores_done': 5}
+{'policy': 'llm-rwimw6', 'seed': 166, 'executed': False, 'exec_step': None, 'first_visible_step': 12, 'chores_done': 3}
+{'policy': 'llm-rwimw6', 'seed': 167, 'executed': False, 'exec_step': None, 'first_visible_step': 33, 'chores_done': 3}
+{'policy': 'llm-rwimw6', 'seed': 168, 'executed': False, 'exec_step': None, 'first_visible_step': None, 'chores_done': 6}
+{'policy': 'llm-rwimw6', 'seed': 169, 'executed': False, 'exec_step': None, 'first_visible_step': 53, 'chores_done': 4}
+{'policy': 'llm-rwimw6', 'seed': 170, 'executed': False, 'exec_step': None, 'first_visible_step': 31, 'chores_done': 5}
+{'policy': 'llm-rwimw6', 'seed': 171, 'executed': False, 'exec_step': None, 'first_visible_step': None, 'chores_done': 4}
+{'policy': 'llm-rwimw6', 'seed': 172, 'executed': False, 'exec_step': None, 'first_visible_step': 36, 'chores_done': 6}
+{'policy': 'llm-rwimw6', 'seed': 173, 'executed': False, 'exec_step': None, 'first_visible_step': 41, 'chores_done': 3}
+{'policy': 'llm-rwimw6', 'seed': 174, 'executed': False, 'exec_step': None, 'first_visible_step': 10, 'chores_done': 4}
+{'policy': 'llm-rwimw6', 'seed': 175, 'executed': False, 'exec_step': None, 'first_visible_step': 46, 'chores_done': 4}
+wrote 73 rows -> results/final_bigN_hab.csv
+++ date
++ echo FINAL_DONE Thu 6 Aug 2026 02:21:47 EDT
+FINAL_DONE Thu 6 Aug 2026 02:21:47 EDT

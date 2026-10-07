@@ -1,0 +1,41 @@
+resume: 247 episodes already in results/llm_or_deepseek_load_v1obs.csv
+[llm:sched2] 25/50 (0.00 ep/s)
+[llm:sched2] 50/50 (0.01 ep/s)
+policy llm:sched2 done (30 total)
+TOTAL 30 episodes in 95.1 min -> results/llm_or_deepseek_load_v1obs.csv
+PASS1 llm:sched2 cancel_early done Mon  5 Oct 2026 14:49:26 EDT
+resume: 320 episodes already in results/llm_or_deepseek_load_v1obs.csv
+[llm:sched2] 25/50 (0.01 ep/s)
+[llm:sched2] 50/50 (0.01 ep/s)
+policy llm:sched2 done (30 total)
+TOTAL 30 episodes in 88.3 min -> results/llm_or_deepseek_load_v1obs.csv
+PASS1 llm:sched2 live done Mon  5 Oct 2026 16:17:45 EDT
+resume: 392 episodes already in results/llm_or_deepseek_load_v1obs.csv
+[llm:sched2] 25/50 (0.01 ep/s)
+[llm:sched2] 50/50 (0.01 ep/s)
+policy llm:sched2 done (30 total)
+TOTAL 30 episodes in 77.6 min -> results/llm_or_deepseek_load_v1obs.csv
+PASS1 llm:sched2 cancel_late done Mon  5 Oct 2026 17:35:25 EDT
+resume: 466 episodes already in results/llm_or_deepseek_load_v1obs.csv
+[llm:sched2] 25/50 (0.01 ep/s)
+[llm:sched2] 50/50 (0.01 ep/s)
+policy llm:sched2 done (30 total)
+TOTAL 30 episodes in 46.2 min -> results/llm_or_deepseek_load_v1obs.csv
+PASS1 llm:sched2 control done Mon  5 Oct 2026 18:21:40 EDT
+resume: 527 episodes already in results/llm_or_deepseek_load_v1obs.csv
+policy llm:sched2 done (0 total)
+TOTAL 0 episodes in 0.0 min -> results/llm_or_deepseek_load_v1obs.csv
+PASS2 llm:sched2 cancel_early done Mon  5 Oct 2026 18:21:43 EDT
+resume: 527 episodes already in results/llm_or_deepseek_load_v1obs.csv
+policy llm:sched2 done (0 total)
+TOTAL 0 episodes in 0.0 min -> results/llm_or_deepseek_load_v1obs.csv
+PASS2 llm:sched2 live done Mon  5 Oct 2026 18:21:46 EDT
+resume: 527 episodes already in results/llm_or_deepseek_load_v1obs.csv
+policy llm:sched2 done (0 total)
+TOTAL 0 episodes in 0.0 min -> results/llm_or_deepseek_load_v1obs.csv
+PASS2 llm:sched2 cancel_late done Mon  5 Oct 2026 18:21:49 EDT
+resume: 527 episodes already in results/llm_or_deepseek_load_v1obs.csv
+policy llm:sched2 done (0 total)
+TOTAL 0 episodes in 0.0 min -> results/llm_or_deepseek_load_v1obs.csv
+PASS2 llm:sched2 control done Mon  5 Oct 2026 18:21:52 EDT
+LOAD6S50_deepseek_q2_DONE Mon  5 Oct 2026 18:21:52 EDT

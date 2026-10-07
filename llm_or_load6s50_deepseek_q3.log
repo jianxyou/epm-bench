@@ -1,0 +1,49 @@
+resume: 247 episodes already in results/llm_or_deepseek_load_v1obs.csv
+[llm:rwim5] 25/50 (0.00 ep/s)
+[llm:rwim5] 50/50 (0.00 ep/s)
+policy llm:rwim5 done (30 total)
+TOTAL 30 episodes in 230.0 min -> results/llm_or_deepseek_load_v1obs.csv
+PASS1 llm:rwim5 cancel_early done Mon  5 Oct 2026 17:04:42 EDT
+resume: 440 episodes already in results/llm_or_deepseek_load_v1obs.csv
+[llm:rwim5] 25/50 (0.00 ep/s)
+[llm:rwim5] 50/50 (0.00 ep/s)
+policy llm:rwim5 done (30 total)
+TOTAL 30 episodes in 220.9 min -> results/llm_or_deepseek_load_v1obs.csv
+PASS1 llm:rwim5 live done Mon  5 Oct 2026 20:45:41 EDT
+resume: 723 episodes already in results/llm_or_deepseek_load_v1obs.csv
+[llm:rwim5] 25/50 (0.00 ep/s)
+llm:rwim5 thor/FloorPlan1/s33/d6/l6 cancel_late attempt1: JSONDecodeError Expecting value: line 5 column 1 (char 22)
+TOTAL 26 episodes in 208.8 min -> results/llm_or_deepseek_load_v1obs.csv
+FATAL: API credits exhausted — stopping cleanly.
+PASS1 llm:rwim5 cancel_late done Tue  6 Oct 2026 00:14:34 EDT
+GATE: balance -0.21527854099997512 < 1.0, waiting Tue  6 Oct 2026 00:14:34 EDT
+GATE: balance -0.22777997299999697 < 1.0, waiting Tue  6 Oct 2026 00:29:36 EDT
+GATE: balance -0.22777997299999697 < 1.0, waiting Tue  6 Oct 2026 00:44:36 EDT
+GATE: balance -0.22777997299999697 < 1.0, waiting Tue  6 Oct 2026 00:59:36 EDT
+GATE: balance -0.22777997299999697 < 1.0, waiting Tue  6 Oct 2026 01:14:37 EDT
+GATE: balance -0.22777997299999697 < 1.0, waiting Tue  6 Oct 2026 01:29:37 EDT
+GATE: balance -0.22777997299999697 < 1.0, waiting Tue  6 Oct 2026 01:44:37 EDT
+resume: 1063 episodes already in results/llm_or_deepseek_load_v1obs.csv
+[llm:rwim5] 25/50 (0.01 ep/s)
+[llm:rwim5] 50/50 (0.01 ep/s)
+policy llm:rwim5 done (30 total)
+TOTAL 30 episodes in 75.9 min -> results/llm_or_deepseek_load_v1obs.csv
+PASS1 llm:rwim5 control done Tue  6 Oct 2026 03:18:06 EDT
+resume: 1156 episodes already in results/llm_or_deepseek_load_v1obs.csv
+policy llm:rwim5 done (0 total)
+TOTAL 0 episodes in 0.0 min -> results/llm_or_deepseek_load_v1obs.csv
+PASS2 llm:rwim5 cancel_early done Tue  6 Oct 2026 03:18:08 EDT
+resume: 1156 episodes already in results/llm_or_deepseek_load_v1obs.csv
+policy llm:rwim5 done (0 total)
+TOTAL 0 episodes in 0.0 min -> results/llm_or_deepseek_load_v1obs.csv
+PASS2 llm:rwim5 live done Tue  6 Oct 2026 03:18:11 EDT
+resume: 1156 episodes already in results/llm_or_deepseek_load_v1obs.csv
+[llm:rwim5] 50/50 (0.00 ep/s)
+policy llm:rwim5 done (4 total)
+TOTAL 4 episodes in 45.1 min -> results/llm_or_deepseek_load_v1obs.csv
+PASS2 llm:rwim5 cancel_late done Tue  6 Oct 2026 04:03:21 EDT
+resume: 1173 episodes already in results/llm_or_deepseek_load_v1obs.csv
+policy llm:rwim5 done (0 total)
+TOTAL 0 episodes in 0.0 min -> results/llm_or_deepseek_load_v1obs.csv
+PASS2 llm:rwim5 control done Tue  6 Oct 2026 04:03:24 EDT
+LOAD6S50_deepseek_q3_DONE Tue  6 Oct 2026 04:03:24 EDT

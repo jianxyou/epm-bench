@@ -1,0 +1,121 @@
+resume: 640 episodes already in results/llm_or_gemini_load_v1obs.csv
+[llm:none] 25/50 (0.06 ep/s)
+[llm:none] 50/50 (0.06 ep/s)
+policy llm:none done (30 total)
+TOTAL 30 episodes in 7.7 min -> results/llm_or_gemini_load_v1obs.csv
+PASS1 llm:none cancel_early done Mon  5 Oct 2026 13:25:23 EDT
+resume: 684 episodes already in results/llm_or_gemini_load_v1obs.csv
+[llm:retr] 25/50 (0.05 ep/s)
+[llm:retr] 50/50 (0.04 ep/s)
+policy llm:retr done (30 total)
+TOTAL 30 episodes in 12.7 min -> results/llm_or_gemini_load_v1obs.csv
+PASS1 llm:retr cancel_early done Mon  5 Oct 2026 13:38:05 EDT
+resume: 741 episodes already in results/llm_or_gemini_load_v1obs.csv
+[llm:summ] 25/50 (0.04 ep/s)
+[llm:summ] 50/50 (0.04 ep/s)
+policy llm:summ done (30 total)
+TOTAL 30 episodes in 14.1 min -> results/llm_or_gemini_load_v1obs.csv
+PASS1 llm:summ cancel_early done Mon  5 Oct 2026 13:52:15 EDT
+resume: 793 episodes already in results/llm_or_gemini_load_v1obs.csv
+[llm:none] 25/50 (0.06 ep/s)
+[llm:none] 50/50 (0.09 ep/s)
+policy llm:none done (30 total)
+TOTAL 30 episodes in 5.7 min -> results/llm_or_gemini_load_v1obs.csv
+PASS1 llm:none live done Mon  5 Oct 2026 13:58:02 EDT
+resume: 828 episodes already in results/llm_or_gemini_load_v1obs.csv
+[llm:retr] 25/50 (0.05 ep/s)
+[llm:retr] 50/50 (0.05 ep/s)
+policy llm:retr done (30 total)
+TOTAL 30 episodes in 11.1 min -> results/llm_or_gemini_load_v1obs.csv
+PASS1 llm:retr live done Mon  5 Oct 2026 14:09:11 EDT
+resume: 869 episodes already in results/llm_or_gemini_load_v1obs.csv
+[llm:summ] 25/50 (0.03 ep/s)
+[llm:summ] 50/50 (0.04 ep/s)
+policy llm:summ done (30 total)
+TOTAL 30 episodes in 14.1 min -> results/llm_or_gemini_load_v1obs.csv
+PASS1 llm:summ live done Mon  5 Oct 2026 14:23:20 EDT
+resume: 916 episodes already in results/llm_or_gemini_load_v1obs.csv
+[llm:none] 25/50 (0.09 ep/s)
+[llm:none] 50/50 (0.08 ep/s)
+policy llm:none done (30 total)
+TOTAL 30 episodes in 6.0 min -> results/llm_or_gemini_load_v1obs.csv
+PASS1 llm:none cancel_late done Mon  5 Oct 2026 14:29:21 EDT
+resume: 958 episodes already in results/llm_or_gemini_load_v1obs.csv
+[llm:retr] 25/50 (0.03 ep/s)
+[llm:retr] 50/50 (0.04 ep/s)
+policy llm:retr done (30 total)
+TOTAL 30 episodes in 12.3 min -> results/llm_or_gemini_load_v1obs.csv
+PASS1 llm:retr cancel_late done Mon  5 Oct 2026 14:41:43 EDT
+resume: 1014 episodes already in results/llm_or_gemini_load_v1obs.csv
+[llm:summ] 25/50 (0.03 ep/s)
+[llm:summ] 50/50 (0.03 ep/s)
+policy llm:summ done (30 total)
+TOTAL 30 episodes in 15.7 min -> results/llm_or_gemini_load_v1obs.csv
+PASS1 llm:summ cancel_late done Mon  5 Oct 2026 14:57:28 EDT
+resume: 1066 episodes already in results/llm_or_gemini_load_v1obs.csv
+[llm:none] 25/50 (0.08 ep/s)
+[llm:none] 50/50 (0.07 ep/s)
+policy llm:none done (30 total)
+TOTAL 30 episodes in 6.8 min -> results/llm_or_gemini_load_v1obs.csv
+PASS1 llm:none control done Mon  5 Oct 2026 15:04:18 EDT
+resume: 1103 episodes already in results/llm_or_gemini_load_v1obs.csv
+[llm:retr] 25/50 (0.05 ep/s)
+[llm:retr] 50/50 (0.05 ep/s)
+policy llm:retr done (30 total)
+TOTAL 30 episodes in 11.0 min -> results/llm_or_gemini_load_v1obs.csv
+PASS1 llm:retr control done Mon  5 Oct 2026 15:15:22 EDT
+resume: 1143 episodes already in results/llm_or_gemini_load_v1obs.csv
+[llm:summ] 25/50 (0.04 ep/s)
+[llm:summ] 50/50 (0.04 ep/s)
+policy llm:summ done (30 total)
+TOTAL 30 episodes in 11.8 min -> results/llm_or_gemini_load_v1obs.csv
+PASS1 llm:summ control done Mon  5 Oct 2026 15:27:11 EDT
+resume: 1190 episodes already in results/llm_or_gemini_load_v1obs.csv
+policy llm:none done (0 total)
+TOTAL 0 episodes in 0.0 min -> results/llm_or_gemini_load_v1obs.csv
+PASS2 llm:none cancel_early done Mon  5 Oct 2026 15:27:14 EDT
+resume: 1190 episodes already in results/llm_or_gemini_load_v1obs.csv
+policy llm:retr done (0 total)
+TOTAL 0 episodes in 0.0 min -> results/llm_or_gemini_load_v1obs.csv
+PASS2 llm:retr cancel_early done Mon  5 Oct 2026 15:27:17 EDT
+resume: 1190 episodes already in results/llm_or_gemini_load_v1obs.csv
+policy llm:summ done (0 total)
+TOTAL 0 episodes in 0.0 min -> results/llm_or_gemini_load_v1obs.csv
+PASS2 llm:summ cancel_early done Mon  5 Oct 2026 15:27:20 EDT
+resume: 1191 episodes already in results/llm_or_gemini_load_v1obs.csv
+policy llm:none done (0 total)
+TOTAL 0 episodes in 0.0 min -> results/llm_or_gemini_load_v1obs.csv
+PASS2 llm:none live done Mon  5 Oct 2026 15:27:23 EDT
+resume: 1191 episodes already in results/llm_or_gemini_load_v1obs.csv
+policy llm:retr done (0 total)
+TOTAL 0 episodes in 0.0 min -> results/llm_or_gemini_load_v1obs.csv
+PASS2 llm:retr live done Mon  5 Oct 2026 15:27:26 EDT
+resume: 1191 episodes already in results/llm_or_gemini_load_v1obs.csv
+policy llm:summ done (0 total)
+TOTAL 0 episodes in 0.0 min -> results/llm_or_gemini_load_v1obs.csv
+PASS2 llm:summ live done Mon  5 Oct 2026 15:27:29 EDT
+resume: 1191 episodes already in results/llm_or_gemini_load_v1obs.csv
+policy llm:none done (0 total)
+TOTAL 0 episodes in 0.0 min -> results/llm_or_gemini_load_v1obs.csv
+PASS2 llm:none cancel_late done Mon  5 Oct 2026 15:27:31 EDT
+resume: 1191 episodes already in results/llm_or_gemini_load_v1obs.csv
+policy llm:retr done (0 total)
+TOTAL 0 episodes in 0.0 min -> results/llm_or_gemini_load_v1obs.csv
+PASS2 llm:retr cancel_late done Mon  5 Oct 2026 15:27:34 EDT
+resume: 1191 episodes already in results/llm_or_gemini_load_v1obs.csv
+policy llm:summ done (0 total)
+TOTAL 0 episodes in 0.0 min -> results/llm_or_gemini_load_v1obs.csv
+PASS2 llm:summ cancel_late done Mon  5 Oct 2026 15:27:37 EDT
+resume: 1191 episodes already in results/llm_or_gemini_load_v1obs.csv
+policy llm:none done (0 total)
+TOTAL 0 episodes in 0.0 min -> results/llm_or_gemini_load_v1obs.csv
+PASS2 llm:none control done Mon  5 Oct 2026 15:27:40 EDT
+resume: 1191 episodes already in results/llm_or_gemini_load_v1obs.csv
+policy llm:retr done (0 total)
+TOTAL 0 episodes in 0.0 min -> results/llm_or_gemini_load_v1obs.csv
+PASS2 llm:retr control done Mon  5 Oct 2026 15:27:43 EDT
+resume: 1191 episodes already in results/llm_or_gemini_load_v1obs.csv
+policy llm:summ done (0 total)
+TOTAL 0 episodes in 0.0 min -> results/llm_or_gemini_load_v1obs.csv
+PASS2 llm:summ control done Mon  5 Oct 2026 15:27:46 EDT
+LOAD6S50_gemini_qB_DONE Mon  5 Oct 2026 15:27:46 EDT

@@ -1,0 +1,3 @@
+ts,policy,seed,scene,delay,cancel,trigger,visibility,n_intentions,event_step,first_visible_step,exec_step,executed,executed_frac,cancelled,cancel_step,executed_after_cancel,eac_strict,trigger_on_route,steps_total,chores_done,api_tokens
+1786079898,llm-sched-rgb,0,FloorPlan1,6,none,CoffeeMachine,1.5,1,6,30,31,True,1.0,False,,False,False,True,32,1,33117
+1786079954,llm-sched-rgb,1,FloorPlan1,6,none,CoffeeMachine,1.5,1,6,7,8,True,1.0,False,,False,False,False,33,1,38216

@@ -1,0 +1,9 @@
+BOOKKEEPER_START balance=20.564115119999997 Sun 20 Sep 2026 13:13:13 EDT
+resume: 1240 episodes already in results/llm_or_gpt4omini.csv
+[llm:rwim3] 25/40 (0.01 ep/s)
+policy llm:rwim3 done (40 total)
+TOTAL 40 episodes in 91.2 min -> results/llm_or_gpt4omini.csv
+resume: 1280 episodes already in results/llm_or_gpt4omini.csv
+policy llm:rwim3 done (20 total)
+TOTAL 20 episodes in 42.0 min -> results/llm_or_gpt4omini.csv
+BOOKKEEPER_DONE Sun 20 Sep 2026 15:26:56 EDT

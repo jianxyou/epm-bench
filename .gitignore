@@ -1,0 +1,22 @@
+__pycache__/
+*.pyc
+.DS_Store
+# per-episode trace dumps (600+ MB): shared separately as a tarball, see README
+results/or_*/
+results/hab_or_*/
+results/habitat_v1_menu_leak/
+results/habitat_v2_enroute_bug/
+# Habitat scene assets (download separately)
+data/
+# LaTeX build products
+**/*.aux
+**/*.bbl
+**/*.blg
+**/*.out
+**/*.fls
+**/*.fdb_latexmk
+**/*.synctex.gz
+aamas2027/main.log
+iclr2027/*.log
+paper_v02/*.log
+aamas2027/figs/*_tmp.html

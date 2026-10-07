@@ -1,0 +1,11 @@
+{'policy': 'llm-none', 'seed': 0, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 2}
+{'policy': 'llm-none', 'seed': 1, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 32, 'chores_done': 10}
+{'policy': 'llm-none', 'seed': 2, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 5}
+{'policy': 'llm-none', 'seed': 3, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 1}
+{'policy': 'llm-none', 'seed': 4, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 4}
+{'policy': 'llm-none', 'seed': 5, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 13, 'chores_done': 1}
+{'policy': 'llm-none', 'seed': 6, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 2}
+{'policy': 'llm-none', 'seed': 7, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 25, 'chores_done': 1}
+{'policy': 'llm-none', 'seed': 8, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 2}
+{'policy': 'llm-none', 'seed': 9, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 1}
+wrote 10 rows -> results/llm_real.csv

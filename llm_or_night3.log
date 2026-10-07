@@ -1,0 +1,46 @@
+resume: 600 episodes already in results/llm_or_gemini.csv
+[llm:sched1] 25/40 (0.09 ep/s)
+policy llm:sched1 done (40 total)
+[llm:bank] 25/40 (0.04 ep/s)
+policy llm:bank done (40 total)
+[llm:rwim3] 25/40 (0.04 ep/s)
+[llm:sched2] 25/40 (0.04 ep/s)
+policy llm:sched2 done (80 total)
+TOTAL 80 episodes in 34.9 min -> results/llm_or_gemini_delay.csv
+resume: 80 episodes already in results/llm_or_gemini_delay.csv
+policy llm:rwim3 done (80 total)
+TOTAL 80 episodes in 38.1 min -> results/llm_or_gemini.csv
+resume: 680 episodes already in results/llm_or_gemini.csv
+[llm:bank] 25/40 (0.04 ep/s)
+[llm:rwim3] 25/40 (0.03 ep/s)
+policy llm:bank done (40 total)
+policy llm:rwim3 done (40 total)
+TOTAL 40 episodes in 20.1 min -> results/llm_or_gemini.csv
+[llm:sched2] 25/40 (0.04 ep/s)
+policy llm:sched2 done (80 total)
+TOTAL 80 episodes in 36.2 min -> results/llm_or_gemini_delay.csv
+resume: 160 episodes already in results/llm_or_gemini_delay.csv
+[llm:bank] 25/40 (0.04 ep/s)
+policy llm:bank done (40 total)
+[llm:sched2] 25/40 (0.04 ep/s)
+policy llm:sched2 done (80 total)
+TOTAL 80 episodes in 36.4 min -> results/llm_or_gemini_delay.csv
+[llm:bank] 25/40 (0.03 ep/s)
+policy llm:bank done (40 total)
+[llm:sched2] 25/40 (0.03 ep/s)
+policy llm:sched2 done (80 total)
+TOTAL 80 episodes in 44.0 min -> results/llm_or_gemini_test.csv
+resume: 80 episodes already in results/llm_or_gemini_test.csv
+[llm:bank] 25/40 (0.04 ep/s)
+llm:bank thor/FloorPlan3/s112/d6/l1 cancel_early attempt1: TimeoutError Error encountered when running action {'action': 'TeleportFull', 'position': {'x': -1.0, 'y': 1.1232
+policy llm:bank done (40 total)
+[llm:sched2] 25/40 (0.04 ep/s)
+policy llm:sched2 done (80 total)
+TOTAL 80 episodes in 36.2 min -> results/llm_or_gemini_test.csv
+resume: 160 episodes already in results/llm_or_gemini_test.csv
+[llm:bank] 25/40 (0.04 ep/s)
+policy llm:bank done (40 total)
+[llm:sched2] 25/40 (0.02 ep/s)
+policy llm:sched2 done (80 total)
+TOTAL 80 episodes in 70.3 min -> results/llm_or_gemini_test.csv
+NIGHT3_DONE Wed 16 Sep 2026 18:34:58 EDT

@@ -1,0 +1,74 @@
+{
+ "gpt4omini|llm-bank": {
+  "eps": 50,
+  "intentions": 300,
+  "exec": 61,
+  "seen": 151
+ },
+ "gpt4omini|llm-sched2": {
+  "eps": 50,
+  "intentions": 300,
+  "exec": 95,
+  "seen": 140
+ },
+ "gpt4omini|llm-rwim5": {
+  "eps": 50,
+  "intentions": 300,
+  "exec": 97,
+  "seen": 159
+ },
+ "deepseek|llm-bank": {
+  "eps": 50,
+  "intentions": 300,
+  "exec": 106,
+  "seen": 152
+ },
+ "deepseek|llm-sched2": {
+  "eps": 50,
+  "intentions": 300,
+  "exec": 98,
+  "seen": 151
+ },
+ "deepseek|llm-rwim5": {
+  "eps": 50,
+  "intentions": 300,
+  "exec": 107,
+  "seen": 150
+ },
+ "llama|llm-bank": {
+  "eps": 50,
+  "intentions": 300,
+  "exec": 89,
+  "seen": 135
+ },
+ "llama|llm-sched2": {
+  "eps": 50,
+  "intentions": 300,
+  "exec": 78,
+  "seen": 130
+ },
+ "llama|llm-rwim5": {
+  "eps": 50,
+  "intentions": 300,
+  "exec": 78,
+  "seen": 124
+ },
+ "gemini|llm-bank": {
+  "eps": 50,
+  "intentions": 300,
+  "exec": 71,
+  "seen": 160
+ },
+ "gemini|llm-sched2": {
+  "eps": 50,
+  "intentions": 300,
+  "exec": 46,
+  "seen": 147
+ },
+ "gemini|llm-rwim5": {
+  "eps": 50,
+  "intentions": 300,
+  "exec": 45,
+  "seen": 135
+ }
+}

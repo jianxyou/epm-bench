@@ -1,0 +1,2 @@
+ts,sim,policy,seed,scene,delay,cancel,k,event_step,first_visible_step,exec_step,executed,cancelled,cancel_step,eac_strict,steps_total,chores_done
+1787459248,habitat,oracle,0,apartment_1,10,none,8,10,10,16,True,False,,False,60,3

@@ -1,0 +1,8 @@
+[llm:none] 25/40 (0.04 ep/s)
+policy llm:none done (40 total)
+[llm:bank] 25/40 (0.03 ep/s)
+policy llm:bank done (80 total)
+[llm:sched] 25/40 (0.02 ep/s)
+llm:sched thor/FloorPlan1/s9/d6/l1 live attempt1: APIConnectionError Connection error.
+policy llm:sched done (120 total)
+TOTAL 120 episodes in 154.8 min -> results/llm_or_gpt4omini.csv

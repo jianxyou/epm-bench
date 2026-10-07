@@ -1,0 +1,62 @@
+\section{Discussion}
+\label{sec:discussion}
+
+\paragraph{The problem is mostly bookkeeping, not capability.}
+The same actor, on the same episode, with the same information in front of
+it, commits the error in 56\% of episodes under one representation and 7\%
+under another. Scale moves the number but does not change its nature:
+Claude Sonnet 5 and GPT-5.5 halve the rate of the mid-sized models and are
+still at 32\%. A store that re-injects the
+briefing reminds the agent, at the moment the cue appears, of an
+obligation the user has withdrawn.
+
+\paragraph{What an intention store needs.}
+Our ablations isolate three requirements. The entry needs a \emph{status} the writer
+can change, rather than an append-only history in which the cancellation is
+one more item. The revocation must \emph{replace} the instruction rather
+than annotate it: \textsc{sched-tag} shows that marking the entry cancelled
+while keeping its imperative, the soft deletion of most memory systems,
+recovers most of the failure. And the entry must be
+\emph{delivered unconditionally}: \textsc{retr-sched} shows that a correctly
+rewritten record buried in a retrieval store is never surfaced, because the
+query at the moment of temptation is the observation of the cue, which
+matches the instruction better than its revocation. This is a
+fragment of what a BDI intention structure
+provides~\cite{bratman1987intention,rao1995bdi}, an intention with a life
+cycle and an operation that drops it, where retrieval-based memory assumes
+that facts accumulate and nothing becomes false.
+
+\paragraph{Self-bookkeeping is a method, with a failure mode of its own.}
+When the ledger is kept by the actor's own model with no privileged
+information and rendered in the fixed format, violations on the cancelled
+intention match the ground-truth store on four models and execution is
+restored: the upper bound is reachable. Whether the ledger contains
+\emph{only} what the user said depends on the bookkeeper: the two smallest
+models copy chores into it in over half of the episodes, and the actor acts
+on a fabricated entry in up to 19\%; the other three never do. The fabrication is visible only because grading reads
+the world; a protocol that scores the agent's disposition towards the named
+intention cannot see an action on one that was never named.
+
+\paragraph{What remains open.}
+The single-intention cell is settled by one rewrite; the suite is not. With
+six standing intentions the rewritten entry keeps commission at 4 and 7\%
+for two actors, leaves 18\% for a third and 24\% for the fourth, a correct
+\textsc{cancelled} entry in view at every step, and every actor executes
+about a third or less of its live intentions. A correct entry still
+leaves up to 7\% commission at load one, and two of five bookkeepers
+invent obligations. Every revocation here is spoken and the only update tested is
+one reschedule; implicit, partial or forged revocations are the next
+version of the suite.
+
+\paragraph{Limitations.}
+Perception is symbolic, fixed so that differences between designs cannot
+come from perception. With a rendered 320$\times$240 frame in place of the text observation,
+neither model we could afford to run could read an appliance's on/off
+state, so a pixel tier does not separate designs at this scale. For reasons of cost the two frontier models were run only on the
+cancellation variants with one intention, so we report neither their
+execution rates nor their behaviour with six intentions. Retrieval is lexical; an embedding retriever might surface
+the rewritten entry more often. Scenes are few: four kitchens and two Habitat
+scenes, and the kitchen's six toggleable object types cap the load study
+at six; procedurally generated houses~\cite{deitke2022procthor} would add
+the axis we have not varied, how the chance of meeting the cue falls with
+the size of the home.

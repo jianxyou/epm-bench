@@ -1,0 +1,91 @@
+resume: 1660 episodes already in results/llm_or_gpt4omini.csv
+[llm:retr] 25/30 (0.02 ep/s)
+policy llm:retr done (30 total)
+TOTAL 30 episodes in 20.3 min -> results/llm_or_gpt4omini.csv
+resume: 1690 episodes already in results/llm_or_gpt4omini.csv
+[llm:retr] 25/30 (0.03 ep/s)
+policy llm:retr done (30 total)
+TOTAL 30 episodes in 19.1 min -> results/llm_or_gpt4omini.csv
+resume: 1720 episodes already in results/llm_or_gpt4omini.csv
+[llm:retr] 25/30 (0.02 ep/s)
+policy llm:retr done (30 total)
+TOTAL 30 episodes in 27.8 min -> results/llm_or_gpt4omini.csv
+resume: 220 episodes already in results/llm_or_gpt4omini_ctrl2.csv
+[llm:retr] 25/30 (0.03 ep/s)
+policy llm:retr done (30 total)
+TOTAL 30 episodes in 18.5 min -> results/llm_or_gpt4omini_ctrl2.csv
+PASS1 llm:retr done balance=20.58256912799999 Sun  4 Oct 2026 16:00:55 EDT
+resume: 1750 episodes already in results/llm_or_gpt4omini.csv
+[llm:summ] 25/30 (0.02 ep/s)
+policy llm:summ done (30 total)
+TOTAL 30 episodes in 28.2 min -> results/llm_or_gpt4omini.csv
+resume: 1780 episodes already in results/llm_or_gpt4omini.csv
+[llm:summ] 25/30 (0.02 ep/s)
+policy llm:summ done (30 total)
+TOTAL 30 episodes in 27.0 min -> results/llm_or_gpt4omini.csv
+resume: 1810 episodes already in results/llm_or_gpt4omini.csv
+[llm:summ] 25/30 (0.02 ep/s)
+policy llm:summ done (30 total)
+TOTAL 30 episodes in 27.8 min -> results/llm_or_gpt4omini.csv
+resume: 250 episodes already in results/llm_or_gpt4omini_ctrl2.csv
+[llm:summ] 25/30 (0.02 ep/s)
+policy llm:summ done (30 total)
+TOTAL 30 episodes in 28.7 min -> results/llm_or_gpt4omini_ctrl2.csv
+PASS1 llm:summ done balance=13.213117590000024 Sun  4 Oct 2026 17:52:47 EDT
+resume: 1840 episodes already in results/llm_or_gpt4omini.csv
+[llm:rwim5] 25/30 (0.01 ep/s)
+policy llm:rwim5 done (30 total)
+TOTAL 30 episodes in 48.5 min -> results/llm_or_gpt4omini.csv
+resume: 1870 episodes already in results/llm_or_gpt4omini.csv
+[llm:rwim5] 25/30 (0.01 ep/s)
+policy llm:rwim5 done (30 total)
+TOTAL 30 episodes in 47.4 min -> results/llm_or_gpt4omini.csv
+resume: 1900 episodes already in results/llm_or_gpt4omini.csv
+[llm:rwim5] 25/30 (0.01 ep/s)
+policy llm:rwim5 done (30 total)
+TOTAL 30 episodes in 49.6 min -> results/llm_or_gpt4omini.csv
+resume: 280 episodes already in results/llm_or_gpt4omini_ctrl2.csv
+[llm:rwim5] 25/30 (0.01 ep/s)
+policy llm:rwim5 done (30 total)
+TOTAL 30 episodes in 52.9 min -> results/llm_or_gpt4omini_ctrl2.csv
+PASS1 llm:rwim5 done balance=15.42393731499999 Sun  4 Oct 2026 21:11:23 EDT
+resume: 1930 episodes already in results/llm_or_gpt4omini.csv
+policy llm:retr done (0 total)
+TOTAL 0 episodes in 0.0 min -> results/llm_or_gpt4omini.csv
+resume: 1930 episodes already in results/llm_or_gpt4omini.csv
+policy llm:retr done (0 total)
+TOTAL 0 episodes in 0.0 min -> results/llm_or_gpt4omini.csv
+resume: 1930 episodes already in results/llm_or_gpt4omini.csv
+policy llm:retr done (0 total)
+TOTAL 0 episodes in 0.0 min -> results/llm_or_gpt4omini.csv
+resume: 310 episodes already in results/llm_or_gpt4omini_ctrl2.csv
+policy llm:retr done (0 total)
+TOTAL 0 episodes in 0.0 min -> results/llm_or_gpt4omini_ctrl2.csv
+PASS2 llm:retr done balance=15.42393731499999 Sun  4 Oct 2026 21:11:35 EDT
+resume: 1930 episodes already in results/llm_or_gpt4omini.csv
+policy llm:summ done (0 total)
+TOTAL 0 episodes in 0.0 min -> results/llm_or_gpt4omini.csv
+resume: 1930 episodes already in results/llm_or_gpt4omini.csv
+policy llm:summ done (0 total)
+TOTAL 0 episodes in 0.0 min -> results/llm_or_gpt4omini.csv
+resume: 1930 episodes already in results/llm_or_gpt4omini.csv
+policy llm:summ done (0 total)
+TOTAL 0 episodes in 0.0 min -> results/llm_or_gpt4omini.csv
+resume: 310 episodes already in results/llm_or_gpt4omini_ctrl2.csv
+policy llm:summ done (0 total)
+TOTAL 0 episodes in 0.0 min -> results/llm_or_gpt4omini_ctrl2.csv
+PASS2 llm:summ done balance=15.418577952000021 Sun  4 Oct 2026 21:11:46 EDT
+resume: 1930 episodes already in results/llm_or_gpt4omini.csv
+policy llm:rwim5 done (0 total)
+TOTAL 0 episodes in 0.0 min -> results/llm_or_gpt4omini.csv
+resume: 1930 episodes already in results/llm_or_gpt4omini.csv
+policy llm:rwim5 done (0 total)
+TOTAL 0 episodes in 0.0 min -> results/llm_or_gpt4omini.csv
+resume: 1930 episodes already in results/llm_or_gpt4omini.csv
+policy llm:rwim5 done (0 total)
+TOTAL 0 episodes in 0.0 min -> results/llm_or_gpt4omini.csv
+resume: 310 episodes already in results/llm_or_gpt4omini_ctrl2.csv
+policy llm:rwim5 done (0 total)
+TOTAL 0 episodes in 0.0 min -> results/llm_or_gpt4omini_ctrl2.csv
+PASS2 llm:rwim5 done balance=15.418577952000021 Sun  4 Oct 2026 21:11:58 EDT
+SEED50_gpt4omini_DONE Sun  4 Oct 2026 21:11:58 EDT

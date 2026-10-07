@@ -1,0 +1,100 @@
++ cd /Users/jianxin/Desktop/my_project/embodied_pm
++ OUT=results/sonnet.csv
++ M=claude-sonnet-5
++ for mem in none bank sched rwim
++ python3 run_pilot.py --policy llm --mem none --model claude-sonnet-5 --episodes 8 --out results/sonnet.csv
+{'policy': 'llm-none', 'seed': 0, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 0}
+{'policy': 'llm-none', 'seed': 1, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 0}
+{'policy': 'llm-none', 'seed': 2, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 2}
+{'policy': 'llm-none', 'seed': 3, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 18, 'chores_done': 1}
+{'policy': 'llm-none', 'seed': 4, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 1}
+{'policy': 'llm-none', 'seed': 5, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 15, 'chores_done': 0}
+{'policy': 'llm-none', 'seed': 6, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 15, 'chores_done': 0}
+{'policy': 'llm-none', 'seed': 7, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 2}
+wrote 8 rows -> results/sonnet.csv
++ python3 run_pilot.py --policy llm --mem none --model claude-sonnet-5 --episodes 8 --cancel late --out results/sonnet.csv
+{'policy': 'llm-none', 'seed': 0, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 2}
+{'policy': 'llm-none', 'seed': 1, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 1}
+{'policy': 'llm-none', 'seed': 2, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 2}
+{'policy': 'llm-none', 'seed': 3, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 2}
+{'policy': 'llm-none', 'seed': 4, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 1}
+{'policy': 'llm-none', 'seed': 5, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 0}
+{'policy': 'llm-none', 'seed': 6, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': True, 'exec_step': 29, 'chores_done': 1}
+{'policy': 'llm-none', 'seed': 7, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 1}
+wrote 8 rows -> results/sonnet.csv
++ for mem in none bank sched rwim
++ python3 run_pilot.py --policy llm --mem bank --model claude-sonnet-5 --episodes 8 --out results/sonnet.csv
+{'policy': 'llm-bank', 'seed': 0, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 8, 'chores_done': 5}
+{'policy': 'llm-bank', 'seed': 1, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 7, 'chores_done': 0}
+{'policy': 'llm-bank', 'seed': 2, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 9, 'chores_done': 1}
+{'policy': 'llm-bank', 'seed': 3, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 9, 'chores_done': 0}
+{'policy': 'llm-bank', 'seed': 4, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 7, 'chores_done': 6}
+{'policy': 'llm-bank', 'seed': 5, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 10, 'chores_done': 0}
+{'policy': 'llm-bank', 'seed': 6, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 11, 'chores_done': 2}
+{'policy': 'llm-bank', 'seed': 7, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 11, 'chores_done': 5}
+wrote 8 rows -> results/sonnet.csv
++ python3 run_pilot.py --policy llm --mem bank --model claude-sonnet-5 --episodes 8 --cancel late --out results/sonnet.csv
+{'policy': 'llm-bank', 'seed': 0, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': True, 'exec_step': 18, 'chores_done': 2}
+{'policy': 'llm-bank', 'seed': 1, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': True, 'exec_step': 18, 'chores_done': 3}
+{'policy': 'llm-bank', 'seed': 2, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': True, 'exec_step': 16, 'chores_done': 3}
+{'policy': 'llm-bank', 'seed': 3, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': True, 'exec_step': 7, 'chores_done': 2}
+{'policy': 'llm-bank', 'seed': 4, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': True, 'exec_step': 7, 'chores_done': 5}
+{'policy': 'llm-bank', 'seed': 5, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': True, 'exec_step': 7, 'chores_done': 0}
+{'policy': 'llm-bank', 'seed': 6, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 1}
+{'policy': 'llm-bank', 'seed': 7, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': True, 'exec_step': 7, 'chores_done': 0}
+wrote 8 rows -> results/sonnet.csv
++ for mem in none bank sched rwim
++ python3 run_pilot.py --policy llm --mem sched --model claude-sonnet-5 --episodes 8 --out results/sonnet.csv
+{'policy': 'llm-sched', 'seed': 0, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 7, 'chores_done': 1}
+{'policy': 'llm-sched', 'seed': 1, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 7, 'chores_done': 0}
+{'policy': 'llm-sched', 'seed': 2, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 18, 'chores_done': 0}
+{'policy': 'llm-sched', 'seed': 3, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 19, 'chores_done': 1}
+{'policy': 'llm-sched', 'seed': 4, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 9, 'chores_done': 1}
+{'policy': 'llm-sched', 'seed': 5, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 8, 'chores_done': 0}
+{'policy': 'llm-sched', 'seed': 6, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 9, 'chores_done': 0}
+{'policy': 'llm-sched', 'seed': 7, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 1}
+wrote 8 rows -> results/sonnet.csv
++ python3 run_pilot.py --policy llm --mem sched --model claude-sonnet-5 --episodes 8 --cancel late --out results/sonnet.csv
+{'policy': 'llm-sched', 'seed': 0, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': True, 'exec_step': 7, 'chores_done': 1}
+{'policy': 'llm-sched', 'seed': 1, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 0}
+{'policy': 'llm-sched', 'seed': 2, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 1}
+{'policy': 'llm-sched', 'seed': 3, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': True, 'exec_step': 7, 'chores_done': 0}
+{'policy': 'llm-sched', 'seed': 4, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 1}
+{'policy': 'llm-sched', 'seed': 5, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': True, 'exec_step': 8, 'chores_done': 0}
+{'policy': 'llm-sched', 'seed': 6, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': True, 'exec_step': 8, 'chores_done': 1}
+{'policy': 'llm-sched', 'seed': 7, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 0}
+wrote 8 rows -> results/sonnet.csv
++ for mem in none bank sched rwim
++ python3 run_pilot.py --policy llm --mem rwim --model claude-sonnet-5 --episodes 8 --out results/sonnet.csv
+{'policy': 'llm-rwim', 'seed': 0, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 3}
+{'policy': 'llm-rwim', 'seed': 1, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 3}
+{'policy': 'llm-rwim', 'seed': 2, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 3}
+{'policy': 'llm-rwim', 'seed': 3, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 3}
+{'policy': 'llm-rwim', 'seed': 4, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 2}
+{'policy': 'llm-rwim', 'seed': 5, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 26, 'chores_done': 0}
+{'policy': 'llm-rwim', 'seed': 6, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 3}
+{'policy': 'llm-rwim', 'seed': 7, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 0}
+wrote 8 rows -> results/sonnet.csv
++ python3 run_pilot.py --policy llm --mem rwim --model claude-sonnet-5 --episodes 8 --cancel late --out results/sonnet.csv
+{'policy': 'llm-rwim', 'seed': 0, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 3}
+{'policy': 'llm-rwim', 'seed': 1, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 2}
+{'policy': 'llm-rwim', 'seed': 2, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': True, 'exec_step': 23, 'chores_done': 2}
+{'policy': 'llm-rwim', 'seed': 3, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 1}
+{'policy': 'llm-rwim', 'seed': 4, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 6}
+{'policy': 'llm-rwim', 'seed': 5, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 0}
+{'policy': 'llm-rwim', 'seed': 6, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 1}
+{'policy': 'llm-rwim', 'seed': 7, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 2}
+wrote 8 rows -> results/sonnet.csv
++ python3 run_pilot.py --policy llm --mem none --model claude-sonnet-5 --episodes 8 --control --out results/sonnet.csv
+{'policy': 'llm-none-ctrl', 'seed': 0, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 3}
+{'policy': 'llm-none-ctrl', 'seed': 1, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 13, 'chores_done': 1}
+{'policy': 'llm-none-ctrl', 'seed': 2, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 23, 'chores_done': 1}
+{'policy': 'llm-none-ctrl', 'seed': 3, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 4}
+{'policy': 'llm-none-ctrl', 'seed': 4, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 24, 'chores_done': 1}
+{'policy': 'llm-none-ctrl', 'seed': 5, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 0}
+{'policy': 'llm-none-ctrl', 'seed': 6, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 3}
+{'policy': 'llm-none-ctrl', 'seed': 7, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 1}
+wrote 8 rows -> results/sonnet.csv
+++ date
++ echo SONNET_DONE Fri 7 Aug 2026 05:57:43 EDT
+SONNET_DONE Fri 7 Aug 2026 05:57:43 EDT

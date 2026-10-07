@@ -1,0 +1,17 @@
+resume: 1600 episodes already in results/llm_or_gpt4omini.csv
+resume: 1600 episodes already in results/llm_or_gpt4omini.csv
+[llm:sched1e] 25/40 (0.02 ep/s)
+policy llm:sched1e done (40 total)
+TOTAL 40 episodes in 31.4 min -> results/llm_or_gpt4omini.csv
+resume: 1003 episodes already in results/llm_or_gemini.csv
+[llm:sched1e] 25/40 (0.04 ep/s)
+policy llm:sched1e done (40 total)
+TOTAL 40 episodes in 18.0 min -> results/llm_or_gemini.csv
+SCHED1E_CANCEL_DONE Sun 27 Sep 2026 14:46:44 EDT
+resume: 1640 episodes already in results/llm_or_gpt4omini.csv
+policy llm:sched1e done (20 total)
+TOTAL 20 episodes in 15.5 min -> results/llm_or_gpt4omini.csv
+resume: 1043 episodes already in results/llm_or_gemini.csv
+policy llm:sched1e done (20 total)
+TOTAL 20 episodes in 17.3 min -> results/llm_or_gemini.csv
+SCHED1E_ALL_DONE Sun 27 Sep 2026 15:19:38 EDT

@@ -1,0 +1,358 @@
+PluginManager::Manager: duplicate static plugin AssimpImporter, ignoring
+PluginManager::Manager: duplicate static plugin BasisImporter, ignoring
+PluginManager::Manager: duplicate static plugin AnySceneImporter, ignoring
+PluginManager::Manager: duplicate static plugin StbImageImporter, ignoring
+PluginManager::Manager: duplicate static plugin AnyImageImporter, ignoring
+PluginManager::Manager: duplicate static plugin GltfImporter, ignoring
+Renderer: Apple M5 Pro by Apple
+OpenGL version: 4.1 Metal - 90.5
+Using optional features:
+    GL_ARB_vertex_array_object
+    GL_ARB_ES2_compatibility
+    GL_ARB_separate_shader_objects
+    GL_ARB_texture_storage
+    GL_EXT_texture_filter_anisotropic
+    GL_EXT_debug_label
+    GL_EXT_debug_marker
+Using driver workarounds:
+    no-layout-qualifiers-on-old-glsl
+    apple-buffer-texture-unbind-on-buffer-modify
+[10:47:53:464732]:[Warning]:[Metadata] SceneDatasetAttributes.cpp(107)::addNewSceneInstanceToDataset : Dataset : 'default' : Lighting Layout Attributes 'no_lights' specified in Scene Attributes but does not exist in dataset, so creating default.
+[10:47:53:464949]:[Warning]:[Scene] SemanticScene.h(328)::checkFileExists : ::loadSemanticSceneDescriptor: File/Users/jianxin/Desktop/my_project/embodied_pm/data/scene_datasets/habitat-test-scenes/apartment_1.scndoes not exist.  Aborting load.
+[10:47:53:464972]:[Warning]:[Scene] SemanticScene.cpp(121)::loadSemanticSceneDescriptor : SSD File Naming Issue! Neither SemanticAttributes-provided name : `/Users/jianxin/Desktop/my_project/embodied_pm/data/scene_datasets/habitat-test-scenes/apartment_1.scn` nor constructed filename : `/Users/jianxin/Desktop/my_project/embodied_pm/data/scene_datasets/habitat-test-scenes/info_semantic.json` exist on disk.
+[10:47:53:464989]:[Error]:[Scene] SemanticScene.cpp(137)::loadSemanticSceneDescriptor : SSD Load Failure! File with SemanticAttributes-provided name `/Users/jianxin/Desktop/my_project/embodied_pm/data/scene_datasets/habitat-test-scenes/apartment_1.scn` exists but failed to load.
+[10:47:53:847943]:[Warning]:[Sim] Simulator.cpp(594)::instanceStageForSceneAttributes : The active scene does not contain semantic annotations : activeSemanticSceneID_ = 0
+PluginManager::Manager: duplicate static plugin AssimpImporter, ignoring
+PluginManager::Manager: duplicate static plugin BasisImporter, ignoring
+PluginManager::Manager: duplicate static plugin AnySceneImporter, ignoring
+PluginManager::Manager: duplicate static plugin StbImageImporter, ignoring
+PluginManager::Manager: duplicate static plugin AnyImageImporter, ignoring
+PluginManager::Manager: duplicate static plugin GltfImporter, ignoring
+Renderer: Apple M5 Pro by Apple
+OpenGL version: 4.1 Metal - 90.5
+Using optional features:
+    GL_ARB_vertex_array_object
+    GL_ARB_ES2_compatibility
+    GL_ARB_separate_shader_objects
+    GL_ARB_texture_storage
+    GL_EXT_texture_filter_anisotropic
+    GL_EXT_debug_label
+    GL_EXT_debug_marker
+Using driver workarounds:
+    no-layout-qualifiers-on-old-glsl
+    apple-buffer-texture-unbind-on-buffer-modify
+[10:48:23:478383]:[Warning]:[Metadata] SceneDatasetAttributes.cpp(107)::addNewSceneInstanceToDataset : Dataset : 'default' : Lighting Layout Attributes 'no_lights' specified in Scene Attributes but does not exist in dataset, so creating default.
+[10:48:23:478579]:[Warning]:[Scene] SemanticScene.h(328)::checkFileExists : ::loadSemanticSceneDescriptor: File/Users/jianxin/Desktop/my_project/embodied_pm/data/scene_datasets/habitat-test-scenes/apartment_1.scndoes not exist.  Aborting load.
+[10:48:23:478601]:[Warning]:[Scene] SemanticScene.cpp(121)::loadSemanticSceneDescriptor : SSD File Naming Issue! Neither SemanticAttributes-provided name : `/Users/jianxin/Desktop/my_project/embodied_pm/data/scene_datasets/habitat-test-scenes/apartment_1.scn` nor constructed filename : `/Users/jianxin/Desktop/my_project/embodied_pm/data/scene_datasets/habitat-test-scenes/info_semantic.json` exist on disk.
+[10:48:23:478616]:[Error]:[Scene] SemanticScene.cpp(137)::loadSemanticSceneDescriptor : SSD Load Failure! File with SemanticAttributes-provided name `/Users/jianxin/Desktop/my_project/embodied_pm/data/scene_datasets/habitat-test-scenes/apartment_1.scn` exists but failed to load.
+[10:48:24:006737]:[Warning]:[Sim] Simulator.cpp(594)::instanceStageForSceneAttributes : The active scene does not contain semantic annotations : activeSemanticSceneID_ = 0
+[llm-bank] 20 eps, 34s/ep
+[llm-none] 20 eps, 40s/ep
+[llm-bank] 40 eps, 33s/ep
+[llm-none] 40 eps, 36s/ep
+[llm-bank] 60 eps, 34s/ep
+[llm-none] 60 eps, 36s/ep
+[llm-bank] 80 eps, 35s/ep
+[llm-none] 80 eps, 37s/ep
+[llm-bank] 100 eps, 36s/ep
+[llm-none] 100 eps, 37s/ep
+[llm-bank] 120 eps, 37s/ep
+[llm-none] 120 eps, 37s/ep
+[llm-bank] 140 eps, 36s/ep
+PluginManager::Manager: duplicate static plugin AssimpImporter, ignoring
+PluginManager::Manager: duplicate static plugin BasisImporter, ignoring
+PluginManager::Manager: duplicate static plugin AnySceneImporter, ignoring
+PluginManager::Manager: duplicate static plugin StbImageImporter, ignoring
+PluginManager::Manager: duplicate static plugin AnyImageImporter, ignoring
+PluginManager::Manager: duplicate static plugin GltfImporter, ignoring
+Renderer: Apple M5 Pro by Apple
+OpenGL version: 4.1 Metal - 90.5
+Using optional features:
+    GL_ARB_vertex_array_object
+    GL_ARB_ES2_compatibility
+    GL_ARB_separate_shader_objects
+    GL_ARB_texture_storage
+    GL_EXT_texture_filter_anisotropic
+    GL_EXT_debug_label
+    GL_EXT_debug_marker
+Using driver workarounds:
+    no-layout-qualifiers-on-old-glsl
+    apple-buffer-texture-unbind-on-buffer-modify
+[12:35:07:493606]:[Warning]:[Metadata] SceneDatasetAttributes.cpp(107)::addNewSceneInstanceToDataset : Dataset : 'default' : Lighting Layout Attributes 'no_lights' specified in Scene Attributes but does not exist in dataset, so creating default.
+[12:35:07:493788]:[Warning]:[Scene] SemanticScene.h(328)::checkFileExists : ::loadSemanticSceneDescriptor: File/Users/jianxin/Desktop/my_project/embodied_pm/data/scene_datasets/habitat-test-scenes/apartment_1.scndoes not exist.  Aborting load.
+[12:35:07:493808]:[Warning]:[Scene] SemanticScene.cpp(121)::loadSemanticSceneDescriptor : SSD File Naming Issue! Neither SemanticAttributes-provided name : `/Users/jianxin/Desktop/my_project/embodied_pm/data/scene_datasets/habitat-test-scenes/apartment_1.scn` nor constructed filename : `/Users/jianxin/Desktop/my_project/embodied_pm/data/scene_datasets/habitat-test-scenes/info_semantic.json` exist on disk.
+[12:35:07:493824]:[Error]:[Scene] SemanticScene.cpp(137)::loadSemanticSceneDescriptor : SSD Load Failure! File with SemanticAttributes-provided name `/Users/jianxin/Desktop/my_project/embodied_pm/data/scene_datasets/habitat-test-scenes/apartment_1.scn` exists but failed to load.
+[12:35:07:873592]:[Warning]:[Sim] Simulator.cpp(594)::instanceStageForSceneAttributes : The active scene does not contain semantic annotations : activeSemanticSceneID_ = 0
+PluginManager::Manager: duplicate static plugin AssimpImporter, ignoring
+PluginManager::Manager: duplicate static plugin BasisImporter, ignoring
+PluginManager::Manager: duplicate static plugin AnySceneImporter, ignoring
+PluginManager::Manager: duplicate static plugin StbImageImporter, ignoring
+PluginManager::Manager: duplicate static plugin AnyImageImporter, ignoring
+PluginManager::Manager: duplicate static plugin GltfImporter, ignoring
+Renderer: Apple M5 Pro by Apple
+OpenGL version: 4.1 Metal - 90.5
+Using optional features:
+    GL_ARB_vertex_array_object
+    GL_ARB_ES2_compatibility
+    GL_ARB_separate_shader_objects
+    GL_ARB_texture_storage
+    GL_EXT_texture_filter_anisotropic
+    GL_EXT_debug_label
+    GL_EXT_debug_marker
+Using driver workarounds:
+    no-layout-qualifiers-on-old-glsl
+    apple-buffer-texture-unbind-on-buffer-modify
+[12:35:37:510233]:[Warning]:[Metadata] SceneDatasetAttributes.cpp(107)::addNewSceneInstanceToDataset : Dataset : 'default' : Lighting Layout Attributes 'no_lights' specified in Scene Attributes but does not exist in dataset, so creating default.
+[12:35:37:510418]:[Warning]:[Scene] SemanticScene.h(328)::checkFileExists : ::loadSemanticSceneDescriptor: File/Users/jianxin/Desktop/my_project/embodied_pm/data/scene_datasets/habitat-test-scenes/apartment_1.scndoes not exist.  Aborting load.
+[12:35:37:510450]:[Warning]:[Scene] SemanticScene.cpp(121)::loadSemanticSceneDescriptor : SSD File Naming Issue! Neither SemanticAttributes-provided name : `/Users/jianxin/Desktop/my_project/embodied_pm/data/scene_datasets/habitat-test-scenes/apartment_1.scn` nor constructed filename : `/Users/jianxin/Desktop/my_project/embodied_pm/data/scene_datasets/habitat-test-scenes/info_semantic.json` exist on disk.
+[12:35:37:510462]:[Error]:[Scene] SemanticScene.cpp(137)::loadSemanticSceneDescriptor : SSD Load Failure! File with SemanticAttributes-provided name `/Users/jianxin/Desktop/my_project/embodied_pm/data/scene_datasets/habitat-test-scenes/apartment_1.scn` exists but failed to load.
+[12:35:37:891697]:[Warning]:[Sim] Simulator.cpp(594)::instanceStageForSceneAttributes : The active scene does not contain semantic annotations : activeSemanticSceneID_ = 0
+[llm-none] 20 eps, 35s/ep
+[llm-bank] 20 eps, 37s/ep
+[llm-bank] 40 eps, 35s/ep
+[llm-none] 40 eps, 36s/ep
+[llm-none] 60 eps, 36s/ep
+[llm-bank] 60 eps, 37s/ep
+[llm-none] 80 eps, 36s/ep
+[llm-bank] 80 eps, 37s/ep
+[llm-none] 100 eps, 37s/ep
+[llm-bank] 100 eps, 38s/ep
+[llm-bank] 120 eps, 38s/ep
+[llm-none] 120 eps, 38s/ep
+[llm-none] 140 eps, 37s/ep
+[llm-bank] 140 eps, 38s/ep
+[llm-bank] 160 eps, 37s/ep
+[llm-none] 160 eps, 37s/ep
+[llm-bank] 180 eps, 37s/ep
+[llm-none] 180 eps, 37s/ep
+mem bank done (196 total)
+mem none done (196 total)
+[llm-sched2] 200 eps, 37s/ep
+[llm-sched1] 200 eps, 37s/ep
+[llm-sched2] 220 eps, 37s/ep
+[llm-sched1] 220 eps, 37s/ep
+[llm-sched2] 240 eps, 37s/ep
+[llm-sched1] 240 eps, 37s/ep
+[llm-sched1] 260 eps, 37s/ep
+[llm-sched2] 260 eps, 37s/ep
+[llm-sched1] 280 eps, 37s/ep
+[llm-sched2] 280 eps, 37s/ep
+[llm-sched1] 300 eps, 36s/ep
+[llm-sched2] 300 eps, 37s/ep
+[llm-sched1] 320 eps, 36s/ep
+[llm-sched2] 320 eps, 36s/ep
+[llm-sched1] 340 eps, 36s/ep
+[llm-sched2] 340 eps, 36s/ep
+[llm-sched1] 360 eps, 36s/ep
+[llm-sched2] 360 eps, 37s/ep
+[llm-sched1] 380 eps, 36s/ep
+[llm-sched2] 380 eps, 37s/ep
+mem sched1 done (392 total)
+TOTAL 392 episodes in 236.9 min -> results/hab_or_gemini_abl.csv
+mem sched2 done (392 total)
+TOTAL 392 episodes in 238.4 min -> results/hab_or_gemini.csv
+HAB_DONE gemini Sun 20 Sep 2026 19:25:01 EDT
+PluginManager::Manager: duplicate static plugin AssimpImporter, ignoring
+PluginManager::Manager: duplicate static plugin BasisImporter, ignoring
+PluginManager::Manager: duplicate static plugin AnySceneImporter, ignoring
+PluginManager::Manager: duplicate static plugin StbImageImporter, ignoring
+PluginManager::Manager: duplicate static plugin AnyImageImporter, ignoring
+PluginManager::Manager: duplicate static plugin GltfImporter, ignoring
+Renderer: Apple M5 Pro by Apple
+OpenGL version: 4.1 Metal - 90.5
+Using optional features:
+    GL_ARB_vertex_array_object
+    GL_ARB_ES2_compatibility
+    GL_ARB_separate_shader_objects
+    GL_ARB_texture_storage
+    GL_EXT_texture_filter_anisotropic
+    GL_EXT_debug_label
+    GL_EXT_debug_marker
+Using driver workarounds:
+    no-layout-qualifiers-on-old-glsl
+    apple-buffer-texture-unbind-on-buffer-modify
+[17:22:57:843789]:[Warning]:[Metadata] SceneDatasetAttributes.cpp(107)::addNewSceneInstanceToDataset : Dataset : 'default' : Lighting Layout Attributes 'no_lights' specified in Scene Attributes but does not exist in dataset, so creating default.
+[17:22:57:843986]:[Warning]:[Scene] SemanticScene.h(328)::checkFileExists : ::loadSemanticSceneDescriptor: File/Users/jianxin/Desktop/my_project/embodied_pm/data/scene_datasets/habitat-test-scenes/apartment_1.scndoes not exist.  Aborting load.
+[17:22:57:844010]:[Warning]:[Scene] SemanticScene.cpp(121)::loadSemanticSceneDescriptor : SSD File Naming Issue! Neither SemanticAttributes-provided name : `/Users/jianxin/Desktop/my_project/embodied_pm/data/scene_datasets/habitat-test-scenes/apartment_1.scn` nor constructed filename : `/Users/jianxin/Desktop/my_project/embodied_pm/data/scene_datasets/habitat-test-scenes/info_semantic.json` exist on disk.
+[17:22:57:844028]:[Error]:[Scene] SemanticScene.cpp(137)::loadSemanticSceneDescriptor : SSD Load Failure! File with SemanticAttributes-provided name `/Users/jianxin/Desktop/my_project/embodied_pm/data/scene_datasets/habitat-test-scenes/apartment_1.scn` exists but failed to load.
+[17:22:58:223526]:[Warning]:[Sim] Simulator.cpp(594)::instanceStageForSceneAttributes : The active scene does not contain semantic annotations : activeSemanticSceneID_ = 0
+PluginManager::Manager: duplicate static plugin AssimpImporter, ignoring
+PluginManager::Manager: duplicate static plugin BasisImporter, ignoring
+PluginManager::Manager: duplicate static plugin AnySceneImporter, ignoring
+PluginManager::Manager: duplicate static plugin StbImageImporter, ignoring
+PluginManager::Manager: duplicate static plugin AnyImageImporter, ignoring
+PluginManager::Manager: duplicate static plugin GltfImporter, ignoring
+Renderer: Apple M5 Pro by Apple
+OpenGL version: 4.1 Metal - 90.5
+Using optional features:
+    GL_ARB_vertex_array_object
+    GL_ARB_ES2_compatibility
+    GL_ARB_separate_shader_objects
+    GL_ARB_texture_storage
+    GL_EXT_texture_filter_anisotropic
+    GL_EXT_debug_label
+    GL_EXT_debug_marker
+Using driver workarounds:
+    no-layout-qualifiers-on-old-glsl
+    apple-buffer-texture-unbind-on-buffer-modify
+[17:23:27:678202]:[Warning]:[Metadata] SceneDatasetAttributes.cpp(107)::addNewSceneInstanceToDataset : Dataset : 'default' : Lighting Layout Attributes 'no_lights' specified in Scene Attributes but does not exist in dataset, so creating default.
+[17:23:27:678384]:[Warning]:[Scene] SemanticScene.h(328)::checkFileExists : ::loadSemanticSceneDescriptor: File/Users/jianxin/Desktop/my_project/embodied_pm/data/scene_datasets/habitat-test-scenes/apartment_1.scndoes not exist.  Aborting load.
+[17:23:27:678406]:[Warning]:[Scene] SemanticScene.cpp(121)::loadSemanticSceneDescriptor : SSD File Naming Issue! Neither SemanticAttributes-provided name : `/Users/jianxin/Desktop/my_project/embodied_pm/data/scene_datasets/habitat-test-scenes/apartment_1.scn` nor constructed filename : `/Users/jianxin/Desktop/my_project/embodied_pm/data/scene_datasets/habitat-test-scenes/info_semantic.json` exist on disk.
+[17:23:27:678421]:[Error]:[Scene] SemanticScene.cpp(137)::loadSemanticSceneDescriptor : SSD Load Failure! File with SemanticAttributes-provided name `/Users/jianxin/Desktop/my_project/embodied_pm/data/scene_datasets/habitat-test-scenes/apartment_1.scn` exists but failed to load.
+[17:23:28:054965]:[Warning]:[Sim] Simulator.cpp(594)::instanceStageForSceneAttributes : The active scene does not contain semantic annotations : activeSemanticSceneID_ = 0
+[llm-bank] 20 eps, 34s/ep
+[llm-none] 20 eps, 34s/ep
+[llm-bank] 40 eps, 34s/ep
+[llm-none] 40 eps, 35s/ep
+[llm-bank] 60 eps, 34s/ep
+[llm-none] 60 eps, 35s/ep
+[llm-bank] 80 eps, 35s/ep
+[llm-none] 80 eps, 36s/ep
+mem bank done (98 total)
+mem none done (98 total)
+[llm-sched2] 100 eps, 36s/ep
+[llm-sched1] 100 eps, 36s/ep
+[llm-sched1] 120 eps, 38s/ep
+[llm-sched2] 120 eps, 39s/ep
+[llm-sched1] 140 eps, 38s/ep
+[llm-sched2] 140 eps, 39s/ep
+[llm-sched1] 160 eps, 37s/ep
+[llm-sched2] 160 eps, 38s/ep
+[llm-sched1] 180 eps, 37s/ep
+[llm-sched2] 180 eps, 37s/ep
+mem sched1 done (196 total)
+TOTAL 196 episodes in 119.8 min -> results/hab_or_gemini_abl.csv
+mem sched2 done (196 total)
+TOTAL 196 episodes in 121.5 min -> results/hab_or_gemini.csv
+HAB_DONE gemini Sun 20 Sep 2026 22:15:55 EDT
+PluginManager::Manager: duplicate static plugin AssimpImporter, ignoring
+PluginManager::Manager: duplicate static plugin BasisImporter, ignoring
+PluginManager::Manager: duplicate static plugin AnySceneImporter, ignoring
+PluginManager::Manager: duplicate static plugin StbImageImporter, ignoring
+PluginManager::Manager: duplicate static plugin AnyImageImporter, ignoring
+PluginManager::Manager: duplicate static plugin GltfImporter, ignoring
+Renderer: Apple M5 Pro by Apple
+OpenGL version: 4.1 Metal - 90.5
+Using optional features:
+    GL_ARB_vertex_array_object
+    GL_ARB_ES2_compatibility
+    GL_ARB_separate_shader_objects
+    GL_ARB_texture_storage
+    GL_EXT_texture_filter_anisotropic
+    GL_EXT_debug_label
+    GL_EXT_debug_marker
+Using driver workarounds:
+    no-layout-qualifiers-on-old-glsl
+    apple-buffer-texture-unbind-on-buffer-modify
+[20:13:06:500858]:[Warning]:[Metadata] SceneDatasetAttributes.cpp(107)::addNewSceneInstanceToDataset : Dataset : 'default' : Lighting Layout Attributes 'no_lights' specified in Scene Attributes but does not exist in dataset, so creating default.
+[20:13:06:501711]:[Warning]:[Scene] SemanticScene.h(328)::checkFileExists : ::loadSemanticSceneDescriptor: File/Users/jianxin/Desktop/my_project/embodied_pm/data/scene_datasets/habitat-test-scenes/apartment_1.scndoes not exist.  Aborting load.
+[20:13:06:501868]:[Warning]:[Scene] SemanticScene.cpp(121)::loadSemanticSceneDescriptor : SSD File Naming Issue! Neither SemanticAttributes-provided name : `/Users/jianxin/Desktop/my_project/embodied_pm/data/scene_datasets/habitat-test-scenes/apartment_1.scn` nor constructed filename : `/Users/jianxin/Desktop/my_project/embodied_pm/data/scene_datasets/habitat-test-scenes/info_semantic.json` exist on disk.
+[20:13:06:501888]:[Error]:[Scene] SemanticScene.cpp(137)::loadSemanticSceneDescriptor : SSD Load Failure! File with SemanticAttributes-provided name `/Users/jianxin/Desktop/my_project/embodied_pm/data/scene_datasets/habitat-test-scenes/apartment_1.scn` exists but failed to load.
+[20:13:06:957996]:[Warning]:[Sim] Simulator.cpp(594)::instanceStageForSceneAttributes : The active scene does not contain semantic annotations : activeSemanticSceneID_ = 0
+PluginManager::Manager: duplicate static plugin AssimpImporter, ignoring
+PluginManager::Manager: duplicate static plugin BasisImporter, ignoring
+PluginManager::Manager: duplicate static plugin AnySceneImporter, ignoring
+PluginManager::Manager: duplicate static plugin StbImageImporter, ignoring
+PluginManager::Manager: duplicate static plugin AnyImageImporter, ignoring
+PluginManager::Manager: duplicate static plugin GltfImporter, ignoring
+Renderer: Apple M5 Pro by Apple
+OpenGL version: 4.1 Metal - 90.5
+Using optional features:
+    GL_ARB_vertex_array_object
+    GL_ARB_ES2_compatibility
+    GL_ARB_separate_shader_objects
+    GL_ARB_texture_storage
+    GL_EXT_texture_filter_anisotropic
+    GL_EXT_debug_label
+    GL_EXT_debug_marker
+Using driver workarounds:
+    no-layout-qualifiers-on-old-glsl
+    apple-buffer-texture-unbind-on-buffer-modify
+[20:13:34:792706]:[Warning]:[Metadata] SceneDatasetAttributes.cpp(107)::addNewSceneInstanceToDataset : Dataset : 'default' : Lighting Layout Attributes 'no_lights' specified in Scene Attributes but does not exist in dataset, so creating default.
+[20:13:34:792879]:[Warning]:[Scene] SemanticScene.h(328)::checkFileExists : ::loadSemanticSceneDescriptor: File/Users/jianxin/Desktop/my_project/embodied_pm/data/scene_datasets/habitat-test-scenes/apartment_1.scndoes not exist.  Aborting load.
+[20:13:34:792899]:[Warning]:[Scene] SemanticScene.cpp(121)::loadSemanticSceneDescriptor : SSD File Naming Issue! Neither SemanticAttributes-provided name : `/Users/jianxin/Desktop/my_project/embodied_pm/data/scene_datasets/habitat-test-scenes/apartment_1.scn` nor constructed filename : `/Users/jianxin/Desktop/my_project/embodied_pm/data/scene_datasets/habitat-test-scenes/info_semantic.json` exist on disk.
+[20:13:34:792914]:[Error]:[Scene] SemanticScene.cpp(137)::loadSemanticSceneDescriptor : SSD Load Failure! File with SemanticAttributes-provided name `/Users/jianxin/Desktop/my_project/embodied_pm/data/scene_datasets/habitat-test-scenes/apartment_1.scn` exists but failed to load.
+[20:13:35:198753]:[Warning]:[Sim] Simulator.cpp(594)::instanceStageForSceneAttributes : The active scene does not contain semantic annotations : activeSemanticSceneID_ = 0
+[llm-bank] 20 eps, 67s/ep
+[llm-none] 20 eps, 68s/ep
+[llm-bank] 40 eps, 69s/ep
+[llm-none] 40 eps, 71s/ep
+[llm-bank] 60 eps, 68s/ep
+[llm-none] 60 eps, 69s/ep
+[llm-bank] 80 eps, 67s/ep
+[llm-none] 80 eps, 69s/ep
+[llm-bank] 100 eps, 66s/ep
+[llm-none] 100 eps, 68s/ep
+[llm-bank] 120 eps, 66s/ep
+[llm-none] 120 eps, 68s/ep
+[llm-bank] 140 eps, 66s/ep
+[llm-none] 140 eps, 68s/ep
+[llm-bank] 160 eps, 66s/ep
+[llm-none] 160 eps, 68s/ep
+[llm-bank] 180 eps, 67s/ep
+[llm-none] 180 eps, 68s/ep
+mem bank done (196 total)
+[llm-sched2] 200 eps, 67s/ep
+mem none done (196 total)
+[llm-sched1] 200 eps, 69s/ep
+[llm-sched2] 220 eps, 68s/ep
+[llm-sched1] 220 eps, 69s/ep
+[llm-sched2] 240 eps, 68s/ep
+[llm-sched1] 240 eps, 69s/ep
+[llm-sched2] 260 eps, 68s/ep
+[llm-sched1] 260 eps, 69s/ep
+[llm-sched2] 280 eps, 68s/ep
+[llm-sched1] 280 eps, 69s/ep
+[llm-sched2] 300 eps, 69s/ep
+[llm-sched1] 300 eps, 70s/ep
+[llm-sched2] 320 eps, 69s/ep
+[llm-sched1] 320 eps, 70s/ep
+[llm-sched2] 340 eps, 70s/ep
+[llm-sched1] 340 eps, 71s/ep
+[llm-sched2] 360 eps, 70s/ep
+[llm-sched1] 360 eps, 71s/ep
+[llm-sched2] 380 eps, 71s/ep
+[llm-sched1] 380 eps, 72s/ep
+mem sched2 done (392 total)
+TOTAL 392 episodes in 463.0 min -> results/hab_or_gpt4omini.csv
+mem sched1 done (392 total)
+TOTAL 392 episodes in 468.6 min -> results/hab_or_gpt4omini_abl.csv
+PluginManager::Manager: duplicate static plugin AssimpImporter, ignoring
+PluginManager::Manager: duplicate static plugin BasisImporter, ignoring
+PluginManager::Manager: duplicate static plugin AnySceneImporter, ignoring
+PluginManager::Manager: duplicate static plugin StbImageImporter, ignoring
+PluginManager::Manager: duplicate static plugin AnyImageImporter, ignoring
+PluginManager::Manager: duplicate static plugin GltfImporter, ignoring
+Renderer: Apple M5 Pro by Apple
+OpenGL version: 4.1 Metal - 90.5
+Using optional features:
+    GL_ARB_vertex_array_object
+    GL_ARB_ES2_compatibility
+    GL_ARB_separate_shader_objects
+    GL_ARB_texture_storage
+    GL_EXT_texture_filter_anisotropic
+    GL_EXT_debug_label
+    GL_EXT_debug_marker
+Using driver workarounds:
+    no-layout-qualifiers-on-old-glsl
+    apple-buffer-texture-unbind-on-buffer-modify
+[04:02:13:588879]:[Warning]:[Metadata] SceneDatasetAttributes.cpp(107)::addNewSceneInstanceToDataset : Dataset : 'default' : Lighting Layout Attributes 'no_lights' specified in Scene Attributes but does not exist in dataset, so creating default.
+[04:02:13:589293]:[Warning]:[Scene] SemanticScene.h(328)::checkFileExists : ::loadSemanticSceneDescriptor: File/Users/jianxin/Desktop/my_project/embodied_pm/data/scene_datasets/habitat-test-scenes/skokloster-castle.scndoes not exist.  Aborting load.
+[04:02:13:589315]:[Warning]:[Scene] SemanticScene.cpp(121)::loadSemanticSceneDescriptor : SSD File Naming Issue! Neither SemanticAttributes-provided name : `/Users/jianxin/Desktop/my_project/embodied_pm/data/scene_datasets/habitat-test-scenes/skokloster-castle.scn` nor constructed filename : `/Users/jianxin/Desktop/my_project/embodied_pm/data/scene_datasets/habitat-test-scenes/info_semantic.json` exist on disk.
+[04:02:13:589330]:[Error]:[Scene] SemanticScene.cpp(137)::loadSemanticSceneDescriptor : SSD Load Failure! File with SemanticAttributes-provided name `/Users/jianxin/Desktop/my_project/embodied_pm/data/scene_datasets/habitat-test-scenes/skokloster-castle.scn` exists but failed to load.
+[04:02:14:178986]:[Warning]:[Sim] Simulator.cpp(594)::instanceStageForSceneAttributes : The active scene does not contain semantic annotations : activeSemanticSceneID_ = 0
+[llm-bank] 20 eps, 38s/ep
+[llm-bank] 40 eps, 37s/ep
+[llm-bank] 60 eps, 37s/ep
+[llm-bank] 80 eps, 37s/ep
+[llm-bank] 100 eps, 37s/ep
+[llm-bank] 120 eps, 37s/ep
+mem bank done (120 total)
+[llm-sched2] 140 eps, 37s/ep
+[llm-sched2] 160 eps, 37s/ep
+[llm-sched2] 180 eps, 37s/ep
+[llm-sched2] 200 eps, 37s/ep
+[llm-sched2] 220 eps, 37s/ep
+[llm-sched2] 240 eps, 38s/ep
+mem sched2 done (240 total)
+TOTAL 240 episodes in 151.0 min -> results/hab_or_gemini_test.csv

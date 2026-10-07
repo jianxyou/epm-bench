@@ -1,0 +1,7 @@
+resume: 143 episodes already in results/llm_or_gpt4omini.csv
+[llm:sched] 25/100 (0.04 ep/s)
+[llm:sched] 50/100 (0.03 ep/s)
+[llm:sched] 75/100 (0.01 ep/s)
+[llm:sched] 100/100 (0.00 ep/s)
+policy llm:sched done (80 total)
+TOTAL 80 episodes in 274.5 min -> results/llm_or_gpt4omini.csv

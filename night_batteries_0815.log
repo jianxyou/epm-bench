@@ -1,0 +1,62 @@
++ cd /Users/jianxin/Desktop/my_project/embodied_pm
++ for W in 2 4 6 10 16
++ python3 sched_geometry.py --policies bank,rrn --loads 1 --seeds 24 --cancel-arms early,late --window 2 --out results/sched_geo_window.csv
+cell done: load=1 cancel=early pol=bank (total 24)
+cell done: load=1 cancel=early pol=rrn (total 48)
+cell done: load=1 cancel=late pol=bank (total 72)
+cell done: load=1 cancel=late pol=rrn (total 96)
+TOTAL 96 episodes -> results/sched_geo_window.csv
++ for W in 2 4 6 10 16
++ python3 sched_geometry.py --policies bank,rrn --loads 1 --seeds 24 --cancel-arms early,late --window 4 --out results/sched_geo_window.csv
+cell done: load=1 cancel=early pol=bank (total 24)
+cell done: load=1 cancel=early pol=rrn (total 48)
+cell done: load=1 cancel=late pol=bank (total 72)
+cell done: load=1 cancel=late pol=rrn (total 96)
+TOTAL 96 episodes -> results/sched_geo_window.csv
++ for W in 2 4 6 10 16
++ python3 sched_geometry.py --policies bank,rrn --loads 1 --seeds 24 --cancel-arms early,late --window 6 --out results/sched_geo_window.csv
+cell done: load=1 cancel=early pol=bank (total 24)
+cell done: load=1 cancel=early pol=rrn (total 48)
+cell done: load=1 cancel=late pol=bank (total 72)
+cell done: load=1 cancel=late pol=rrn (total 96)
+TOTAL 96 episodes -> results/sched_geo_window.csv
++ for W in 2 4 6 10 16
++ python3 sched_geometry.py --policies bank,rrn --loads 1 --seeds 24 --cancel-arms early,late --window 10 --out results/sched_geo_window.csv
+cell done: load=1 cancel=early pol=bank (total 24)
+cell done: load=1 cancel=early pol=rrn (total 48)
+cell done: load=1 cancel=late pol=bank (total 72)
+cell done: load=1 cancel=late pol=rrn (total 96)
+TOTAL 96 episodes -> results/sched_geo_window.csv
++ for W in 2 4 6 10 16
++ python3 sched_geometry.py --policies bank,rrn --loads 1 --seeds 24 --cancel-arms early,late --window 16 --out results/sched_geo_window.csv
+cell done: load=1 cancel=early pol=bank (total 24)
+cell done: load=1 cancel=early pol=rrn (total 48)
+cell done: load=1 cancel=late pol=bank (total 72)
+cell done: load=1 cancel=late pol=rrn (total 96)
+TOTAL 96 episodes -> results/sched_geo_window.csv
++ for D in 3 10 14
++ python3 sched_geometry.py --policies bank,every5,rr,rrn,sight --loads 1 --seeds 24 --cancel-arms none --delay 3 --out results/sched_geo_delay.csv
+cell done: load=1 cancel=none pol=bank (total 24)
+cell done: load=1 cancel=none pol=every5 (total 48)
+cell done: load=1 cancel=none pol=rr (total 72)
+cell done: load=1 cancel=none pol=rrn (total 96)
+cell done: load=1 cancel=none pol=sight (total 120)
+TOTAL 120 episodes -> results/sched_geo_delay.csv
++ for D in 3 10 14
++ python3 sched_geometry.py --policies bank,every5,rr,rrn,sight --loads 1 --seeds 24 --cancel-arms none --delay 10 --out results/sched_geo_delay.csv
+cell done: load=1 cancel=none pol=bank (total 24)
+cell done: load=1 cancel=none pol=every5 (total 48)
+cell done: load=1 cancel=none pol=rr (total 72)
+cell done: load=1 cancel=none pol=rrn (total 96)
+cell done: load=1 cancel=none pol=sight (total 120)
+TOTAL 120 episodes -> results/sched_geo_delay.csv
++ for D in 3 10 14
++ python3 sched_geometry.py --policies bank,every5,rr,rrn,sight --loads 1 --seeds 24 --cancel-arms none --delay 14 --out results/sched_geo_delay.csv
+cell done: load=1 cancel=none pol=bank (total 24)
+cell done: load=1 cancel=none pol=every5 (total 48)
+cell done: load=1 cancel=none pol=rr (total 72)
+cell done: load=1 cancel=none pol=rrn (total 96)
+cell done: load=1 cancel=none pol=sight (total 120)
+TOTAL 120 episodes -> results/sched_geo_delay.csv
++ echo 'NIGHT BATTERIES DONE'
+NIGHT BATTERIES DONE

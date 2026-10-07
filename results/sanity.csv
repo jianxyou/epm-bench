@@ -1,0 +1,4 @@
+ts,policy,seed,scene,delay,cancel,trigger,visibility,n_intentions,event_step,first_visible_step,exec_step,executed,executed_frac,cancelled,cancel_step,executed_after_cancel,eac_strict,steps_total,chores_done,api_tokens
+1785992468,oracle,0,FloorPlan1,6,none,CoffeeMachine,1.5,2,6,7,10,True,1.0,False,,False,False,28,5,0
+1785992471,patroller4,0,FloorPlan1,6,late,CoffeeMachine,1.5,2,6,7,,True,1.0,True,8,False,False,40,4,0
+1785992474,opportunistic,0,FloorPlan1,6,none,CoffeeMachine,0.8,1,6,7,7,True,1.0,False,,False,False,40,4,0

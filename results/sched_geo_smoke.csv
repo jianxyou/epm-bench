@@ -1,0 +1,5 @@
+ts,policy,load,cancel,seed,executed_frac,eac_strict,n_exec_dead,notes_injected,chores_done,steps_total,window
+1786849225,bank,1,late,0,,False,1,40,5,40,6
+1786849226,bank,1,late,1,,True,1,40,5,40,6
+1786849227,rrn,1,late,0,,False,1,9,5,40,6
+1786849227,rrn,1,late,1,,False,0,9,5,40,6

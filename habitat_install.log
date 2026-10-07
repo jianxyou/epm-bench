@@ -1,0 +1,6232 @@
+++ dirname /Users/jianxin/Desktop/my_project/embodied_pm/habitat_install.sh
++ cd /Users/jianxin/Desktop/my_project/embodied_pm
++ MF=/Users/jianxin/miniforge3-x86
++ '[' '!' -d /Users/jianxin/miniforge3-x86 ']'
++ curl -sL https://github.com/conda-forge/miniforge/releases/latest/download/Miniforge3-MacOSX-x86_64.sh -o /tmp/mf.sh
++ bash /tmp/mf.sh -b -p /Users/jianxin/miniforge3-x86
+PREFIX=/Users/jianxin/miniforge3-x86
+Unpacking bootstrapper...
+Unpacking payload...
+Extracting bzip2-1.0.8-h500dc9f_9.conda
+Extracting c-ares-1.34.6-hb5e19a0_0.conda
+Extracting ca-certificates-2026.5.20-hbd8a1cb_0.conda
+Extracting libcxx-22.1.6-h19cb2f5_0.conda
+Extracting libev-4.33-h10d778d_2.conda
+Extracting libexpat-2.8.1-hcc62823_0.conda
+Extracting libffi-3.5.2-hd1f9c09_0.conda
+Extracting libiconv-1.18-h57a12c2_2.conda
+Extracting liblzma-5.8.3-hbb4bfdb_0.conda
+Extracting libmpdec-4.0.0-hf3981d6_1.conda
+Extracting libzlib-1.3.2-hbb4bfdb_2.conda
+Extracting lzo-2.10-h4132b18_1002.conda
+Extracting ncurses-6.6-hcc0dc9a_0.conda
+Extracting nlohmann_json-abi-3.12.0-h0f90c79_1.conda
+Extracting pybind11-abi-11-hc364b38_1.conda
+Extracting python_abi-3.13-8_cp313.conda
+Extracting reproc-14.2.7.post0-ha1e9b39_1.conda
+Extracting tzdata-2025c-hc9c84f9_1.conda
+Extracting cpp-expected-1.3.1-h0ba0a54_0.conda
+Extracting fmt-12.1.0-hda137b5_0.conda
+Extracting libedit-3.1.20250104-pl5321ha958ccf_0.conda
+Extracting libsolv-0.7.39-hf97c9bc_0.conda
+Extracting libsqlite-3.53.1-h77d7759_0.conda
+Extracting libxml2-16-2.15.3-h0d7f165_0.conda
+Extracting lz4-c-1.10.0-h240833e_1.conda
+Extracting openssl-3.6.2-hc881268_0.conda
+Extracting readline-8.3-h68b038d_0.conda
+Extracting reproc-cpp-14.2.7.post0-hcc62823_1.conda
+Extracting simdjson-4.2.4-hcb651aa_0.conda
+Extracting tk-8.6.13-h7142dee_3.conda
+Extracting yaml-cpp-0.8.0-h92383a6_0.conda
+Extracting zstd-1.5.7-h3eecb57_6.conda
+Extracting krb5-1.22.2-h207b36a_0.conda
+Extracting libnghttp2-1.68.1-h70048d4_0.conda
+Extracting libssh2-1.11.1-hed3591d_0.conda
+Extracting libxml2-2.15.3-h0712280_0.conda
+Extracting python-3.13.13-h3d5d122_100_cp313.conda
+Extracting spdlog-1.17.0-h30f01e4_1.conda
+Extracting libarchive-3.8.7-gpl_h2bf6321_101.conda
+Extracting libcurl-8.20.0-h8f0b9e4_0.conda
+Extracting menuinst-2.4.2-py313habf4b1d_0.conda
+Extracting archspec-0.2.5-pyhd8ed1ab_0.conda
+Extracting backports.zstd-1.5.0-py313h116f8bd_0.conda
+Extracting boltons-25.0.0-pyhd8ed1ab_0.conda
+Extracting brotli-python-1.2.0-py313h8d69aa9_1.conda
+Extracting certifi-2026.5.20-pyhd8ed1ab_0.conda
+Extracting charset-normalizer-3.4.7-pyhd8ed1ab_0.conda
+Extracting distro-1.9.0-pyhd8ed1ab_1.conda
+Extracting frozendict-2.4.7-py313hf050af9_0.conda
+Extracting hpack-4.1.0-pyhd8ed1ab_0.conda
+Extracting hyperframe-6.1.0-pyhd8ed1ab_0.conda
+Extracting idna-3.17-pyhcf101f3_0.conda
+Extracting jsonpointer-3.1.1-pyhcf101f3_0.conda
+Extracting libmamba-2.5.0-h7fe6c55_0.conda
+Extracting msgpack-python-1.1.2-py313h5eff275_1.conda
+Extracting packaging-26.2-pyhc364b38_0.conda
+Extracting pip-26.1.2-pyh145f28c_0.conda
+Extracting platformdirs-4.10.0-pyhcf101f3_0.conda
+Extracting pluggy-1.6.0-pyhf9edf01_1.conda
+Extracting pycosat-0.6.6-py313h585f44e_3.conda
+Extracting pycparser-3.0-pyhcf101f3_0.conda
+Extracting pysocks-1.7.1-pyha55dd90_7.conda
+Extracting ruamel.yaml.clib-0.2.15-py313h16366db_1.conda
+Extracting setuptools-82.0.1-pyh332efcf_0.conda
+Extracting tqdm-4.67.3-pyh8f84b5b_0.conda
+Extracting truststore-0.10.4-pyhcf101f3_0.conda
+Extracting cffi-2.0.0-py313hf57695f_1.conda
+Extracting h2-4.3.0-pyhcf101f3_0.conda
+Extracting jsonpatch-1.33-pyhd8ed1ab_1.conda
+Extracting libmamba-spdlog-2.5.0-hb923e0c_0.conda
+Extracting mamba-2.5.0-h965a6a9_0.conda
+Extracting ruamel.yaml-0.18.17-py313h16366db_2.conda
+Extracting libmambapy-2.5.0-py313h399c52a_0.conda
+Extracting urllib3-2.7.0-pyhd8ed1ab_0.conda
+Extracting zstandard-0.25.0-py313hcb05632_1.conda
+Extracting conda-package-streaming-0.12.0-pyhd8ed1ab_0.conda
+Extracting requests-2.34.2-pyhcf101f3_0.conda
+Extracting conda-libmamba-solver-26.4.2-pyhd8ed1ab_0.conda
+Extracting conda-package-handling-2.4.0-pyh7900ff3_2.conda
+Extracting conda-26.3.2-py313habf4b1d_1.conda
+
+Installing base environment...
+
+Transaction
+
+  Prefix: /Users/jianxin/miniforge3-x86
+
+  Updating specs:
+
+   - bzip2==1.0.8=h500dc9f_9
+   - c-ares==1.34.6=hb5e19a0_0
+   - ca-certificates==2026.5.20=hbd8a1cb_0
+   - libcxx==22.1.6=h19cb2f5_0
+   - libev==4.33=h10d778d_2
+   - libexpat==2.8.1=hcc62823_0
+   - libffi==3.5.2=hd1f9c09_0
+   - libiconv==1.18=h57a12c2_2
+   - liblzma==5.8.3=hbb4bfdb_0
+   - libmpdec==4.0.0=hf3981d6_1
+   - libzlib==1.3.2=hbb4bfdb_2
+   - lzo==2.10=h4132b18_1002
+   - ncurses==6.6=hcc0dc9a_0
+   - nlohmann_json-abi==3.12.0=h0f90c79_1
+   - pybind11-abi==11=hc364b38_1
+   - python_abi==3.13=8_cp313
+   - reproc==14.2.7.post0=ha1e9b39_1
+   - tzdata==2025c=hc9c84f9_1
+   - cpp-expected==1.3.1=h0ba0a54_0
+   - fmt==12.1.0=hda137b5_0
+   - libedit==3.1.20250104=pl5321ha958ccf_0
+   - libsolv==0.7.39=hf97c9bc_0
+   - libsqlite==3.53.1=h77d7759_0
+   - libxml2-16==2.15.3=h0d7f165_0
+   - lz4-c==1.10.0=h240833e_1
+   - openssl==3.6.2=hc881268_0
+   - readline==8.3=h68b038d_0
+   - reproc-cpp==14.2.7.post0=hcc62823_1
+   - simdjson==4.2.4=hcb651aa_0
+   - tk==8.6.13=h7142dee_3
+   - yaml-cpp==0.8.0=h92383a6_0
+   - zstd==1.5.7=h3eecb57_6
+   - krb5==1.22.2=h207b36a_0
+   - libnghttp2==1.68.1=h70048d4_0
+   - libssh2==1.11.1=hed3591d_0
+   - libxml2==2.15.3=h0712280_0
+   - python==3.13.13=h3d5d122_100_cp313
+   - spdlog==1.17.0=h30f01e4_1
+   - libarchive==3.8.7=gpl_h2bf6321_101
+   - libcurl==8.20.0=h8f0b9e4_0
+   - menuinst==2.4.2=py313habf4b1d_0
+   - archspec==0.2.5=pyhd8ed1ab_0
+   - backports.zstd==1.5.0=py313h116f8bd_0
+   - boltons==25.0.0=pyhd8ed1ab_0
+   - brotli-python==1.2.0=py313h8d69aa9_1
+   - certifi==2026.5.20=pyhd8ed1ab_0
+   - charset-normalizer==3.4.7=pyhd8ed1ab_0
+   - distro==1.9.0=pyhd8ed1ab_1
+   - frozendict==2.4.7=py313hf050af9_0
+   - hpack==4.1.0=pyhd8ed1ab_0
+   - hyperframe==6.1.0=pyhd8ed1ab_0
+   - idna==3.17=pyhcf101f3_0
+   - jsonpointer==3.1.1=pyhcf101f3_0
+   - libmamba==2.5.0=h7fe6c55_0
+   - msgpack-python==1.1.2=py313h5eff275_1
+   - packaging==26.2=pyhc364b38_0
+   - pip==26.1.2=pyh145f28c_0
+   - platformdirs==4.10.0=pyhcf101f3_0
+   - pluggy==1.6.0=pyhf9edf01_1
+   - pycosat==0.6.6=py313h585f44e_3
+   - pycparser==3.0=pyhcf101f3_0
+   - pysocks==1.7.1=pyha55dd90_7
+   - ruamel.yaml.clib==0.2.15=py313h16366db_1
+   - setuptools==82.0.1=pyh332efcf_0
+   - tqdm==4.67.3=pyh8f84b5b_0
+   - truststore==0.10.4=pyhcf101f3_0
+   - cffi==2.0.0=py313hf57695f_1
+   - h2==4.3.0=pyhcf101f3_0
+   - jsonpatch==1.33=pyhd8ed1ab_1
+   - libmamba-spdlog==2.5.0=hb923e0c_0
+   - mamba==2.5.0=h965a6a9_0
+   - ruamel.yaml==0.18.17=py313h16366db_2
+   - libmambapy==2.5.0=py313h399c52a_0
+   - urllib3==2.7.0=pyhd8ed1ab_0
+   - zstandard==0.25.0=py313hcb05632_1
+   - conda-package-streaming==0.12.0=pyhd8ed1ab_0
+   - requests==2.34.2=pyhcf101f3_0
+   - conda-libmamba-solver==26.4.2=pyhd8ed1ab_0
+   - conda-package-handling==2.4.0=pyh7900ff3_2
+   - conda==26.3.2=py313habf4b1d_1
+
+
+  Package                         Version  Build               Channel         Size
+─────────────────────────────────────────────────────────────────────────────────────
+  Install:
+─────────────────────────────────────────────────────────────────────────────────────
+
+  + archspec                        0.2.5  pyhd8ed1ab_0        conda-forge         
+  + backports.zstd                  1.5.0  py313h116f8bd_0     conda-forge         
+  + boltons                        25.0.0  pyhd8ed1ab_0        conda-forge         
+  + brotli-python                   1.2.0  py313h8d69aa9_1     conda-forge         
+  + bzip2                           1.0.8  h500dc9f_9          conda-forge         
+  + c-ares                         1.34.6  hb5e19a0_0          conda-forge         
+  + ca-certificates             2026.5.20  hbd8a1cb_0          conda-forge         
+  + certifi                     2026.5.20  pyhd8ed1ab_0        conda-forge         
+  + cffi                            2.0.0  py313hf57695f_1     conda-forge         
+  + charset-normalizer              3.4.7  pyhd8ed1ab_0        conda-forge         
+  + conda                          26.3.2  py313habf4b1d_1     conda-forge         
+  + conda-libmamba-solver          26.4.2  pyhd8ed1ab_0        conda-forge         
+  + conda-package-handling          2.4.0  pyh7900ff3_2        conda-forge         
+  + conda-package-streaming        0.12.0  pyhd8ed1ab_0        conda-forge         
+  + cpp-expected                    1.3.1  h0ba0a54_0          conda-forge         
+  + distro                          1.9.0  pyhd8ed1ab_1        conda-forge         
+  + fmt                            12.1.0  hda137b5_0          conda-forge         
+  + frozendict                      2.4.7  py313hf050af9_0     conda-forge         
+  + h2                              4.3.0  pyhcf101f3_0        conda-forge         
+  + hpack                           4.1.0  pyhd8ed1ab_0        conda-forge         
+  + hyperframe                      6.1.0  pyhd8ed1ab_0        conda-forge         
+  + idna                             3.17  pyhcf101f3_0        conda-forge         
+  + jsonpatch                        1.33  pyhd8ed1ab_1        conda-forge         
+  + jsonpointer                     3.1.1  pyhcf101f3_0        conda-forge         
+  + krb5                           1.22.2  h207b36a_0          conda-forge         
+  + libarchive                      3.8.7  gpl_h2bf6321_101    conda-forge         
+  + libcurl                        8.20.0  h8f0b9e4_0          conda-forge         
+  + libcxx                         22.1.6  h19cb2f5_0          conda-forge         
+  + libedit                  3.1.20250104  pl5321ha958ccf_0    conda-forge         
+  + libev                            4.33  h10d778d_2          conda-forge         
+  + libexpat                        2.8.1  hcc62823_0          conda-forge         
+  + libffi                          3.5.2  hd1f9c09_0          conda-forge         
+  + libiconv                         1.18  h57a12c2_2          conda-forge         
+  + liblzma                         5.8.3  hbb4bfdb_0          conda-forge         
+  + libmamba                        2.5.0  h7fe6c55_0          conda-forge         
+  + libmamba-spdlog                 2.5.0  hb923e0c_0          conda-forge         
+  + libmambapy                      2.5.0  py313h399c52a_0     conda-forge         
+  + libmpdec                        4.0.0  hf3981d6_1          conda-forge         
+  + libnghttp2                     1.68.1  h70048d4_0          conda-forge         
+  + libsolv                        0.7.39  hf97c9bc_0          conda-forge         
+  + libsqlite                      3.53.1  h77d7759_0          conda-forge         
+  + libssh2                        1.11.1  hed3591d_0          conda-forge         
+  + libxml2                        2.15.3  h0712280_0          conda-forge         
+  + libxml2-16                     2.15.3  h0d7f165_0          conda-forge         
+  + libzlib                         1.3.2  hbb4bfdb_2          conda-forge         
+  + lz4-c                          1.10.0  h240833e_1          conda-forge         
+  + lzo                              2.10  h4132b18_1002       conda-forge         
+  + mamba                           2.5.0  h965a6a9_0          conda-forge         
+  + menuinst                        2.4.2  py313habf4b1d_0     conda-forge         
+  + msgpack-python                  1.1.2  py313h5eff275_1     conda-forge         
+  + ncurses                           6.6  hcc0dc9a_0          conda-forge         
+  + nlohmann_json-abi              3.12.0  h0f90c79_1          conda-forge         
+  + openssl                         3.6.2  hc881268_0          conda-forge         
+  + packaging                        26.2  pyhc364b38_0        conda-forge         
+  + pip                            26.1.2  pyh145f28c_0        conda-forge         
+  + platformdirs                   4.10.0  pyhcf101f3_0        conda-forge         
+  + pluggy                          1.6.0  pyhf9edf01_1        conda-forge         
+  + pybind11-abi                       11  hc364b38_1          conda-forge         
+  + pycosat                         0.6.6  py313h585f44e_3     conda-forge         
+  + pycparser                         3.0  pyhcf101f3_0        conda-forge         
+  + pysocks                         1.7.1  pyha55dd90_7        conda-forge         
+  + python                        3.13.13  h3d5d122_100_cp313  conda-forge         
+  + python_abi                       3.13  8_cp313             conda-forge         
+  + readline                          8.3  h68b038d_0          conda-forge         
+  + reproc                   14.2.7.post0  ha1e9b39_1          conda-forge         
+  + reproc-cpp               14.2.7.post0  hcc62823_1          conda-forge         
+  + requests                       2.34.2  pyhcf101f3_0        conda-forge         
+  + ruamel.yaml                   0.18.17  py313h16366db_2     conda-forge         
+  + ruamel.yaml.clib               0.2.15  py313h16366db_1     conda-forge         
+  + setuptools                     82.0.1  pyh332efcf_0        conda-forge         
+  + simdjson                        4.2.4  hcb651aa_0          conda-forge         
+  + spdlog                         1.17.0  h30f01e4_1          conda-forge         
+  + tk                             8.6.13  h7142dee_3          conda-forge         
+  + tqdm                           4.67.3  pyh8f84b5b_0        conda-forge         
+  + truststore                     0.10.4  pyhcf101f3_0        conda-forge         
+  + tzdata                          2025c  hc9c84f9_1          conda-forge         
+  + urllib3                         2.7.0  pyhd8ed1ab_0        conda-forge         
+  + yaml-cpp                        0.8.0  h92383a6_0          conda-forge         
+  + zstandard                      0.25.0  py313hcb05632_1     conda-forge         
+  + zstd                            1.5.7  h3eecb57_6          conda-forge         
+
+  Summary:
+
+  Install: 80 packages
+
+  Total download: 0 B
+
+─────────────────────────────────────────────────────────────────────────────────────
+
+
+
+Transaction starting
+Linking bzip2-1.0.8-h500dc9f_9
+Linking c-ares-1.34.6-hb5e19a0_0
+Linking ca-certificates-2026.5.20-hbd8a1cb_0
+Linking libcxx-22.1.6-h19cb2f5_0
+Linking libev-4.33-h10d778d_2
+Linking libexpat-2.8.1-hcc62823_0
+Linking libffi-3.5.2-hd1f9c09_0
+Linking libiconv-1.18-h57a12c2_2
+Linking liblzma-5.8.3-hbb4bfdb_0
+Linking libmpdec-4.0.0-hf3981d6_1
+Linking libzlib-1.3.2-hbb4bfdb_2
+Linking lzo-2.10-h4132b18_1002
+Linking ncurses-6.6-hcc0dc9a_0
+Linking nlohmann_json-abi-3.12.0-h0f90c79_1
+Linking pybind11-abi-11-hc364b38_1
+Linking python_abi-3.13-8_cp313
+Linking reproc-14.2.7.post0-ha1e9b39_1
+Linking tzdata-2025c-hc9c84f9_1
+Linking cpp-expected-1.3.1-h0ba0a54_0
+Linking fmt-12.1.0-hda137b5_0
+Linking libedit-3.1.20250104-pl5321ha958ccf_0
+Linking libsolv-0.7.39-hf97c9bc_0
+Linking libsqlite-3.53.1-h77d7759_0
+Linking libxml2-16-2.15.3-h0d7f165_0
+Linking lz4-c-1.10.0-h240833e_1
+Linking openssl-3.6.2-hc881268_0
+Linking readline-8.3-h68b038d_0
+Linking reproc-cpp-14.2.7.post0-hcc62823_1
+Linking simdjson-4.2.4-hcb651aa_0
+Linking tk-8.6.13-h7142dee_3
+Linking yaml-cpp-0.8.0-h92383a6_0
+Linking zstd-1.5.7-h3eecb57_6
+Linking krb5-1.22.2-h207b36a_0
+Linking libnghttp2-1.68.1-h70048d4_0
+Linking libssh2-1.11.1-hed3591d_0
+Linking libxml2-2.15.3-h0712280_0
+Linking python-3.13.13-h3d5d122_100_cp313
+Linking spdlog-1.17.0-h30f01e4_1
+Linking libarchive-3.8.7-gpl_h2bf6321_101
+Linking libcurl-8.20.0-h8f0b9e4_0
+Linking menuinst-2.4.2-py313habf4b1d_0
+Linking archspec-0.2.5-pyhd8ed1ab_0
+Linking backports.zstd-1.5.0-py313h116f8bd_0
+Linking boltons-25.0.0-pyhd8ed1ab_0
+Linking brotli-python-1.2.0-py313h8d69aa9_1
+Linking certifi-2026.5.20-pyhd8ed1ab_0
+Linking charset-normalizer-3.4.7-pyhd8ed1ab_0
+Linking distro-1.9.0-pyhd8ed1ab_1
+Linking frozendict-2.4.7-py313hf050af9_0
+Linking hpack-4.1.0-pyhd8ed1ab_0
+Linking hyperframe-6.1.0-pyhd8ed1ab_0
+Linking idna-3.17-pyhcf101f3_0
+Linking jsonpointer-3.1.1-pyhcf101f3_0
+Linking libmamba-2.5.0-h7fe6c55_0
+Linking msgpack-python-1.1.2-py313h5eff275_1
+Linking packaging-26.2-pyhc364b38_0
+Linking pip-26.1.2-pyh145f28c_0
+Linking platformdirs-4.10.0-pyhcf101f3_0
+Linking pluggy-1.6.0-pyhf9edf01_1
+Linking pycosat-0.6.6-py313h585f44e_3
+Linking pycparser-3.0-pyhcf101f3_0
+Linking pysocks-1.7.1-pyha55dd90_7
+Linking ruamel.yaml.clib-0.2.15-py313h16366db_1
+Linking setuptools-82.0.1-pyh332efcf_0
+Linking tqdm-4.67.3-pyh8f84b5b_0
+Linking truststore-0.10.4-pyhcf101f3_0
+Linking cffi-2.0.0-py313hf57695f_1
+Linking h2-4.3.0-pyhcf101f3_0
+Linking jsonpatch-1.33-pyhd8ed1ab_1
+Linking libmamba-spdlog-2.5.0-hb923e0c_0
+Linking mamba-2.5.0-h965a6a9_0
+Linking ruamel.yaml-0.18.17-py313h16366db_2
+Linking libmambapy-2.5.0-py313h399c52a_0
+Linking urllib3-2.7.0-pyhd8ed1ab_0
+Linking zstandard-0.25.0-py313hcb05632_1
+Linking conda-package-streaming-0.12.0-pyhd8ed1ab_0
+Linking requests-2.34.2-pyhcf101f3_0
+Linking conda-libmamba-solver-26.4.2-pyhd8ed1ab_0
+Linking conda-package-handling-2.4.0-pyh7900ff3_2
+Linking conda-26.3.2-py313habf4b1d_1
+
+Transaction finished
+
+
++ source /Users/jianxin/miniforge3-x86/bin/activate
+++ _CONDA_ROOT=/Users/jianxin/miniforge3-x86
+++ . /Users/jianxin/miniforge3-x86/etc/profile.d/conda.sh
++++ export CONDA_EXE=/Users/jianxin/miniforge3-x86/bin/conda
++++ CONDA_EXE=/Users/jianxin/miniforge3-x86/bin/conda
++++ export _CONDA_EXE=/Users/jianxin/miniforge3-x86/bin/conda
++++ _CONDA_EXE=/Users/jianxin/miniforge3-x86/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/Users/jianxin/miniforge3-x86/bin/python
++++ CONDA_PYTHON_EXE=/Users/jianxin/miniforge3-x86/bin/python
++++ export _CONDA_ROOT=/Users/jianxin/miniforge3-x86
++++ _CONDA_ROOT=/Users/jianxin/miniforge3-x86
++++ '[' -z '' ']'
++++ export CONDA_SHLVL=0
++++ CONDA_SHLVL=0
++++ '[' -n '' ']'
++++++ dirname /Users/jianxin/miniforge3-x86/bin/conda
+++++ dirname /Users/jianxin/miniforge3-x86/bin
++++ PATH=/Users/jianxin/miniforge3-x86/condabin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/pkg/env/global/bin:/Users/jianxin/.local/bin
++++ export PATH
++++ '[' -z '' ']'
++++ PS1=
+++ conda activate
+++ local cmd=activate
+++ case "$cmd" in
+++ __conda_activate activate
+++ '[' -n '' ']'
+++ local ask_conda
++++ PS1=
++++ __conda_exe shell.posix activate
++++ '[' -n '' ']'
++++ /Users/jianxin/miniforge3-x86/bin/conda shell.posix activate
+++ ask_conda='export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+PS1='\''(base) '\''
+export PATH='\''/Users/jianxin/miniforge3-x86/bin:/Users/jianxin/miniforge3-x86/condabin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/pkg/env/global/bin:/Users/jianxin/.local/bin'\''
+export CONDA_PREFIX='\''/Users/jianxin/miniforge3-x86'\''
+export CONDA_SHLVL='\''1'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_EXE='\''/Users/jianxin/miniforge3-x86/bin/conda'\''
+export _CONDA_EXE='\''/Users/jianxin/miniforge3-x86/bin/conda'\''
+export CONDA_PYTHON_EXE='\''/Users/jianxin/miniforge3-x86/bin/python'\''
+export _CONDA_ROOT='\''/Users/jianxin/miniforge3-x86'\''
+. "/Users/jianxin/miniforge3-x86/etc/conda/activate.d/libxml2-split_activate.sh"'
+++ eval 'export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+PS1='\''(base) '\''
+export PATH='\''/Users/jianxin/miniforge3-x86/bin:/Users/jianxin/miniforge3-x86/condabin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/pkg/env/global/bin:/Users/jianxin/.local/bin'\''
+export CONDA_PREFIX='\''/Users/jianxin/miniforge3-x86'\''
+export CONDA_SHLVL='\''1'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_EXE='\''/Users/jianxin/miniforge3-x86/bin/conda'\''
+export _CONDA_EXE='\''/Users/jianxin/miniforge3-x86/bin/conda'\''
+export CONDA_PYTHON_EXE='\''/Users/jianxin/miniforge3-x86/bin/python'\''
+export _CONDA_ROOT='\''/Users/jianxin/miniforge3-x86'\''
+. "/Users/jianxin/miniforge3-x86/etc/conda/activate.d/libxml2-split_activate.sh"'
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ PS1='(base) '
++++ export PATH=/Users/jianxin/miniforge3-x86/bin:/Users/jianxin/miniforge3-x86/condabin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/pkg/env/global/bin:/Users/jianxin/.local/bin
++++ PATH=/Users/jianxin/miniforge3-x86/bin:/Users/jianxin/miniforge3-x86/condabin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/pkg/env/global/bin:/Users/jianxin/.local/bin
++++ export CONDA_PREFIX=/Users/jianxin/miniforge3-x86
++++ CONDA_PREFIX=/Users/jianxin/miniforge3-x86
++++ export CONDA_SHLVL=1
++++ CONDA_SHLVL=1
++++ export CONDA_DEFAULT_ENV=base
++++ CONDA_DEFAULT_ENV=base
++++ export 'CONDA_PROMPT_MODIFIER=(base) '
++++ CONDA_PROMPT_MODIFIER='(base) '
++++ export CONDA_EXE=/Users/jianxin/miniforge3-x86/bin/conda
++++ CONDA_EXE=/Users/jianxin/miniforge3-x86/bin/conda
++++ export _CONDA_EXE=/Users/jianxin/miniforge3-x86/bin/conda
++++ _CONDA_EXE=/Users/jianxin/miniforge3-x86/bin/conda
++++ export CONDA_PYTHON_EXE=/Users/jianxin/miniforge3-x86/bin/python
++++ CONDA_PYTHON_EXE=/Users/jianxin/miniforge3-x86/bin/python
++++ export _CONDA_ROOT=/Users/jianxin/miniforge3-x86
++++ _CONDA_ROOT=/Users/jianxin/miniforge3-x86
++++ . /Users/jianxin/miniforge3-x86/etc/conda/activate.d/libxml2-split_activate.sh
+++++ test -n ''
+++++ xml_catalog_files_libxml2=
+++++ XML_CATALOG_FILES=
+++++ conda_catalog_files=
+++++ ifs_libxml2=' 	
+'
+++++ IFS=' '
+++++ rem=/Users/jianxin/miniforge3-x86
+++++ for pre in '${rem}'
+++++ test '' = /Users/jianxin/miniforge3-x86
+++++ conda_catalog_files=/Users/jianxin/miniforge3-x86
+++++ rem=
+++++ IFS=' 	
+'
+++++ conda_catalog_files='file:///Users/jianxin/miniforge3-x86/etc/xml/catalog file:///etc/xml/catalog'
+++++ export 'XML_CATALOG_FILES=file:///Users/jianxin/miniforge3-x86/etc/xml/catalog file:///etc/xml/catalog'
+++++ XML_CATALOG_FILES='file:///Users/jianxin/miniforge3-x86/etc/xml/catalog file:///etc/xml/catalog'
+++++ unset conda_catalog_files ifs_libxml2 rem
+++ __conda_hashr
+++ '[' -n '' ']'
+++ '[' -n '' ']'
+++ hash -r
++ conda env list
++ local cmd=env
++ case "$cmd" in
++ __conda_exe env list
++ grep -q '^habitat '
++ '[' -n '' ']'
++ /Users/jianxin/miniforge3-x86/bin/conda env list
++ CONDA_SUBDIR=osx-64
++ conda create -y -n habitat python=3.9
++ local cmd=create
++ case "$cmd" in
++ __conda_exe create -y -n habitat python=3.9
++ '[' -n '' ']'
++ /Users/jianxin/miniforge3-x86/bin/conda create -y -n habitat python=3.9
+Retrieving notices: - done
+Channels:
+ - conda-forge
+Platform: osx-64
+Collecting package metadata (repodata.json): | / - \ | done
+Solving environment: - \ done
+
+## Package Plan ##
+
+  environment location: /Users/jianxin/miniforge3-x86/envs/habitat
+
+  added / updated specs:
+    - python=3.9
+
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    bzip2-1.0.8                |      h374f1ed_10         130 KB  conda-forge
+    ca-certificates-2026.7.22  |       hbd8a1cb_0         129 KB  conda-forge
+    libexpat-2.8.1             |       hcc62823_1          74 KB  conda-forge
+    libffi-3.7.0               |       h8c408c4_0          60 KB  conda-forge
+    libsqlite-3.53.4           |       h77d7759_0         985 KB  conda-forge
+    libzlib-1.3.2              |       hbb4bfdb_3          58 KB  conda-forge
+    openssl-3.6.3              |       hc881268_1         2.6 MB  conda-forge
+    pip-25.2                   |     pyh8b19718_0         1.1 MB  conda-forge
+    python-3.9.23              |h8a7f3fd_0_cpython        10.9 MB  conda-forge
+    setuptools-80.9.0          |     pyhff2d567_0         731 KB  conda-forge
+    tk-8.6.13                  |       hb794df6_3         3.4 MB  conda-forge
+    tzdata-2026c               |       h151e31d_0         116 KB  conda-forge
+    wheel-0.45.1               |     pyhd8ed1ab_1          61 KB  conda-forge
+    ------------------------------------------------------------
+                                           Total:        20.3 MB
+
+The following NEW packages will be INSTALLED:
+
+  bzip2              conda-forge/osx-64::bzip2-1.0.8-h374f1ed_10 
+  ca-certificates    conda-forge/noarch::ca-certificates-2026.7.22-hbd8a1cb_0 
+  libexpat           conda-forge/osx-64::libexpat-2.8.1-hcc62823_1 
+  libffi             conda-forge/osx-64::libffi-3.7.0-h8c408c4_0 
+  liblzma            conda-forge/osx-64::liblzma-5.8.3-hbb4bfdb_0 
+  libsqlite          conda-forge/osx-64::libsqlite-3.53.4-h77d7759_0 
+  libzlib            conda-forge/osx-64::libzlib-1.3.2-hbb4bfdb_3 
+  ncurses            conda-forge/osx-64::ncurses-6.6-hcc0dc9a_0 
+  openssl            conda-forge/osx-64::openssl-3.6.3-hc881268_1 
+  pip                conda-forge/noarch::pip-25.2-pyh8b19718_0 
+  python             conda-forge/osx-64::python-3.9.23-h8a7f3fd_0_cpython 
+  readline           conda-forge/osx-64::readline-8.3-h68b038d_0 
+  setuptools         conda-forge/noarch::setuptools-80.9.0-pyhff2d567_0 
+  tk                 conda-forge/osx-64::tk-8.6.13-hb794df6_3 
+  tzdata             conda-forge/noarch::tzdata-2026c-h151e31d_0 
+  wheel              conda-forge/noarch::wheel-0.45.1-pyhd8ed1ab_1 
+
+
+
+Downloading and Extracting Packages: ...working...python-3.9.23        | 10.9 MB   |            |   0% 
+tk-8.6.13            | 3.4 MB    |            |   0% [A
+
+openssl-3.6.3        | 2.6 MB    |            |   0% [A[A
+
+
+pip-25.2             | 1.1 MB    |            |   0% [A[A[A
+
+
+
+libsqlite-3.53.4     | 985 KB    |            |   0% [A[A[A[A
+
+
+
+
+setuptools-80.9.0    | 731 KB    |            |   0% [A[A[A[A[A
+
+
+
+
+
+bzip2-1.0.8          | 130 KB    |            |   0% [A[A[A[A[A[A
+
+
+
+
+
+
+ca-certificates-2026 | 129 KB    |            |   0% [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+tzdata-2026c         | 116 KB    |            |   0% [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+libexpat-2.8.1       | 74 KB     |            |   0% [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+wheel-0.45.1         | 61 KB     |            |   0% [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+libffi-3.7.0         | 60 KB     |            |   0% [A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+libzlib-1.3.2        | 58 KB     |            |   0% [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+libsqlite-3.53.4     | 985 KB    | 1          |   2% [A[A[A[Apython-3.9.23        | 10.9 MB   |            |   0% 
+
+openssl-3.6.3        | 2.6 MB    |            |   1% [A[A
+tk-8.6.13            | 3.4 MB    |            |   0% [A
+
+
+pip-25.2             | 1.1 MB    | 1          |   1% [A[A[A
+
+
+
+libsqlite-3.53.4     | 985 KB    | ###2       |  32% [A[A[A[Apython-3.9.23        | 10.9 MB   | 2          |   2% 
+
+openssl-3.6.3        | 2.6 MB    | 8          |   8% [A[A
+tk-8.6.13            | 3.4 MB    | 6          |   7% [A
+
+
+pip-25.2             | 1.1 MB    | ##         |  21% [A[A[A
+
+openssl-3.6.3        | 2.6 MB    | #7         |  17% [A[Apython-3.9.23        | 10.9 MB   | 4          |   5% 
+
+
+
+libsqlite-3.53.4     | 985 KB    | ######1    |  62% [A[A[A[A
+tk-8.6.13            | 3.4 MB    | #3         |  14% [A
+
+
+pip-25.2             | 1.1 MB    | ####3      |  43% [A[A[Apython-3.9.23        | 10.9 MB   | 6          |   7% 
+
+
+
+libsqlite-3.53.4     | 985 KB    | #########2 |  93% [A[A[A[A
+
+openssl-3.6.3        | 2.6 MB    | ##5        |  26% [A[A
+tk-8.6.13            | 3.4 MB    | ##         |  21% [A
+
+
+pip-25.2             | 1.1 MB    | ######5    |  65% [A[A[A
+
+
+
+libsqlite-3.53.4     | 985 KB    | ########## | 100% [A[A[A[A
+
+
+
+libsqlite-3.53.4     | 985 KB    | ########## | 100% [A[A[A[A
+
+
+
+
+setuptools-80.9.0    | 731 KB    | 2          |   2% [A[A[A[A[A
+tk-8.6.13            | 3.4 MB    | ##8        |  28% [Apython-3.9.23        | 10.9 MB   | 9          |   9% 
+
+
+pip-25.2             | 1.1 MB    | ########6  |  86% [A[A[A
+
+openssl-3.6.3        | 2.6 MB    | ###4       |  34% [A[A
+
+
+pip-25.2             | 1.1 MB    | ########## | 100% [A[A[A
+
+
+
+
+setuptools-80.9.0    | 731 KB    | ####1      |  42% [A[A[A[A[Apython-3.9.23        | 10.9 MB   | #1         |  11% 
+tk-8.6.13            | 3.4 MB    | ###5       |  36% [A
+
+
+
+
+
+bzip2-1.0.8          | 130 KB    | #2         |  12% [A[A[A[A[A[A
+
+openssl-3.6.3        | 2.6 MB    | ####6      |  46% [A[A
+
+
+
+
+
+bzip2-1.0.8          | 130 KB    | ########## | 100% [A[A[A[A[A[A
+
+
+
+
+
+bzip2-1.0.8          | 130 KB    | ########## | 100% [A[A[A[A[A[Apython-3.9.23        | 10.9 MB   | #4         |  14% 
+
+
+pip-25.2             | 1.1 MB    | ########## | 100% [A[A[A
+tk-8.6.13            | 3.4 MB    | ####5      |  45% [A
+
+
+
+
+setuptools-80.9.0    | 731 KB    | #########6 |  96% [A[A[A[A[A
+
+
+
+
+setuptools-80.9.0    | 731 KB    | ########## | 100% [A[A[A[A[A
+
+
+
+
+
+
+ca-certificates-2026 | 129 KB    | #2         |  12% [A[A[A[A[A[A[A
+
+openssl-3.6.3        | 2.6 MB    | #####5     |  56% [A[A
+
+
+
+
+
+
+ca-certificates-2026 | 129 KB    | ########## | 100% [A[A[A[A[A[A[A
+
+
+
+
+
+
+ca-certificates-2026 | 129 KB    | ########## | 100% [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+tzdata-2026c         | 116 KB    | #3         |  14% [A[A[A[A[A[A[A[Apython-3.9.23        | 10.9 MB   | #7         |  17% 
+tk-8.6.13            | 3.4 MB    | #####4     |  55% [A
+
+
+
+
+
+
+
+tzdata-2026c         | 116 KB    | ########## | 100% [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+libexpat-2.8.1       | 74 KB     | ##1        |  22% [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+libexpat-2.8.1       | 74 KB     | ########## | 100% [A[A[A[A[A[A[A[A[A
+
+openssl-3.6.3        | 2.6 MB    | ######5    |  66% [A[A
+
+
+
+
+
+
+
+
+libexpat-2.8.1       | 74 KB     | ########## | 100% [A[A[A[A[A[A[A[A[A
+
+
+
+
+setuptools-80.9.0    | 731 KB    | ########## | 100% [A[A[A[A[A
+
+
+
+
+
+
+
+
+
+wheel-0.45.1         | 61 KB     | ##6        |  26% [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+wheel-0.45.1         | 61 KB     | ########## | 100% [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+wheel-0.45.1         | 61 KB     | ########## | 100% [A[A[A[A[A[A[A[A[A[Apython-3.9.23        | 10.9 MB   | ##         |  20% 
+
+
+
+
+
+
+
+
+
+
+
+libzlib-1.3.2        | 58 KB     | ##7        |  28% [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+libffi-3.7.0         | 60 KB     | ##6        |  27% [A[A[A[A[A[A[A[A[A[A[A
+tk-8.6.13            | 3.4 MB    | ######6    |  66% [A
+
+
+
+
+
+
+
+
+
+
+
+libzlib-1.3.2        | 58 KB     | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+libzlib-1.3.2        | 58 KB     | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+libffi-3.7.0         | 60 KB     | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+libffi-3.7.0         | 60 KB     | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A
+
+openssl-3.6.3        | 2.6 MB    | #######5   |  75% [A[A
+
+
+
+
+
+
+
+tzdata-2026c         | 116 KB    | ########## | 100% [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+tzdata-2026c         | 116 KB    | ########## | 100% [A[A[A[A[A[A[A[Apython-3.9.23        | 10.9 MB   | ##3        |  24% 
+tk-8.6.13            | 3.4 MB    | #######8   |  79% [A
+
+openssl-3.6.3        | 2.6 MB    | ########6  |  87% [A[Apython-3.9.23        | 10.9 MB   | ##7        |  27% 
+tk-8.6.13            | 3.4 MB    | #########  |  91% [A
+
+openssl-3.6.3        | 2.6 MB    | #########8 |  98% [A[A
+
+openssl-3.6.3        | 2.6 MB    | ########## | 100% [A[Apython-3.9.23        | 10.9 MB   | ###1       |  32% 
+tk-8.6.13            | 3.4 MB    | ########## | 100% [A
+
+openssl-3.6.3        | 2.6 MB    | ########## | 100% [A[Apython-3.9.23        | 10.9 MB   | ###6       |  36% 
+tk-8.6.13            | 3.4 MB    | ########## | 100% [Apython-3.9.23        | 10.9 MB   | ####1      |  41% python-3.9.23        | 10.9 MB   | ####7      |  48% python-3.9.23        | 10.9 MB   | #####5     |  55% python-3.9.23        | 10.9 MB   | ######2    |  62% python-3.9.23        | 10.9 MB   | #######    |  70% python-3.9.23        | 10.9 MB   | #######8   |  78% python-3.9.23        | 10.9 MB   | ########8  |  88% python-3.9.23        | 10.9 MB   | #########7 |  98% python-3.9.23        | 10.9 MB   | ########## | 100% python-3.9.23        | 10.9 MB   | ########## | 100%                                                      
+                                                     [A
+
+                                                     [A[A
+
+
+                                                     [A[A[A
+
+
+
+                                                     [A[A[A[A
+
+
+
+
+                                                     [A[A[A[A[A
+
+
+
+
+
+                                                     [A[A[A[A[A[A
+
+
+
+
+
+
+                                                     [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+                                                     [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+                                                     [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+                                                     [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+                                                     [A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+                                                     [A[A[A[A[A[A[A[A[A[A[A[A done
+Preparing transaction: / done
+Verifying transaction: \ | / - \ done
+Executing transaction: / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ done
+#
+# To activate this environment, use
+#
+#     $ conda activate habitat
+#
+# To deactivate an active environment, use
+#
+#     $ conda deactivate
+
++ conda activate habitat
++ local cmd=activate
++ case "$cmd" in
++ __conda_activate activate habitat
++ '[' -n '' ']'
++ local ask_conda
+++ PS1='(base) '
+++ __conda_exe shell.posix activate habitat
+++ '[' -n '' ']'
+++ /Users/jianxin/miniforge3-x86/bin/conda shell.posix activate habitat
++ ask_conda='export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+PS1='\''(habitat) '\''
+export PATH='\''/Users/jianxin/miniforge3-x86/envs/habitat/bin:/Users/jianxin/miniforge3-x86/condabin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/pkg/env/global/bin:/Users/jianxin/.local/bin'\''
+export CONDA_PREFIX='\''/Users/jianxin/miniforge3-x86/envs/habitat'\''
+export CONDA_SHLVL='\''2'\''
+export CONDA_DEFAULT_ENV='\''habitat'\''
+export CONDA_PROMPT_MODIFIER='\''(habitat) '\''
+export CONDA_PREFIX_1='\''/Users/jianxin/miniforge3-x86'\''
+export CONDA_EXE='\''/Users/jianxin/miniforge3-x86/bin/conda'\''
+export _CONDA_EXE='\''/Users/jianxin/miniforge3-x86/bin/conda'\''
+export CONDA_PYTHON_EXE='\''/Users/jianxin/miniforge3-x86/bin/python'\''
+export _CONDA_ROOT='\''/Users/jianxin/miniforge3-x86'\'''
++ eval 'export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+PS1='\''(habitat) '\''
+export PATH='\''/Users/jianxin/miniforge3-x86/envs/habitat/bin:/Users/jianxin/miniforge3-x86/condabin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/pkg/env/global/bin:/Users/jianxin/.local/bin'\''
+export CONDA_PREFIX='\''/Users/jianxin/miniforge3-x86/envs/habitat'\''
+export CONDA_SHLVL='\''2'\''
+export CONDA_DEFAULT_ENV='\''habitat'\''
+export CONDA_PROMPT_MODIFIER='\''(habitat) '\''
+export CONDA_PREFIX_1='\''/Users/jianxin/miniforge3-x86'\''
+export CONDA_EXE='\''/Users/jianxin/miniforge3-x86/bin/conda'\''
+export _CONDA_EXE='\''/Users/jianxin/miniforge3-x86/bin/conda'\''
+export CONDA_PYTHON_EXE='\''/Users/jianxin/miniforge3-x86/bin/python'\''
+export _CONDA_ROOT='\''/Users/jianxin/miniforge3-x86'\'''
+++ export _CE_M=
+++ _CE_M=
+++ export _CE_CONDA=
+++ _CE_CONDA=
+++ PS1='(habitat) '
+++ export PATH=/Users/jianxin/miniforge3-x86/envs/habitat/bin:/Users/jianxin/miniforge3-x86/condabin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/pkg/env/global/bin:/Users/jianxin/.local/bin
+++ PATH=/Users/jianxin/miniforge3-x86/envs/habitat/bin:/Users/jianxin/miniforge3-x86/condabin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/pkg/env/global/bin:/Users/jianxin/.local/bin
+++ export CONDA_PREFIX=/Users/jianxin/miniforge3-x86/envs/habitat
+++ CONDA_PREFIX=/Users/jianxin/miniforge3-x86/envs/habitat
+++ export CONDA_SHLVL=2
+++ CONDA_SHLVL=2
+++ export CONDA_DEFAULT_ENV=habitat
+++ CONDA_DEFAULT_ENV=habitat
+++ export 'CONDA_PROMPT_MODIFIER=(habitat) '
+++ CONDA_PROMPT_MODIFIER='(habitat) '
+++ export CONDA_PREFIX_1=/Users/jianxin/miniforge3-x86
+++ CONDA_PREFIX_1=/Users/jianxin/miniforge3-x86
+++ export CONDA_EXE=/Users/jianxin/miniforge3-x86/bin/conda
+++ CONDA_EXE=/Users/jianxin/miniforge3-x86/bin/conda
+++ export _CONDA_EXE=/Users/jianxin/miniforge3-x86/bin/conda
+++ _CONDA_EXE=/Users/jianxin/miniforge3-x86/bin/conda
+++ export CONDA_PYTHON_EXE=/Users/jianxin/miniforge3-x86/bin/python
+++ CONDA_PYTHON_EXE=/Users/jianxin/miniforge3-x86/bin/python
+++ export _CONDA_ROOT=/Users/jianxin/miniforge3-x86
+++ _CONDA_ROOT=/Users/jianxin/miniforge3-x86
++ __conda_hashr
++ '[' -n '' ']'
++ '[' -n '' ']'
++ hash -r
++ conda config --env --set subdir osx-64
++ local cmd=config
++ case "$cmd" in
++ __conda_exe config --env --set subdir osx-64
++ '[' -n '' ']'
++ /Users/jianxin/miniforge3-x86/bin/conda config --env --set subdir osx-64
++ conda install -y -c aihabitat -c conda-forge habitat-sim
++ local cmd=install
++ case "$cmd" in
++ __conda_exe install -y -c aihabitat -c conda-forge habitat-sim
++ '[' -n '' ']'
++ /Users/jianxin/miniforge3-x86/bin/conda install -y -c aihabitat -c conda-forge habitat-sim
+Channels:
+ - aihabitat
+ - conda-forge
+Platform: osx-64
+Collecting package metadata (repodata.json): - \ | / - \ | / - \ | / - done
+Solving environment: | done
+
+## Package Plan ##
+
+  environment location: /Users/jianxin/miniforge3-x86/envs/habitat
+
+  added / updated specs:
+    - habitat-sim
+
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    _openmp_mutex-4.5          |       7_kmp_llvm           8 KB  conda-forge
+    aom-3.9.1                  |       hf036a51_0         2.6 MB  conda-forge
+    attrs-25.3.0               |     pyh71513ae_0          56 KB  conda-forge
+    brotli-1.2.0               |       hf139dec_1          20 KB  conda-forge
+    brotli-bin-1.2.0           |       h8616949_1          18 KB  conda-forge
+    cairo-1.18.4               |       h950ec3b_0         872 KB  conda-forge
+    certifi-2025.8.3           |     pyhd8ed1ab_0         155 KB  conda-forge
+    colorama-0.4.6             |     pyhd8ed1ab_1          26 KB  conda-forge
+    contourpy-1.3.0            |   py39h0d3c867_2         239 KB  conda-forge
+    cycler-0.12.1              |     pyhd8ed1ab_1          13 KB  conda-forge
+    dav1d-1.2.1                |       h0dc2134_0         653 KB  conda-forge
+    dbus-1.13.6                |       h811a1a6_3         551 KB  conda-forge
+    expat-2.8.1                |       hcc62823_1         138 KB  conda-forge
+    ffmpeg-7.1.1               | gpl_h731c141_107         9.7 MB  conda-forge
+    font-ttf-dejavu-sans-mono-2.37|       hab24e00_0         388 KB  conda-forge
+    font-ttf-inconsolata-3.000 |       h77eed37_0          94 KB  conda-forge
+    font-ttf-source-code-pro-2.038|       h77eed37_0         684 KB  conda-forge
+    font-ttf-ubuntu-0.83       |       h77eed37_3         1.5 MB  conda-forge
+    fontconfig-2.18.1          |       h7a4440b_0         242 KB  conda-forge
+    fonts-conda-ecosystem-1    |                0           4 KB  conda-forge
+    fonts-conda-forge-1        |       hc364b38_1           4 KB  conda-forge
+    fonttools-4.59.1           |   py39h2753485_0         2.2 MB  conda-forge
+    freetype-2.14.3            |       h694c41f_1         170 KB  conda-forge
+    fribidi-1.0.16             |       ha1e9b39_1          61 KB  conda-forge
+    gdk-pixbuf-2.42.12         |       ha587570_0         505 KB  conda-forge
+    gitdb-4.0.12               |     pyhd8ed1ab_0          52 KB  conda-forge
+    gitpython-3.1.45           |     pyhff2d567_0         154 KB  conda-forge
+    gmp-6.3.0                  |       hf036a51_2         419 KB  conda-forge
+    graphite2-1.3.15           |       hcc62823_0          84 KB  conda-forge
+    habitat-sim-0.3.1          |py3.9_macos_3d6d67d6deae4ab2472cc84df7a3cef1503f606d        47.8 MB  aihabitat
+    habitat-sim-mutex-1.0      | display_nobullet           3 KB  aihabitat
+    harfbuzz-11.1.0            |       hdfbcdba_0         1.4 MB  conda-forge
+    icu-75.1                   |       h120a0e1_0        11.2 MB  conda-forge
+    imageio-2.37.0             |     pyhfb79c49_0         286 KB  conda-forge
+    imageio-ffmpeg-0.6.0       |     pyhd8ed1ab_0          21 KB  conda-forge
+    importlib-resources-6.5.2  |     pyhd8ed1ab_0           9 KB  conda-forge
+    importlib_resources-6.5.2  |     pyhd8ed1ab_0          33 KB  conda-forge
+    kiwisolver-1.4.7           |   py39h0d8d0ca_0          59 KB  conda-forge
+    lame-3.100                 |    hb7f2c08_1003         530 KB  conda-forge
+    lcms2-2.19.1               |       h5ea7634_1         224 KB  conda-forge
+    lerc-4.2.0                 |       h35c7297_0         213 KB  conda-forge
+    libabseil-20250512.1       | cxx17_hfc00f1c_0         1.1 MB  conda-forge
+    libass-0.17.4              |       h87c4fc2_0         154 KB  conda-forge
+    libblas-3.11.0             |8_he492b99_openblas          19 KB  conda-forge
+    libbrotlicommon-1.2.0      |       h8616949_1          77 KB  conda-forge
+    libbrotlidec-1.2.0         |       h8616949_1          30 KB  conda-forge
+    libbrotlienc-1.2.0         |       h8616949_1         303 KB  conda-forge
+    libcblas-3.11.0            |8_h9b27e0a_openblas          19 KB  conda-forge
+    libcxx-22.1.8              |       h19cb2f5_0         553 KB  conda-forge
+    libdeflate-1.25            |       h7ad9622_1          69 KB  conda-forge
+    libfreetype-2.14.3         |       h694c41f_1           8 KB  conda-forge
+    libfreetype6-2.14.3        |       h58fbd8d_1         357 KB  conda-forge
+    libgcc-16.1.0              |       h13771c8_1         380 KB  conda-forge
+    libgfortran-16.1.0         |       h7e5c614_1          96 KB  conda-forge
+    libgfortran5-16.1.0        |       h70d9f54_1        1009 KB  conda-forge
+    libglib-2.84.0             |       h5c976ab_0         3.6 MB  conda-forge
+    libhwloc-2.12.1            |default_h8c32e24_1000         2.3 MB  conda-forge
+    libintl-0.25.1             |       h3184127_1          95 KB  conda-forge
+    libjpeg-turbo-3.2.0        |       ha1e9b39_1         600 KB  conda-forge
+    liblapack-3.11.0           |8_h859234e_openblas          19 KB  conda-forge
+    libllvm14-14.0.6           |       hc8e404f_4        21.4 MB  conda-forge
+    libogg-1.3.5               |       he3325bb_1         211 KB  conda-forge
+    libopenblas-0.3.33         |openmp_h9e49c7b_0         6.0 MB  conda-forge
+    libopenvino-2025.2.0       |       h346e020_1         4.5 MB  conda-forge
+    libopenvino-auto-batch-plugin-2025.2.0|       heda8b29_1         104 KB  conda-forge
+    libopenvino-auto-plugin-2025.2.0|       heda8b29_1         216 KB  conda-forge
+    libopenvino-hetero-plugin-2025.2.0|       hd57c75b_1         176 KB  conda-forge
+    libopenvino-intel-cpu-plugin-2025.2.0|       h346e020_1        10.2 MB  conda-forge
+    libopenvino-ir-frontend-2025.2.0|       hd57c75b_1         180 KB  conda-forge
+    libopenvino-onnx-frontend-2025.2.0|       ha4fb624_1         1.3 MB  conda-forge
+    libopenvino-paddle-frontend-2025.2.0|       ha4fb624_1         457 KB  conda-forge
+    libopenvino-pytorch-frontend-2025.2.0|       hbc7d668_1         831 KB  conda-forge
+    libopenvino-tensorflow-frontend-2025.2.0|       hd87add6_1         965 KB  conda-forge
+    libopenvino-tensorflow-lite-frontend-2025.2.0|       hbc7d668_1         382 KB  conda-forge
+    libopus-1.6.1              |       hc6ced15_0         338 KB  conda-forge
+    libpng-1.6.58              |       he930e7c_0         292 KB  conda-forge
+    libprotobuf-6.31.1         |       h774df25_5         2.9 MB  conda-forge
+    librsvg-2.58.4             |       h21a6cfa_3         4.7 MB  conda-forge
+    libtiff-4.7.2              |       h95d6d7f_0         409 KB  conda-forge
+    libusb-1.0.29              |       h2287256_0          84 KB  conda-forge
+    libvorbis-1.3.7            |       ha059160_2         273 KB  conda-forge
+    libvpx-1.14.1              |       hf036a51_0         1.2 MB  conda-forge
+    libwebp-base-1.6.0         |       hb276fe9_1         356 KB  conda-forge
+    libxcb-1.17.0              |       hf1f96e2_0         316 KB  conda-forge
+    libxml2-2.13.9             |       he1bc88e_0         596 KB  conda-forge
+    llvm-openmp-22.1.8         |       h0d3cbff_0         304 KB  conda-forge
+    llvmlite-0.43.0            |   py39h164c851_1         294 KB  conda-forge
+    matplotlib-3.9.4           |   py39h6e9494a_0          17 KB  conda-forge
+    matplotlib-base-3.9.4      |   py39hda06d36_0         6.6 MB  conda-forge
+    munkres-1.1.4              |     pyhd8ed1ab_1          15 KB  conda-forge
+    numba-0.60.0               |   py39h90d9702_0         4.1 MB  conda-forge
+    numpy-1.26.4               |   py39h28c39a1_0         6.2 MB  conda-forge
+    openh264-2.6.0             |       hd629203_1         650 KB  conda-forge
+    openjpeg-2.5.4             |       h52bb76a_0         327 KB  conda-forge
+    packaging-26.3             |     pyhc364b38_0         114 KB  conda-forge
+    pango-1.56.3               |       hae8941d_1         422 KB  conda-forge
+    pcre2-10.44                |       hf733adb_2         839 KB  conda-forge
+    pillow-11.3.0              |   py39h1fda9f2_0        40.0 MB  conda-forge
+    pixman-0.46.4              |       h2fb4741_2         313 KB  conda-forge
+    pthread-stubs-0.4          |    h00291cd_1002           8 KB  conda-forge
+    pugixml-1.15               |       h46091d4_0          95 KB  conda-forge
+    pyparsing-3.2.3            |     pyhe01879c_2         100 KB  conda-forge
+    python-dateutil-2.9.0.post0|     pyhe01879c_2         228 KB  conda-forge
+    python_abi-3.9             |           8_cp39           7 KB  conda-forge
+    qhull-2020.2               |       h3c5361c_5         516 KB  conda-forge
+    quaternion-2023.0.4        |   py39h1e1c333_0          72 KB  conda-forge
+    scipy-1.13.1               |   py39h038d4f4_0        14.9 MB  conda-forge
+    sdl2-2.32.54               |       h92383a6_0         722 KB  conda-forge
+    sdl3-3.2.14                |       h41f5390_0         1.5 MB  conda-forge
+    six-1.17.0                 |     pyhe01879c_1          18 KB  conda-forge
+    smmap-3.0.5                |     pyh44b312d_0          22 KB  conda-forge
+    snappy-1.2.2               |       h01f5ddf_1          39 KB  conda-forge
+    svt-av1-3.0.2              |       h240833e_0         2.3 MB  conda-forge
+    tbb-2022.3.0               |       hf0c99ee_1         157 KB  conda-forge
+    tornado-6.5.2              |   py39hb1cfd32_0         636 KB  conda-forge
+    tqdm-4.67.1                |     pyhd8ed1ab_1          87 KB  conda-forge
+    typing_extensions-4.14.1   |     pyhe01879c_0          50 KB  conda-forge
+    unicodedata2-16.0.0        |   py39h80efdc8_0         391 KB  conda-forge
+    x264-1!164.3095            |       h775f41a_2         915 KB  conda-forge
+    x265-3.5                   |       hbb4e6a2_3         3.3 MB  conda-forge
+    xorg-libxau-1.0.12         |       h8616949_1          13 KB  conda-forge
+    xorg-libxdmcp-1.1.5        |       h8616949_1          19 KB  conda-forge
+    zipp-3.23.0                |     pyhd8ed1ab_0          22 KB  conda-forge
+    ------------------------------------------------------------
+                                           Total:       238.3 MB
+
+The following NEW packages will be INSTALLED:
+
+  _openmp_mutex      conda-forge/osx-64::_openmp_mutex-4.5-7_kmp_llvm 
+  aom                conda-forge/osx-64::aom-3.9.1-hf036a51_0 
+  attrs              conda-forge/noarch::attrs-25.3.0-pyh71513ae_0 
+  brotli             conda-forge/osx-64::brotli-1.2.0-hf139dec_1 
+  brotli-bin         conda-forge/osx-64::brotli-bin-1.2.0-h8616949_1 
+  cairo              conda-forge/osx-64::cairo-1.18.4-h950ec3b_0 
+  certifi            conda-forge/noarch::certifi-2025.8.3-pyhd8ed1ab_0 
+  colorama           conda-forge/noarch::colorama-0.4.6-pyhd8ed1ab_1 
+  contourpy          conda-forge/osx-64::contourpy-1.3.0-py39h0d3c867_2 
+  cycler             conda-forge/noarch::cycler-0.12.1-pyhd8ed1ab_1 
+  dav1d              conda-forge/osx-64::dav1d-1.2.1-h0dc2134_0 
+  dbus               conda-forge/osx-64::dbus-1.13.6-h811a1a6_3 
+  expat              conda-forge/osx-64::expat-2.8.1-hcc62823_1 
+  ffmpeg             conda-forge/osx-64::ffmpeg-7.1.1-gpl_h731c141_107 
+  font-ttf-dejavu-s~ conda-forge/noarch::font-ttf-dejavu-sans-mono-2.37-hab24e00_0 
+  font-ttf-inconsol~ conda-forge/noarch::font-ttf-inconsolata-3.000-h77eed37_0 
+  font-ttf-source-c~ conda-forge/noarch::font-ttf-source-code-pro-2.038-h77eed37_0 
+  font-ttf-ubuntu    conda-forge/noarch::font-ttf-ubuntu-0.83-h77eed37_3 
+  fontconfig         conda-forge/osx-64::fontconfig-2.18.1-h7a4440b_0 
+  fonts-conda-ecosy~ conda-forge/noarch::fonts-conda-ecosystem-1-0 
+  fonts-conda-forge  conda-forge/noarch::fonts-conda-forge-1-hc364b38_1 
+  fonttools          conda-forge/osx-64::fonttools-4.59.1-py39h2753485_0 
+  freetype           conda-forge/osx-64::freetype-2.14.3-h694c41f_1 
+  fribidi            conda-forge/osx-64::fribidi-1.0.16-ha1e9b39_1 
+  gdk-pixbuf         conda-forge/osx-64::gdk-pixbuf-2.42.12-ha587570_0 
+  gitdb              conda-forge/noarch::gitdb-4.0.12-pyhd8ed1ab_0 
+  gitpython          conda-forge/noarch::gitpython-3.1.45-pyhff2d567_0 
+  gmp                conda-forge/osx-64::gmp-6.3.0-hf036a51_2 
+  graphite2          conda-forge/osx-64::graphite2-1.3.15-hcc62823_0 
+  habitat-sim        aihabitat/osx-64::habitat-sim-0.3.1-py3.9_macos_3d6d67d6deae4ab2472cc84df7a3cef1503f606d 
+  habitat-sim-mutex  aihabitat/noarch::habitat-sim-mutex-1.0-display_nobullet 
+  harfbuzz           conda-forge/osx-64::harfbuzz-11.1.0-hdfbcdba_0 
+  icu                conda-forge/osx-64::icu-75.1-h120a0e1_0 
+  imageio            conda-forge/noarch::imageio-2.37.0-pyhfb79c49_0 
+  imageio-ffmpeg     conda-forge/noarch::imageio-ffmpeg-0.6.0-pyhd8ed1ab_0 
+  importlib-resourc~ conda-forge/noarch::importlib-resources-6.5.2-pyhd8ed1ab_0 
+  importlib_resourc~ conda-forge/noarch::importlib_resources-6.5.2-pyhd8ed1ab_0 
+  kiwisolver         conda-forge/osx-64::kiwisolver-1.4.7-py39h0d8d0ca_0 
+  lame               conda-forge/osx-64::lame-3.100-hb7f2c08_1003 
+  lcms2              conda-forge/osx-64::lcms2-2.19.1-h5ea7634_1 
+  lerc               conda-forge/osx-64::lerc-4.2.0-h35c7297_0 
+  libabseil          conda-forge/osx-64::libabseil-20250512.1-cxx17_hfc00f1c_0 
+  libass             conda-forge/osx-64::libass-0.17.4-h87c4fc2_0 
+  libblas            conda-forge/osx-64::libblas-3.11.0-8_he492b99_openblas 
+  libbrotlicommon    conda-forge/osx-64::libbrotlicommon-1.2.0-h8616949_1 
+  libbrotlidec       conda-forge/osx-64::libbrotlidec-1.2.0-h8616949_1 
+  libbrotlienc       conda-forge/osx-64::libbrotlienc-1.2.0-h8616949_1 
+  libcblas           conda-forge/osx-64::libcblas-3.11.0-8_h9b27e0a_openblas 
+  libcxx             conda-forge/osx-64::libcxx-22.1.8-h19cb2f5_0 
+  libdeflate         conda-forge/osx-64::libdeflate-1.25-h7ad9622_1 
+  libfreetype        conda-forge/osx-64::libfreetype-2.14.3-h694c41f_1 
+  libfreetype6       conda-forge/osx-64::libfreetype6-2.14.3-h58fbd8d_1 
+  libgcc             conda-forge/osx-64::libgcc-16.1.0-h13771c8_1 
+  libgfortran        conda-forge/osx-64::libgfortran-16.1.0-h7e5c614_1 
+  libgfortran5       conda-forge/osx-64::libgfortran5-16.1.0-h70d9f54_1 
+  libglib            conda-forge/osx-64::libglib-2.84.0-h5c976ab_0 
+  libhwloc           conda-forge/osx-64::libhwloc-2.12.1-default_h8c32e24_1000 
+  libiconv           conda-forge/osx-64::libiconv-1.18-h57a12c2_2 
+  libintl            conda-forge/osx-64::libintl-0.25.1-h3184127_1 
+  libjpeg-turbo      conda-forge/osx-64::libjpeg-turbo-3.2.0-ha1e9b39_1 
+  liblapack          conda-forge/osx-64::liblapack-3.11.0-8_h859234e_openblas 
+  libllvm14          conda-forge/osx-64::libllvm14-14.0.6-hc8e404f_4 
+  libogg             conda-forge/osx-64::libogg-1.3.5-he3325bb_1 
+  libopenblas        conda-forge/osx-64::libopenblas-0.3.33-openmp_h9e49c7b_0 
+  libopenvino        conda-forge/osx-64::libopenvino-2025.2.0-h346e020_1 
+  libopenvino-auto-~ conda-forge/osx-64::libopenvino-auto-batch-plugin-2025.2.0-heda8b29_1 
+  libopenvino-auto-~ conda-forge/osx-64::libopenvino-auto-plugin-2025.2.0-heda8b29_1 
+  libopenvino-heter~ conda-forge/osx-64::libopenvino-hetero-plugin-2025.2.0-hd57c75b_1 
+  libopenvino-intel~ conda-forge/osx-64::libopenvino-intel-cpu-plugin-2025.2.0-h346e020_1 
+  libopenvino-ir-fr~ conda-forge/osx-64::libopenvino-ir-frontend-2025.2.0-hd57c75b_1 
+  libopenvino-onnx-~ conda-forge/osx-64::libopenvino-onnx-frontend-2025.2.0-ha4fb624_1 
+  libopenvino-paddl~ conda-forge/osx-64::libopenvino-paddle-frontend-2025.2.0-ha4fb624_1 
+  libopenvino-pytor~ conda-forge/osx-64::libopenvino-pytorch-frontend-2025.2.0-hbc7d668_1 
+  libopenvino-tenso~ conda-forge/osx-64::libopenvino-tensorflow-frontend-2025.2.0-hd87add6_1 
+  libopenvino-tenso~ conda-forge/osx-64::libopenvino-tensorflow-lite-frontend-2025.2.0-hbc7d668_1 
+  libopus            conda-forge/osx-64::libopus-1.6.1-hc6ced15_0 
+  libpng             conda-forge/osx-64::libpng-1.6.58-he930e7c_0 
+  libprotobuf        conda-forge/osx-64::libprotobuf-6.31.1-h774df25_5 
+  librsvg            conda-forge/osx-64::librsvg-2.58.4-h21a6cfa_3 
+  libtiff            conda-forge/osx-64::libtiff-4.7.2-h95d6d7f_0 
+  libusb             conda-forge/osx-64::libusb-1.0.29-h2287256_0 
+  libvorbis          conda-forge/osx-64::libvorbis-1.3.7-ha059160_2 
+  libvpx             conda-forge/osx-64::libvpx-1.14.1-hf036a51_0 
+  libwebp-base       conda-forge/osx-64::libwebp-base-1.6.0-hb276fe9_1 
+  libxcb             conda-forge/osx-64::libxcb-1.17.0-hf1f96e2_0 
+  libxml2            conda-forge/osx-64::libxml2-2.13.9-he1bc88e_0 
+  llvm-openmp        conda-forge/osx-64::llvm-openmp-22.1.8-h0d3cbff_0 
+  llvmlite           conda-forge/osx-64::llvmlite-0.43.0-py39h164c851_1 
+  matplotlib         conda-forge/osx-64::matplotlib-3.9.4-py39h6e9494a_0 
+  matplotlib-base    conda-forge/osx-64::matplotlib-base-3.9.4-py39hda06d36_0 
+  munkres            conda-forge/noarch::munkres-1.1.4-pyhd8ed1ab_1 
+  numba              conda-forge/osx-64::numba-0.60.0-py39h90d9702_0 
+  numpy              conda-forge/osx-64::numpy-1.26.4-py39h28c39a1_0 
+  openh264           conda-forge/osx-64::openh264-2.6.0-hd629203_1 
+  openjpeg           conda-forge/osx-64::openjpeg-2.5.4-h52bb76a_0 
+  packaging          conda-forge/noarch::packaging-26.3-pyhc364b38_0 
+  pango              conda-forge/osx-64::pango-1.56.3-hae8941d_1 
+  pcre2              conda-forge/osx-64::pcre2-10.44-hf733adb_2 
+  pillow             conda-forge/osx-64::pillow-11.3.0-py39h1fda9f2_0 
+  pixman             conda-forge/osx-64::pixman-0.46.4-h2fb4741_2 
+  pthread-stubs      conda-forge/osx-64::pthread-stubs-0.4-h00291cd_1002 
+  pugixml            conda-forge/osx-64::pugixml-1.15-h46091d4_0 
+  pyparsing          conda-forge/noarch::pyparsing-3.2.3-pyhe01879c_2 
+  python-dateutil    conda-forge/noarch::python-dateutil-2.9.0.post0-pyhe01879c_2 
+  python_abi         conda-forge/noarch::python_abi-3.9-8_cp39 
+  qhull              conda-forge/osx-64::qhull-2020.2-h3c5361c_5 
+  quaternion         conda-forge/osx-64::quaternion-2023.0.4-py39h1e1c333_0 
+  scipy              conda-forge/osx-64::scipy-1.13.1-py39h038d4f4_0 
+  sdl2               conda-forge/osx-64::sdl2-2.32.54-h92383a6_0 
+  sdl3               conda-forge/osx-64::sdl3-3.2.14-h41f5390_0 
+  six                conda-forge/noarch::six-1.17.0-pyhe01879c_1 
+  smmap              conda-forge/noarch::smmap-3.0.5-pyh44b312d_0 
+  snappy             conda-forge/osx-64::snappy-1.2.2-h01f5ddf_1 
+  svt-av1            conda-forge/osx-64::svt-av1-3.0.2-h240833e_0 
+  tbb                conda-forge/osx-64::tbb-2022.3.0-hf0c99ee_1 
+  tornado            conda-forge/osx-64::tornado-6.5.2-py39hb1cfd32_0 
+  tqdm               conda-forge/noarch::tqdm-4.67.1-pyhd8ed1ab_1 
+  typing_extensions  conda-forge/noarch::typing_extensions-4.14.1-pyhe01879c_0 
+  unicodedata2       conda-forge/osx-64::unicodedata2-16.0.0-py39h80efdc8_0 
+  x264               conda-forge/osx-64::x264-1!164.3095-h775f41a_2 
+  x265               conda-forge/osx-64::x265-3.5-hbb4e6a2_3 
+  xorg-libxau        conda-forge/osx-64::xorg-libxau-1.0.12-h8616949_1 
+  xorg-libxdmcp      conda-forge/osx-64::xorg-libxdmcp-1.1.5-h8616949_1 
+  zipp               conda-forge/noarch::zipp-3.23.0-pyhd8ed1ab_0 
+  zstd               conda-forge/osx-64::zstd-1.5.7-h3eecb57_6 
+
+
+
+Downloading and Extracting Packages: ...working...habitat-sim-0.3.1    | 47.8 MB   |            |   0% 
+pillow-11.3.0        | 40.0 MB   |            |   0% [A
+
+libllvm14-14.0.6     | 21.4 MB   |            |   0% [A[A
+
+
+scipy-1.13.1         | 14.9 MB   |            |   0% [A[A[A
+
+
+
+icu-75.1             | 11.2 MB   |            |   0% [A[A[A[A
+
+
+
+
+libopenvino-intel-cp | 10.2 MB   |            |   0% [A[A[A[A[A
+
+
+
+
+
+ffmpeg-7.1.1         | 9.7 MB    |            |   0% [A[A[A[A[A[A
+
+
+
+
+
+
+matplotlib-base-3.9. | 6.6 MB    |            |   0% [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+numpy-1.26.4         | 6.2 MB    |            |   0% [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+libopenblas-0.3.33   | 6.0 MB    |            |   0% [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+librsvg-2.58.4       | 4.7 MB    |            |   0% [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+libopenvino-2025.2.0 | 4.5 MB    |            |   0% [A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+numba-0.60.0         | 4.1 MB    |            |   0% [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+libglib-2.84.0       | 3.6 MB    |            |   0% [A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+x265-3.5             | 3.3 MB    |            |   0% [A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+libprotobuf-6.31.1   | 2.9 MB    |            |   0% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+aom-3.9.1            | 2.6 MB    |            |   0% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+svt-av1-3.0.2        | 2.3 MB    |            |   0% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+libhwloc-2.12.1      | 2.3 MB    |            |   0% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ ... (more hidden) ...[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+icu-75.1             | 11.2 MB   |            |   0% [A[A[A[A
+
+libllvm14-14.0.6     | 21.4 MB   |            |   0% [A[A
+
+
+scipy-1.13.1         | 14.9 MB   |            |   0% [A[A[A
+pillow-11.3.0        | 40.0 MB   |            |   0% [A
+
+
+
+icu-75.1             | 11.2 MB   | 2          |   3% [A[A[A[A
+
+libllvm14-14.0.6     | 21.4 MB   | 1          |   1% [A[A
+
+
+scipy-1.13.1         | 14.9 MB   | 1          |   2% [A[A[A
+pillow-11.3.0        | 40.0 MB   |            |   1% [A
+
+
+
+icu-75.1             | 11.2 MB   | 4          |   5% [A[A[A[A
+
+libllvm14-14.0.6     | 21.4 MB   | 3          |   3% [A[A
+
+
+scipy-1.13.1         | 14.9 MB   | 3          |   4% [A[A[A
+pillow-11.3.0        | 40.0 MB   | 1          |   1% [A
+
+
+
+icu-75.1             | 11.2 MB   | 7          |   7% [A[A[A[A
+
+
+scipy-1.13.1         | 14.9 MB   | 5          |   5% [A[A[A
+pillow-11.3.0        | 40.0 MB   | 1          |   2% [A
+
+libllvm14-14.0.6     | 21.4 MB   | 5          |   6% [A[A
+
+
+
+icu-75.1             | 11.2 MB   | 9          |   9% [A[A[A[A
+
+
+scipy-1.13.1         | 14.9 MB   | 7          |   8% [A[A[A
+pillow-11.3.0        | 40.0 MB   | 2          |   3% [A
+
+libllvm14-14.0.6     | 21.4 MB   | 8          |   8% [A[A
+
+
+
+icu-75.1             | 11.2 MB   | #1         |  11% [A[A[A[A
+pillow-11.3.0        | 40.0 MB   | 3          |   3% [A
+
+
+scipy-1.13.1         | 14.9 MB   | 9          |  10% [A[A[A
+
+libllvm14-14.0.6     | 21.4 MB   | 9          |  10% [A[A
+pillow-11.3.0        | 40.0 MB   | 4          |   4% [A
+
+
+scipy-1.13.1         | 14.9 MB   | #2         |  12% [A[A[A
+
+
+
+icu-75.1             | 11.2 MB   | #3         |  13% [A[A[A[A
+
+libllvm14-14.0.6     | 21.4 MB   | #1         |  12% [A[A
+pillow-11.3.0        | 40.0 MB   | 4          |   5% [A
+
+
+scipy-1.13.1         | 14.9 MB   | #4         |  15% [A[A[A
+
+
+
+icu-75.1             | 11.2 MB   | #5         |  15% [A[A[A[A
+
+libllvm14-14.0.6     | 21.4 MB   | #4         |  14% [A[A
+pillow-11.3.0        | 40.0 MB   | 5          |   6% [A
+
+
+
+icu-75.1             | 11.2 MB   | #7         |  17% [A[A[A[A
+
+
+scipy-1.13.1         | 14.9 MB   | #7         |  17% [A[A[A
+
+libllvm14-14.0.6     | 21.4 MB   | #6         |  16% [A[A
+pillow-11.3.0        | 40.0 MB   | 6          |   6% [A
+
+
+
+icu-75.1             | 11.2 MB   | #8         |  19% [A[A[A[A
+
+
+scipy-1.13.1         | 14.9 MB   | #9         |  19% [A[A[A
+
+libllvm14-14.0.6     | 21.4 MB   | #7         |  18% [A[A
+
+
+scipy-1.13.1         | 14.9 MB   | ##1        |  21% [A[A[A
+pillow-11.3.0        | 40.0 MB   | 7          |   7% [A
+
+
+
+icu-75.1             | 11.2 MB   | ##         |  21% [A[A[A[A
+
+libllvm14-14.0.6     | 21.4 MB   | #9         |  20% [A[A
+
+
+scipy-1.13.1         | 14.9 MB   | ##3        |  23% [A[A[A
+pillow-11.3.0        | 40.0 MB   | 7          |   8% [A
+
+
+
+icu-75.1             | 11.2 MB   | ##2        |  22% [A[A[A[A
+
+libllvm14-14.0.6     | 21.4 MB   | ##1        |  22% [A[A
+
+
+scipy-1.13.1         | 14.9 MB   | ##5        |  25% [A[A[A
+pillow-11.3.0        | 40.0 MB   | 8          |   8% [A
+
+
+
+icu-75.1             | 11.2 MB   | ##3        |  24% [A[A[A[A
+
+libllvm14-14.0.6     | 21.4 MB   | ##3        |  24% [A[A
+
+
+scipy-1.13.1         | 14.9 MB   | ##7        |  27% [A[A[A
+pillow-11.3.0        | 40.0 MB   | 9          |   9% [A
+
+
+
+icu-75.1             | 11.2 MB   | ##5        |  25% [A[A[A[A
+
+libllvm14-14.0.6     | 21.4 MB   | ##5        |  25% [A[A
+
+
+scipy-1.13.1         | 14.9 MB   | ##9        |  29% [A[A[A
+pillow-11.3.0        | 40.0 MB   | 9          |  10% [A
+
+
+
+icu-75.1             | 11.2 MB   | ##7        |  27% [A[A[A[A
+
+libllvm14-14.0.6     | 21.4 MB   | ##7        |  27% [A[A
+
+
+scipy-1.13.1         | 14.9 MB   | ###1       |  31% [A[A[A
+pillow-11.3.0        | 40.0 MB   | #          |  11% [A
+
+libllvm14-14.0.6     | 21.4 MB   | ##9        |  30% [A[A
+
+
+
+icu-75.1             | 11.2 MB   | ##8        |  29% [A[A[A[A
+
+
+scipy-1.13.1         | 14.9 MB   | ###3       |  34% [A[A[A
+pillow-11.3.0        | 40.0 MB   | #1         |  11% [A
+
+libllvm14-14.0.6     | 21.4 MB   | ###1       |  32% [A[A
+
+
+scipy-1.13.1         | 14.9 MB   | ###5       |  36% [A[A[A
+
+
+
+icu-75.1             | 11.2 MB   | ##9        |  30% [A[A[A[A
+pillow-11.3.0        | 40.0 MB   | #2         |  12% [A
+
+libllvm14-14.0.6     | 21.4 MB   | ###3       |  34% [A[A
+
+
+scipy-1.13.1         | 14.9 MB   | ###7       |  38% [A[A[A
+
+
+
+icu-75.1             | 11.2 MB   | ###1       |  31% [A[A[A[A
+pillow-11.3.0        | 40.0 MB   | #2         |  13% [A
+
+libllvm14-14.0.6     | 21.4 MB   | ###5       |  36% [A[A
+
+
+scipy-1.13.1         | 14.9 MB   | ###9       |  40% [A[A[A
+
+
+
+icu-75.1             | 11.2 MB   | ###2       |  33% [A[A[A[A
+pillow-11.3.0        | 40.0 MB   | #3         |  13% [A
+
+libllvm14-14.0.6     | 21.4 MB   | ###7       |  38% [A[A
+
+
+scipy-1.13.1         | 14.9 MB   | ####1      |  42% [A[A[A
+
+
+
+icu-75.1             | 11.2 MB   | ###4       |  34% [A[A[A[A
+pillow-11.3.0        | 40.0 MB   | #4         |  14% [A
+
+libllvm14-14.0.6     | 21.4 MB   | ###9       |  40% [A[A
+
+
+scipy-1.13.1         | 14.9 MB   | ####3      |  44% [A[A[A
+
+
+
+icu-75.1             | 11.2 MB   | ###5       |  36% [A[A[A[A
+pillow-11.3.0        | 40.0 MB   | #4         |  15% [A
+
+libllvm14-14.0.6     | 21.4 MB   | ####1      |  42% [A[A
+
+
+scipy-1.13.1         | 14.9 MB   | ####5      |  46% [A[A[A
+
+
+
+icu-75.1             | 11.2 MB   | ###7       |  37% [A[A[A[A
+pillow-11.3.0        | 40.0 MB   | #5         |  16% [A
+
+libllvm14-14.0.6     | 21.4 MB   | ####3      |  44% [A[A
+
+
+scipy-1.13.1         | 14.9 MB   | ####7      |  47% [A[A[A
+
+
+
+icu-75.1             | 11.2 MB   | ###8       |  38% [A[A[A[A
+pillow-11.3.0        | 40.0 MB   | #6         |  16% [A
+
+libllvm14-14.0.6     | 21.4 MB   | ####5      |  46% [A[A
+
+
+scipy-1.13.1         | 14.9 MB   | ####9      |  50% [A[A[A
+
+
+
+icu-75.1             | 11.2 MB   | ####       |  40% [A[A[A[A
+pillow-11.3.0        | 40.0 MB   | #6         |  17% [A
+
+libllvm14-14.0.6     | 21.4 MB   | ####7      |  48% [A[A
+
+
+scipy-1.13.1         | 14.9 MB   | #####1     |  52% [A[A[A
+
+
+
+icu-75.1             | 11.2 MB   | ####1      |  42% [A[A[A[A
+pillow-11.3.0        | 40.0 MB   | #7         |  18% [A
+
+libllvm14-14.0.6     | 21.4 MB   | ####9      |  50% [A[A
+
+
+scipy-1.13.1         | 14.9 MB   | #####3     |  54% [A[A[A
+pillow-11.3.0        | 40.0 MB   | #8         |  18% [A
+
+
+
+icu-75.1             | 11.2 MB   | ####3      |  44% [A[A[A[A
+
+libllvm14-14.0.6     | 21.4 MB   | #####1     |  52% [A[A
+
+
+scipy-1.13.1         | 14.9 MB   | #####5     |  56% [A[A[A
+pillow-11.3.0        | 40.0 MB   | #9         |  19% [A
+
+
+
+icu-75.1             | 11.2 MB   | ####5      |  46% [A[A[A[A
+
+libllvm14-14.0.6     | 21.4 MB   | #####3     |  54% [A[A
+
+
+scipy-1.13.1         | 14.9 MB   | #####7     |  58% [A[A[A
+pillow-11.3.0        | 40.0 MB   | #9         |  20% [A
+
+
+
+icu-75.1             | 11.2 MB   | ####7      |  48% [A[A[A[A
+
+libllvm14-14.0.6     | 21.4 MB   | #####5     |  55% [A[A
+
+
+scipy-1.13.1         | 14.9 MB   | #####9     |  60% [A[A[A
+pillow-11.3.0        | 40.0 MB   | ##         |  21% [A
+
+
+
+icu-75.1             | 11.2 MB   | ####9      |  50% [A[A[A[A
+
+libllvm14-14.0.6     | 21.4 MB   | #####7     |  57% [A[A
+
+
+scipy-1.13.1         | 14.9 MB   | ######2    |  62% [A[A[A
+pillow-11.3.0        | 40.0 MB   | ##1        |  21% [A
+
+
+
+icu-75.1             | 11.2 MB   | #####1     |  52% [A[A[A[A
+
+
+scipy-1.13.1         | 14.9 MB   | ######4    |  64% [A[A[A
+pillow-11.3.0        | 40.0 MB   | ##2        |  22% [A
+
+libllvm14-14.0.6     | 21.4 MB   | #####9     |  59% [A[A
+
+
+
+icu-75.1             | 11.2 MB   | #####3     |  54% [A[A[A[A
+
+
+scipy-1.13.1         | 14.9 MB   | ######6    |  66% [A[A[A
+pillow-11.3.0        | 40.0 MB   | ##2        |  23% [A
+
+libllvm14-14.0.6     | 21.4 MB   | ######2    |  63% [A[A
+
+
+scipy-1.13.1         | 14.9 MB   | ######8    |  68% [A[A[A
+
+
+
+icu-75.1             | 11.2 MB   | #####5     |  56% [A[A[A[A
+pillow-11.3.0        | 40.0 MB   | ##3        |  24% [A
+
+libllvm14-14.0.6     | 21.4 MB   | ######4    |  65% [A[A
+
+
+
+icu-75.1             | 11.2 MB   | #####7     |  58% [A[A[A[A
+
+
+scipy-1.13.1         | 14.9 MB   | #######    |  71% [A[A[A
+pillow-11.3.0        | 40.0 MB   | ##4        |  25% [A
+
+libllvm14-14.0.6     | 21.4 MB   | ######6    |  67% [A[A
+
+
+scipy-1.13.1         | 14.9 MB   | #######2   |  73% [A[A[A
+
+
+
+icu-75.1             | 11.2 MB   | #####9     |  60% [A[A[A[A
+
+libllvm14-14.0.6     | 21.4 MB   | ######8    |  69% [A[A
+pillow-11.3.0        | 40.0 MB   | ##5        |  25% [A
+
+
+scipy-1.13.1         | 14.9 MB   | #######4   |  75% [A[A[A
+
+
+
+icu-75.1             | 11.2 MB   | ######1    |  61% [A[A[A[A
+
+libllvm14-14.0.6     | 21.4 MB   | #######    |  71% [A[A
+pillow-11.3.0        | 40.0 MB   | ##5        |  26% [A
+
+
+scipy-1.13.1         | 14.9 MB   | #######6   |  77% [A[A[A
+
+
+
+icu-75.1             | 11.2 MB   | ######2    |  63% [A[A[A[A
+
+libllvm14-14.0.6     | 21.4 MB   | #######2   |  73% [A[A
+
+
+scipy-1.13.1         | 14.9 MB   | #######8   |  79% [A[A[A
+
+libllvm14-14.0.6     | 21.4 MB   | #######4   |  74% [A[A
+
+
+
+icu-75.1             | 11.2 MB   | ######5    |  65% [A[A[A[A
+pillow-11.3.0        | 40.0 MB   | ##6        |  27% [A
+
+
+scipy-1.13.1         | 14.9 MB   | ########   |  81% [A[A[A
+
+libllvm14-14.0.6     | 21.4 MB   | #######6   |  76% [A[A
+
+
+
+icu-75.1             | 11.2 MB   | ######6    |  67% [A[A[A[A
+pillow-11.3.0        | 40.0 MB   | ##7        |  28% [A
+
+
+scipy-1.13.1         | 14.9 MB   | ########2  |  83% [A[A[A
+
+libllvm14-14.0.6     | 21.4 MB   | #######8   |  78% [A[A
+
+
+
+icu-75.1             | 11.2 MB   | ######9    |  69% [A[A[A[A
+pillow-11.3.0        | 40.0 MB   | ##8        |  28% [A
+
+
+scipy-1.13.1         | 14.9 MB   | ########4  |  85% [A[A[A
+
+libllvm14-14.0.6     | 21.4 MB   | ########   |  80% [A[A
+
+
+
+icu-75.1             | 11.2 MB   | #######    |  71% [A[A[A[A
+pillow-11.3.0        | 40.0 MB   | ##9        |  29% [A
+
+
+scipy-1.13.1         | 14.9 MB   | ########6  |  87% [A[A[A
+
+libllvm14-14.0.6     | 21.4 MB   | ########2  |  82% [A[A
+pillow-11.3.0        | 40.0 MB   | ##9        |  30% [A
+
+
+
+icu-75.1             | 11.2 MB   | #######3   |  73% [A[A[A[A
+
+
+scipy-1.13.1         | 14.9 MB   | ########8  |  89% [A[A[A
+
+libllvm14-14.0.6     | 21.4 MB   | ########4  |  84% [A[A
+pillow-11.3.0        | 40.0 MB   | ###        |  31% [A
+
+
+
+icu-75.1             | 11.2 MB   | #######5   |  75% [A[A[A[A
+
+
+scipy-1.13.1         | 14.9 MB   | #########  |  91% [A[A[A
+pillow-11.3.0        | 40.0 MB   | ###1       |  31% [A
+
+libllvm14-14.0.6     | 21.4 MB   | ########5  |  86% [A[A
+
+
+
+icu-75.1             | 11.2 MB   | #######7   |  77% [A[A[A[A
+
+
+scipy-1.13.1         | 14.9 MB   | #########2 |  93% [A[A[A
+
+libllvm14-14.0.6     | 21.4 MB   | ########7  |  88% [A[A
+
+
+
+icu-75.1             | 11.2 MB   | #######8   |  79% [A[A[A[A
+pillow-11.3.0        | 40.0 MB   | ###2       |  32% [A
+
+
+scipy-1.13.1         | 14.9 MB   | #########4 |  95% [A[A[A
+
+libllvm14-14.0.6     | 21.4 MB   | ########9  |  90% [A[A
+
+
+
+icu-75.1             | 11.2 MB   | ########1  |  81% [A[A[A[A
+pillow-11.3.0        | 40.0 MB   | ###2       |  33% [A
+
+
+scipy-1.13.1         | 14.9 MB   | #########6 |  97% [A[A[A
+
+libllvm14-14.0.6     | 21.4 MB   | #########1 |  92% [A[A
+
+
+
+icu-75.1             | 11.2 MB   | ########3  |  84% [A[A[A[A
+pillow-11.3.0        | 40.0 MB   | ###3       |  34% [A
+
+
+scipy-1.13.1         | 14.9 MB   | #########8 |  99% [A[A[A
+
+libllvm14-14.0.6     | 21.4 MB   | #########3 |  93% [A[A
+
+
+
+icu-75.1             | 11.2 MB   | ########5  |  86% [A[A[A[A
+pillow-11.3.0        | 40.0 MB   | ###4       |  34% [A
+
+
+scipy-1.13.1         | 14.9 MB   | ########## | 100% [A[A[A
+
+libllvm14-14.0.6     | 21.4 MB   | #########5 |  95% [A[A
+
+
+
+icu-75.1             | 11.2 MB   | ########8  |  89% [A[A[A[A
+pillow-11.3.0        | 40.0 MB   | ###5       |  35% [A
+
+
+
+
+libopenvino-intel-cp | 10.2 MB   |            |   0% [A[A[A[A[A
+
+libllvm14-14.0.6     | 21.4 MB   | #########7 |  97% [A[A
+pillow-11.3.0        | 40.0 MB   | ###5       |  36% [A
+
+
+
+icu-75.1             | 11.2 MB   | #########1 |  91% [A[A[A[A
+
+
+
+
+libopenvino-intel-cp | 10.2 MB   | 2          |   3% [A[A[A[A[A
+
+libllvm14-14.0.6     | 21.4 MB   | #########9 |  99% [A[A
+pillow-11.3.0        | 40.0 MB   | ###6       |  37% [A
+
+
+
+
+libopenvino-intel-cp | 10.2 MB   | 5          |   6% [A[A[A[A[A
+
+
+
+icu-75.1             | 11.2 MB   | #########3 |  93% [A[A[A[A
+
+
+scipy-1.13.1         | 14.9 MB   | ########## | 100% [A[A[A
+
+libllvm14-14.0.6     | 21.4 MB   | ########## | 100% [A[A
+pillow-11.3.0        | 40.0 MB   | ###7       |  38% [A
+
+
+
+
+libopenvino-intel-cp | 10.2 MB   | 9          |   9% [A[A[A[A[A
+
+
+
+icu-75.1             | 11.2 MB   | #########6 |  97% [A[A[A[A
+
+
+
+
+
+ffmpeg-7.1.1         | 9.7 MB    |            |   0% [A[A[A[A[A[A
+pillow-11.3.0        | 40.0 MB   | ###8       |  39% [A
+
+libllvm14-14.0.6     | 21.4 MB   | ########## | 100% [A[A
+
+
+
+
+libopenvino-intel-cp | 10.2 MB   | #1         |  12% [A[A[A[A[A
+
+
+
+
+
+ffmpeg-7.1.1         | 9.7 MB    | 3          |   4% [A[A[A[A[A[A
+
+
+
+icu-75.1             | 11.2 MB   | #########8 |  99% [A[A[A[A
+pillow-11.3.0        | 40.0 MB   | ###9       |  39% [A
+
+
+
+icu-75.1             | 11.2 MB   | ########## | 100% [A[A[A[A
+
+
+
+
+libopenvino-intel-cp | 10.2 MB   | #4         |  15% [A[A[A[A[A
+
+
+
+
+
+ffmpeg-7.1.1         | 9.7 MB    | 8          |   9% [A[A[A[A[A[A
+pillow-11.3.0        | 40.0 MB   | ####       |  40% [A
+
+
+
+icu-75.1             | 11.2 MB   | ########## | 100% [A[A[A[A
+
+
+
+
+libopenvino-intel-cp | 10.2 MB   | #8         |  18% [A[A[A[A[A
+
+
+
+
+
+
+matplotlib-base-3.9. | 6.6 MB    |            |   0% [A[A[A[A[A[A[A
+
+
+
+
+
+ffmpeg-7.1.1         | 9.7 MB    | #3         |  13% [A[A[A[A[A[A
+pillow-11.3.0        | 40.0 MB   | ####1      |  41% [A
+
+
+
+
+
+
+matplotlib-base-3.9. | 6.6 MB    | 2          |   3% [A[A[A[A[A[A[A
+
+
+
+
+
+ffmpeg-7.1.1         | 9.7 MB    | #7         |  17% [A[A[A[A[A[A
+
+
+
+
+libopenvino-intel-cp | 10.2 MB   | ##         |  21% [A[A[A[A[A
+pillow-11.3.0        | 40.0 MB   | ####1      |  42% [A
+
+
+
+
+
+
+matplotlib-base-3.9. | 6.6 MB    | 5          |   6% [A[A[A[A[A[A[A
+
+
+
+
+
+ffmpeg-7.1.1         | 9.7 MB    | ##         |  21% [A[A[A[A[A[A
+
+
+
+
+libopenvino-intel-cp | 10.2 MB   | ##3        |  24% [A[A[A[A[A
+pillow-11.3.0        | 40.0 MB   | ####2      |  43% [A
+
+
+
+
+
+
+matplotlib-base-3.9. | 6.6 MB    | 9          |   9% [A[A[A[A[A[A[A
+
+
+
+
+
+ffmpeg-7.1.1         | 9.7 MB    | ##5        |  26% [A[A[A[A[A[A
+
+
+
+
+libopenvino-intel-cp | 10.2 MB   | ##6        |  27% [A[A[A[A[A
+pillow-11.3.0        | 40.0 MB   | ####3      |  43% [A
+
+
+
+
+
+
+matplotlib-base-3.9. | 6.6 MB    | #1         |  12% [A[A[A[A[A[A[A
+
+
+
+
+
+ffmpeg-7.1.1         | 9.7 MB    | ##9        |  30% [A[A[A[A[A[A
+
+
+
+
+libopenvino-intel-cp | 10.2 MB   | ##9        |  29% [A[A[A[A[A
+pillow-11.3.0        | 40.0 MB   | ####4      |  44% [A
+
+
+
+
+
+
+matplotlib-base-3.9. | 6.6 MB    | #6         |  16% [A[A[A[A[A[A[A
+
+
+
+
+
+ffmpeg-7.1.1         | 9.7 MB    | ###4       |  34% [A[A[A[A[A[A
+
+
+
+
+libopenvino-intel-cp | 10.2 MB   | ###2       |  32% [A[A[A[A[A
+pillow-11.3.0        | 40.0 MB   | ####5      |  45% [A
+
+
+
+
+
+ffmpeg-7.1.1         | 9.7 MB    | ###8       |  38% [A[A[A[A[A[A
+
+
+
+
+libopenvino-intel-cp | 10.2 MB   | ###5       |  35% [A[A[A[A[A
+
+
+
+
+
+
+matplotlib-base-3.9. | 6.6 MB    | #9         |  19% [A[A[A[A[A[A[A
+pillow-11.3.0        | 40.0 MB   | ####5      |  46% [A
+
+
+
+
+
+ffmpeg-7.1.1         | 9.7 MB    | ####3      |  43% [A[A[A[A[A[A
+
+
+
+
+libopenvino-intel-cp | 10.2 MB   | ###8       |  38% [A[A[A[A[A
+
+
+
+
+
+
+matplotlib-base-3.9. | 6.6 MB    | ##2        |  23% [A[A[A[A[A[A[A
+pillow-11.3.0        | 40.0 MB   | ####6      |  47% [A
+
+
+
+
+
+ffmpeg-7.1.1         | 9.7 MB    | ####7      |  47% [A[A[A[A[A[A
+
+
+
+
+
+
+matplotlib-base-3.9. | 6.6 MB    | ##6        |  26% [A[A[A[A[A[A[A
+
+
+
+
+libopenvino-intel-cp | 10.2 MB   | ####1      |  41% [A[A[A[A[A
+pillow-11.3.0        | 40.0 MB   | ####7      |  47% [A
+
+
+
+
+
+ffmpeg-7.1.1         | 9.7 MB    | #####1     |  52% [A[A[A[A[A[A
+
+
+
+
+libopenvino-intel-cp | 10.2 MB   | ####4      |  44% [A[A[A[A[A
+
+
+
+
+
+
+matplotlib-base-3.9. | 6.6 MB    | ##9        |  29% [A[A[A[A[A[A[A
+pillow-11.3.0        | 40.0 MB   | ####7      |  48% [A
+
+
+
+
+libopenvino-intel-cp | 10.2 MB   | ####6      |  47% [A[A[A[A[A
+
+
+
+
+
+
+matplotlib-base-3.9. | 6.6 MB    | ###2       |  33% [A[A[A[A[A[A[A
+
+
+
+
+
+ffmpeg-7.1.1         | 9.7 MB    | #####5     |  56% [A[A[A[A[A[A
+pillow-11.3.0        | 40.0 MB   | ####8      |  49% [A
+
+
+
+
+libopenvino-intel-cp | 10.2 MB   | #####      |  50% [A[A[A[A[A
+
+
+
+
+
+
+matplotlib-base-3.9. | 6.6 MB    | ###6       |  37% [A[A[A[A[A[A[A
+
+
+
+
+
+ffmpeg-7.1.1         | 9.7 MB    | ######1    |  61% [A[A[A[A[A[A
+pillow-11.3.0        | 40.0 MB   | ####9      |  50% [A
+
+
+
+
+libopenvino-intel-cp | 10.2 MB   | #####3     |  53% [A[A[A[A[A
+
+
+
+
+
+ffmpeg-7.1.1         | 9.7 MB    | ######5    |  65% [A[A[A[A[A[A
+
+
+
+
+
+
+matplotlib-base-3.9. | 6.6 MB    | ###9       |  40% [A[A[A[A[A[A[A
+pillow-11.3.0        | 40.0 MB   | #####      |  50% [A
+
+
+
+
+libopenvino-intel-cp | 10.2 MB   | #####6     |  56% [A[A[A[A[A
+
+
+
+
+
+ffmpeg-7.1.1         | 9.7 MB    | ######9    |  69% [A[A[A[A[A[A
+
+
+
+
+
+
+matplotlib-base-3.9. | 6.6 MB    | ####2      |  43% [A[A[A[A[A[A[A
+pillow-11.3.0        | 40.0 MB   | #####1     |  51% [A
+
+
+
+
+libopenvino-intel-cp | 10.2 MB   | #####9     |  59% [A[A[A[A[A
+
+
+
+
+
+ffmpeg-7.1.1         | 9.7 MB    | #######3   |  74% [A[A[A[A[A[A
+
+
+
+
+
+
+matplotlib-base-3.9. | 6.6 MB    | ####5      |  46% [A[A[A[A[A[A[A
+pillow-11.3.0        | 40.0 MB   | #####1     |  52% [A
+
+
+
+
+libopenvino-intel-cp | 10.2 MB   | ######1    |  62% [A[A[A[A[A
+
+
+
+
+
+ffmpeg-7.1.1         | 9.7 MB    | #######7   |  78% [A[A[A[A[A[A
+
+
+
+
+
+
+matplotlib-base-3.9. | 6.6 MB    | ####8      |  49% [A[A[A[A[A[A[A
+pillow-11.3.0        | 40.0 MB   | #####2     |  52% [A
+
+
+
+
+libopenvino-intel-cp | 10.2 MB   | ######4    |  65% [A[A[A[A[A
+
+
+
+
+
+ffmpeg-7.1.1         | 9.7 MB    | ########2  |  83% [A[A[A[A[A[A
+pillow-11.3.0        | 40.0 MB   | #####3     |  53% [A
+
+
+
+
+libopenvino-intel-cp | 10.2 MB   | ######7    |  67% [A[A[A[A[A
+
+
+
+
+
+
+matplotlib-base-3.9. | 6.6 MB    | #####1     |  52% [A[A[A[A[A[A[A
+
+
+
+
+
+ffmpeg-7.1.1         | 9.7 MB    | ########6  |  87% [A[A[A[A[A[A
+pillow-11.3.0        | 40.0 MB   | #####3     |  54% [A
+
+
+
+
+libopenvino-intel-cp | 10.2 MB   | #######    |  70% [A[A[A[A[A
+
+
+
+
+
+
+matplotlib-base-3.9. | 6.6 MB    | #####4     |  55% [A[A[A[A[A[A[A
+
+
+
+
+
+ffmpeg-7.1.1         | 9.7 MB    | #########1 |  91% [A[A[A[A[A[A
+pillow-11.3.0        | 40.0 MB   | #####4     |  54% [A
+
+
+
+
+libopenvino-intel-cp | 10.2 MB   | #######3   |  73% [A[A[A[A[A
+
+
+
+
+
+ffmpeg-7.1.1         | 9.7 MB    | #########5 |  95% [A[A[A[A[A[A
+
+
+
+
+
+
+matplotlib-base-3.9. | 6.6 MB    | #####7     |  57% [A[A[A[A[A[A[A
+pillow-11.3.0        | 40.0 MB   | #####5     |  55% [A
+
+
+
+
+libopenvino-intel-cp | 10.2 MB   | #######6   |  76% [A[A[A[A[A
+
+
+
+
+
+
+matplotlib-base-3.9. | 6.6 MB    | #####9     |  60% [A[A[A[A[A[A[A
+
+
+
+
+
+ffmpeg-7.1.1         | 9.7 MB    | ########## | 100% [A[A[A[A[A[A
+
+
+
+
+
+ffmpeg-7.1.1         | 9.7 MB    | ########## | 100% [A[A[A[A[A[A
+pillow-11.3.0        | 40.0 MB   | #####6     |  56% [A
+
+
+
+
+libopenvino-intel-cp | 10.2 MB   | ########1  |  81% [A[A[A[A[A
+
+
+
+
+
+
+matplotlib-base-3.9. | 6.6 MB    | ######4    |  64% [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+numpy-1.26.4         | 6.2 MB    |            |   0% [A[A[A[A[A[A[A[A
+
+
+
+
+
+ffmpeg-7.1.1         | 9.7 MB    | ########## | 100% [A[A[A[A[A[A
+pillow-11.3.0        | 40.0 MB   | #####6     |  57% [A
+
+
+
+
+libopenvino-intel-cp | 10.2 MB   | ########5  |  85% [A[A[A[A[A
+
+
+
+
+
+
+
+numpy-1.26.4         | 6.2 MB    | 7          |   8% [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+matplotlib-base-3.9. | 6.6 MB    | ######7    |  67% [A[A[A[A[A[A[A
+
+
+
+
+libopenvino-intel-cp | 10.2 MB   | ########8  |  89% [A[A[A[A[A
+pillow-11.3.0        | 40.0 MB   | #####7     |  58% [A
+
+
+
+
+
+
+
+numpy-1.26.4         | 6.2 MB    | #3         |  13% [A[A[A[A[A[A[A[A
+pillow-11.3.0        | 40.0 MB   | #####8     |  58% [A
+
+
+
+
+
+
+
+numpy-1.26.4         | 6.2 MB    | ##         |  20% [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+matplotlib-base-3.9. | 6.6 MB    | #######    |  70% [A[A[A[A[A[A[A
+
+
+
+
+libopenvino-intel-cp | 10.2 MB   | #########2 |  92% [A[A[A[A[A
+
+
+
+
+
+
+
+numpy-1.26.4         | 6.2 MB    | ##6        |  27% [A[A[A[A[A[A[A[A
+pillow-11.3.0        | 40.0 MB   | #####9     |  59% [A
+
+
+
+
+
+
+matplotlib-base-3.9. | 6.6 MB    | #######2   |  73% [A[A[A[A[A[A[A
+
+
+
+
+libopenvino-intel-cp | 10.2 MB   | #########5 |  95% [A[A[A[A[A
+
+
+
+
+
+
+
+numpy-1.26.4         | 6.2 MB    | ###2       |  33% [A[A[A[A[A[A[A[A
+pillow-11.3.0        | 40.0 MB   | #####9     |  60% [A
+
+
+
+
+libopenvino-intel-cp | 10.2 MB   | #########8 |  99% [A[A[A[A[A
+
+
+
+
+
+
+matplotlib-base-3.9. | 6.6 MB    | #######5   |  76% [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+numpy-1.26.4         | 6.2 MB    | ###9       |  40% [A[A[A[A[A[A[A[A
+
+
+
+
+libopenvino-intel-cp | 10.2 MB   | ########## | 100% [A[A[A[A[A
+pillow-11.3.0        | 40.0 MB   | ######     |  61% [A
+
+
+
+
+
+
+matplotlib-base-3.9. | 6.6 MB    | #######8   |  78% [A[A[A[A[A[A[A
+
+
+
+
+libopenvino-intel-cp | 10.2 MB   | ########## | 100% [A[A[A[A[A
+
+
+
+
+
+
+
+numpy-1.26.4         | 6.2 MB    | ####7      |  48% [A[A[A[A[A[A[A[A
+pillow-11.3.0        | 40.0 MB   | ######1    |  61% [A
+
+
+
+
+
+
+
+
+libopenblas-0.3.33   | 6.0 MB    |            |   0% [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+matplotlib-base-3.9. | 6.6 MB    | ########1  |  81% [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+numpy-1.26.4         | 6.2 MB    | #####4     |  54% [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+libopenblas-0.3.33   | 6.0 MB    | 5          |   5% [A[A[A[A[A[A[A[A[A
+pillow-11.3.0        | 40.0 MB   | ######2    |  62% [A
+
+
+
+
+
+
+matplotlib-base-3.9. | 6.6 MB    | ########3  |  84% [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+numpy-1.26.4         | 6.2 MB    | ######     |  61% [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+libopenblas-0.3.33   | 6.0 MB    | #1         |  11% [A[A[A[A[A[A[A[A[A
+pillow-11.3.0        | 40.0 MB   | ######2    |  63% [A
+
+
+
+
+
+
+matplotlib-base-3.9. | 6.6 MB    | ########6  |  87% [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+numpy-1.26.4         | 6.2 MB    | ######7    |  67% [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+libopenblas-0.3.33   | 6.0 MB    | #6         |  16% [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+matplotlib-base-3.9. | 6.6 MB    | ########9  |  89% [A[A[A[A[A[A[A
+pillow-11.3.0        | 40.0 MB   | ######3    |  64% [A
+
+
+
+
+
+
+
+numpy-1.26.4         | 6.2 MB    | #######3   |  74% [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+libopenblas-0.3.33   | 6.0 MB    | ##1        |  21% [A[A[A[A[A[A[A[A[A
+pillow-11.3.0        | 40.0 MB   | ######4    |  65% [A
+
+
+
+
+
+
+matplotlib-base-3.9. | 6.6 MB    | #########2 |  92% [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+numpy-1.26.4         | 6.2 MB    | ########   |  80% [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+libopenblas-0.3.33   | 6.0 MB    | ##6        |  27% [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+matplotlib-base-3.9. | 6.6 MB    | #########5 |  95% [A[A[A[A[A[A[A
+pillow-11.3.0        | 40.0 MB   | ######5    |  65% [A
+
+
+
+
+
+
+
+numpy-1.26.4         | 6.2 MB    | ########6  |  87% [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+libopenblas-0.3.33   | 6.0 MB    | ###1       |  32% [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+matplotlib-base-3.9. | 6.6 MB    | #########8 |  98% [A[A[A[A[A[A[A
+pillow-11.3.0        | 40.0 MB   | ######6    |  66% [A
+
+
+
+
+
+
+
+numpy-1.26.4         | 6.2 MB    | #########3 |  94% [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+libopenblas-0.3.33   | 6.0 MB    | ###7       |  37% [A[A[A[A[A[A[A[A[A
+pillow-11.3.0        | 40.0 MB   | ######6    |  67% [A
+
+
+
+
+
+
+matplotlib-base-3.9. | 6.6 MB    | ########## | 100% [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+libopenblas-0.3.33   | 6.0 MB    | ####3      |  44% [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+numpy-1.26.4         | 6.2 MB    | ########## | 100% [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+numpy-1.26.4         | 6.2 MB    | ########## | 100% [A[A[A[A[A[A[A[A
+pillow-11.3.0        | 40.0 MB   | ######7    |  68% [A
+
+
+
+
+
+
+
+
+
+librsvg-2.58.4       | 4.7 MB    |            |   0% [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+libopenvino-2025.2.0 | 4.5 MB    |            |   0% [A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+libopenblas-0.3.33   | 6.0 MB    | ####9      |  49% [A[A[A[A[A[A[A[A[A
+pillow-11.3.0        | 40.0 MB   | ######8    |  69% [A
+
+
+
+
+
+
+
+
+
+
+libopenvino-2025.2.0 | 4.5 MB    |            |   1% [A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+librsvg-2.58.4       | 4.7 MB    | 4          |   5% [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+libopenblas-0.3.33   | 6.0 MB    | #####5     |  56% [A[A[A[A[A[A[A[A[A
+pillow-11.3.0        | 40.0 MB   | ######9    |  69% [A
+
+
+
+
+
+
+matplotlib-base-3.9. | 6.6 MB    | ########## | 100% [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+libopenvino-2025.2.0 | 4.5 MB    | ##1        |  21% [A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+libopenblas-0.3.33   | 6.0 MB    | ######1    |  62% [A[A[A[A[A[A[A[A[A
+pillow-11.3.0        | 40.0 MB   | #######    |  70% [A
+
+
+
+
+
+
+
+numpy-1.26.4         | 6.2 MB    | ########## | 100% [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+libopenblas-0.3.33   | 6.0 MB    | ######7    |  68% [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+libopenvino-2025.2.0 | 4.5 MB    | ###3       |  33% [A[A[A[A[A[A[A[A[A[A[A
+pillow-11.3.0        | 40.0 MB   | #######1   |  71% [A
+
+
+
+
+
+
+
+
+
+librsvg-2.58.4       | 4.7 MB    | 8          |   8% [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+libopenblas-0.3.33   | 6.0 MB    | #######3   |  74% [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+libopenvino-2025.2.0 | 4.5 MB    | ####4      |  45% [A[A[A[A[A[A[A[A[A[A[A
+pillow-11.3.0        | 40.0 MB   | #######2   |  72% [A
+
+
+
+
+
+
+
+
+
+librsvg-2.58.4       | 4.7 MB    | #2         |  12% [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+libopenblas-0.3.33   | 6.0 MB    | #######9   |  79% [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+libopenvino-2025.2.0 | 4.5 MB    | #####4     |  55% [A[A[A[A[A[A[A[A[A[A[A
+pillow-11.3.0        | 40.0 MB   | #######2   |  73% [A
+
+
+
+
+
+
+
+
+
+librsvg-2.58.4       | 4.7 MB    | #9         |  19% [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+libopenblas-0.3.33   | 6.0 MB    | ########5  |  85% [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+libopenvino-2025.2.0 | 4.5 MB    | ######3    |  64% [A[A[A[A[A[A[A[A[A[A[A
+pillow-11.3.0        | 40.0 MB   | #######3   |  74% [A
+
+
+
+
+
+
+
+
+
+librsvg-2.58.4       | 4.7 MB    | ##3        |  24% [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+libopenblas-0.3.33   | 6.0 MB    | #########  |  91% [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+libopenvino-2025.2.0 | 4.5 MB    | #######2   |  73% [A[A[A[A[A[A[A[A[A[A[A
+pillow-11.3.0        | 40.0 MB   | #######4   |  74% [A
+
+
+
+
+
+
+
+
+
+librsvg-2.58.4       | 4.7 MB    | ##9        |  29% [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+libopenblas-0.3.33   | 6.0 MB    | #########6 |  96% [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+libopenvino-2025.2.0 | 4.5 MB    | ########1  |  82% [A[A[A[A[A[A[A[A[A[A[A
+pillow-11.3.0        | 40.0 MB   | #######5   |  75% [A
+
+
+
+
+
+
+
+
+
+librsvg-2.58.4       | 4.7 MB    | ###4       |  34% [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+libopenblas-0.3.33   | 6.0 MB    | ########## | 100% [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+libopenvino-2025.2.0 | 4.5 MB    | #########  |  91% [A[A[A[A[A[A[A[A[A[A[A
+pillow-11.3.0        | 40.0 MB   | #######5   |  76% [A
+
+
+
+
+
+
+
+
+
+librsvg-2.58.4       | 4.7 MB    | ###9       |  39% [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+libopenblas-0.3.33   | 6.0 MB    | ########## | 100% [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+numba-0.60.0         | 4.1 MB    |            |   0% [A[A[A[A[A[A[A[A[A[A[A[A
+pillow-11.3.0        | 40.0 MB   | #######6   |  77% [A
+
+
+
+
+
+
+
+
+
+
+libopenvino-2025.2.0 | 4.5 MB    | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+libopenvino-2025.2.0 | 4.5 MB    | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+librsvg-2.58.4       | 4.7 MB    | ####4      |  44% [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+numba-0.60.0         | 4.1 MB    | 9          |  10% [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+libopenvino-2025.2.0 | 4.5 MB    | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+libglib-2.84.0       | 3.6 MB    |            |   0% [A[A[A[A[A[A[A[A[A[A[A[A[A
+pillow-11.3.0        | 40.0 MB   | #######7   |  78% [A
+
+
+
+
+
+
+
+
+
+librsvg-2.58.4       | 4.7 MB    | ####9      |  49% [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+numba-0.60.0         | 4.1 MB    | #8         |  19% [A[A[A[A[A[A[A[A[A[A[A[A
+pillow-11.3.0        | 40.0 MB   | #######8   |  78% [A
+
+
+
+
+
+
+
+
+
+
+
+
+libglib-2.84.0       | 3.6 MB    | #          |  11% [A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+librsvg-2.58.4       | 4.7 MB    | #####3     |  54% [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+numba-0.60.0         | 4.1 MB    | ##7        |  28% [A[A[A[A[A[A[A[A[A[A[A[A
+pillow-11.3.0        | 40.0 MB   | #######9   |  79% [A
+
+
+
+
+
+
+
+
+
+
+
+
+libglib-2.84.0       | 3.6 MB    | ##1        |  21% [A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+librsvg-2.58.4       | 4.7 MB    | #####8     |  58% [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+numba-0.60.0         | 4.1 MB    | ###5       |  36% [A[A[A[A[A[A[A[A[A[A[A[A
+pillow-11.3.0        | 40.0 MB   | #######9   |  80% [A
+
+
+
+
+
+
+
+
+
+
+
+
+libglib-2.84.0       | 3.6 MB    | ###2       |  33% [A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+librsvg-2.58.4       | 4.7 MB    | ######2    |  63% [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+numba-0.60.0         | 4.1 MB    | ####3      |  43% [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+libglib-2.84.0       | 3.6 MB    | ####3      |  43% [A[A[A[A[A[A[A[A[A[A[A[A[A
+pillow-11.3.0        | 40.0 MB   | ########   |  81% [A
+
+
+
+
+
+
+
+
+
+librsvg-2.58.4       | 4.7 MB    | ######6    |  67% [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+numba-0.60.0         | 4.1 MB    | #####      |  51% [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+libglib-2.84.0       | 3.6 MB    | #####4     |  55% [A[A[A[A[A[A[A[A[A[A[A[A[A
+pillow-11.3.0        | 40.0 MB   | ########1  |  82% [A
+
+
+
+
+
+
+
+
+
+librsvg-2.58.4       | 4.7 MB    | #######2   |  73% [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+numba-0.60.0         | 4.1 MB    | #####8     |  59% [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+libglib-2.84.0       | 3.6 MB    | ######5    |  66% [A[A[A[A[A[A[A[A[A[A[A[A[A
+pillow-11.3.0        | 40.0 MB   | ########2  |  82% [A
+
+
+
+
+
+
+
+
+
+librsvg-2.58.4       | 4.7 MB    | #######7   |  77% [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+numba-0.60.0         | 4.1 MB    | ######6    |  66% [A[A[A[A[A[A[A[A[A[A[A[A
+pillow-11.3.0        | 40.0 MB   | ########2  |  83% [A
+
+
+
+
+
+
+
+
+
+
+
+
+libglib-2.84.0       | 3.6 MB    | #######7   |  77% [A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+librsvg-2.58.4       | 4.7 MB    | ########1  |  81% [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+numba-0.60.0         | 4.1 MB    | #######3   |  73% [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+libglib-2.84.0       | 3.6 MB    | ########4  |  84% [A[A[A[A[A[A[A[A[A[A[A[A[A
+pillow-11.3.0        | 40.0 MB   | ########3  |  83% [A
+
+
+
+
+
+
+
+
+
+
+
+numba-0.60.0         | 4.1 MB    | #######8   |  79% [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+libglib-2.84.0       | 3.6 MB    | #########  |  90% [A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+librsvg-2.58.4       | 4.7 MB    | ########4  |  85% [A[A[A[A[A[A[A[A[A[A
+pillow-11.3.0        | 40.0 MB   | ########4  |  84% [A
+
+
+
+
+
+
+
+
+
+librsvg-2.58.4       | 4.7 MB    | ########8  |  88% [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+numba-0.60.0         | 4.1 MB    | ########3  |  83% [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+libglib-2.84.0       | 3.6 MB    | #########6 |  97% [A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+librsvg-2.58.4       | 4.7 MB    | #########  |  90% [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+libglib-2.84.0       | 3.6 MB    | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+numba-0.60.0         | 4.1 MB    | ########8  |  88% [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+librsvg-2.58.4       | 4.7 MB    | #########2 |  92% [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+libglib-2.84.0       | 3.6 MB    | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+librsvg-2.58.4       | 4.7 MB    | #########4 |  95% [A[A[A[A[A[A[A[A[A[A
+pillow-11.3.0        | 40.0 MB   | ########4  |  84% [A
+
+
+
+
+
+
+
+
+
+librsvg-2.58.4       | 4.7 MB    | #########9 |  99% [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+librsvg-2.58.4       | 4.7 MB    | ########## | 100% [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+librsvg-2.58.4       | 4.7 MB    | ########## | 100% [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+numba-0.60.0         | 4.1 MB    | #########2 |  92% [A[A[A[A[A[A[A[A[A[A[A[A
+pillow-11.3.0        | 40.0 MB   | ########5  |  85% [A
+
+
+
+
+
+
+
+
+
+
+
+
+
+x265-3.5             | 3.3 MB    |            |   0% [A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+numba-0.60.0         | 4.1 MB    | #########9 | 100% [A[A[A[A[A[A[A[A[A[A[A[A
+pillow-11.3.0        | 40.0 MB   | ########5  |  86% [A
+
+
+
+
+
+
+
+
+
+
+
+numba-0.60.0         | 4.1 MB    | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+x265-3.5             | 3.3 MB    | #5         |  15% [A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+libprotobuf-6.31.1   | 2.9 MB    |            |   1% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+libprotobuf-6.31.1   | 2.9 MB    | 8          |   8% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+numba-0.60.0         | 4.1 MB    | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A[A
+pillow-11.3.0        | 40.0 MB   | ########6  |  86% [A
+pillow-11.3.0        | 40.0 MB   | ########6  |  87% [A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+aom-3.9.1            | 2.6 MB    |            |   1% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+x265-3.5             | 3.3 MB    | ##9        |  30% [A[A[A[A[A[A[A[A[A[A[A[A[A[A
+pillow-11.3.0        | 40.0 MB   | ########7  |  88% [A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+aom-3.9.1            | 2.6 MB    | #          |  11% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+x265-3.5             | 3.3 MB    | ###8       |  38% [A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+aom-3.9.1            | 2.6 MB    | ##6        |  26% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+libprotobuf-6.31.1   | 2.9 MB    | #5         |  16% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+pillow-11.3.0        | 40.0 MB   | ########8  |  88% [A
+
+
+
+
+
+
+
+
+
+
+
+
+
+x265-3.5             | 3.3 MB    | ####9      |  50% [A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+libprotobuf-6.31.1   | 2.9 MB    | ##1        |  21% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+aom-3.9.1            | 2.6 MB    | ###9       |  39% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+pillow-11.3.0        | 40.0 MB   | ########8  |  89% [A
+
+
+
+
+
+
+
+
+
+
+
+
+
+x265-3.5             | 3.3 MB    | #####7     |  57% [A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+libprotobuf-6.31.1   | 2.9 MB    | ###        |  30% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+aom-3.9.1            | 2.6 MB    | #####      |  50% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+pillow-11.3.0        | 40.0 MB   | ########9  |  90% [A
+
+
+
+
+
+
+
+
+
+
+
+
+
+x265-3.5             | 3.3 MB    | ######3    |  63% [A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+libprotobuf-6.31.1   | 2.9 MB    | ###7       |  37% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+aom-3.9.1            | 2.6 MB    | ######2    |  63% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+pillow-11.3.0        | 40.0 MB   | #########  |  91% [A
+
+
+
+
+
+
+
+
+
+
+
+
+
+x265-3.5             | 3.3 MB    | ######9    |  69% [A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+libprotobuf-6.31.1   | 2.9 MB    | ####4      |  44% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+aom-3.9.1            | 2.6 MB    | #######3   |  74% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+pillow-11.3.0        | 40.0 MB   | #########1 |  91% [A
+
+
+
+
+
+
+
+
+
+
+
+
+
+x265-3.5             | 3.3 MB    | #######5   |  75% [A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+libprotobuf-6.31.1   | 2.9 MB    | #####1     |  51% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+aom-3.9.1            | 2.6 MB    | ########4  |  85% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+pillow-11.3.0        | 40.0 MB   | #########2 |  92% [A
+
+
+
+
+
+
+
+
+
+
+
+
+
+x265-3.5             | 3.3 MB    | ########1  |  82% [A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+libprotobuf-6.31.1   | 2.9 MB    | #####8     |  58% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+aom-3.9.1            | 2.6 MB    | #########5 |  96% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+pillow-11.3.0        | 40.0 MB   | #########2 |  93% [A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+aom-3.9.1            | 2.6 MB    | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+x265-3.5             | 3.3 MB    | ########7  |  88% [A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+aom-3.9.1            | 2.6 MB    | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+svt-av1-3.0.2        | 2.3 MB    |            |   1% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+libprotobuf-6.31.1   | 2.9 MB    | ######6    |  67% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+pillow-11.3.0        | 40.0 MB   | #########3 |  94% [A
+
+
+
+
+
+
+
+
+
+
+
+
+
+x265-3.5             | 3.3 MB    | #########4 |  94% [A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+svt-av1-3.0.2        | 2.3 MB    | #5         |  16% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+libprotobuf-6.31.1   | 2.9 MB    | #######5   |  76% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+pillow-11.3.0        | 40.0 MB   | #########4 |  95% [A
+
+
+
+
+
+
+
+
+
+
+
+
+
+x265-3.5             | 3.3 MB    | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+x265-3.5             | 3.3 MB    | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+svt-av1-3.0.2        | 2.3 MB    | ###2       |  33% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+libprotobuf-6.31.1   | 2.9 MB    | ########4  |  84% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+libhwloc-2.12.1      | 2.3 MB    |            |   1% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+pillow-11.3.0        | 40.0 MB   | #########5 |  95% [A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+svt-av1-3.0.2        | 2.3 MB    | ####8      |  49% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+libprotobuf-6.31.1   | 2.9 MB    | #########3 |  94% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+libhwloc-2.12.1      | 2.3 MB    | 6          |   6% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+pillow-11.3.0        | 40.0 MB   | #########6 |  96% [A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+libprotobuf-6.31.1   | 2.9 MB    | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+svt-av1-3.0.2        | 2.3 MB    | ######5    |  65% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+x265-3.5             | 3.3 MB    | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+libhwloc-2.12.1      | 2.3 MB    | #6         |  17% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+pillow-11.3.0        | 40.0 MB   | #########7 |  97% [A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ ... (more hidden) ...[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+libprotobuf-6.31.1   | 2.9 MB    | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+svt-av1-3.0.2        | 2.3 MB    | ########3  |  84% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+libhwloc-2.12.1      | 2.3 MB    | ##7        |  28% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+pillow-11.3.0        | 40.0 MB   | #########8 |  98% [A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ ... (more hidden) ...[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+svt-av1-3.0.2        | 2.3 MB    | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+svt-av1-3.0.2        | 2.3 MB    | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+svt-av1-3.0.2        | 2.3 MB    | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+libhwloc-2.12.1      | 2.3 MB    | ###7       |  37% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+pillow-11.3.0        | 40.0 MB   | #########9 |  99% [A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ ... (more hidden) ...[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+libhwloc-2.12.1      | 2.3 MB    | ####7      |  47% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ ... (more hidden) ...[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+libhwloc-2.12.1      | 2.3 MB    | #####8     |  58% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+pillow-11.3.0        | 40.0 MB   | ########## | 100% [A
+pillow-11.3.0        | 40.0 MB   | ########## | 100% [A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ ... (more hidden) ...[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+libhwloc-2.12.1      | 2.3 MB    | #######    |  71% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ ... (more hidden) ...[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+libhwloc-2.12.1      | 2.3 MB    | ########1  |  82% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ ... (more hidden) ...[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+libhwloc-2.12.1      | 2.3 MB    | #########3 |  94% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+pillow-11.3.0        | 40.0 MB   | ########## | 100% [A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ ... (more hidden) ...[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+libhwloc-2.12.1      | 2.3 MB    | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ ... (more hidden) ...[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+libhwloc-2.12.1      | 2.3 MB    | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ ... (more hidden) ...[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[Ahabitat-sim-0.3.1    | 47.8 MB   | ########## | 100% habitat-sim-0.3.1    | 47.8 MB   | ########## | 100% habitat-sim-0.3.1    | 47.8 MB   | ########## | 100% 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                      [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A                                                     
+                                                     [A
+
+                                                     [A[A
+
+
+                                                     [A[A[A
+
+
+
+                                                     [A[A[A[A
+
+
+
+
+                                                     [A[A[A[A[A
+
+
+
+
+
+                                                     [A[A[A[A[A[A
+
+
+
+
+
+
+                                                     [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+                                                     [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+                                                     [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+                                                     [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+                                                     [A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+                                                     [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+                                                     [A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                     [A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                     [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                     [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                     [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                     [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+[A
+
+[A[A
+
+
+[A[A[A
+
+
+
+[A[A[A[A
+
+
+
+
+[A[A[A[A[A
+
+
+
+
+
+[A[A[A[A[A[A
+
+
+
+
+
+
+[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+[A
+
+[A[A
+
+
+[A[A[A
+
+
+
+[A[A[A[A
+
+
+
+
+[A[A[A[A[A
+
+
+
+
+
+[A[A[A[A[A[A
+
+
+
+
+
+
+[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+[A
+
+[A[A
+
+
+[A[A[A
+
+
+
+[A[A[A[A
+
+
+
+
+[A[A[A[A[A
+
+
+
+
+
+[A[A[A[A[A[A
+
+
+
+
+
+
+[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+[A
+
+[A[A
+
+
+[A[A[A
+
+
+
+[A[A[A[A
+
+
+
+
+[A[A[A[A[A
+
+
+
+
+
+[A[A[A[A[A[A
+
+
+
+
+
+
+[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+[A
+
+[A[A
+
+
+[A[A[A
+
+
+
+[A[A[A[A
+
+
+
+
+[A[A[A[A[A
+
+
+
+
+
+[A[A[A[A[A[A
+
+
+
+
+
+
+[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+[A
+
+[A[A
+
+
+[A[A[A
+
+
+
+[A[A[A[A
+
+
+
+
+[A[A[A[A[A
+
+
+
+
+
+[A[A[A[A[A[A
+
+
+
+
+
+
+[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A done
+Preparing transaction: - \ done
+Verifying transaction: / - \ | / - \ | done
+Executing transaction: - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - 
+\ | / - \ | / - \ 
+| / - \ | / - \ | / - \ | / - \ done
++ __conda_activate reactivate
++ '[' -n '' ']'
++ local ask_conda
+++ PS1='(habitat) '
+++ __conda_exe shell.posix reactivate
+++ '[' -n '' ']'
+++ /Users/jianxin/miniforge3-x86/bin/conda shell.posix reactivate
++ ask_conda='. "/Users/jianxin/miniforge3-x86/envs/habitat/etc/conda/deactivate.d/libxml2_deactivate.sh"
+. "/Users/jianxin/miniforge3-x86/envs/habitat/etc/conda/deactivate.d/libglib_deactivate.sh"
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+PS1='\''(habitat) '\''
+export PATH='\''/Users/jianxin/miniforge3-x86/envs/habitat/bin:/Users/jianxin/miniforge3-x86/condabin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/pkg/env/global/bin:/Users/jianxin/.local/bin'\''
+export CONDA_SHLVL='\''2'\''
+export CONDA_PROMPT_MODIFIER='\''(habitat) '\''
+export CONDA_EXE='\''/Users/jianxin/miniforge3-x86/bin/conda'\''
+export _CONDA_EXE='\''/Users/jianxin/miniforge3-x86/bin/conda'\''
+export CONDA_PYTHON_EXE='\''/Users/jianxin/miniforge3-x86/bin/python'\''
+export _CONDA_ROOT='\''/Users/jianxin/miniforge3-x86'\''
+. "/Users/jianxin/miniforge3-x86/envs/habitat/etc/conda/activate.d/libglib_activate.sh"
+. "/Users/jianxin/miniforge3-x86/envs/habitat/etc/conda/activate.d/libxml2_activate.sh"'
++ eval '. "/Users/jianxin/miniforge3-x86/envs/habitat/etc/conda/deactivate.d/libxml2_deactivate.sh"
+. "/Users/jianxin/miniforge3-x86/envs/habitat/etc/conda/deactivate.d/libglib_deactivate.sh"
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+PS1='\''(habitat) '\''
+export PATH='\''/Users/jianxin/miniforge3-x86/envs/habitat/bin:/Users/jianxin/miniforge3-x86/condabin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/pkg/env/global/bin:/Users/jianxin/.local/bin'\''
+export CONDA_SHLVL='\''2'\''
+export CONDA_PROMPT_MODIFIER='\''(habitat) '\''
+export CONDA_EXE='\''/Users/jianxin/miniforge3-x86/bin/conda'\''
+export _CONDA_EXE='\''/Users/jianxin/miniforge3-x86/bin/conda'\''
+export CONDA_PYTHON_EXE='\''/Users/jianxin/miniforge3-x86/bin/python'\''
+export _CONDA_ROOT='\''/Users/jianxin/miniforge3-x86'\''
+. "/Users/jianxin/miniforge3-x86/envs/habitat/etc/conda/activate.d/libglib_activate.sh"
+. "/Users/jianxin/miniforge3-x86/envs/habitat/etc/conda/activate.d/libxml2_activate.sh"'
+++ . /Users/jianxin/miniforge3-x86/envs/habitat/etc/conda/deactivate.d/libxml2_deactivate.sh
++++ test -n ''
++++ unset XML_CATALOG_FILES
++++ unset xml_catalog_files_libxml2
+++ . /Users/jianxin/miniforge3-x86/envs/habitat/etc/conda/deactivate.d/libglib_deactivate.sh
++++ export GSETTINGS_SCHEMA_DIR=
++++ GSETTINGS_SCHEMA_DIR=
++++ unset GSETTINGS_SCHEMA_DIR_CONDA_BACKUP
++++ '[' -z ']'
++++ unset GSETTINGS_SCHEMA_DIR
+++ export _CE_M=
+++ _CE_M=
+++ export _CE_CONDA=
+++ _CE_CONDA=
+++ PS1='(habitat) '
+++ export PATH=/Users/jianxin/miniforge3-x86/envs/habitat/bin:/Users/jianxin/miniforge3-x86/condabin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/pkg/env/global/bin:/Users/jianxin/.local/bin
+++ PATH=/Users/jianxin/miniforge3-x86/envs/habitat/bin:/Users/jianxin/miniforge3-x86/condabin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/pkg/env/global/bin:/Users/jianxin/.local/bin
+++ export CONDA_SHLVL=2
+++ CONDA_SHLVL=2
+++ export 'CONDA_PROMPT_MODIFIER=(habitat) '
+++ CONDA_PROMPT_MODIFIER='(habitat) '
+++ export CONDA_EXE=/Users/jianxin/miniforge3-x86/bin/conda
+++ CONDA_EXE=/Users/jianxin/miniforge3-x86/bin/conda
+++ export _CONDA_EXE=/Users/jianxin/miniforge3-x86/bin/conda
+++ _CONDA_EXE=/Users/jianxin/miniforge3-x86/bin/conda
+++ export CONDA_PYTHON_EXE=/Users/jianxin/miniforge3-x86/bin/python
+++ CONDA_PYTHON_EXE=/Users/jianxin/miniforge3-x86/bin/python
+++ export _CONDA_ROOT=/Users/jianxin/miniforge3-x86
+++ _CONDA_ROOT=/Users/jianxin/miniforge3-x86
+++ . /Users/jianxin/miniforge3-x86/envs/habitat/etc/conda/activate.d/libglib_activate.sh
++++ export GSETTINGS_SCHEMA_DIR_CONDA_BACKUP=
++++ GSETTINGS_SCHEMA_DIR_CONDA_BACKUP=
++++ export GSETTINGS_SCHEMA_DIR=/Users/jianxin/miniforge3-x86/envs/habitat/share/glib-2.0/schemas
++++ GSETTINGS_SCHEMA_DIR=/Users/jianxin/miniforge3-x86/envs/habitat/share/glib-2.0/schemas
+++ . /Users/jianxin/miniforge3-x86/envs/habitat/etc/conda/activate.d/libxml2_activate.sh
++++ test -n ''
++++ xml_catalog_files_libxml2=
++++ XML_CATALOG_FILES=
++++ conda_catalog_files=
++++ ifs_libxml2=' 	
+'
++++ IFS=' '
++++ rem=/Users/jianxin/miniforge3-x86/envs/habitat
++++ for pre in '${rem}'
++++ test '' = /Users/jianxin/miniforge3-x86/envs/habitat
++++ conda_catalog_files=/Users/jianxin/miniforge3-x86/envs/habitat
++++ rem=
++++ IFS=' 	
+'
++++ conda_catalog_files='file:///Users/jianxin/miniforge3-x86/envs/habitat/etc/xml/catalog file:///etc/xml/catalog'
++++ export 'XML_CATALOG_FILES=file:///Users/jianxin/miniforge3-x86/envs/habitat/etc/xml/catalog file:///etc/xml/catalog'
++++ XML_CATALOG_FILES='file:///Users/jianxin/miniforge3-x86/envs/habitat/etc/xml/catalog file:///etc/xml/catalog'
++++ unset conda_catalog_files ifs_libxml2 rem
++ __conda_hashr
++ '[' -n '' ']'
++ '[' -n '' ']'
++ hash -r
++ python -c 'import habitat_sim; print('\''HABITAT_SIM_OK'\'', habitat_sim.__version__)'
+HABITAT_SIM_OK 0.3.1
++ mkdir -p data
++ python -m habitat_sim.utils.datasets_download --uids habitat_test_scenes --data-path data/ --no-replace
+Cloning into '/Users/jianxin/Desktop/my_project/embodied_pm/data/versioned_data/habitat_test_scenes'...
+git: 'lfs' is not a git command. See 'git --help'.
+
+The most similar command is
+	refs
+Traceback (most recent call last):
+  File "/Users/jianxin/miniforge3-x86/envs/habitat/lib/python3.9/runpy.py", line 197, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/Users/jianxin/miniforge3-x86/envs/habitat/lib/python3.9/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/Users/jianxin/miniforge3-x86/envs/habitat/lib/python3.9/site-packages/habitat_sim-0.3.1-py3.9-macosx-10.9-x86_64.egg/habitat_sim/utils/datasets_download.py", line 939, in <module>
+    main(sys.argv[1:])
+  File "/Users/jianxin/miniforge3-x86/envs/habitat/lib/python3.9/site-packages/habitat_sim-0.3.1-py3.9-macosx-10.9-x86_64.egg/habitat_sim/utils/datasets_download.py", line 928, in main
+    download_and_place(
+  File "/Users/jianxin/miniforge3-x86/envs/habitat/lib/python3.9/site-packages/habitat_sim-0.3.1-py3.9-macosx-10.9-x86_64.egg/habitat_sim/utils/datasets_download.py", line 763, in download_and_place
+    clone_repo_source(uid, version_dir, requires_auth, prune_lfs)
+  File "/Users/jianxin/miniforge3-x86/envs/habitat/lib/python3.9/site-packages/habitat_sim-0.3.1-py3.9-macosx-10.9-x86_64.egg/habitat_sim/utils/datasets_download.py", line 587, in clone_repo_source
+    subprocess.check_call(shlex.split("git lfs pull"), cwd=version_dir)
+  File "/Users/jianxin/miniforge3-x86/envs/habitat/lib/python3.9/subprocess.py", line 373, in check_call
+    raise CalledProcessError(retcode, cmd)
+subprocess.CalledProcessError: Command '['git', 'lfs', 'pull']' returned non-zero exit status 1.
+-
+WARNING: repo datasource detected and git-lfs is not installed. Download will be limited to lfs link files instead of full assets. 
+To address this, abort and clean datasources. Then install git lfs:
+With Linux:
+ `sudo apt install git-lfs`
+ 'git lfs install'
+-
+git clone --depth 1 --branch main https://huggingface.co/datasets/ai-habitat/habitat_test_scenes.git /Users/jianxin/Desktop/my_project/embodied_pm/data/versioned_data/habitat_test_scenes
++ true
++ ls -la data/scene_datasets/habitat-test-scenes/
++ find data -name '*.glb'
++ head
+data/versioned_data/habitat_test_scenes/apartment_1.glb
+data/versioned_data/habitat_test_scenes/van-gogh-room.glb
+data/versioned_data/habitat_test_scenes/skokloster-castle.glb
++ echo HABITAT_INSTALL_DONE
+HABITAT_INSTALL_DONE

@@ -1,0 +1,39 @@
+[llm:bank] 25/40 (0.02 ep/s)
+policy llm:bank done (40 total)
+[llm:sched2] 25/40 (0.02 ep/s)
+policy llm:sched2 done (80 total)
+TOTAL 80 episodes in 62.7 min -> results/llm_or_gpt4omini_delay.csv
+resume: 80 episodes already in results/llm_or_gpt4omini_delay.csv
+[llm:bank] 25/40 (0.02 ep/s)
+policy llm:bank done (40 total)
+[llm:sched2] 25/40 (0.02 ep/s)
+policy llm:sched2 done (80 total)
+TOTAL 80 episodes in 602.9 min -> results/llm_or_gpt4omini_delay.csv
+resume: 160 episodes already in results/llm_or_gpt4omini_delay.csv
+[llm:bank] 25/40 (0.01 ep/s)
+policy llm:bank done (40 total)
+[llm:sched2] 25/40 (0.02 ep/s)
+policy llm:sched2 done (80 total)
+TOTAL 80 episodes in 85.4 min -> results/llm_or_gpt4omini_delay.csv
+no episodes match filter
+no episodes match filter
+no episodes match filter
+TIERC_DONE Mon 14 Sep 2026 12:59:49 EDT
+[llm:bank] 25/40 (0.02 ep/s)
+policy llm:bank done (40 total)
+[llm:sched2] 25/40 (0.01 ep/s)
+policy llm:sched2 done (80 total)
+TOTAL 80 episodes in 119.0 min -> results/llm_or_gpt4omini_test.csv
+resume: 80 episodes already in results/llm_or_gpt4omini_test.csv
+[llm:bank] 25/40 (0.02 ep/s)
+policy llm:bank done (40 total)
+[llm:sched2] 25/40 (0.02 ep/s)
+policy llm:sched2 done (80 total)
+TOTAL 80 episodes in 79.6 min -> results/llm_or_gpt4omini_test.csv
+resume: 160 episodes already in results/llm_or_gpt4omini_test.csv
+[llm:bank] 25/40 (0.02 ep/s)
+policy llm:bank done (40 total)
+[llm:sched2] 25/40 (0.01 ep/s)
+policy llm:sched2 done (80 total)
+TOTAL 80 episodes in 192.2 min -> results/llm_or_gpt4omini_test.csv
+TIERC2_DONE Mon 14 Sep 2026 20:08:30 EDT

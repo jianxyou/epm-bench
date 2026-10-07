@@ -1,0 +1,121 @@
+resume: 1460 episodes already in results/llm_or_gpt4omini_load_v1obs.csv
+[llm:none] 25/50 (0.02 ep/s)
+[llm:none] 50/50 (0.02 ep/s)
+policy llm:none done (30 total)
+TOTAL 30 episodes in 20.2 min -> results/llm_or_gpt4omini_load_v1obs.csv
+PASS1 llm:none cancel_early done Mon  5 Oct 2026 13:37:00 EDT
+resume: 1510 episodes already in results/llm_or_gpt4omini_load_v1obs.csv
+[llm:retr] 25/50 (0.02 ep/s)
+[llm:retr] 50/50 (0.02 ep/s)
+policy llm:retr done (30 total)
+TOTAL 30 episodes in 21.9 min -> results/llm_or_gpt4omini_load_v1obs.csv
+PASS1 llm:retr cancel_early done Mon  5 Oct 2026 13:58:57 EDT
+resume: 1549 episodes already in results/llm_or_gpt4omini_load_v1obs.csv
+[llm:summ] 25/50 (0.01 ep/s)
+[llm:summ] 50/50 (0.01 ep/s)
+policy llm:summ done (30 total)
+TOTAL 30 episodes in 34.2 min -> results/llm_or_gpt4omini_load_v1obs.csv
+PASS1 llm:summ cancel_early done Mon  5 Oct 2026 14:33:09 EDT
+resume: 1592 episodes already in results/llm_or_gpt4omini_load_v1obs.csv
+[llm:none] 25/50 (0.03 ep/s)
+[llm:none] 50/50 (0.03 ep/s)
+policy llm:none done (30 total)
+TOTAL 30 episodes in 16.1 min -> results/llm_or_gpt4omini_load_v1obs.csv
+PASS1 llm:none live done Mon  5 Oct 2026 14:49:15 EDT
+resume: 1628 episodes already in results/llm_or_gpt4omini_load_v1obs.csv
+[llm:retr] 25/50 (0.02 ep/s)
+[llm:retr] 50/50 (0.02 ep/s)
+policy llm:retr done (30 total)
+TOTAL 30 episodes in 21.7 min -> results/llm_or_gpt4omini_load_v1obs.csv
+PASS1 llm:retr live done Mon  5 Oct 2026 15:10:59 EDT
+resume: 1678 episodes already in results/llm_or_gpt4omini_load_v1obs.csv
+[llm:summ] 25/50 (0.01 ep/s)
+[llm:summ] 50/50 (0.02 ep/s)
+policy llm:summ done (30 total)
+TOTAL 30 episodes in 33.2 min -> results/llm_or_gpt4omini_load_v1obs.csv
+PASS1 llm:summ live done Mon  5 Oct 2026 15:44:16 EDT
+resume: 1727 episodes already in results/llm_or_gpt4omini_load_v1obs.csv
+[llm:none] 25/50 (0.02 ep/s)
+[llm:none] 50/50 (0.03 ep/s)
+policy llm:none done (30 total)
+TOTAL 30 episodes in 16.3 min -> results/llm_or_gpt4omini_load_v1obs.csv
+PASS1 llm:none cancel_late done Mon  5 Oct 2026 16:00:39 EDT
+resume: 1772 episodes already in results/llm_or_gpt4omini_load_v1obs.csv
+[llm:retr] 25/50 (0.03 ep/s)
+[llm:retr] 50/50 (0.02 ep/s)
+policy llm:retr done (30 total)
+TOTAL 30 episodes in 22.0 min -> results/llm_or_gpt4omini_load_v1obs.csv
+PASS1 llm:retr cancel_late done Mon  5 Oct 2026 16:22:41 EDT
+resume: 1823 episodes already in results/llm_or_gpt4omini_load_v1obs.csv
+[llm:summ] 25/50 (0.02 ep/s)
+[llm:summ] 50/50 (0.02 ep/s)
+policy llm:summ done (30 total)
+TOTAL 30 episodes in 31.4 min -> results/llm_or_gpt4omini_load_v1obs.csv
+PASS1 llm:summ cancel_late done Mon  5 Oct 2026 16:54:06 EDT
+resume: 1904 episodes already in results/llm_or_gpt4omini_load_v1obs.csv
+[llm:none] 25/50 (0.03 ep/s)
+[llm:none] 50/50 (0.03 ep/s)
+policy llm:none done (30 total)
+TOTAL 30 episodes in 16.7 min -> results/llm_or_gpt4omini_load_v1obs.csv
+PASS1 llm:none control done Mon  5 Oct 2026 17:10:49 EDT
+resume: 1960 episodes already in results/llm_or_gpt4omini_load_v1obs.csv
+[llm:retr] 25/50 (0.02 ep/s)
+[llm:retr] 50/50 (0.02 ep/s)
+policy llm:retr done (30 total)
+TOTAL 30 episodes in 20.7 min -> results/llm_or_gpt4omini_load_v1obs.csv
+PASS1 llm:retr control done Mon  5 Oct 2026 17:31:34 EDT
+resume: 2014 episodes already in results/llm_or_gpt4omini_load_v1obs.csv
+[llm:summ] 25/50 (0.02 ep/s)
+[llm:summ] 50/50 (0.02 ep/s)
+policy llm:summ done (30 total)
+TOTAL 30 episodes in 29.2 min -> results/llm_or_gpt4omini_load_v1obs.csv
+PASS1 llm:summ control done Mon  5 Oct 2026 18:00:49 EDT
+resume: 2071 episodes already in results/llm_or_gpt4omini_load_v1obs.csv
+policy llm:none done (0 total)
+TOTAL 0 episodes in 0.0 min -> results/llm_or_gpt4omini_load_v1obs.csv
+PASS2 llm:none cancel_early done Mon  5 Oct 2026 18:00:52 EDT
+resume: 2071 episodes already in results/llm_or_gpt4omini_load_v1obs.csv
+policy llm:retr done (0 total)
+TOTAL 0 episodes in 0.0 min -> results/llm_or_gpt4omini_load_v1obs.csv
+PASS2 llm:retr cancel_early done Mon  5 Oct 2026 18:00:55 EDT
+resume: 2071 episodes already in results/llm_or_gpt4omini_load_v1obs.csv
+policy llm:summ done (0 total)
+TOTAL 0 episodes in 0.0 min -> results/llm_or_gpt4omini_load_v1obs.csv
+PASS2 llm:summ cancel_early done Mon  5 Oct 2026 18:00:57 EDT
+resume: 2071 episodes already in results/llm_or_gpt4omini_load_v1obs.csv
+policy llm:none done (0 total)
+TOTAL 0 episodes in 0.0 min -> results/llm_or_gpt4omini_load_v1obs.csv
+PASS2 llm:none live done Mon  5 Oct 2026 18:01:00 EDT
+resume: 2071 episodes already in results/llm_or_gpt4omini_load_v1obs.csv
+policy llm:retr done (0 total)
+TOTAL 0 episodes in 0.0 min -> results/llm_or_gpt4omini_load_v1obs.csv
+PASS2 llm:retr live done Mon  5 Oct 2026 18:01:03 EDT
+resume: 2071 episodes already in results/llm_or_gpt4omini_load_v1obs.csv
+policy llm:summ done (0 total)
+TOTAL 0 episodes in 0.0 min -> results/llm_or_gpt4omini_load_v1obs.csv
+PASS2 llm:summ live done Mon  5 Oct 2026 18:01:06 EDT
+resume: 2071 episodes already in results/llm_or_gpt4omini_load_v1obs.csv
+policy llm:none done (0 total)
+TOTAL 0 episodes in 0.0 min -> results/llm_or_gpt4omini_load_v1obs.csv
+PASS2 llm:none cancel_late done Mon  5 Oct 2026 18:01:09 EDT
+resume: 2071 episodes already in results/llm_or_gpt4omini_load_v1obs.csv
+policy llm:retr done (0 total)
+TOTAL 0 episodes in 0.0 min -> results/llm_or_gpt4omini_load_v1obs.csv
+PASS2 llm:retr cancel_late done Mon  5 Oct 2026 18:01:12 EDT
+resume: 2071 episodes already in results/llm_or_gpt4omini_load_v1obs.csv
+policy llm:summ done (0 total)
+TOTAL 0 episodes in 0.0 min -> results/llm_or_gpt4omini_load_v1obs.csv
+PASS2 llm:summ cancel_late done Mon  5 Oct 2026 18:01:14 EDT
+resume: 2071 episodes already in results/llm_or_gpt4omini_load_v1obs.csv
+policy llm:none done (0 total)
+TOTAL 0 episodes in 0.0 min -> results/llm_or_gpt4omini_load_v1obs.csv
+PASS2 llm:none control done Mon  5 Oct 2026 18:01:17 EDT
+resume: 2071 episodes already in results/llm_or_gpt4omini_load_v1obs.csv
+policy llm:retr done (0 total)
+TOTAL 0 episodes in 0.0 min -> results/llm_or_gpt4omini_load_v1obs.csv
+PASS2 llm:retr control done Mon  5 Oct 2026 18:01:20 EDT
+resume: 2071 episodes already in results/llm_or_gpt4omini_load_v1obs.csv
+policy llm:summ done (0 total)
+TOTAL 0 episodes in 0.0 min -> results/llm_or_gpt4omini_load_v1obs.csv
+PASS2 llm:summ control done Mon  5 Oct 2026 18:01:23 EDT
+LOAD6S50_gpt4omini_qB_DONE Mon  5 Oct 2026 18:01:23 EDT

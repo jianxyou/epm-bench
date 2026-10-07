@@ -1,0 +1,1369 @@
+++ dirname /Users/jianxin/Desktop/my_project/embodied_pm/habitat_night.sh
++ cd /Users/jianxin/Desktop/my_project/embodied_pm
++ source /Users/jianxin/miniforge3-x86/bin/activate
+++ _CONDA_ROOT=/Users/jianxin/miniforge3-x86
+++ . /Users/jianxin/miniforge3-x86/etc/profile.d/conda.sh
++++ export CONDA_EXE=/Users/jianxin/miniforge3-x86/bin/conda
++++ CONDA_EXE=/Users/jianxin/miniforge3-x86/bin/conda
++++ export _CONDA_EXE=/Users/jianxin/miniforge3-x86/bin/conda
++++ _CONDA_EXE=/Users/jianxin/miniforge3-x86/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/Users/jianxin/miniforge3-x86/bin/python
++++ CONDA_PYTHON_EXE=/Users/jianxin/miniforge3-x86/bin/python
++++ export _CONDA_ROOT=/Users/jianxin/miniforge3-x86
++++ _CONDA_ROOT=/Users/jianxin/miniforge3-x86
++++ '[' -z '' ']'
++++ export CONDA_SHLVL=0
++++ CONDA_SHLVL=0
++++ '[' -n '' ']'
++++++ dirname /Users/jianxin/miniforge3-x86/bin/conda
+++++ dirname /Users/jianxin/miniforge3-x86/bin
++++ PATH=/Users/jianxin/miniforge3-x86/condabin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/pkg/env/global/bin:/Users/jianxin/.local/bin
++++ export PATH
++++ '[' -z '' ']'
++++ PS1=
+++ conda activate
+++ local cmd=activate
+++ case "$cmd" in
+++ __conda_activate activate
+++ '[' -n '' ']'
+++ local ask_conda
++++ PS1=
++++ __conda_exe shell.posix activate
++++ '[' -n '' ']'
++++ /Users/jianxin/miniforge3-x86/bin/conda shell.posix activate
+++ ask_conda='export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+PS1='\''(base) '\''
+export PATH='\''/Users/jianxin/miniforge3-x86/bin:/Users/jianxin/miniforge3-x86/condabin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/pkg/env/global/bin:/Users/jianxin/.local/bin'\''
+export CONDA_PREFIX='\''/Users/jianxin/miniforge3-x86'\''
+export CONDA_SHLVL='\''1'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_EXE='\''/Users/jianxin/miniforge3-x86/bin/conda'\''
+export _CONDA_EXE='\''/Users/jianxin/miniforge3-x86/bin/conda'\''
+export CONDA_PYTHON_EXE='\''/Users/jianxin/miniforge3-x86/bin/python'\''
+export _CONDA_ROOT='\''/Users/jianxin/miniforge3-x86'\''
+. "/Users/jianxin/miniforge3-x86/etc/conda/activate.d/libxml2-split_activate.sh"'
+++ eval 'export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+PS1='\''(base) '\''
+export PATH='\''/Users/jianxin/miniforge3-x86/bin:/Users/jianxin/miniforge3-x86/condabin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/pkg/env/global/bin:/Users/jianxin/.local/bin'\''
+export CONDA_PREFIX='\''/Users/jianxin/miniforge3-x86'\''
+export CONDA_SHLVL='\''1'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_EXE='\''/Users/jianxin/miniforge3-x86/bin/conda'\''
+export _CONDA_EXE='\''/Users/jianxin/miniforge3-x86/bin/conda'\''
+export CONDA_PYTHON_EXE='\''/Users/jianxin/miniforge3-x86/bin/python'\''
+export _CONDA_ROOT='\''/Users/jianxin/miniforge3-x86'\''
+. "/Users/jianxin/miniforge3-x86/etc/conda/activate.d/libxml2-split_activate.sh"'
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ PS1='(base) '
++++ export PATH=/Users/jianxin/miniforge3-x86/bin:/Users/jianxin/miniforge3-x86/condabin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/pkg/env/global/bin:/Users/jianxin/.local/bin
++++ PATH=/Users/jianxin/miniforge3-x86/bin:/Users/jianxin/miniforge3-x86/condabin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/pkg/env/global/bin:/Users/jianxin/.local/bin
++++ export CONDA_PREFIX=/Users/jianxin/miniforge3-x86
++++ CONDA_PREFIX=/Users/jianxin/miniforge3-x86
++++ export CONDA_SHLVL=1
++++ CONDA_SHLVL=1
++++ export CONDA_DEFAULT_ENV=base
++++ CONDA_DEFAULT_ENV=base
++++ export 'CONDA_PROMPT_MODIFIER=(base) '
++++ CONDA_PROMPT_MODIFIER='(base) '
++++ export CONDA_EXE=/Users/jianxin/miniforge3-x86/bin/conda
++++ CONDA_EXE=/Users/jianxin/miniforge3-x86/bin/conda
++++ export _CONDA_EXE=/Users/jianxin/miniforge3-x86/bin/conda
++++ _CONDA_EXE=/Users/jianxin/miniforge3-x86/bin/conda
++++ export CONDA_PYTHON_EXE=/Users/jianxin/miniforge3-x86/bin/python
++++ CONDA_PYTHON_EXE=/Users/jianxin/miniforge3-x86/bin/python
++++ export _CONDA_ROOT=/Users/jianxin/miniforge3-x86
++++ _CONDA_ROOT=/Users/jianxin/miniforge3-x86
++++ . /Users/jianxin/miniforge3-x86/etc/conda/activate.d/libxml2-split_activate.sh
+++++ test -n ''
+++++ xml_catalog_files_libxml2=
+++++ XML_CATALOG_FILES=
+++++ conda_catalog_files=
+++++ ifs_libxml2=' 	
+'
+++++ IFS=' '
+++++ rem=/Users/jianxin/miniforge3-x86
+++++ for pre in '${rem}'
+++++ test '' = /Users/jianxin/miniforge3-x86
+++++ conda_catalog_files=/Users/jianxin/miniforge3-x86
+++++ rem=
+++++ IFS=' 	
+'
+++++ conda_catalog_files='file:///Users/jianxin/miniforge3-x86/etc/xml/catalog file:///etc/xml/catalog'
+++++ export 'XML_CATALOG_FILES=file:///Users/jianxin/miniforge3-x86/etc/xml/catalog file:///etc/xml/catalog'
+++++ XML_CATALOG_FILES='file:///Users/jianxin/miniforge3-x86/etc/xml/catalog file:///etc/xml/catalog'
+++++ unset conda_catalog_files ifs_libxml2 rem
+++ __conda_hashr
+++ '[' -n '' ']'
+++ '[' -n '' ']'
+++ hash -r
++ conda activate habitat
++ local cmd=activate
++ case "$cmd" in
++ __conda_activate activate habitat
++ '[' -n '' ']'
++ local ask_conda
+++ PS1='(base) '
+++ __conda_exe shell.posix activate habitat
+++ '[' -n '' ']'
+++ /Users/jianxin/miniforge3-x86/bin/conda shell.posix activate habitat
++ ask_conda='export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+PS1='\''(habitat) '\''
+export PATH='\''/Users/jianxin/miniforge3-x86/envs/habitat/bin:/Users/jianxin/miniforge3-x86/condabin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/pkg/env/global/bin:/Users/jianxin/.local/bin'\''
+export CONDA_PREFIX='\''/Users/jianxin/miniforge3-x86/envs/habitat'\''
+export CONDA_SHLVL='\''2'\''
+export CONDA_DEFAULT_ENV='\''habitat'\''
+export CONDA_PROMPT_MODIFIER='\''(habitat) '\''
+export CONDA_PREFIX_1='\''/Users/jianxin/miniforge3-x86'\''
+export CONDA_EXE='\''/Users/jianxin/miniforge3-x86/bin/conda'\''
+export _CONDA_EXE='\''/Users/jianxin/miniforge3-x86/bin/conda'\''
+export CONDA_PYTHON_EXE='\''/Users/jianxin/miniforge3-x86/bin/python'\''
+export _CONDA_ROOT='\''/Users/jianxin/miniforge3-x86'\''
+. "/Users/jianxin/miniforge3-x86/envs/habitat/etc/conda/activate.d/libglib_activate.sh"
+. "/Users/jianxin/miniforge3-x86/envs/habitat/etc/conda/activate.d/libxml2_activate.sh"'
++ eval 'export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+PS1='\''(habitat) '\''
+export PATH='\''/Users/jianxin/miniforge3-x86/envs/habitat/bin:/Users/jianxin/miniforge3-x86/condabin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/pkg/env/global/bin:/Users/jianxin/.local/bin'\''
+export CONDA_PREFIX='\''/Users/jianxin/miniforge3-x86/envs/habitat'\''
+export CONDA_SHLVL='\''2'\''
+export CONDA_DEFAULT_ENV='\''habitat'\''
+export CONDA_PROMPT_MODIFIER='\''(habitat) '\''
+export CONDA_PREFIX_1='\''/Users/jianxin/miniforge3-x86'\''
+export CONDA_EXE='\''/Users/jianxin/miniforge3-x86/bin/conda'\''
+export _CONDA_EXE='\''/Users/jianxin/miniforge3-x86/bin/conda'\''
+export CONDA_PYTHON_EXE='\''/Users/jianxin/miniforge3-x86/bin/python'\''
+export _CONDA_ROOT='\''/Users/jianxin/miniforge3-x86'\''
+. "/Users/jianxin/miniforge3-x86/envs/habitat/etc/conda/activate.d/libglib_activate.sh"
+. "/Users/jianxin/miniforge3-x86/envs/habitat/etc/conda/activate.d/libxml2_activate.sh"'
+++ export _CE_M=
+++ _CE_M=
+++ export _CE_CONDA=
+++ _CE_CONDA=
+++ PS1='(habitat) '
+++ export PATH=/Users/jianxin/miniforge3-x86/envs/habitat/bin:/Users/jianxin/miniforge3-x86/condabin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/pkg/env/global/bin:/Users/jianxin/.local/bin
+++ PATH=/Users/jianxin/miniforge3-x86/envs/habitat/bin:/Users/jianxin/miniforge3-x86/condabin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/pkg/env/global/bin:/Users/jianxin/.local/bin
+++ export CONDA_PREFIX=/Users/jianxin/miniforge3-x86/envs/habitat
+++ CONDA_PREFIX=/Users/jianxin/miniforge3-x86/envs/habitat
+++ export CONDA_SHLVL=2
+++ CONDA_SHLVL=2
+++ export CONDA_DEFAULT_ENV=habitat
+++ CONDA_DEFAULT_ENV=habitat
+++ export 'CONDA_PROMPT_MODIFIER=(habitat) '
+++ CONDA_PROMPT_MODIFIER='(habitat) '
+++ export CONDA_PREFIX_1=/Users/jianxin/miniforge3-x86
+++ CONDA_PREFIX_1=/Users/jianxin/miniforge3-x86
+++ export CONDA_EXE=/Users/jianxin/miniforge3-x86/bin/conda
+++ CONDA_EXE=/Users/jianxin/miniforge3-x86/bin/conda
+++ export _CONDA_EXE=/Users/jianxin/miniforge3-x86/bin/conda
+++ _CONDA_EXE=/Users/jianxin/miniforge3-x86/bin/conda
+++ export CONDA_PYTHON_EXE=/Users/jianxin/miniforge3-x86/bin/python
+++ CONDA_PYTHON_EXE=/Users/jianxin/miniforge3-x86/bin/python
+++ export _CONDA_ROOT=/Users/jianxin/miniforge3-x86
+++ _CONDA_ROOT=/Users/jianxin/miniforge3-x86
+++ . /Users/jianxin/miniforge3-x86/envs/habitat/etc/conda/activate.d/libglib_activate.sh
++++ export GSETTINGS_SCHEMA_DIR_CONDA_BACKUP=
++++ GSETTINGS_SCHEMA_DIR_CONDA_BACKUP=
++++ export GSETTINGS_SCHEMA_DIR=/Users/jianxin/miniforge3-x86/envs/habitat/share/glib-2.0/schemas
++++ GSETTINGS_SCHEMA_DIR=/Users/jianxin/miniforge3-x86/envs/habitat/share/glib-2.0/schemas
+++ . /Users/jianxin/miniforge3-x86/envs/habitat/etc/conda/activate.d/libxml2_activate.sh
++++ test -n 'file:///Users/jianxin/miniforge3-x86/etc/xml/catalog file:///etc/xml/catalog'
++++ xml_catalog_files_libxml2='file:///Users/jianxin/miniforge3-x86/etc/xml/catalog file:///etc/xml/catalog'
++++ XML_CATALOG_FILES='file:///Users/jianxin/miniforge3-x86/etc/xml/catalog file:///etc/xml/catalog '
++++ conda_catalog_files=
++++ ifs_libxml2=' 	
+'
++++ IFS=' '
++++ rem=/Users/jianxin/miniforge3-x86/envs/habitat
++++ for pre in '${rem}'
++++ test '' = /Users/jianxin/miniforge3-x86/envs/habitat
++++ conda_catalog_files=/Users/jianxin/miniforge3-x86/envs/habitat
++++ rem=
++++ IFS=' 	
+'
++++ conda_catalog_files='file:///Users/jianxin/miniforge3-x86/envs/habitat/etc/xml/catalog file:///etc/xml/catalog'
++++ export 'XML_CATALOG_FILES=file:///Users/jianxin/miniforge3-x86/etc/xml/catalog file:///etc/xml/catalog file:///Users/jianxin/miniforge3-x86/envs/habitat/etc/xml/catalog file:///etc/xml/catalog'
++++ XML_CATALOG_FILES='file:///Users/jianxin/miniforge3-x86/etc/xml/catalog file:///etc/xml/catalog file:///Users/jianxin/miniforge3-x86/envs/habitat/etc/xml/catalog file:///etc/xml/catalog'
++++ unset conda_catalog_files ifs_libxml2 rem
++ __conda_hashr
++ '[' -n '' ']'
++ '[' -n '' ']'
++ hash -r
++ OUT=results/habitat3.csv
++ P='python pm_habitat.py'
++ echo '=== H0 smoke ==='
+=== H0 smoke ===
++ python pm_habitat.py --policy oracle --episodes 3 --out results/habitat3.csv
+PluginManager::Manager: duplicate static plugin AssimpImporter, ignoring
+PluginManager::Manager: duplicate static plugin BasisImporter, ignoring
+PluginManager::Manager: duplicate static plugin AnySceneImporter, ignoring
+PluginManager::Manager: duplicate static plugin StbImageImporter, ignoring
+PluginManager::Manager: duplicate static plugin AnyImageImporter, ignoring
+PluginManager::Manager: duplicate static plugin GltfImporter, ignoring
+Renderer: Apple M5 Pro by Apple
+OpenGL version: 4.1 Metal - 90.5
+Using optional features:
+    GL_ARB_vertex_array_object
+    GL_ARB_ES2_compatibility
+    GL_ARB_separate_shader_objects
+    GL_ARB_texture_storage
+    GL_EXT_texture_filter_anisotropic
+    GL_EXT_debug_label
+    GL_EXT_debug_marker
+Using driver workarounds:
+    no-layout-qualifiers-on-old-glsl
+    apple-buffer-texture-unbind-on-buffer-modify
+[16:42:39:434754]:[Warning]:[Metadata] SceneDatasetAttributes.cpp(107)::addNewSceneInstanceToDataset : Dataset : 'default' : Lighting Layout Attributes 'no_lights' specified in Scene Attributes but does not exist in dataset, so creating default.
+[16:42:39:434963]:[Warning]:[Scene] SemanticScene.h(328)::checkFileExists : ::loadSemanticSceneDescriptor: File/Users/jianxin/Desktop/my_project/embodied_pm/data/scene_datasets/habitat-test-scenes/apartment_1.scndoes not exist.  Aborting load.
+[16:42:39:434985]:[Warning]:[Scene] SemanticScene.cpp(121)::loadSemanticSceneDescriptor : SSD File Naming Issue! Neither SemanticAttributes-provided name : `/Users/jianxin/Desktop/my_project/embodied_pm/data/scene_datasets/habitat-test-scenes/apartment_1.scn` nor constructed filename : `/Users/jianxin/Desktop/my_project/embodied_pm/data/scene_datasets/habitat-test-scenes/info_semantic.json` exist on disk.
+[16:42:39:434998]:[Error]:[Scene] SemanticScene.cpp(137)::loadSemanticSceneDescriptor : SSD Load Failure! File with SemanticAttributes-provided name `/Users/jianxin/Desktop/my_project/embodied_pm/data/scene_datasets/habitat-test-scenes/apartment_1.scn` exists but failed to load.
+[16:42:39:814145]:[Warning]:[Sim] Simulator.cpp(594)::instanceStageForSceneAttributes : The active scene does not contain semantic annotations : activeSemanticSceneID_ = 0
+{'policy': 'oracle', 'seed': 0, 'executed': True, 'exec_step': 21, 'first_visible_step': 11, 'chores_done': 2}
+{'policy': 'oracle', 'seed': 1, 'executed': True, 'exec_step': 23, 'first_visible_step': 13, 'chores_done': 4}
+{'policy': 'oracle', 'seed': 2, 'executed': True, 'exec_step': 19, 'first_visible_step': 15, 'chores_done': 5}
+wrote 3 rows -> results/habitat3.csv
++ echo '=== H1 solvability + floors (delay 10) ==='
+=== H1 solvability + floors (delay 10) ===
++ python pm_habitat.py --policy oracle --episodes 24 --out results/habitat3.csv
+PluginManager::Manager: duplicate static plugin AssimpImporter, ignoring
+PluginManager::Manager: duplicate static plugin BasisImporter, ignoring
+PluginManager::Manager: duplicate static plugin AnySceneImporter, ignoring
+PluginManager::Manager: duplicate static plugin StbImageImporter, ignoring
+PluginManager::Manager: duplicate static plugin AnyImageImporter, ignoring
+PluginManager::Manager: duplicate static plugin GltfImporter, ignoring
+Renderer: Apple M5 Pro by Apple
+OpenGL version: 4.1 Metal - 90.5
+Using optional features:
+    GL_ARB_vertex_array_object
+    GL_ARB_ES2_compatibility
+    GL_ARB_separate_shader_objects
+    GL_ARB_texture_storage
+    GL_EXT_texture_filter_anisotropic
+    GL_EXT_debug_label
+    GL_EXT_debug_marker
+Using driver workarounds:
+    no-layout-qualifiers-on-old-glsl
+    apple-buffer-texture-unbind-on-buffer-modify
+[16:42:40:578851]:[Warning]:[Metadata] SceneDatasetAttributes.cpp(107)::addNewSceneInstanceToDataset : Dataset : 'default' : Lighting Layout Attributes 'no_lights' specified in Scene Attributes but does not exist in dataset, so creating default.
+[16:42:40:579018]:[Warning]:[Scene] SemanticScene.h(328)::checkFileExists : ::loadSemanticSceneDescriptor: File/Users/jianxin/Desktop/my_project/embodied_pm/data/scene_datasets/habitat-test-scenes/apartment_1.scndoes not exist.  Aborting load.
+[16:42:40:579040]:[Warning]:[Scene] SemanticScene.cpp(121)::loadSemanticSceneDescriptor : SSD File Naming Issue! Neither SemanticAttributes-provided name : `/Users/jianxin/Desktop/my_project/embodied_pm/data/scene_datasets/habitat-test-scenes/apartment_1.scn` nor constructed filename : `/Users/jianxin/Desktop/my_project/embodied_pm/data/scene_datasets/habitat-test-scenes/info_semantic.json` exist on disk.
+[16:42:40:579053]:[Error]:[Scene] SemanticScene.cpp(137)::loadSemanticSceneDescriptor : SSD Load Failure! File with SemanticAttributes-provided name `/Users/jianxin/Desktop/my_project/embodied_pm/data/scene_datasets/habitat-test-scenes/apartment_1.scn` exists but failed to load.
+[16:42:40:961327]:[Warning]:[Sim] Simulator.cpp(594)::instanceStageForSceneAttributes : The active scene does not contain semantic annotations : activeSemanticSceneID_ = 0
+{'policy': 'oracle', 'seed': 0, 'executed': True, 'exec_step': 21, 'first_visible_step': 11, 'chores_done': 2}
+{'policy': 'oracle', 'seed': 1, 'executed': True, 'exec_step': 23, 'first_visible_step': 13, 'chores_done': 4}
+{'policy': 'oracle', 'seed': 2, 'executed': True, 'exec_step': 19, 'first_visible_step': 15, 'chores_done': 5}
+{'policy': 'oracle', 'seed': 3, 'executed': True, 'exec_step': 28, 'first_visible_step': 19, 'chores_done': 4}
+{'policy': 'oracle', 'seed': 4, 'executed': True, 'exec_step': 31, 'first_visible_step': 19, 'chores_done': 2}
+{'policy': 'oracle', 'seed': 5, 'executed': True, 'exec_step': 27, 'first_visible_step': 17, 'chores_done': 2}
+{'policy': 'oracle', 'seed': 6, 'executed': True, 'exec_step': 17, 'first_visible_step': 14, 'chores_done': 4}
+{'policy': 'oracle', 'seed': 7, 'executed': True, 'exec_step': 22, 'first_visible_step': 13, 'chores_done': 4}
+{'policy': 'oracle', 'seed': 8, 'executed': True, 'exec_step': 20, 'first_visible_step': 13, 'chores_done': 4}
+{'policy': 'oracle', 'seed': 9, 'executed': True, 'exec_step': 30, 'first_visible_step': 19, 'chores_done': 3}
+{'policy': 'oracle', 'seed': 10, 'executed': True, 'exec_step': 14, 'first_visible_step': 11, 'chores_done': 4}
+{'policy': 'oracle', 'seed': 11, 'executed': True, 'exec_step': 21, 'first_visible_step': 11, 'chores_done': 4}
+{'policy': 'oracle', 'seed': 12, 'executed': True, 'exec_step': 14, 'first_visible_step': 10, 'chores_done': 4}
+{'policy': 'oracle', 'seed': 13, 'executed': True, 'exec_step': 33, 'first_visible_step': 24, 'chores_done': 0}
+{'policy': 'oracle', 'seed': 14, 'executed': True, 'exec_step': 19, 'first_visible_step': 10, 'chores_done': 4}
+{'policy': 'oracle', 'seed': 15, 'executed': True, 'exec_step': 17, 'first_visible_step': 10, 'chores_done': 3}
+{'policy': 'oracle', 'seed': 16, 'executed': True, 'exec_step': 14, 'first_visible_step': 11, 'chores_done': 4}
+{'policy': 'oracle', 'seed': 17, 'executed': True, 'exec_step': 17, 'first_visible_step': 10, 'chores_done': 4}
+{'policy': 'oracle', 'seed': 18, 'executed': True, 'exec_step': 34, 'first_visible_step': 24, 'chores_done': 1}
+{'policy': 'oracle', 'seed': 19, 'executed': True, 'exec_step': 16, 'first_visible_step': 11, 'chores_done': 4}
+{'policy': 'oracle', 'seed': 20, 'executed': True, 'exec_step': 19, 'first_visible_step': 15, 'chores_done': 4}
+{'policy': 'oracle', 'seed': 21, 'executed': True, 'exec_step': 24, 'first_visible_step': 13, 'chores_done': 2}
+{'policy': 'oracle', 'seed': 22, 'executed': True, 'exec_step': 29, 'first_visible_step': 18, 'chores_done': 1}
+{'policy': 'oracle', 'seed': 23, 'executed': True, 'exec_step': 37, 'first_visible_step': 25, 'chores_done': 1}
+wrote 24 rows -> results/habitat3.csv
++ python pm_habitat.py --policy negligent --episodes 24 --out results/habitat3.csv
+PluginManager::Manager: duplicate static plugin AssimpImporter, ignoring
+PluginManager::Manager: duplicate static plugin BasisImporter, ignoring
+PluginManager::Manager: duplicate static plugin AnySceneImporter, ignoring
+PluginManager::Manager: duplicate static plugin StbImageImporter, ignoring
+PluginManager::Manager: duplicate static plugin AnyImageImporter, ignoring
+PluginManager::Manager: duplicate static plugin GltfImporter, ignoring
+Renderer: Apple M5 Pro by Apple
+OpenGL version: 4.1 Metal - 90.5
+Using optional features:
+    GL_ARB_vertex_array_object
+    GL_ARB_ES2_compatibility
+    GL_ARB_separate_shader_objects
+    GL_ARB_texture_storage
+    GL_EXT_texture_filter_anisotropic
+    GL_EXT_debug_label
+    GL_EXT_debug_marker
+Using driver workarounds:
+    no-layout-qualifiers-on-old-glsl
+    apple-buffer-texture-unbind-on-buffer-modify
+[16:42:41:904925]:[Warning]:[Metadata] SceneDatasetAttributes.cpp(107)::addNewSceneInstanceToDataset : Dataset : 'default' : Lighting Layout Attributes 'no_lights' specified in Scene Attributes but does not exist in dataset, so creating default.
+[16:42:41:905079]:[Warning]:[Scene] SemanticScene.h(328)::checkFileExists : ::loadSemanticSceneDescriptor: File/Users/jianxin/Desktop/my_project/embodied_pm/data/scene_datasets/habitat-test-scenes/apartment_1.scndoes not exist.  Aborting load.
+[16:42:41:905096]:[Warning]:[Scene] SemanticScene.cpp(121)::loadSemanticSceneDescriptor : SSD File Naming Issue! Neither SemanticAttributes-provided name : `/Users/jianxin/Desktop/my_project/embodied_pm/data/scene_datasets/habitat-test-scenes/apartment_1.scn` nor constructed filename : `/Users/jianxin/Desktop/my_project/embodied_pm/data/scene_datasets/habitat-test-scenes/info_semantic.json` exist on disk.
+[16:42:41:905108]:[Error]:[Scene] SemanticScene.cpp(137)::loadSemanticSceneDescriptor : SSD Load Failure! File with SemanticAttributes-provided name `/Users/jianxin/Desktop/my_project/embodied_pm/data/scene_datasets/habitat-test-scenes/apartment_1.scn` exists but failed to load.
+[16:42:42:280755]:[Warning]:[Sim] Simulator.cpp(594)::instanceStageForSceneAttributes : The active scene does not contain semantic annotations : activeSemanticSceneID_ = 0
+{'policy': 'negligent', 'seed': 0, 'executed': False, 'exec_step': None, 'first_visible_step': 40, 'chores_done': 3}
+{'policy': 'negligent', 'seed': 1, 'executed': False, 'exec_step': None, 'first_visible_step': 39, 'chores_done': 6}
+{'policy': 'negligent', 'seed': 2, 'executed': False, 'exec_step': None, 'first_visible_step': 38, 'chores_done': 6}
+{'policy': 'negligent', 'seed': 3, 'executed': False, 'exec_step': None, 'first_visible_step': 38, 'chores_done': 5}
+{'policy': 'negligent', 'seed': 4, 'executed': False, 'exec_step': None, 'first_visible_step': None, 'chores_done': 6}
+{'policy': 'negligent', 'seed': 5, 'executed': False, 'exec_step': None, 'first_visible_step': 34, 'chores_done': 5}
+{'policy': 'negligent', 'seed': 6, 'executed': False, 'exec_step': None, 'first_visible_step': 14, 'chores_done': 5}
+{'policy': 'negligent', 'seed': 7, 'executed': False, 'exec_step': None, 'first_visible_step': 12, 'chores_done': 4}
+{'policy': 'negligent', 'seed': 8, 'executed': False, 'exec_step': None, 'first_visible_step': None, 'chores_done': 5}
+{'policy': 'negligent', 'seed': 9, 'executed': False, 'exec_step': None, 'first_visible_step': None, 'chores_done': 6}
+{'policy': 'negligent', 'seed': 10, 'executed': False, 'exec_step': None, 'first_visible_step': 24, 'chores_done': 4}
+{'policy': 'negligent', 'seed': 11, 'executed': False, 'exec_step': None, 'first_visible_step': 15, 'chores_done': 6}
+{'policy': 'negligent', 'seed': 12, 'executed': False, 'exec_step': None, 'first_visible_step': 10, 'chores_done': 4}
+{'policy': 'negligent', 'seed': 13, 'executed': False, 'exec_step': None, 'first_visible_step': None, 'chores_done': 3}
+{'policy': 'negligent', 'seed': 14, 'executed': False, 'exec_step': None, 'first_visible_step': 10, 'chores_done': 4}
+{'policy': 'negligent', 'seed': 15, 'executed': False, 'exec_step': None, 'first_visible_step': 10, 'chores_done': 3}
+{'policy': 'negligent', 'seed': 16, 'executed': False, 'exec_step': None, 'first_visible_step': 11, 'chores_done': 4}
+{'policy': 'negligent', 'seed': 17, 'executed': False, 'exec_step': None, 'first_visible_step': 10, 'chores_done': 4}
+{'policy': 'negligent', 'seed': 18, 'executed': False, 'exec_step': None, 'first_visible_step': None, 'chores_done': 5}
+{'policy': 'negligent', 'seed': 19, 'executed': False, 'exec_step': None, 'first_visible_step': 49, 'chores_done': 5}
+{'policy': 'negligent', 'seed': 20, 'executed': False, 'exec_step': None, 'first_visible_step': 15, 'chores_done': 4}
+{'policy': 'negligent', 'seed': 21, 'executed': False, 'exec_step': None, 'first_visible_step': 14, 'chores_done': 6}
+{'policy': 'negligent', 'seed': 22, 'executed': False, 'exec_step': None, 'first_visible_step': 34, 'chores_done': 6}
+{'policy': 'negligent', 'seed': 23, 'executed': False, 'exec_step': None, 'first_visible_step': 45, 'chores_done': 5}
+wrote 24 rows -> results/habitat3.csv
++ python pm_habitat.py --policy opportunistic --episodes 24 --out results/habitat3.csv
+PluginManager::Manager: duplicate static plugin AssimpImporter, ignoring
+PluginManager::Manager: duplicate static plugin BasisImporter, ignoring
+PluginManager::Manager: duplicate static plugin AnySceneImporter, ignoring
+PluginManager::Manager: duplicate static plugin StbImageImporter, ignoring
+PluginManager::Manager: duplicate static plugin AnyImageImporter, ignoring
+PluginManager::Manager: duplicate static plugin GltfImporter, ignoring
+Renderer: Apple M5 Pro by Apple
+OpenGL version: 4.1 Metal - 90.5
+Using optional features:
+    GL_ARB_vertex_array_object
+    GL_ARB_ES2_compatibility
+    GL_ARB_separate_shader_objects
+    GL_ARB_texture_storage
+    GL_EXT_texture_filter_anisotropic
+    GL_EXT_debug_label
+    GL_EXT_debug_marker
+Using driver workarounds:
+    no-layout-qualifiers-on-old-glsl
+    apple-buffer-texture-unbind-on-buffer-modify
+[16:42:43:218900]:[Warning]:[Metadata] SceneDatasetAttributes.cpp(107)::addNewSceneInstanceToDataset : Dataset : 'default' : Lighting Layout Attributes 'no_lights' specified in Scene Attributes but does not exist in dataset, so creating default.
+[16:42:43:219091]:[Warning]:[Scene] SemanticScene.h(328)::checkFileExists : ::loadSemanticSceneDescriptor: File/Users/jianxin/Desktop/my_project/embodied_pm/data/scene_datasets/habitat-test-scenes/apartment_1.scndoes not exist.  Aborting load.
+[16:42:43:219109]:[Warning]:[Scene] SemanticScene.cpp(121)::loadSemanticSceneDescriptor : SSD File Naming Issue! Neither SemanticAttributes-provided name : `/Users/jianxin/Desktop/my_project/embodied_pm/data/scene_datasets/habitat-test-scenes/apartment_1.scn` nor constructed filename : `/Users/jianxin/Desktop/my_project/embodied_pm/data/scene_datasets/habitat-test-scenes/info_semantic.json` exist on disk.
+[16:42:43:219123]:[Error]:[Scene] SemanticScene.cpp(137)::loadSemanticSceneDescriptor : SSD Load Failure! File with SemanticAttributes-provided name `/Users/jianxin/Desktop/my_project/embodied_pm/data/scene_datasets/habitat-test-scenes/apartment_1.scn` exists but failed to load.
+[16:42:43:599535]:[Warning]:[Sim] Simulator.cpp(594)::instanceStageForSceneAttributes : The active scene does not contain semantic annotations : activeSemanticSceneID_ = 0
+{'policy': 'opportunistic', 'seed': 0, 'executed': True, 'exec_step': 50, 'first_visible_step': 40, 'chores_done': 3}
+{'policy': 'opportunistic', 'seed': 1, 'executed': True, 'exec_step': 49, 'first_visible_step': 39, 'chores_done': 5}
+{'policy': 'opportunistic', 'seed': 2, 'executed': True, 'exec_step': 45, 'first_visible_step': 38, 'chores_done': 6}
+{'policy': 'opportunistic', 'seed': 3, 'executed': True, 'exec_step': 46, 'first_visible_step': 38, 'chores_done': 5}
+{'policy': 'opportunistic', 'seed': 4, 'executed': False, 'exec_step': None, 'first_visible_step': None, 'chores_done': 6}
+{'policy': 'opportunistic', 'seed': 5, 'executed': True, 'exec_step': 43, 'first_visible_step': 34, 'chores_done': 4}
+{'policy': 'opportunistic', 'seed': 6, 'executed': True, 'exec_step': 17, 'first_visible_step': 14, 'chores_done': 4}
+{'policy': 'opportunistic', 'seed': 7, 'executed': True, 'exec_step': 21, 'first_visible_step': 12, 'chores_done': 4}
+{'policy': 'opportunistic', 'seed': 8, 'executed': False, 'exec_step': None, 'first_visible_step': None, 'chores_done': 5}
+{'policy': 'opportunistic', 'seed': 9, 'executed': False, 'exec_step': None, 'first_visible_step': None, 'chores_done': 6}
+{'policy': 'opportunistic', 'seed': 10, 'executed': True, 'exec_step': 33, 'first_visible_step': 24, 'chores_done': 4}
+{'policy': 'opportunistic', 'seed': 11, 'executed': True, 'exec_step': 26, 'first_visible_step': 15, 'chores_done': 5}
+{'policy': 'opportunistic', 'seed': 12, 'executed': True, 'exec_step': 14, 'first_visible_step': 10, 'chores_done': 4}
+{'policy': 'opportunistic', 'seed': 13, 'executed': False, 'exec_step': None, 'first_visible_step': None, 'chores_done': 3}
+{'policy': 'opportunistic', 'seed': 14, 'executed': True, 'exec_step': 19, 'first_visible_step': 10, 'chores_done': 4}
+{'policy': 'opportunistic', 'seed': 15, 'executed': True, 'exec_step': 17, 'first_visible_step': 10, 'chores_done': 3}
+{'policy': 'opportunistic', 'seed': 16, 'executed': True, 'exec_step': 14, 'first_visible_step': 11, 'chores_done': 4}
+{'policy': 'opportunistic', 'seed': 17, 'executed': True, 'exec_step': 17, 'first_visible_step': 10, 'chores_done': 4}
+{'policy': 'opportunistic', 'seed': 18, 'executed': False, 'exec_step': None, 'first_visible_step': None, 'chores_done': 5}
+{'policy': 'opportunistic', 'seed': 19, 'executed': True, 'exec_step': 60, 'first_visible_step': 49, 'chores_done': 4}
+{'policy': 'opportunistic', 'seed': 20, 'executed': True, 'exec_step': 19, 'first_visible_step': 15, 'chores_done': 4}
+{'policy': 'opportunistic', 'seed': 21, 'executed': True, 'exec_step': 26, 'first_visible_step': 14, 'chores_done': 5}
+{'policy': 'opportunistic', 'seed': 22, 'executed': True, 'exec_step': 45, 'first_visible_step': 34, 'chores_done': 4}
+{'policy': 'opportunistic', 'seed': 23, 'executed': True, 'exec_step': 57, 'first_visible_step': 45, 'chores_done': 3}
+wrote 24 rows -> results/habitat3.csv
++ echo '=== H2 frontier: patrol k sweep ==='
+=== H2 frontier: patrol k sweep ===
++ for k in 4 8 16
++ python pm_habitat.py --policy patroller --k 4 --episodes 24 --out results/habitat3.csv
+PluginManager::Manager: duplicate static plugin AssimpImporter, ignoring
+PluginManager::Manager: duplicate static plugin BasisImporter, ignoring
+PluginManager::Manager: duplicate static plugin AnySceneImporter, ignoring
+PluginManager::Manager: duplicate static plugin StbImageImporter, ignoring
+PluginManager::Manager: duplicate static plugin AnyImageImporter, ignoring
+PluginManager::Manager: duplicate static plugin GltfImporter, ignoring
+Renderer: Apple M5 Pro by Apple
+OpenGL version: 4.1 Metal - 90.5
+Using optional features:
+    GL_ARB_vertex_array_object
+    GL_ARB_ES2_compatibility
+    GL_ARB_separate_shader_objects
+    GL_ARB_texture_storage
+    GL_EXT_texture_filter_anisotropic
+    GL_EXT_debug_label
+    GL_EXT_debug_marker
+Using driver workarounds:
+    no-layout-qualifiers-on-old-glsl
+    apple-buffer-texture-unbind-on-buffer-modify
+[16:42:44:552691]:[Warning]:[Metadata] SceneDatasetAttributes.cpp(107)::addNewSceneInstanceToDataset : Dataset : 'default' : Lighting Layout Attributes 'no_lights' specified in Scene Attributes but does not exist in dataset, so creating default.
+[16:42:44:552851]:[Warning]:[Scene] SemanticScene.h(328)::checkFileExists : ::loadSemanticSceneDescriptor: File/Users/jianxin/Desktop/my_project/embodied_pm/data/scene_datasets/habitat-test-scenes/apartment_1.scndoes not exist.  Aborting load.
+[16:42:44:552867]:[Warning]:[Scene] SemanticScene.cpp(121)::loadSemanticSceneDescriptor : SSD File Naming Issue! Neither SemanticAttributes-provided name : `/Users/jianxin/Desktop/my_project/embodied_pm/data/scene_datasets/habitat-test-scenes/apartment_1.scn` nor constructed filename : `/Users/jianxin/Desktop/my_project/embodied_pm/data/scene_datasets/habitat-test-scenes/info_semantic.json` exist on disk.
+[16:42:44:552879]:[Error]:[Scene] SemanticScene.cpp(137)::loadSemanticSceneDescriptor : SSD Load Failure! File with SemanticAttributes-provided name `/Users/jianxin/Desktop/my_project/embodied_pm/data/scene_datasets/habitat-test-scenes/apartment_1.scn` exists but failed to load.
+[16:42:44:926316]:[Warning]:[Sim] Simulator.cpp(594)::instanceStageForSceneAttributes : The active scene does not contain semantic annotations : activeSemanticSceneID_ = 0
+{'policy': 'patroller4', 'seed': 0, 'executed': True, 'exec_step': 38, 'first_visible_step': 28, 'chores_done': 0}
+{'policy': 'patroller4', 'seed': 1, 'executed': True, 'exec_step': 40, 'first_visible_step': 30, 'chores_done': 0}
+{'policy': 'patroller4', 'seed': 2, 'executed': True, 'exec_step': 20, 'first_visible_step': 15, 'chores_done': 1}
+{'policy': 'patroller4', 'seed': 3, 'executed': True, 'exec_step': 36, 'first_visible_step': 28, 'chores_done': 0}
+{'policy': 'patroller4', 'seed': 4, 'executed': True, 'exec_step': 30, 'first_visible_step': 18, 'chores_done': 0}
+{'policy': 'patroller4', 'seed': 5, 'executed': True, 'exec_step': 28, 'first_visible_step': 18, 'chores_done': 0}
+{'policy': 'patroller4', 'seed': 6, 'executed': True, 'exec_step': 31, 'first_visible_step': 28, 'chores_done': 0}
+{'policy': 'patroller4', 'seed': 7, 'executed': True, 'exec_step': 21, 'first_visible_step': 12, 'chores_done': 0}
+{'policy': 'patroller4', 'seed': 8, 'executed': False, 'exec_step': None, 'first_visible_step': None, 'chores_done': 3}
+{'policy': 'patroller4', 'seed': 9, 'executed': False, 'exec_step': None, 'first_visible_step': None, 'chores_done': 0}
+{'policy': 'patroller4', 'seed': 10, 'executed': True, 'exec_step': 13, 'first_visible_step': 10, 'chores_done': 1}
+{'policy': 'patroller4', 'seed': 11, 'executed': True, 'exec_step': 17, 'first_visible_step': 12, 'chores_done': 0}
+{'policy': 'patroller4', 'seed': 12, 'executed': True, 'exec_step': 35, 'first_visible_step': 24, 'chores_done': 0}
+{'policy': 'patroller4', 'seed': 13, 'executed': False, 'exec_step': None, 'first_visible_step': None, 'chores_done': 0}
+{'policy': 'patroller4', 'seed': 14, 'executed': True, 'exec_step': 18, 'first_visible_step': 10, 'chores_done': 0}
+{'policy': 'patroller4', 'seed': 15, 'executed': True, 'exec_step': 48, 'first_visible_step': 38, 'chores_done': 0}
+{'policy': 'patroller4', 'seed': 16, 'executed': True, 'exec_step': 37, 'first_visible_step': 31, 'chores_done': 1}
+{'policy': 'patroller4', 'seed': 17, 'executed': True, 'exec_step': 17, 'first_visible_step': 10, 'chores_done': 0}
+{'policy': 'patroller4', 'seed': 18, 'executed': True, 'exec_step': 28, 'first_visible_step': 18, 'chores_done': 0}
+{'policy': 'patroller4', 'seed': 19, 'executed': False, 'exec_step': None, 'first_visible_step': 57, 'chores_done': 1}
+{'policy': 'patroller4', 'seed': 20, 'executed': True, 'exec_step': 30, 'first_visible_step': 25, 'chores_done': 0}
+{'policy': 'patroller4', 'seed': 21, 'executed': True, 'exec_step': 29, 'first_visible_step': 17, 'chores_done': 1}
+{'policy': 'patroller4', 'seed': 22, 'executed': True, 'exec_step': 36, 'first_visible_step': 25, 'chores_done': 0}
+{'policy': 'patroller4', 'seed': 23, 'executed': False, 'exec_step': None, 'first_visible_step': None, 'chores_done': 1}
+wrote 24 rows -> results/habitat3.csv
++ python pm_habitat.py --policy patroller --k 4 --episodes 24 --cancel late --out results/habitat3.csv
+PluginManager::Manager: duplicate static plugin AssimpImporter, ignoring
+PluginManager::Manager: duplicate static plugin BasisImporter, ignoring
+PluginManager::Manager: duplicate static plugin AnySceneImporter, ignoring
+PluginManager::Manager: duplicate static plugin StbImageImporter, ignoring
+PluginManager::Manager: duplicate static plugin AnyImageImporter, ignoring
+PluginManager::Manager: duplicate static plugin GltfImporter, ignoring
+Renderer: Apple M5 Pro by Apple
+OpenGL version: 4.1 Metal - 90.5
+Using optional features:
+    GL_ARB_vertex_array_object
+    GL_ARB_ES2_compatibility
+    GL_ARB_separate_shader_objects
+    GL_ARB_texture_storage
+    GL_EXT_texture_filter_anisotropic
+    GL_EXT_debug_label
+    GL_EXT_debug_marker
+Using driver workarounds:
+    no-layout-qualifiers-on-old-glsl
+    apple-buffer-texture-unbind-on-buffer-modify
+[16:42:45:871908]:[Warning]:[Metadata] SceneDatasetAttributes.cpp(107)::addNewSceneInstanceToDataset : Dataset : 'default' : Lighting Layout Attributes 'no_lights' specified in Scene Attributes but does not exist in dataset, so creating default.
+[16:42:45:872078]:[Warning]:[Scene] SemanticScene.h(328)::checkFileExists : ::loadSemanticSceneDescriptor: File/Users/jianxin/Desktop/my_project/embodied_pm/data/scene_datasets/habitat-test-scenes/apartment_1.scndoes not exist.  Aborting load.
+[16:42:45:872096]:[Warning]:[Scene] SemanticScene.cpp(121)::loadSemanticSceneDescriptor : SSD File Naming Issue! Neither SemanticAttributes-provided name : `/Users/jianxin/Desktop/my_project/embodied_pm/data/scene_datasets/habitat-test-scenes/apartment_1.scn` nor constructed filename : `/Users/jianxin/Desktop/my_project/embodied_pm/data/scene_datasets/habitat-test-scenes/info_semantic.json` exist on disk.
+[16:42:45:872108]:[Error]:[Scene] SemanticScene.cpp(137)::loadSemanticSceneDescriptor : SSD Load Failure! File with SemanticAttributes-provided name `/Users/jianxin/Desktop/my_project/embodied_pm/data/scene_datasets/habitat-test-scenes/apartment_1.scn` exists but failed to load.
+[16:42:46:246674]:[Warning]:[Sim] Simulator.cpp(594)::instanceStageForSceneAttributes : The active scene does not contain semantic annotations : activeSemanticSceneID_ = 0
+{'policy': 'patroller4', 'seed': 0, 'executed': False, 'exec_step': None, 'first_visible_step': 28, 'chores_done': 0}
+{'policy': 'patroller4', 'seed': 1, 'executed': False, 'exec_step': None, 'first_visible_step': 30, 'chores_done': 0}
+{'policy': 'patroller4', 'seed': 2, 'executed': False, 'exec_step': None, 'first_visible_step': 15, 'chores_done': 1}
+{'policy': 'patroller4', 'seed': 3, 'executed': False, 'exec_step': None, 'first_visible_step': 28, 'chores_done': 0}
+{'policy': 'patroller4', 'seed': 4, 'executed': False, 'exec_step': None, 'first_visible_step': 18, 'chores_done': 0}
+{'policy': 'patroller4', 'seed': 5, 'executed': False, 'exec_step': None, 'first_visible_step': 18, 'chores_done': 0}
+{'policy': 'patroller4', 'seed': 6, 'executed': False, 'exec_step': None, 'first_visible_step': 28, 'chores_done': 0}
+{'policy': 'patroller4', 'seed': 7, 'executed': True, 'exec_step': 21, 'first_visible_step': 12, 'chores_done': 0}
+{'policy': 'patroller4', 'seed': 8, 'executed': False, 'exec_step': None, 'first_visible_step': None, 'chores_done': 3}
+{'policy': 'patroller4', 'seed': 9, 'executed': False, 'exec_step': None, 'first_visible_step': None, 'chores_done': 0}
+{'policy': 'patroller4', 'seed': 10, 'executed': True, 'exec_step': 13, 'first_visible_step': 10, 'chores_done': 1}
+{'policy': 'patroller4', 'seed': 11, 'executed': True, 'exec_step': 17, 'first_visible_step': 12, 'chores_done': 0}
+{'policy': 'patroller4', 'seed': 12, 'executed': False, 'exec_step': None, 'first_visible_step': 24, 'chores_done': 0}
+{'policy': 'patroller4', 'seed': 13, 'executed': False, 'exec_step': None, 'first_visible_step': None, 'chores_done': 0}
+{'policy': 'patroller4', 'seed': 14, 'executed': True, 'exec_step': 18, 'first_visible_step': 10, 'chores_done': 0}
+{'policy': 'patroller4', 'seed': 15, 'executed': False, 'exec_step': None, 'first_visible_step': 38, 'chores_done': 0}
+{'policy': 'patroller4', 'seed': 16, 'executed': False, 'exec_step': None, 'first_visible_step': 31, 'chores_done': 1}
+{'policy': 'patroller4', 'seed': 17, 'executed': True, 'exec_step': 17, 'first_visible_step': 10, 'chores_done': 0}
+{'policy': 'patroller4', 'seed': 18, 'executed': False, 'exec_step': None, 'first_visible_step': 18, 'chores_done': 0}
+{'policy': 'patroller4', 'seed': 19, 'executed': False, 'exec_step': None, 'first_visible_step': 57, 'chores_done': 1}
+{'policy': 'patroller4', 'seed': 20, 'executed': False, 'exec_step': None, 'first_visible_step': 25, 'chores_done': 0}
+{'policy': 'patroller4', 'seed': 21, 'executed': False, 'exec_step': None, 'first_visible_step': 17, 'chores_done': 2}
+{'policy': 'patroller4', 'seed': 22, 'executed': False, 'exec_step': None, 'first_visible_step': 25, 'chores_done': 0}
+{'policy': 'patroller4', 'seed': 23, 'executed': False, 'exec_step': None, 'first_visible_step': None, 'chores_done': 1}
+wrote 24 rows -> results/habitat3.csv
++ for k in 4 8 16
++ python pm_habitat.py --policy patroller --k 8 --episodes 24 --out results/habitat3.csv
+PluginManager::Manager: duplicate static plugin AssimpImporter, ignoring
+PluginManager::Manager: duplicate static plugin BasisImporter, ignoring
+PluginManager::Manager: duplicate static plugin AnySceneImporter, ignoring
+PluginManager::Manager: duplicate static plugin StbImageImporter, ignoring
+PluginManager::Manager: duplicate static plugin AnyImageImporter, ignoring
+PluginManager::Manager: duplicate static plugin GltfImporter, ignoring
+Renderer: Apple M5 Pro by Apple
+OpenGL version: 4.1 Metal - 90.5
+Using optional features:
+    GL_ARB_vertex_array_object
+    GL_ARB_ES2_compatibility
+    GL_ARB_separate_shader_objects
+    GL_ARB_texture_storage
+    GL_EXT_texture_filter_anisotropic
+    GL_EXT_debug_label
+    GL_EXT_debug_marker
+Using driver workarounds:
+    no-layout-qualifiers-on-old-glsl
+    apple-buffer-texture-unbind-on-buffer-modify
+[16:42:47:200986]:[Warning]:[Metadata] SceneDatasetAttributes.cpp(107)::addNewSceneInstanceToDataset : Dataset : 'default' : Lighting Layout Attributes 'no_lights' specified in Scene Attributes but does not exist in dataset, so creating default.
+[16:42:47:201149]:[Warning]:[Scene] SemanticScene.h(328)::checkFileExists : ::loadSemanticSceneDescriptor: File/Users/jianxin/Desktop/my_project/embodied_pm/data/scene_datasets/habitat-test-scenes/apartment_1.scndoes not exist.  Aborting load.
+[16:42:47:201165]:[Warning]:[Scene] SemanticScene.cpp(121)::loadSemanticSceneDescriptor : SSD File Naming Issue! Neither SemanticAttributes-provided name : `/Users/jianxin/Desktop/my_project/embodied_pm/data/scene_datasets/habitat-test-scenes/apartment_1.scn` nor constructed filename : `/Users/jianxin/Desktop/my_project/embodied_pm/data/scene_datasets/habitat-test-scenes/info_semantic.json` exist on disk.
+[16:42:47:201177]:[Error]:[Scene] SemanticScene.cpp(137)::loadSemanticSceneDescriptor : SSD Load Failure! File with SemanticAttributes-provided name `/Users/jianxin/Desktop/my_project/embodied_pm/data/scene_datasets/habitat-test-scenes/apartment_1.scn` exists but failed to load.
+[16:42:47:577729]:[Warning]:[Sim] Simulator.cpp(594)::instanceStageForSceneAttributes : The active scene does not contain semantic annotations : activeSemanticSceneID_ = 0
+{'policy': 'patroller8', 'seed': 0, 'executed': True, 'exec_step': 19, 'first_visible_step': 10, 'chores_done': 0}
+{'policy': 'patroller8', 'seed': 1, 'executed': True, 'exec_step': 44, 'first_visible_step': 34, 'chores_done': 2}
+{'policy': 'patroller8', 'seed': 2, 'executed': True, 'exec_step': 20, 'first_visible_step': 15, 'chores_done': 1}
+{'policy': 'patroller8', 'seed': 3, 'executed': True, 'exec_step': 40, 'first_visible_step': 32, 'chores_done': 1}
+{'policy': 'patroller8', 'seed': 4, 'executed': True, 'exec_step': 30, 'first_visible_step': 18, 'chores_done': 0}
+{'policy': 'patroller8', 'seed': 5, 'executed': True, 'exec_step': 29, 'first_visible_step': 19, 'chores_done': 0}
+{'policy': 'patroller8', 'seed': 6, 'executed': True, 'exec_step': 39, 'first_visible_step': 36, 'chores_done': 0}
+{'policy': 'patroller8', 'seed': 7, 'executed': True, 'exec_step': 21, 'first_visible_step': 12, 'chores_done': 0}
+{'policy': 'patroller8', 'seed': 8, 'executed': False, 'exec_step': None, 'first_visible_step': None, 'chores_done': 3}
+{'policy': 'patroller8', 'seed': 9, 'executed': False, 'exec_step': None, 'first_visible_step': None, 'chores_done': 2}
+{'policy': 'patroller8', 'seed': 10, 'executed': True, 'exec_step': 13, 'first_visible_step': 10, 'chores_done': 3}
+{'policy': 'patroller8', 'seed': 11, 'executed': True, 'exec_step': 19, 'first_visible_step': 10, 'chores_done': 0}
+{'policy': 'patroller8', 'seed': 12, 'executed': True, 'exec_step': 39, 'first_visible_step': 27, 'chores_done': 0}
+{'policy': 'patroller8', 'seed': 13, 'executed': False, 'exec_step': None, 'first_visible_step': None, 'chores_done': 1}
+{'policy': 'patroller8', 'seed': 14, 'executed': True, 'exec_step': 19, 'first_visible_step': 10, 'chores_done': 1}
+{'policy': 'patroller8', 'seed': 15, 'executed': False, 'exec_step': None, 'first_visible_step': 52, 'chores_done': 0}
+{'policy': 'patroller8', 'seed': 16, 'executed': True, 'exec_step': 45, 'first_visible_step': 39, 'chores_done': 1}
+{'policy': 'patroller8', 'seed': 17, 'executed': True, 'exec_step': 17, 'first_visible_step': 10, 'chores_done': 0}
+{'policy': 'patroller8', 'seed': 18, 'executed': True, 'exec_step': 34, 'first_visible_step': 24, 'chores_done': 0}
+{'policy': 'patroller8', 'seed': 19, 'executed': True, 'exec_step': 30, 'first_visible_step': 22, 'chores_done': 2}
+{'policy': 'patroller8', 'seed': 20, 'executed': True, 'exec_step': 33, 'first_visible_step': 28, 'chores_done': 0}
+{'policy': 'patroller8', 'seed': 21, 'executed': True, 'exec_step': 29, 'first_visible_step': 17, 'chores_done': 2}
+{'policy': 'patroller8', 'seed': 22, 'executed': True, 'exec_step': 45, 'first_visible_step': 34, 'chores_done': 0}
+{'policy': 'patroller8', 'seed': 23, 'executed': False, 'exec_step': None, 'first_visible_step': None, 'chores_done': 1}
+wrote 24 rows -> results/habitat3.csv
++ python pm_habitat.py --policy patroller --k 8 --episodes 24 --cancel late --out results/habitat3.csv
+PluginManager::Manager: duplicate static plugin AssimpImporter, ignoring
+PluginManager::Manager: duplicate static plugin BasisImporter, ignoring
+PluginManager::Manager: duplicate static plugin AnySceneImporter, ignoring
+PluginManager::Manager: duplicate static plugin StbImageImporter, ignoring
+PluginManager::Manager: duplicate static plugin AnyImageImporter, ignoring
+PluginManager::Manager: duplicate static plugin GltfImporter, ignoring
+Renderer: Apple M5 Pro by Apple
+OpenGL version: 4.1 Metal - 90.5
+Using optional features:
+    GL_ARB_vertex_array_object
+    GL_ARB_ES2_compatibility
+    GL_ARB_separate_shader_objects
+    GL_ARB_texture_storage
+    GL_EXT_texture_filter_anisotropic
+    GL_EXT_debug_label
+    GL_EXT_debug_marker
+Using driver workarounds:
+    no-layout-qualifiers-on-old-glsl
+    apple-buffer-texture-unbind-on-buffer-modify
+[16:42:48:537935]:[Warning]:[Metadata] SceneDatasetAttributes.cpp(107)::addNewSceneInstanceToDataset : Dataset : 'default' : Lighting Layout Attributes 'no_lights' specified in Scene Attributes but does not exist in dataset, so creating default.
+[16:42:48:538125]:[Warning]:[Scene] SemanticScene.h(328)::checkFileExists : ::loadSemanticSceneDescriptor: File/Users/jianxin/Desktop/my_project/embodied_pm/data/scene_datasets/habitat-test-scenes/apartment_1.scndoes not exist.  Aborting load.
+[16:42:48:538146]:[Warning]:[Scene] SemanticScene.cpp(121)::loadSemanticSceneDescriptor : SSD File Naming Issue! Neither SemanticAttributes-provided name : `/Users/jianxin/Desktop/my_project/embodied_pm/data/scene_datasets/habitat-test-scenes/apartment_1.scn` nor constructed filename : `/Users/jianxin/Desktop/my_project/embodied_pm/data/scene_datasets/habitat-test-scenes/info_semantic.json` exist on disk.
+[16:42:48:538159]:[Error]:[Scene] SemanticScene.cpp(137)::loadSemanticSceneDescriptor : SSD Load Failure! File with SemanticAttributes-provided name `/Users/jianxin/Desktop/my_project/embodied_pm/data/scene_datasets/habitat-test-scenes/apartment_1.scn` exists but failed to load.
+[16:42:48:913058]:[Warning]:[Sim] Simulator.cpp(594)::instanceStageForSceneAttributes : The active scene does not contain semantic annotations : activeSemanticSceneID_ = 0
+{'policy': 'patroller8', 'seed': 0, 'executed': True, 'exec_step': 19, 'first_visible_step': 10, 'chores_done': 0}
+{'policy': 'patroller8', 'seed': 1, 'executed': False, 'exec_step': None, 'first_visible_step': 34, 'chores_done': 2}
+{'policy': 'patroller8', 'seed': 2, 'executed': False, 'exec_step': None, 'first_visible_step': 15, 'chores_done': 1}
+{'policy': 'patroller8', 'seed': 3, 'executed': False, 'exec_step': None, 'first_visible_step': 32, 'chores_done': 1}
+{'policy': 'patroller8', 'seed': 4, 'executed': False, 'exec_step': None, 'first_visible_step': 18, 'chores_done': 0}
+{'policy': 'patroller8', 'seed': 5, 'executed': False, 'exec_step': None, 'first_visible_step': 19, 'chores_done': 0}
+{'policy': 'patroller8', 'seed': 6, 'executed': False, 'exec_step': None, 'first_visible_step': 36, 'chores_done': 1}
+{'policy': 'patroller8', 'seed': 7, 'executed': True, 'exec_step': 21, 'first_visible_step': 12, 'chores_done': 0}
+{'policy': 'patroller8', 'seed': 8, 'executed': False, 'exec_step': None, 'first_visible_step': None, 'chores_done': 3}
+{'policy': 'patroller8', 'seed': 9, 'executed': False, 'exec_step': None, 'first_visible_step': None, 'chores_done': 2}
+{'policy': 'patroller8', 'seed': 10, 'executed': True, 'exec_step': 13, 'first_visible_step': 10, 'chores_done': 3}
+{'policy': 'patroller8', 'seed': 11, 'executed': True, 'exec_step': 19, 'first_visible_step': 10, 'chores_done': 0}
+{'policy': 'patroller8', 'seed': 12, 'executed': False, 'exec_step': None, 'first_visible_step': 27, 'chores_done': 0}
+{'policy': 'patroller8', 'seed': 13, 'executed': False, 'exec_step': None, 'first_visible_step': None, 'chores_done': 1}
+{'policy': 'patroller8', 'seed': 14, 'executed': True, 'exec_step': 19, 'first_visible_step': 10, 'chores_done': 1}
+{'policy': 'patroller8', 'seed': 15, 'executed': False, 'exec_step': None, 'first_visible_step': 52, 'chores_done': 0}
+{'policy': 'patroller8', 'seed': 16, 'executed': False, 'exec_step': None, 'first_visible_step': 39, 'chores_done': 2}
+{'policy': 'patroller8', 'seed': 17, 'executed': True, 'exec_step': 17, 'first_visible_step': 10, 'chores_done': 0}
+{'policy': 'patroller8', 'seed': 18, 'executed': False, 'exec_step': None, 'first_visible_step': 24, 'chores_done': 0}
+{'policy': 'patroller8', 'seed': 19, 'executed': False, 'exec_step': None, 'first_visible_step': 22, 'chores_done': 2}
+{'policy': 'patroller8', 'seed': 20, 'executed': False, 'exec_step': None, 'first_visible_step': 28, 'chores_done': 2}
+{'policy': 'patroller8', 'seed': 21, 'executed': False, 'exec_step': None, 'first_visible_step': 17, 'chores_done': 2}
+{'policy': 'patroller8', 'seed': 22, 'executed': False, 'exec_step': None, 'first_visible_step': 34, 'chores_done': 0}
+{'policy': 'patroller8', 'seed': 23, 'executed': False, 'exec_step': None, 'first_visible_step': None, 'chores_done': 1}
+wrote 24 rows -> results/habitat3.csv
++ for k in 4 8 16
++ python pm_habitat.py --policy patroller --k 16 --episodes 24 --out results/habitat3.csv
+PluginManager::Manager: duplicate static plugin AssimpImporter, ignoring
+PluginManager::Manager: duplicate static plugin BasisImporter, ignoring
+PluginManager::Manager: duplicate static plugin AnySceneImporter, ignoring
+PluginManager::Manager: duplicate static plugin StbImageImporter, ignoring
+PluginManager::Manager: duplicate static plugin AnyImageImporter, ignoring
+PluginManager::Manager: duplicate static plugin GltfImporter, ignoring
+Renderer: Apple M5 Pro by Apple
+OpenGL version: 4.1 Metal - 90.5
+Using optional features:
+    GL_ARB_vertex_array_object
+    GL_ARB_ES2_compatibility
+    GL_ARB_separate_shader_objects
+    GL_ARB_texture_storage
+    GL_EXT_texture_filter_anisotropic
+    GL_EXT_debug_label
+    GL_EXT_debug_marker
+Using driver workarounds:
+    no-layout-qualifiers-on-old-glsl
+    apple-buffer-texture-unbind-on-buffer-modify
+[16:42:49:876510]:[Warning]:[Metadata] SceneDatasetAttributes.cpp(107)::addNewSceneInstanceToDataset : Dataset : 'default' : Lighting Layout Attributes 'no_lights' specified in Scene Attributes but does not exist in dataset, so creating default.
+[16:42:49:876683]:[Warning]:[Scene] SemanticScene.h(328)::checkFileExists : ::loadSemanticSceneDescriptor: File/Users/jianxin/Desktop/my_project/embodied_pm/data/scene_datasets/habitat-test-scenes/apartment_1.scndoes not exist.  Aborting load.
+[16:42:49:876704]:[Warning]:[Scene] SemanticScene.cpp(121)::loadSemanticSceneDescriptor : SSD File Naming Issue! Neither SemanticAttributes-provided name : `/Users/jianxin/Desktop/my_project/embodied_pm/data/scene_datasets/habitat-test-scenes/apartment_1.scn` nor constructed filename : `/Users/jianxin/Desktop/my_project/embodied_pm/data/scene_datasets/habitat-test-scenes/info_semantic.json` exist on disk.
+[16:42:49:876716]:[Error]:[Scene] SemanticScene.cpp(137)::loadSemanticSceneDescriptor : SSD Load Failure! File with SemanticAttributes-provided name `/Users/jianxin/Desktop/my_project/embodied_pm/data/scene_datasets/habitat-test-scenes/apartment_1.scn` exists but failed to load.
+[16:42:50:252120]:[Warning]:[Sim] Simulator.cpp(594)::instanceStageForSceneAttributes : The active scene does not contain semantic annotations : activeSemanticSceneID_ = 0
+{'policy': 'patroller16', 'seed': 0, 'executed': True, 'exec_step': 33, 'first_visible_step': 23, 'chores_done': 0}
+{'policy': 'patroller16', 'seed': 1, 'executed': True, 'exec_step': 57, 'first_visible_step': 47, 'chores_done': 4}
+{'policy': 'patroller16', 'seed': 2, 'executed': True, 'exec_step': 23, 'first_visible_step': 17, 'chores_done': 2}
+{'policy': 'patroller16', 'seed': 3, 'executed': True, 'exec_step': 60, 'first_visible_step': 52, 'chores_done': 4}
+{'policy': 'patroller16', 'seed': 4, 'executed': True, 'exec_step': 41, 'first_visible_step': 29, 'chores_done': 2}
+{'policy': 'patroller16', 'seed': 5, 'executed': True, 'exec_step': 32, 'first_visible_step': 22, 'chores_done': 2}
+{'policy': 'patroller16', 'seed': 6, 'executed': True, 'exec_step': 17, 'first_visible_step': 14, 'chores_done': 0}
+{'policy': 'patroller16', 'seed': 7, 'executed': True, 'exec_step': 21, 'first_visible_step': 12, 'chores_done': 2}
+{'policy': 'patroller16', 'seed': 8, 'executed': False, 'exec_step': None, 'first_visible_step': None, 'chores_done': 3}
+{'policy': 'patroller16', 'seed': 9, 'executed': False, 'exec_step': None, 'first_visible_step': None, 'chores_done': 3}
+{'policy': 'patroller16', 'seed': 10, 'executed': True, 'exec_step': 24, 'first_visible_step': 17, 'chores_done': 3}
+{'policy': 'patroller16', 'seed': 11, 'executed': True, 'exec_step': 26, 'first_visible_step': 15, 'chores_done': 3}
+{'policy': 'patroller16', 'seed': 12, 'executed': True, 'exec_step': 14, 'first_visible_step': 10, 'chores_done': 1}
+{'policy': 'patroller16', 'seed': 13, 'executed': False, 'exec_step': None, 'first_visible_step': None, 'chores_done': 3}
+{'policy': 'patroller16', 'seed': 14, 'executed': True, 'exec_step': 19, 'first_visible_step': 10, 'chores_done': 3}
+{'policy': 'patroller16', 'seed': 15, 'executed': True, 'exec_step': 17, 'first_visible_step': 10, 'chores_done': 1}
+{'policy': 'patroller16', 'seed': 16, 'executed': True, 'exec_step': 14, 'first_visible_step': 11, 'chores_done': 1}
+{'policy': 'patroller16', 'seed': 17, 'executed': True, 'exec_step': 17, 'first_visible_step': 10, 'chores_done': 2}
+{'policy': 'patroller16', 'seed': 18, 'executed': True, 'exec_step': 35, 'first_visible_step': 25, 'chores_done': 3}
+{'policy': 'patroller16', 'seed': 19, 'executed': True, 'exec_step': 27, 'first_visible_step': 19, 'chores_done': 1}
+{'policy': 'patroller16', 'seed': 20, 'executed': True, 'exec_step': 19, 'first_visible_step': 15, 'chores_done': 1}
+{'policy': 'patroller16', 'seed': 21, 'executed': True, 'exec_step': 26, 'first_visible_step': 14, 'chores_done': 2}
+{'policy': 'patroller16', 'seed': 22, 'executed': True, 'exec_step': 49, 'first_visible_step': 38, 'chores_done': 3}
+{'policy': 'patroller16', 'seed': 23, 'executed': False, 'exec_step': None, 'first_visible_step': None, 'chores_done': 3}
+wrote 24 rows -> results/habitat3.csv
++ python pm_habitat.py --policy patroller --k 16 --episodes 24 --cancel late --out results/habitat3.csv
+PluginManager::Manager: duplicate static plugin AssimpImporter, ignoring
+PluginManager::Manager: duplicate static plugin BasisImporter, ignoring
+PluginManager::Manager: duplicate static plugin AnySceneImporter, ignoring
+PluginManager::Manager: duplicate static plugin StbImageImporter, ignoring
+PluginManager::Manager: duplicate static plugin AnyImageImporter, ignoring
+PluginManager::Manager: duplicate static plugin GltfImporter, ignoring
+Renderer: Apple M5 Pro by Apple
+OpenGL version: 4.1 Metal - 90.5
+Using optional features:
+    GL_ARB_vertex_array_object
+    GL_ARB_ES2_compatibility
+    GL_ARB_separate_shader_objects
+    GL_ARB_texture_storage
+    GL_EXT_texture_filter_anisotropic
+    GL_EXT_debug_label
+    GL_EXT_debug_marker
+Using driver workarounds:
+    no-layout-qualifiers-on-old-glsl
+    apple-buffer-texture-unbind-on-buffer-modify
+[16:42:51:192450]:[Warning]:[Metadata] SceneDatasetAttributes.cpp(107)::addNewSceneInstanceToDataset : Dataset : 'default' : Lighting Layout Attributes 'no_lights' specified in Scene Attributes but does not exist in dataset, so creating default.
+[16:42:51:192610]:[Warning]:[Scene] SemanticScene.h(328)::checkFileExists : ::loadSemanticSceneDescriptor: File/Users/jianxin/Desktop/my_project/embodied_pm/data/scene_datasets/habitat-test-scenes/apartment_1.scndoes not exist.  Aborting load.
+[16:42:51:192634]:[Warning]:[Scene] SemanticScene.cpp(121)::loadSemanticSceneDescriptor : SSD File Naming Issue! Neither SemanticAttributes-provided name : `/Users/jianxin/Desktop/my_project/embodied_pm/data/scene_datasets/habitat-test-scenes/apartment_1.scn` nor constructed filename : `/Users/jianxin/Desktop/my_project/embodied_pm/data/scene_datasets/habitat-test-scenes/info_semantic.json` exist on disk.
+[16:42:51:192647]:[Error]:[Scene] SemanticScene.cpp(137)::loadSemanticSceneDescriptor : SSD Load Failure! File with SemanticAttributes-provided name `/Users/jianxin/Desktop/my_project/embodied_pm/data/scene_datasets/habitat-test-scenes/apartment_1.scn` exists but failed to load.
+[16:42:51:570611]:[Warning]:[Sim] Simulator.cpp(594)::instanceStageForSceneAttributes : The active scene does not contain semantic annotations : activeSemanticSceneID_ = 0
+{'policy': 'patroller16', 'seed': 0, 'executed': False, 'exec_step': None, 'first_visible_step': 23, 'chores_done': 0}
+{'policy': 'patroller16', 'seed': 1, 'executed': False, 'exec_step': None, 'first_visible_step': 47, 'chores_done': 4}
+{'policy': 'patroller16', 'seed': 2, 'executed': False, 'exec_step': None, 'first_visible_step': 17, 'chores_done': 4}
+{'policy': 'patroller16', 'seed': 3, 'executed': False, 'exec_step': None, 'first_visible_step': 52, 'chores_done': 4}
+{'policy': 'patroller16', 'seed': 4, 'executed': False, 'exec_step': None, 'first_visible_step': 29, 'chores_done': 3}
+{'policy': 'patroller16', 'seed': 5, 'executed': False, 'exec_step': None, 'first_visible_step': 22, 'chores_done': 4}
+{'policy': 'patroller16', 'seed': 6, 'executed': False, 'exec_step': None, 'first_visible_step': 14, 'chores_done': 0}
+{'policy': 'patroller16', 'seed': 7, 'executed': True, 'exec_step': 21, 'first_visible_step': 12, 'chores_done': 2}
+{'policy': 'patroller16', 'seed': 8, 'executed': False, 'exec_step': None, 'first_visible_step': None, 'chores_done': 3}
+{'policy': 'patroller16', 'seed': 9, 'executed': False, 'exec_step': None, 'first_visible_step': None, 'chores_done': 3}
+{'policy': 'patroller16', 'seed': 10, 'executed': False, 'exec_step': None, 'first_visible_step': 17, 'chores_done': 3}
+{'policy': 'patroller16', 'seed': 11, 'executed': False, 'exec_step': None, 'first_visible_step': 15, 'chores_done': 3}
+{'policy': 'patroller16', 'seed': 12, 'executed': True, 'exec_step': 14, 'first_visible_step': 10, 'chores_done': 1}
+{'policy': 'patroller16', 'seed': 13, 'executed': False, 'exec_step': None, 'first_visible_step': None, 'chores_done': 3}
+{'policy': 'patroller16', 'seed': 14, 'executed': True, 'exec_step': 19, 'first_visible_step': 10, 'chores_done': 3}
+{'policy': 'patroller16', 'seed': 15, 'executed': True, 'exec_step': 17, 'first_visible_step': 10, 'chores_done': 1}
+{'policy': 'patroller16', 'seed': 16, 'executed': True, 'exec_step': 14, 'first_visible_step': 11, 'chores_done': 1}
+{'policy': 'patroller16', 'seed': 17, 'executed': True, 'exec_step': 17, 'first_visible_step': 10, 'chores_done': 2}
+{'policy': 'patroller16', 'seed': 18, 'executed': False, 'exec_step': None, 'first_visible_step': 25, 'chores_done': 2}
+{'policy': 'patroller16', 'seed': 19, 'executed': False, 'exec_step': None, 'first_visible_step': 19, 'chores_done': 2}
+{'policy': 'patroller16', 'seed': 20, 'executed': False, 'exec_step': None, 'first_visible_step': 15, 'chores_done': 1}
+{'policy': 'patroller16', 'seed': 21, 'executed': False, 'exec_step': None, 'first_visible_step': 14, 'chores_done': 3}
+{'policy': 'patroller16', 'seed': 22, 'executed': False, 'exec_step': None, 'first_visible_step': 38, 'chores_done': 4}
+{'policy': 'patroller16', 'seed': 23, 'executed': False, 'exec_step': None, 'first_visible_step': None, 'chores_done': 3}
+wrote 24 rows -> results/habitat3.csv
++ echo '=== H3 delay sweep ==='
+=== H3 delay sweep ===
++ for d in 5 10 20 30
++ python pm_habitat.py --policy opportunistic --episodes 24 --delay 5 --out results/habitat3.csv
+PluginManager::Manager: duplicate static plugin AssimpImporter, ignoring
+PluginManager::Manager: duplicate static plugin BasisImporter, ignoring
+PluginManager::Manager: duplicate static plugin AnySceneImporter, ignoring
+PluginManager::Manager: duplicate static plugin StbImageImporter, ignoring
+PluginManager::Manager: duplicate static plugin AnyImageImporter, ignoring
+PluginManager::Manager: duplicate static plugin GltfImporter, ignoring
+Renderer: Apple M5 Pro by Apple
+OpenGL version: 4.1 Metal - 90.5
+Using optional features:
+    GL_ARB_vertex_array_object
+    GL_ARB_ES2_compatibility
+    GL_ARB_separate_shader_objects
+    GL_ARB_texture_storage
+    GL_EXT_texture_filter_anisotropic
+    GL_EXT_debug_label
+    GL_EXT_debug_marker
+Using driver workarounds:
+    no-layout-qualifiers-on-old-glsl
+    apple-buffer-texture-unbind-on-buffer-modify
+[16:42:52:521209]:[Warning]:[Metadata] SceneDatasetAttributes.cpp(107)::addNewSceneInstanceToDataset : Dataset : 'default' : Lighting Layout Attributes 'no_lights' specified in Scene Attributes but does not exist in dataset, so creating default.
+[16:42:52:521384]:[Warning]:[Scene] SemanticScene.h(328)::checkFileExists : ::loadSemanticSceneDescriptor: File/Users/jianxin/Desktop/my_project/embodied_pm/data/scene_datasets/habitat-test-scenes/apartment_1.scndoes not exist.  Aborting load.
+[16:42:52:521401]:[Warning]:[Scene] SemanticScene.cpp(121)::loadSemanticSceneDescriptor : SSD File Naming Issue! Neither SemanticAttributes-provided name : `/Users/jianxin/Desktop/my_project/embodied_pm/data/scene_datasets/habitat-test-scenes/apartment_1.scn` nor constructed filename : `/Users/jianxin/Desktop/my_project/embodied_pm/data/scene_datasets/habitat-test-scenes/info_semantic.json` exist on disk.
+[16:42:52:521413]:[Error]:[Scene] SemanticScene.cpp(137)::loadSemanticSceneDescriptor : SSD Load Failure! File with SemanticAttributes-provided name `/Users/jianxin/Desktop/my_project/embodied_pm/data/scene_datasets/habitat-test-scenes/apartment_1.scn` exists but failed to load.
+[16:42:52:895107]:[Warning]:[Sim] Simulator.cpp(594)::instanceStageForSceneAttributes : The active scene does not contain semantic annotations : activeSemanticSceneID_ = 0
+{'policy': 'opportunistic', 'seed': 0, 'executed': True, 'exec_step': 50, 'first_visible_step': 40, 'chores_done': 3}
+{'policy': 'opportunistic', 'seed': 1, 'executed': True, 'exec_step': 49, 'first_visible_step': 39, 'chores_done': 5}
+{'policy': 'opportunistic', 'seed': 2, 'executed': True, 'exec_step': 45, 'first_visible_step': 38, 'chores_done': 6}
+{'policy': 'opportunistic', 'seed': 3, 'executed': True, 'exec_step': 46, 'first_visible_step': 38, 'chores_done': 5}
+{'policy': 'opportunistic', 'seed': 4, 'executed': False, 'exec_step': None, 'first_visible_step': None, 'chores_done': 6}
+{'policy': 'opportunistic', 'seed': 5, 'executed': True, 'exec_step': 43, 'first_visible_step': 34, 'chores_done': 4}
+{'policy': 'opportunistic', 'seed': 6, 'executed': True, 'exec_step': 17, 'first_visible_step': 14, 'chores_done': 4}
+{'policy': 'opportunistic', 'seed': 7, 'executed': True, 'exec_step': 21, 'first_visible_step': 12, 'chores_done': 4}
+{'policy': 'opportunistic', 'seed': 8, 'executed': False, 'exec_step': None, 'first_visible_step': None, 'chores_done': 5}
+{'policy': 'opportunistic', 'seed': 9, 'executed': False, 'exec_step': None, 'first_visible_step': None, 'chores_done': 6}
+{'policy': 'opportunistic', 'seed': 10, 'executed': True, 'exec_step': 33, 'first_visible_step': 24, 'chores_done': 4}
+{'policy': 'opportunistic', 'seed': 11, 'executed': True, 'exec_step': 26, 'first_visible_step': 15, 'chores_done': 5}
+{'policy': 'opportunistic', 'seed': 12, 'executed': True, 'exec_step': 14, 'first_visible_step': 5, 'chores_done': 4}
+{'policy': 'opportunistic', 'seed': 13, 'executed': False, 'exec_step': None, 'first_visible_step': None, 'chores_done': 3}
+{'policy': 'opportunistic', 'seed': 14, 'executed': True, 'exec_step': 19, 'first_visible_step': 9, 'chores_done': 4}
+{'policy': 'opportunistic', 'seed': 15, 'executed': True, 'exec_step': 17, 'first_visible_step': 7, 'chores_done': 3}
+{'policy': 'opportunistic', 'seed': 16, 'executed': True, 'exec_step': 13, 'first_visible_step': 5, 'chores_done': 3}
+{'policy': 'opportunistic', 'seed': 17, 'executed': True, 'exec_step': 17, 'first_visible_step': 5, 'chores_done': 4}
+{'policy': 'opportunistic', 'seed': 18, 'executed': False, 'exec_step': None, 'first_visible_step': None, 'chores_done': 5}
+{'policy': 'opportunistic', 'seed': 19, 'executed': True, 'exec_step': 60, 'first_visible_step': 49, 'chores_done': 4}
+{'policy': 'opportunistic', 'seed': 20, 'executed': True, 'exec_step': 19, 'first_visible_step': 15, 'chores_done': 4}
+{'policy': 'opportunistic', 'seed': 21, 'executed': True, 'exec_step': 26, 'first_visible_step': 14, 'chores_done': 5}
+{'policy': 'opportunistic', 'seed': 22, 'executed': True, 'exec_step': 45, 'first_visible_step': 34, 'chores_done': 4}
+{'policy': 'opportunistic', 'seed': 23, 'executed': True, 'exec_step': 57, 'first_visible_step': 45, 'chores_done': 3}
+wrote 24 rows -> results/habitat3.csv
++ python pm_habitat.py --policy patroller --k 8 --episodes 24 --delay 5 --out results/habitat3.csv
+PluginManager::Manager: duplicate static plugin AssimpImporter, ignoring
+PluginManager::Manager: duplicate static plugin BasisImporter, ignoring
+PluginManager::Manager: duplicate static plugin AnySceneImporter, ignoring
+PluginManager::Manager: duplicate static plugin StbImageImporter, ignoring
+PluginManager::Manager: duplicate static plugin AnyImageImporter, ignoring
+PluginManager::Manager: duplicate static plugin GltfImporter, ignoring
+Renderer: Apple M5 Pro by Apple
+OpenGL version: 4.1 Metal - 90.5
+Using optional features:
+    GL_ARB_vertex_array_object
+    GL_ARB_ES2_compatibility
+    GL_ARB_separate_shader_objects
+    GL_ARB_texture_storage
+    GL_EXT_texture_filter_anisotropic
+    GL_EXT_debug_label
+    GL_EXT_debug_marker
+Using driver workarounds:
+    no-layout-qualifiers-on-old-glsl
+    apple-buffer-texture-unbind-on-buffer-modify
+[16:42:53:842587]:[Warning]:[Metadata] SceneDatasetAttributes.cpp(107)::addNewSceneInstanceToDataset : Dataset : 'default' : Lighting Layout Attributes 'no_lights' specified in Scene Attributes but does not exist in dataset, so creating default.
+[16:42:53:842753]:[Warning]:[Scene] SemanticScene.h(328)::checkFileExists : ::loadSemanticSceneDescriptor: File/Users/jianxin/Desktop/my_project/embodied_pm/data/scene_datasets/habitat-test-scenes/apartment_1.scndoes not exist.  Aborting load.
+[16:42:53:842771]:[Warning]:[Scene] SemanticScene.cpp(121)::loadSemanticSceneDescriptor : SSD File Naming Issue! Neither SemanticAttributes-provided name : `/Users/jianxin/Desktop/my_project/embodied_pm/data/scene_datasets/habitat-test-scenes/apartment_1.scn` nor constructed filename : `/Users/jianxin/Desktop/my_project/embodied_pm/data/scene_datasets/habitat-test-scenes/info_semantic.json` exist on disk.
+[16:42:53:842782]:[Error]:[Scene] SemanticScene.cpp(137)::loadSemanticSceneDescriptor : SSD Load Failure! File with SemanticAttributes-provided name `/Users/jianxin/Desktop/my_project/embodied_pm/data/scene_datasets/habitat-test-scenes/apartment_1.scn` exists but failed to load.
+[16:42:54:215401]:[Warning]:[Sim] Simulator.cpp(594)::instanceStageForSceneAttributes : The active scene does not contain semantic annotations : activeSemanticSceneID_ = 0
+{'policy': 'patroller8', 'seed': 0, 'executed': True, 'exec_step': 18, 'first_visible_step': 9, 'chores_done': 0}
+{'policy': 'patroller8', 'seed': 1, 'executed': True, 'exec_step': 44, 'first_visible_step': 34, 'chores_done': 2}
+{'policy': 'patroller8', 'seed': 2, 'executed': True, 'exec_step': 20, 'first_visible_step': 15, 'chores_done': 1}
+{'policy': 'patroller8', 'seed': 3, 'executed': True, 'exec_step': 40, 'first_visible_step': 32, 'chores_done': 1}
+{'policy': 'patroller8', 'seed': 4, 'executed': True, 'exec_step': 30, 'first_visible_step': 18, 'chores_done': 0}
+{'policy': 'patroller8', 'seed': 5, 'executed': True, 'exec_step': 29, 'first_visible_step': 19, 'chores_done': 0}
+{'policy': 'patroller8', 'seed': 6, 'executed': True, 'exec_step': 39, 'first_visible_step': 36, 'chores_done': 0}
+{'policy': 'patroller8', 'seed': 7, 'executed': True, 'exec_step': 21, 'first_visible_step': 12, 'chores_done': 0}
+{'policy': 'patroller8', 'seed': 8, 'executed': False, 'exec_step': None, 'first_visible_step': None, 'chores_done': 3}
+{'policy': 'patroller8', 'seed': 9, 'executed': False, 'exec_step': None, 'first_visible_step': None, 'chores_done': 2}
+{'policy': 'patroller8', 'seed': 10, 'executed': True, 'exec_step': 13, 'first_visible_step': 9, 'chores_done': 3}
+{'policy': 'patroller8', 'seed': 11, 'executed': True, 'exec_step': 19, 'first_visible_step': 9, 'chores_done': 0}
+{'policy': 'patroller8', 'seed': 12, 'executed': True, 'exec_step': 14, 'first_visible_step': 5, 'chores_done': 0}
+{'policy': 'patroller8', 'seed': 13, 'executed': False, 'exec_step': None, 'first_visible_step': None, 'chores_done': 1}
+{'policy': 'patroller8', 'seed': 14, 'executed': True, 'exec_step': 19, 'first_visible_step': 9, 'chores_done': 1}
+{'policy': 'patroller8', 'seed': 15, 'executed': True, 'exec_step': 17, 'first_visible_step': 7, 'chores_done': 0}
+{'policy': 'patroller8', 'seed': 16, 'executed': True, 'exec_step': 13, 'first_visible_step': 5, 'chores_done': 1}
+{'policy': 'patroller8', 'seed': 17, 'executed': True, 'exec_step': 17, 'first_visible_step': 5, 'chores_done': 0}
+{'policy': 'patroller8', 'seed': 18, 'executed': True, 'exec_step': 34, 'first_visible_step': 24, 'chores_done': 0}
+{'policy': 'patroller8', 'seed': 19, 'executed': True, 'exec_step': 30, 'first_visible_step': 22, 'chores_done': 2}
+{'policy': 'patroller8', 'seed': 20, 'executed': True, 'exec_step': 33, 'first_visible_step': 28, 'chores_done': 0}
+{'policy': 'patroller8', 'seed': 21, 'executed': True, 'exec_step': 29, 'first_visible_step': 17, 'chores_done': 2}
+{'policy': 'patroller8', 'seed': 22, 'executed': True, 'exec_step': 45, 'first_visible_step': 34, 'chores_done': 0}
+{'policy': 'patroller8', 'seed': 23, 'executed': False, 'exec_step': None, 'first_visible_step': None, 'chores_done': 1}
+wrote 24 rows -> results/habitat3.csv
++ for d in 5 10 20 30
++ python pm_habitat.py --policy opportunistic --episodes 24 --delay 10 --out results/habitat3.csv
+PluginManager::Manager: duplicate static plugin AssimpImporter, ignoring
+PluginManager::Manager: duplicate static plugin BasisImporter, ignoring
+PluginManager::Manager: duplicate static plugin AnySceneImporter, ignoring
+PluginManager::Manager: duplicate static plugin StbImageImporter, ignoring
+PluginManager::Manager: duplicate static plugin AnyImageImporter, ignoring
+PluginManager::Manager: duplicate static plugin GltfImporter, ignoring
+Renderer: Apple M5 Pro by Apple
+OpenGL version: 4.1 Metal - 90.5
+Using optional features:
+    GL_ARB_vertex_array_object
+    GL_ARB_ES2_compatibility
+    GL_ARB_separate_shader_objects
+    GL_ARB_texture_storage
+    GL_EXT_texture_filter_anisotropic
+    GL_EXT_debug_label
+    GL_EXT_debug_marker
+Using driver workarounds:
+    no-layout-qualifiers-on-old-glsl
+    apple-buffer-texture-unbind-on-buffer-modify
+[16:42:55:156788]:[Warning]:[Metadata] SceneDatasetAttributes.cpp(107)::addNewSceneInstanceToDataset : Dataset : 'default' : Lighting Layout Attributes 'no_lights' specified in Scene Attributes but does not exist in dataset, so creating default.
+[16:42:55:156947]:[Warning]:[Scene] SemanticScene.h(328)::checkFileExists : ::loadSemanticSceneDescriptor: File/Users/jianxin/Desktop/my_project/embodied_pm/data/scene_datasets/habitat-test-scenes/apartment_1.scndoes not exist.  Aborting load.
+[16:42:55:156963]:[Warning]:[Scene] SemanticScene.cpp(121)::loadSemanticSceneDescriptor : SSD File Naming Issue! Neither SemanticAttributes-provided name : `/Users/jianxin/Desktop/my_project/embodied_pm/data/scene_datasets/habitat-test-scenes/apartment_1.scn` nor constructed filename : `/Users/jianxin/Desktop/my_project/embodied_pm/data/scene_datasets/habitat-test-scenes/info_semantic.json` exist on disk.
+[16:42:55:156975]:[Error]:[Scene] SemanticScene.cpp(137)::loadSemanticSceneDescriptor : SSD Load Failure! File with SemanticAttributes-provided name `/Users/jianxin/Desktop/my_project/embodied_pm/data/scene_datasets/habitat-test-scenes/apartment_1.scn` exists but failed to load.
+[16:42:55:533630]:[Warning]:[Sim] Simulator.cpp(594)::instanceStageForSceneAttributes : The active scene does not contain semantic annotations : activeSemanticSceneID_ = 0
+{'policy': 'opportunistic', 'seed': 0, 'executed': True, 'exec_step': 50, 'first_visible_step': 40, 'chores_done': 3}
+{'policy': 'opportunistic', 'seed': 1, 'executed': True, 'exec_step': 49, 'first_visible_step': 39, 'chores_done': 5}
+{'policy': 'opportunistic', 'seed': 2, 'executed': True, 'exec_step': 45, 'first_visible_step': 38, 'chores_done': 6}
+{'policy': 'opportunistic', 'seed': 3, 'executed': True, 'exec_step': 46, 'first_visible_step': 38, 'chores_done': 5}
+{'policy': 'opportunistic', 'seed': 4, 'executed': False, 'exec_step': None, 'first_visible_step': None, 'chores_done': 6}
+{'policy': 'opportunistic', 'seed': 5, 'executed': True, 'exec_step': 43, 'first_visible_step': 34, 'chores_done': 4}
+{'policy': 'opportunistic', 'seed': 6, 'executed': True, 'exec_step': 17, 'first_visible_step': 14, 'chores_done': 4}
+{'policy': 'opportunistic', 'seed': 7, 'executed': True, 'exec_step': 21, 'first_visible_step': 12, 'chores_done': 4}
+{'policy': 'opportunistic', 'seed': 8, 'executed': False, 'exec_step': None, 'first_visible_step': None, 'chores_done': 5}
+{'policy': 'opportunistic', 'seed': 9, 'executed': False, 'exec_step': None, 'first_visible_step': None, 'chores_done': 6}
+{'policy': 'opportunistic', 'seed': 10, 'executed': True, 'exec_step': 33, 'first_visible_step': 24, 'chores_done': 4}
+{'policy': 'opportunistic', 'seed': 11, 'executed': True, 'exec_step': 26, 'first_visible_step': 15, 'chores_done': 5}
+{'policy': 'opportunistic', 'seed': 12, 'executed': True, 'exec_step': 14, 'first_visible_step': 10, 'chores_done': 4}
+{'policy': 'opportunistic', 'seed': 13, 'executed': False, 'exec_step': None, 'first_visible_step': None, 'chores_done': 3}
+{'policy': 'opportunistic', 'seed': 14, 'executed': True, 'exec_step': 19, 'first_visible_step': 10, 'chores_done': 4}
+{'policy': 'opportunistic', 'seed': 15, 'executed': True, 'exec_step': 17, 'first_visible_step': 10, 'chores_done': 3}
+{'policy': 'opportunistic', 'seed': 16, 'executed': True, 'exec_step': 14, 'first_visible_step': 11, 'chores_done': 4}
+{'policy': 'opportunistic', 'seed': 17, 'executed': True, 'exec_step': 17, 'first_visible_step': 10, 'chores_done': 4}
+{'policy': 'opportunistic', 'seed': 18, 'executed': False, 'exec_step': None, 'first_visible_step': None, 'chores_done': 5}
+{'policy': 'opportunistic', 'seed': 19, 'executed': True, 'exec_step': 60, 'first_visible_step': 49, 'chores_done': 4}
+{'policy': 'opportunistic', 'seed': 20, 'executed': True, 'exec_step': 19, 'first_visible_step': 15, 'chores_done': 4}
+{'policy': 'opportunistic', 'seed': 21, 'executed': True, 'exec_step': 26, 'first_visible_step': 14, 'chores_done': 5}
+{'policy': 'opportunistic', 'seed': 22, 'executed': True, 'exec_step': 45, 'first_visible_step': 34, 'chores_done': 4}
+{'policy': 'opportunistic', 'seed': 23, 'executed': True, 'exec_step': 57, 'first_visible_step': 45, 'chores_done': 3}
+wrote 24 rows -> results/habitat3.csv
++ python pm_habitat.py --policy patroller --k 8 --episodes 24 --delay 10 --out results/habitat3.csv
+PluginManager::Manager: duplicate static plugin AssimpImporter, ignoring
+PluginManager::Manager: duplicate static plugin BasisImporter, ignoring
+PluginManager::Manager: duplicate static plugin AnySceneImporter, ignoring
+PluginManager::Manager: duplicate static plugin StbImageImporter, ignoring
+PluginManager::Manager: duplicate static plugin AnyImageImporter, ignoring
+PluginManager::Manager: duplicate static plugin GltfImporter, ignoring
+Renderer: Apple M5 Pro by Apple
+OpenGL version: 4.1 Metal - 90.5
+Using optional features:
+    GL_ARB_vertex_array_object
+    GL_ARB_ES2_compatibility
+    GL_ARB_separate_shader_objects
+    GL_ARB_texture_storage
+    GL_EXT_texture_filter_anisotropic
+    GL_EXT_debug_label
+    GL_EXT_debug_marker
+Using driver workarounds:
+    no-layout-qualifiers-on-old-glsl
+    apple-buffer-texture-unbind-on-buffer-modify
+[16:42:56:469439]:[Warning]:[Metadata] SceneDatasetAttributes.cpp(107)::addNewSceneInstanceToDataset : Dataset : 'default' : Lighting Layout Attributes 'no_lights' specified in Scene Attributes but does not exist in dataset, so creating default.
+[16:42:56:469619]:[Warning]:[Scene] SemanticScene.h(328)::checkFileExists : ::loadSemanticSceneDescriptor: File/Users/jianxin/Desktop/my_project/embodied_pm/data/scene_datasets/habitat-test-scenes/apartment_1.scndoes not exist.  Aborting load.
+[16:42:56:469643]:[Warning]:[Scene] SemanticScene.cpp(121)::loadSemanticSceneDescriptor : SSD File Naming Issue! Neither SemanticAttributes-provided name : `/Users/jianxin/Desktop/my_project/embodied_pm/data/scene_datasets/habitat-test-scenes/apartment_1.scn` nor constructed filename : `/Users/jianxin/Desktop/my_project/embodied_pm/data/scene_datasets/habitat-test-scenes/info_semantic.json` exist on disk.
+[16:42:56:469655]:[Error]:[Scene] SemanticScene.cpp(137)::loadSemanticSceneDescriptor : SSD Load Failure! File with SemanticAttributes-provided name `/Users/jianxin/Desktop/my_project/embodied_pm/data/scene_datasets/habitat-test-scenes/apartment_1.scn` exists but failed to load.
+[16:42:56:844549]:[Warning]:[Sim] Simulator.cpp(594)::instanceStageForSceneAttributes : The active scene does not contain semantic annotations : activeSemanticSceneID_ = 0
+{'policy': 'patroller8', 'seed': 0, 'executed': True, 'exec_step': 19, 'first_visible_step': 10, 'chores_done': 0}
+{'policy': 'patroller8', 'seed': 1, 'executed': True, 'exec_step': 44, 'first_visible_step': 34, 'chores_done': 2}
+{'policy': 'patroller8', 'seed': 2, 'executed': True, 'exec_step': 20, 'first_visible_step': 15, 'chores_done': 1}
+{'policy': 'patroller8', 'seed': 3, 'executed': True, 'exec_step': 40, 'first_visible_step': 32, 'chores_done': 1}
+{'policy': 'patroller8', 'seed': 4, 'executed': True, 'exec_step': 30, 'first_visible_step': 18, 'chores_done': 0}
+{'policy': 'patroller8', 'seed': 5, 'executed': True, 'exec_step': 29, 'first_visible_step': 19, 'chores_done': 0}
+{'policy': 'patroller8', 'seed': 6, 'executed': True, 'exec_step': 39, 'first_visible_step': 36, 'chores_done': 0}
+{'policy': 'patroller8', 'seed': 7, 'executed': True, 'exec_step': 21, 'first_visible_step': 12, 'chores_done': 0}
+{'policy': 'patroller8', 'seed': 8, 'executed': False, 'exec_step': None, 'first_visible_step': None, 'chores_done': 3}
+{'policy': 'patroller8', 'seed': 9, 'executed': False, 'exec_step': None, 'first_visible_step': None, 'chores_done': 2}
+{'policy': 'patroller8', 'seed': 10, 'executed': True, 'exec_step': 13, 'first_visible_step': 10, 'chores_done': 3}
+{'policy': 'patroller8', 'seed': 11, 'executed': True, 'exec_step': 19, 'first_visible_step': 10, 'chores_done': 0}
+{'policy': 'patroller8', 'seed': 12, 'executed': True, 'exec_step': 39, 'first_visible_step': 27, 'chores_done': 0}
+{'policy': 'patroller8', 'seed': 13, 'executed': False, 'exec_step': None, 'first_visible_step': None, 'chores_done': 1}
+{'policy': 'patroller8', 'seed': 14, 'executed': True, 'exec_step': 19, 'first_visible_step': 10, 'chores_done': 1}
+{'policy': 'patroller8', 'seed': 15, 'executed': False, 'exec_step': None, 'first_visible_step': 52, 'chores_done': 0}
+{'policy': 'patroller8', 'seed': 16, 'executed': True, 'exec_step': 45, 'first_visible_step': 39, 'chores_done': 1}
+{'policy': 'patroller8', 'seed': 17, 'executed': True, 'exec_step': 17, 'first_visible_step': 10, 'chores_done': 0}
+{'policy': 'patroller8', 'seed': 18, 'executed': True, 'exec_step': 34, 'first_visible_step': 24, 'chores_done': 0}
+{'policy': 'patroller8', 'seed': 19, 'executed': True, 'exec_step': 30, 'first_visible_step': 22, 'chores_done': 2}
+{'policy': 'patroller8', 'seed': 20, 'executed': True, 'exec_step': 33, 'first_visible_step': 28, 'chores_done': 0}
+{'policy': 'patroller8', 'seed': 21, 'executed': True, 'exec_step': 29, 'first_visible_step': 17, 'chores_done': 2}
+{'policy': 'patroller8', 'seed': 22, 'executed': True, 'exec_step': 45, 'first_visible_step': 34, 'chores_done': 0}
+{'policy': 'patroller8', 'seed': 23, 'executed': False, 'exec_step': None, 'first_visible_step': None, 'chores_done': 1}
+wrote 24 rows -> results/habitat3.csv
++ for d in 5 10 20 30
++ python pm_habitat.py --policy opportunistic --episodes 24 --delay 20 --out results/habitat3.csv
+PluginManager::Manager: duplicate static plugin AssimpImporter, ignoring
+PluginManager::Manager: duplicate static plugin BasisImporter, ignoring
+PluginManager::Manager: duplicate static plugin AnySceneImporter, ignoring
+PluginManager::Manager: duplicate static plugin StbImageImporter, ignoring
+PluginManager::Manager: duplicate static plugin AnyImageImporter, ignoring
+PluginManager::Manager: duplicate static plugin GltfImporter, ignoring
+Renderer: Apple M5 Pro by Apple
+OpenGL version: 4.1 Metal - 90.5
+Using optional features:
+    GL_ARB_vertex_array_object
+    GL_ARB_ES2_compatibility
+    GL_ARB_separate_shader_objects
+    GL_ARB_texture_storage
+    GL_EXT_texture_filter_anisotropic
+    GL_EXT_debug_label
+    GL_EXT_debug_marker
+Using driver workarounds:
+    no-layout-qualifiers-on-old-glsl
+    apple-buffer-texture-unbind-on-buffer-modify
+[16:42:57:789568]:[Warning]:[Metadata] SceneDatasetAttributes.cpp(107)::addNewSceneInstanceToDataset : Dataset : 'default' : Lighting Layout Attributes 'no_lights' specified in Scene Attributes but does not exist in dataset, so creating default.
+[16:42:57:789735]:[Warning]:[Scene] SemanticScene.h(328)::checkFileExists : ::loadSemanticSceneDescriptor: File/Users/jianxin/Desktop/my_project/embodied_pm/data/scene_datasets/habitat-test-scenes/apartment_1.scndoes not exist.  Aborting load.
+[16:42:57:789761]:[Warning]:[Scene] SemanticScene.cpp(121)::loadSemanticSceneDescriptor : SSD File Naming Issue! Neither SemanticAttributes-provided name : `/Users/jianxin/Desktop/my_project/embodied_pm/data/scene_datasets/habitat-test-scenes/apartment_1.scn` nor constructed filename : `/Users/jianxin/Desktop/my_project/embodied_pm/data/scene_datasets/habitat-test-scenes/info_semantic.json` exist on disk.
+[16:42:57:789779]:[Error]:[Scene] SemanticScene.cpp(137)::loadSemanticSceneDescriptor : SSD Load Failure! File with SemanticAttributes-provided name `/Users/jianxin/Desktop/my_project/embodied_pm/data/scene_datasets/habitat-test-scenes/apartment_1.scn` exists but failed to load.
+[16:42:58:162731]:[Warning]:[Sim] Simulator.cpp(594)::instanceStageForSceneAttributes : The active scene does not contain semantic annotations : activeSemanticSceneID_ = 0
+{'policy': 'opportunistic', 'seed': 0, 'executed': True, 'exec_step': 50, 'first_visible_step': 40, 'chores_done': 3}
+{'policy': 'opportunistic', 'seed': 1, 'executed': True, 'exec_step': 49, 'first_visible_step': 39, 'chores_done': 5}
+{'policy': 'opportunistic', 'seed': 2, 'executed': True, 'exec_step': 45, 'first_visible_step': 38, 'chores_done': 6}
+{'policy': 'opportunistic', 'seed': 3, 'executed': True, 'exec_step': 46, 'first_visible_step': 38, 'chores_done': 5}
+{'policy': 'opportunistic', 'seed': 4, 'executed': False, 'exec_step': None, 'first_visible_step': None, 'chores_done': 6}
+{'policy': 'opportunistic', 'seed': 5, 'executed': True, 'exec_step': 43, 'first_visible_step': 34, 'chores_done': 4}
+{'policy': 'opportunistic', 'seed': 6, 'executed': True, 'exec_step': 31, 'first_visible_step': 24, 'chores_done': 4}
+{'policy': 'opportunistic', 'seed': 7, 'executed': True, 'exec_step': 53, 'first_visible_step': 43, 'chores_done': 4}
+{'policy': 'opportunistic', 'seed': 8, 'executed': False, 'exec_step': None, 'first_visible_step': None, 'chores_done': 5}
+{'policy': 'opportunistic', 'seed': 9, 'executed': False, 'exec_step': None, 'first_visible_step': None, 'chores_done': 6}
+{'policy': 'opportunistic', 'seed': 10, 'executed': True, 'exec_step': 33, 'first_visible_step': 24, 'chores_done': 4}
+{'policy': 'opportunistic', 'seed': 11, 'executed': True, 'exec_step': 28, 'first_visible_step': 20, 'chores_done': 6}
+{'policy': 'opportunistic', 'seed': 12, 'executed': True, 'exec_step': 48, 'first_visible_step': 37, 'chores_done': 4}
+{'policy': 'opportunistic', 'seed': 13, 'executed': False, 'exec_step': None, 'first_visible_step': None, 'chores_done': 3}
+{'policy': 'opportunistic', 'seed': 14, 'executed': False, 'exec_step': None, 'first_visible_step': None, 'chores_done': 4}
+{'policy': 'opportunistic', 'seed': 15, 'executed': True, 'exec_step': 59, 'first_visible_step': 48, 'chores_done': 3}
+{'policy': 'opportunistic', 'seed': 16, 'executed': True, 'exec_step': 24, 'first_visible_step': 20, 'chores_done': 4}
+{'policy': 'opportunistic', 'seed': 17, 'executed': True, 'exec_step': 23, 'first_visible_step': 20, 'chores_done': 4}
+{'policy': 'opportunistic', 'seed': 18, 'executed': False, 'exec_step': None, 'first_visible_step': None, 'chores_done': 5}
+{'policy': 'opportunistic', 'seed': 19, 'executed': True, 'exec_step': 60, 'first_visible_step': 49, 'chores_done': 4}
+{'policy': 'opportunistic', 'seed': 20, 'executed': True, 'exec_step': 24, 'first_visible_step': 22, 'chores_done': 4}
+{'policy': 'opportunistic', 'seed': 21, 'executed': False, 'exec_step': None, 'first_visible_step': None, 'chores_done': 6}
+{'policy': 'opportunistic', 'seed': 22, 'executed': True, 'exec_step': 45, 'first_visible_step': 34, 'chores_done': 4}
+{'policy': 'opportunistic', 'seed': 23, 'executed': True, 'exec_step': 57, 'first_visible_step': 45, 'chores_done': 3}
+wrote 24 rows -> results/habitat3.csv
++ python pm_habitat.py --policy patroller --k 8 --episodes 24 --delay 20 --out results/habitat3.csv
+PluginManager::Manager: duplicate static plugin AssimpImporter, ignoring
+PluginManager::Manager: duplicate static plugin BasisImporter, ignoring
+PluginManager::Manager: duplicate static plugin AnySceneImporter, ignoring
+PluginManager::Manager: duplicate static plugin StbImageImporter, ignoring
+PluginManager::Manager: duplicate static plugin AnyImageImporter, ignoring
+PluginManager::Manager: duplicate static plugin GltfImporter, ignoring
+Renderer: Apple M5 Pro by Apple
+OpenGL version: 4.1 Metal - 90.5
+Using optional features:
+    GL_ARB_vertex_array_object
+    GL_ARB_ES2_compatibility
+    GL_ARB_separate_shader_objects
+    GL_ARB_texture_storage
+    GL_EXT_texture_filter_anisotropic
+    GL_EXT_debug_label
+    GL_EXT_debug_marker
+Using driver workarounds:
+    no-layout-qualifiers-on-old-glsl
+    apple-buffer-texture-unbind-on-buffer-modify
+[16:42:59:091055]:[Warning]:[Metadata] SceneDatasetAttributes.cpp(107)::addNewSceneInstanceToDataset : Dataset : 'default' : Lighting Layout Attributes 'no_lights' specified in Scene Attributes but does not exist in dataset, so creating default.
+[16:42:59:091215]:[Warning]:[Scene] SemanticScene.h(328)::checkFileExists : ::loadSemanticSceneDescriptor: File/Users/jianxin/Desktop/my_project/embodied_pm/data/scene_datasets/habitat-test-scenes/apartment_1.scndoes not exist.  Aborting load.
+[16:42:59:091236]:[Warning]:[Scene] SemanticScene.cpp(121)::loadSemanticSceneDescriptor : SSD File Naming Issue! Neither SemanticAttributes-provided name : `/Users/jianxin/Desktop/my_project/embodied_pm/data/scene_datasets/habitat-test-scenes/apartment_1.scn` nor constructed filename : `/Users/jianxin/Desktop/my_project/embodied_pm/data/scene_datasets/habitat-test-scenes/info_semantic.json` exist on disk.
+[16:42:59:091250]:[Error]:[Scene] SemanticScene.cpp(137)::loadSemanticSceneDescriptor : SSD Load Failure! File with SemanticAttributes-provided name `/Users/jianxin/Desktop/my_project/embodied_pm/data/scene_datasets/habitat-test-scenes/apartment_1.scn` exists but failed to load.
+[16:42:59:465907]:[Warning]:[Sim] Simulator.cpp(594)::instanceStageForSceneAttributes : The active scene does not contain semantic annotations : activeSemanticSceneID_ = 0
+{'policy': 'patroller8', 'seed': 0, 'executed': True, 'exec_step': 51, 'first_visible_step': 41, 'chores_done': 0}
+{'policy': 'patroller8', 'seed': 1, 'executed': True, 'exec_step': 44, 'first_visible_step': 34, 'chores_done': 2}
+{'policy': 'patroller8', 'seed': 2, 'executed': False, 'exec_step': None, 'first_visible_step': None, 'chores_done': 1}
+{'policy': 'patroller8', 'seed': 3, 'executed': True, 'exec_step': 40, 'first_visible_step': 32, 'chores_done': 1}
+{'policy': 'patroller8', 'seed': 4, 'executed': True, 'exec_step': 30, 'first_visible_step': 20, 'chores_done': 0}
+{'policy': 'patroller8', 'seed': 5, 'executed': True, 'exec_step': 29, 'first_visible_step': 20, 'chores_done': 0}
+{'policy': 'patroller8', 'seed': 6, 'executed': True, 'exec_step': 39, 'first_visible_step': 36, 'chores_done': 0}
+{'policy': 'patroller8', 'seed': 7, 'executed': True, 'exec_step': 47, 'first_visible_step': 36, 'chores_done': 0}
+{'policy': 'patroller8', 'seed': 8, 'executed': False, 'exec_step': None, 'first_visible_step': None, 'chores_done': 3}
+{'policy': 'patroller8', 'seed': 9, 'executed': False, 'exec_step': None, 'first_visible_step': None, 'chores_done': 2}
+{'policy': 'patroller8', 'seed': 10, 'executed': True, 'exec_step': 23, 'first_visible_step': 20, 'chores_done': 3}
+{'policy': 'patroller8', 'seed': 11, 'executed': True, 'exec_step': 26, 'first_visible_step': 23, 'chores_done': 0}
+{'policy': 'patroller8', 'seed': 12, 'executed': True, 'exec_step': 39, 'first_visible_step': 27, 'chores_done': 0}
+{'policy': 'patroller8', 'seed': 13, 'executed': False, 'exec_step': None, 'first_visible_step': None, 'chores_done': 1}
+{'policy': 'patroller8', 'seed': 14, 'executed': False, 'exec_step': None, 'first_visible_step': None, 'chores_done': 2}
+{'policy': 'patroller8', 'seed': 15, 'executed': False, 'exec_step': None, 'first_visible_step': 52, 'chores_done': 0}
+{'policy': 'patroller8', 'seed': 16, 'executed': True, 'exec_step': 45, 'first_visible_step': 39, 'chores_done': 1}
+{'policy': 'patroller8', 'seed': 17, 'executed': True, 'exec_step': 38, 'first_visible_step': 28, 'chores_done': 0}
+{'policy': 'patroller8', 'seed': 18, 'executed': True, 'exec_step': 34, 'first_visible_step': 24, 'chores_done': 0}
+{'policy': 'patroller8', 'seed': 19, 'executed': True, 'exec_step': 30, 'first_visible_step': 22, 'chores_done': 2}
+{'policy': 'patroller8', 'seed': 20, 'executed': True, 'exec_step': 33, 'first_visible_step': 28, 'chores_done': 0}
+{'policy': 'patroller8', 'seed': 21, 'executed': False, 'exec_step': None, 'first_visible_step': None, 'chores_done': 2}
+{'policy': 'patroller8', 'seed': 22, 'executed': True, 'exec_step': 45, 'first_visible_step': 34, 'chores_done': 0}
+{'policy': 'patroller8', 'seed': 23, 'executed': False, 'exec_step': None, 'first_visible_step': None, 'chores_done': 1}
+wrote 24 rows -> results/habitat3.csv
++ for d in 5 10 20 30
++ python pm_habitat.py --policy opportunistic --episodes 24 --delay 30 --out results/habitat3.csv
+PluginManager::Manager: duplicate static plugin AssimpImporter, ignoring
+PluginManager::Manager: duplicate static plugin BasisImporter, ignoring
+PluginManager::Manager: duplicate static plugin AnySceneImporter, ignoring
+PluginManager::Manager: duplicate static plugin StbImageImporter, ignoring
+PluginManager::Manager: duplicate static plugin AnyImageImporter, ignoring
+PluginManager::Manager: duplicate static plugin GltfImporter, ignoring
+Renderer: Apple M5 Pro by Apple
+OpenGL version: 4.1 Metal - 90.5
+Using optional features:
+    GL_ARB_vertex_array_object
+    GL_ARB_ES2_compatibility
+    GL_ARB_separate_shader_objects
+    GL_ARB_texture_storage
+    GL_EXT_texture_filter_anisotropic
+    GL_EXT_debug_label
+    GL_EXT_debug_marker
+Using driver workarounds:
+    no-layout-qualifiers-on-old-glsl
+    apple-buffer-texture-unbind-on-buffer-modify
+[16:43:00:394611]:[Warning]:[Metadata] SceneDatasetAttributes.cpp(107)::addNewSceneInstanceToDataset : Dataset : 'default' : Lighting Layout Attributes 'no_lights' specified in Scene Attributes but does not exist in dataset, so creating default.
+[16:43:00:394791]:[Warning]:[Scene] SemanticScene.h(328)::checkFileExists : ::loadSemanticSceneDescriptor: File/Users/jianxin/Desktop/my_project/embodied_pm/data/scene_datasets/habitat-test-scenes/apartment_1.scndoes not exist.  Aborting load.
+[16:43:00:394812]:[Warning]:[Scene] SemanticScene.cpp(121)::loadSemanticSceneDescriptor : SSD File Naming Issue! Neither SemanticAttributes-provided name : `/Users/jianxin/Desktop/my_project/embodied_pm/data/scene_datasets/habitat-test-scenes/apartment_1.scn` nor constructed filename : `/Users/jianxin/Desktop/my_project/embodied_pm/data/scene_datasets/habitat-test-scenes/info_semantic.json` exist on disk.
+[16:43:00:394827]:[Error]:[Scene] SemanticScene.cpp(137)::loadSemanticSceneDescriptor : SSD Load Failure! File with SemanticAttributes-provided name `/Users/jianxin/Desktop/my_project/embodied_pm/data/scene_datasets/habitat-test-scenes/apartment_1.scn` exists but failed to load.
+[16:43:00:773472]:[Warning]:[Sim] Simulator.cpp(594)::instanceStageForSceneAttributes : The active scene does not contain semantic annotations : activeSemanticSceneID_ = 0
+{'policy': 'opportunistic', 'seed': 0, 'executed': True, 'exec_step': 50, 'first_visible_step': 40, 'chores_done': 3}
+{'policy': 'opportunistic', 'seed': 1, 'executed': True, 'exec_step': 49, 'first_visible_step': 39, 'chores_done': 5}
+{'policy': 'opportunistic', 'seed': 2, 'executed': True, 'exec_step': 45, 'first_visible_step': 38, 'chores_done': 6}
+{'policy': 'opportunistic', 'seed': 3, 'executed': True, 'exec_step': 46, 'first_visible_step': 38, 'chores_done': 5}
+{'policy': 'opportunistic', 'seed': 4, 'executed': False, 'exec_step': None, 'first_visible_step': None, 'chores_done': 6}
+{'policy': 'opportunistic', 'seed': 5, 'executed': True, 'exec_step': 43, 'first_visible_step': 34, 'chores_done': 4}
+{'policy': 'opportunistic', 'seed': 6, 'executed': True, 'exec_step': 44, 'first_visible_step': 39, 'chores_done': 5}
+{'policy': 'opportunistic', 'seed': 7, 'executed': True, 'exec_step': 53, 'first_visible_step': 43, 'chores_done': 4}
+{'policy': 'opportunistic', 'seed': 8, 'executed': False, 'exec_step': None, 'first_visible_step': None, 'chores_done': 5}
+{'policy': 'opportunistic', 'seed': 9, 'executed': False, 'exec_step': None, 'first_visible_step': None, 'chores_done': 6}
+{'policy': 'opportunistic', 'seed': 10, 'executed': False, 'exec_step': None, 'first_visible_step': None, 'chores_done': 4}
+{'policy': 'opportunistic', 'seed': 11, 'executed': True, 'exec_step': 43, 'first_visible_step': 38, 'chores_done': 5}
+{'policy': 'opportunistic', 'seed': 12, 'executed': True, 'exec_step': 48, 'first_visible_step': 37, 'chores_done': 4}
+{'policy': 'opportunistic', 'seed': 13, 'executed': False, 'exec_step': None, 'first_visible_step': None, 'chores_done': 3}
+{'policy': 'opportunistic', 'seed': 14, 'executed': False, 'exec_step': None, 'first_visible_step': None, 'chores_done': 4}
+{'policy': 'opportunistic', 'seed': 15, 'executed': True, 'exec_step': 59, 'first_visible_step': 48, 'chores_done': 3}
+{'policy': 'opportunistic', 'seed': 16, 'executed': True, 'exec_step': 53, 'first_visible_step': 49, 'chores_done': 4}
+{'policy': 'opportunistic', 'seed': 17, 'executed': True, 'exec_step': 37, 'first_visible_step': 31, 'chores_done': 4}
+{'policy': 'opportunistic', 'seed': 18, 'executed': False, 'exec_step': None, 'first_visible_step': None, 'chores_done': 5}
+{'policy': 'opportunistic', 'seed': 19, 'executed': True, 'exec_step': 60, 'first_visible_step': 49, 'chores_done': 4}
+{'policy': 'opportunistic', 'seed': 20, 'executed': True, 'exec_step': 50, 'first_visible_step': 40, 'chores_done': 3}
+{'policy': 'opportunistic', 'seed': 21, 'executed': False, 'exec_step': None, 'first_visible_step': None, 'chores_done': 6}
+{'policy': 'opportunistic', 'seed': 22, 'executed': True, 'exec_step': 45, 'first_visible_step': 34, 'chores_done': 4}
+{'policy': 'opportunistic', 'seed': 23, 'executed': True, 'exec_step': 57, 'first_visible_step': 45, 'chores_done': 3}
+wrote 24 rows -> results/habitat3.csv
++ python pm_habitat.py --policy patroller --k 8 --episodes 24 --delay 30 --out results/habitat3.csv
+PluginManager::Manager: duplicate static plugin AssimpImporter, ignoring
+PluginManager::Manager: duplicate static plugin BasisImporter, ignoring
+PluginManager::Manager: duplicate static plugin AnySceneImporter, ignoring
+PluginManager::Manager: duplicate static plugin StbImageImporter, ignoring
+PluginManager::Manager: duplicate static plugin AnyImageImporter, ignoring
+PluginManager::Manager: duplicate static plugin GltfImporter, ignoring
+Renderer: Apple M5 Pro by Apple
+OpenGL version: 4.1 Metal - 90.5
+Using optional features:
+    GL_ARB_vertex_array_object
+    GL_ARB_ES2_compatibility
+    GL_ARB_separate_shader_objects
+    GL_ARB_texture_storage
+    GL_EXT_texture_filter_anisotropic
+    GL_EXT_debug_label
+    GL_EXT_debug_marker
+Using driver workarounds:
+    no-layout-qualifiers-on-old-glsl
+    apple-buffer-texture-unbind-on-buffer-modify
+[16:43:01:695385]:[Warning]:[Metadata] SceneDatasetAttributes.cpp(107)::addNewSceneInstanceToDataset : Dataset : 'default' : Lighting Layout Attributes 'no_lights' specified in Scene Attributes but does not exist in dataset, so creating default.
+[16:43:01:695551]:[Warning]:[Scene] SemanticScene.h(328)::checkFileExists : ::loadSemanticSceneDescriptor: File/Users/jianxin/Desktop/my_project/embodied_pm/data/scene_datasets/habitat-test-scenes/apartment_1.scndoes not exist.  Aborting load.
+[16:43:01:695572]:[Warning]:[Scene] SemanticScene.cpp(121)::loadSemanticSceneDescriptor : SSD File Naming Issue! Neither SemanticAttributes-provided name : `/Users/jianxin/Desktop/my_project/embodied_pm/data/scene_datasets/habitat-test-scenes/apartment_1.scn` nor constructed filename : `/Users/jianxin/Desktop/my_project/embodied_pm/data/scene_datasets/habitat-test-scenes/info_semantic.json` exist on disk.
+[16:43:01:695587]:[Error]:[Scene] SemanticScene.cpp(137)::loadSemanticSceneDescriptor : SSD Load Failure! File with SemanticAttributes-provided name `/Users/jianxin/Desktop/my_project/embodied_pm/data/scene_datasets/habitat-test-scenes/apartment_1.scn` exists but failed to load.
+[16:43:02:068705]:[Warning]:[Sim] Simulator.cpp(594)::instanceStageForSceneAttributes : The active scene does not contain semantic annotations : activeSemanticSceneID_ = 0
+{'policy': 'patroller8', 'seed': 0, 'executed': True, 'exec_step': 51, 'first_visible_step': 41, 'chores_done': 0}
+{'policy': 'patroller8', 'seed': 1, 'executed': True, 'exec_step': 44, 'first_visible_step': 34, 'chores_done': 2}
+{'policy': 'patroller8', 'seed': 2, 'executed': False, 'exec_step': None, 'first_visible_step': None, 'chores_done': 1}
+{'policy': 'patroller8', 'seed': 3, 'executed': True, 'exec_step': 40, 'first_visible_step': 32, 'chores_done': 1}
+{'policy': 'patroller8', 'seed': 4, 'executed': False, 'exec_step': None, 'first_visible_step': None, 'chores_done': 0}
+{'policy': 'patroller8', 'seed': 5, 'executed': False, 'exec_step': None, 'first_visible_step': None, 'chores_done': 0}
+{'policy': 'patroller8', 'seed': 6, 'executed': True, 'exec_step': 39, 'first_visible_step': 36, 'chores_done': 0}
+{'policy': 'patroller8', 'seed': 7, 'executed': True, 'exec_step': 47, 'first_visible_step': 36, 'chores_done': 0}
+{'policy': 'patroller8', 'seed': 8, 'executed': False, 'exec_step': None, 'first_visible_step': None, 'chores_done': 3}
+{'policy': 'patroller8', 'seed': 9, 'executed': False, 'exec_step': None, 'first_visible_step': None, 'chores_done': 2}
+{'policy': 'patroller8', 'seed': 10, 'executed': True, 'exec_step': 39, 'first_visible_step': 30, 'chores_done': 0}
+{'policy': 'patroller8', 'seed': 11, 'executed': True, 'exec_step': 35, 'first_visible_step': 31, 'chores_done': 0}
+{'policy': 'patroller8', 'seed': 12, 'executed': True, 'exec_step': 39, 'first_visible_step': 31, 'chores_done': 0}
+{'policy': 'patroller8', 'seed': 13, 'executed': False, 'exec_step': None, 'first_visible_step': None, 'chores_done': 1}
+{'policy': 'patroller8', 'seed': 14, 'executed': False, 'exec_step': None, 'first_visible_step': None, 'chores_done': 2}
+{'policy': 'patroller8', 'seed': 15, 'executed': False, 'exec_step': None, 'first_visible_step': 52, 'chores_done': 0}
+{'policy': 'patroller8', 'seed': 16, 'executed': True, 'exec_step': 45, 'first_visible_step': 39, 'chores_done': 1}
+{'policy': 'patroller8', 'seed': 17, 'executed': True, 'exec_step': 38, 'first_visible_step': 30, 'chores_done': 0}
+{'policy': 'patroller8', 'seed': 18, 'executed': True, 'exec_step': 35, 'first_visible_step': 30, 'chores_done': 0}
+{'policy': 'patroller8', 'seed': 19, 'executed': False, 'exec_step': None, 'first_visible_step': None, 'chores_done': 2}
+{'policy': 'patroller8', 'seed': 20, 'executed': True, 'exec_step': 33, 'first_visible_step': 30, 'chores_done': 0}
+{'policy': 'patroller8', 'seed': 21, 'executed': False, 'exec_step': None, 'first_visible_step': None, 'chores_done': 2}
+{'policy': 'patroller8', 'seed': 22, 'executed': True, 'exec_step': 45, 'first_visible_step': 34, 'chores_done': 0}
+{'policy': 'patroller8', 'seed': 23, 'executed': False, 'exec_step': None, 'first_visible_step': None, 'chores_done': 1}
+wrote 24 rows -> results/habitat3.csv
++ echo '=== H4 cancellation validity ==='
+=== H4 cancellation validity ===
++ python pm_habitat.py --policy deaf --k 8 --episodes 24 --cancel late --out results/habitat3.csv
+PluginManager::Manager: duplicate static plugin AssimpImporter, ignoring
+PluginManager::Manager: duplicate static plugin BasisImporter, ignoring
+PluginManager::Manager: duplicate static plugin AnySceneImporter, ignoring
+PluginManager::Manager: duplicate static plugin StbImageImporter, ignoring
+PluginManager::Manager: duplicate static plugin AnyImageImporter, ignoring
+PluginManager::Manager: duplicate static plugin GltfImporter, ignoring
+Renderer: Apple M5 Pro by Apple
+OpenGL version: 4.1 Metal - 90.5
+Using optional features:
+    GL_ARB_vertex_array_object
+    GL_ARB_ES2_compatibility
+    GL_ARB_separate_shader_objects
+    GL_ARB_texture_storage
+    GL_EXT_texture_filter_anisotropic
+    GL_EXT_debug_label
+    GL_EXT_debug_marker
+Using driver workarounds:
+    no-layout-qualifiers-on-old-glsl
+    apple-buffer-texture-unbind-on-buffer-modify
+[16:43:02:996663]:[Warning]:[Metadata] SceneDatasetAttributes.cpp(107)::addNewSceneInstanceToDataset : Dataset : 'default' : Lighting Layout Attributes 'no_lights' specified in Scene Attributes but does not exist in dataset, so creating default.
+[16:43:02:996823]:[Warning]:[Scene] SemanticScene.h(328)::checkFileExists : ::loadSemanticSceneDescriptor: File/Users/jianxin/Desktop/my_project/embodied_pm/data/scene_datasets/habitat-test-scenes/apartment_1.scndoes not exist.  Aborting load.
+[16:43:02:996842]:[Warning]:[Scene] SemanticScene.cpp(121)::loadSemanticSceneDescriptor : SSD File Naming Issue! Neither SemanticAttributes-provided name : `/Users/jianxin/Desktop/my_project/embodied_pm/data/scene_datasets/habitat-test-scenes/apartment_1.scn` nor constructed filename : `/Users/jianxin/Desktop/my_project/embodied_pm/data/scene_datasets/habitat-test-scenes/info_semantic.json` exist on disk.
+[16:43:02:996856]:[Error]:[Scene] SemanticScene.cpp(137)::loadSemanticSceneDescriptor : SSD Load Failure! File with SemanticAttributes-provided name `/Users/jianxin/Desktop/my_project/embodied_pm/data/scene_datasets/habitat-test-scenes/apartment_1.scn` exists but failed to load.
+[16:43:03:372292]:[Warning]:[Sim] Simulator.cpp(594)::instanceStageForSceneAttributes : The active scene does not contain semantic annotations : activeSemanticSceneID_ = 0
+{'policy': 'deaf8', 'seed': 0, 'executed': True, 'exec_step': 19, 'first_visible_step': 10, 'chores_done': 0}
+{'policy': 'deaf8', 'seed': 1, 'executed': True, 'exec_step': 44, 'first_visible_step': 34, 'chores_done': 2}
+{'policy': 'deaf8', 'seed': 2, 'executed': True, 'exec_step': 20, 'first_visible_step': 15, 'chores_done': 1}
+{'policy': 'deaf8', 'seed': 3, 'executed': True, 'exec_step': 40, 'first_visible_step': 32, 'chores_done': 1}
+{'policy': 'deaf8', 'seed': 4, 'executed': True, 'exec_step': 30, 'first_visible_step': 18, 'chores_done': 0}
+{'policy': 'deaf8', 'seed': 5, 'executed': True, 'exec_step': 29, 'first_visible_step': 19, 'chores_done': 0}
+{'policy': 'deaf8', 'seed': 6, 'executed': True, 'exec_step': 39, 'first_visible_step': 36, 'chores_done': 0}
+{'policy': 'deaf8', 'seed': 7, 'executed': True, 'exec_step': 21, 'first_visible_step': 12, 'chores_done': 0}
+{'policy': 'deaf8', 'seed': 8, 'executed': False, 'exec_step': None, 'first_visible_step': None, 'chores_done': 3}
+{'policy': 'deaf8', 'seed': 9, 'executed': False, 'exec_step': None, 'first_visible_step': None, 'chores_done': 2}
+{'policy': 'deaf8', 'seed': 10, 'executed': True, 'exec_step': 13, 'first_visible_step': 10, 'chores_done': 3}
+{'policy': 'deaf8', 'seed': 11, 'executed': True, 'exec_step': 19, 'first_visible_step': 10, 'chores_done': 0}
+{'policy': 'deaf8', 'seed': 12, 'executed': True, 'exec_step': 39, 'first_visible_step': 27, 'chores_done': 0}
+{'policy': 'deaf8', 'seed': 13, 'executed': False, 'exec_step': None, 'first_visible_step': None, 'chores_done': 1}
+{'policy': 'deaf8', 'seed': 14, 'executed': True, 'exec_step': 19, 'first_visible_step': 10, 'chores_done': 1}
+{'policy': 'deaf8', 'seed': 15, 'executed': False, 'exec_step': None, 'first_visible_step': 52, 'chores_done': 0}
+{'policy': 'deaf8', 'seed': 16, 'executed': True, 'exec_step': 45, 'first_visible_step': 39, 'chores_done': 1}
+{'policy': 'deaf8', 'seed': 17, 'executed': True, 'exec_step': 17, 'first_visible_step': 10, 'chores_done': 0}
+{'policy': 'deaf8', 'seed': 18, 'executed': True, 'exec_step': 34, 'first_visible_step': 24, 'chores_done': 0}
+{'policy': 'deaf8', 'seed': 19, 'executed': True, 'exec_step': 30, 'first_visible_step': 22, 'chores_done': 2}
+{'policy': 'deaf8', 'seed': 20, 'executed': True, 'exec_step': 33, 'first_visible_step': 28, 'chores_done': 0}
+{'policy': 'deaf8', 'seed': 21, 'executed': True, 'exec_step': 29, 'first_visible_step': 17, 'chores_done': 2}
+{'policy': 'deaf8', 'seed': 22, 'executed': True, 'exec_step': 45, 'first_visible_step': 34, 'chores_done': 0}
+{'policy': 'deaf8', 'seed': 23, 'executed': False, 'exec_step': None, 'first_visible_step': None, 'chores_done': 1}
+wrote 24 rows -> results/habitat3.csv
++ python pm_habitat.py --policy opportunistic --episodes 24 --cancel late --out results/habitat3.csv
+PluginManager::Manager: duplicate static plugin AssimpImporter, ignoring
+PluginManager::Manager: duplicate static plugin BasisImporter, ignoring
+PluginManager::Manager: duplicate static plugin AnySceneImporter, ignoring
+PluginManager::Manager: duplicate static plugin StbImageImporter, ignoring
+PluginManager::Manager: duplicate static plugin AnyImageImporter, ignoring
+PluginManager::Manager: duplicate static plugin GltfImporter, ignoring
+Renderer: Apple M5 Pro by Apple
+OpenGL version: 4.1 Metal - 90.5
+Using optional features:
+    GL_ARB_vertex_array_object
+    GL_ARB_ES2_compatibility
+    GL_ARB_separate_shader_objects
+    GL_ARB_texture_storage
+    GL_EXT_texture_filter_anisotropic
+    GL_EXT_debug_label
+    GL_EXT_debug_marker
+Using driver workarounds:
+    no-layout-qualifiers-on-old-glsl
+    apple-buffer-texture-unbind-on-buffer-modify
+[16:43:04:310299]:[Warning]:[Metadata] SceneDatasetAttributes.cpp(107)::addNewSceneInstanceToDataset : Dataset : 'default' : Lighting Layout Attributes 'no_lights' specified in Scene Attributes but does not exist in dataset, so creating default.
+[16:43:04:310461]:[Warning]:[Scene] SemanticScene.h(328)::checkFileExists : ::loadSemanticSceneDescriptor: File/Users/jianxin/Desktop/my_project/embodied_pm/data/scene_datasets/habitat-test-scenes/apartment_1.scndoes not exist.  Aborting load.
+[16:43:04:310485]:[Warning]:[Scene] SemanticScene.cpp(121)::loadSemanticSceneDescriptor : SSD File Naming Issue! Neither SemanticAttributes-provided name : `/Users/jianxin/Desktop/my_project/embodied_pm/data/scene_datasets/habitat-test-scenes/apartment_1.scn` nor constructed filename : `/Users/jianxin/Desktop/my_project/embodied_pm/data/scene_datasets/habitat-test-scenes/info_semantic.json` exist on disk.
+[16:43:04:310501]:[Error]:[Scene] SemanticScene.cpp(137)::loadSemanticSceneDescriptor : SSD Load Failure! File with SemanticAttributes-provided name `/Users/jianxin/Desktop/my_project/embodied_pm/data/scene_datasets/habitat-test-scenes/apartment_1.scn` exists but failed to load.
+[16:43:04:689028]:[Warning]:[Sim] Simulator.cpp(594)::instanceStageForSceneAttributes : The active scene does not contain semantic annotations : activeSemanticSceneID_ = 0
+{'policy': 'opportunistic', 'seed': 0, 'executed': False, 'exec_step': None, 'first_visible_step': 40, 'chores_done': 3}
+{'policy': 'opportunistic', 'seed': 1, 'executed': False, 'exec_step': None, 'first_visible_step': 39, 'chores_done': 6}
+{'policy': 'opportunistic', 'seed': 2, 'executed': False, 'exec_step': None, 'first_visible_step': 38, 'chores_done': 6}
+{'policy': 'opportunistic', 'seed': 3, 'executed': False, 'exec_step': None, 'first_visible_step': 38, 'chores_done': 5}
+{'policy': 'opportunistic', 'seed': 4, 'executed': False, 'exec_step': None, 'first_visible_step': None, 'chores_done': 6}
+{'policy': 'opportunistic', 'seed': 5, 'executed': False, 'exec_step': None, 'first_visible_step': 34, 'chores_done': 5}
+{'policy': 'opportunistic', 'seed': 6, 'executed': False, 'exec_step': None, 'first_visible_step': 14, 'chores_done': 5}
+{'policy': 'opportunistic', 'seed': 7, 'executed': True, 'exec_step': 21, 'first_visible_step': 12, 'chores_done': 4}
+{'policy': 'opportunistic', 'seed': 8, 'executed': False, 'exec_step': None, 'first_visible_step': None, 'chores_done': 5}
+{'policy': 'opportunistic', 'seed': 9, 'executed': False, 'exec_step': None, 'first_visible_step': None, 'chores_done': 6}
+{'policy': 'opportunistic', 'seed': 10, 'executed': False, 'exec_step': None, 'first_visible_step': 24, 'chores_done': 4}
+{'policy': 'opportunistic', 'seed': 11, 'executed': False, 'exec_step': None, 'first_visible_step': 15, 'chores_done': 6}
+{'policy': 'opportunistic', 'seed': 12, 'executed': True, 'exec_step': 14, 'first_visible_step': 10, 'chores_done': 4}
+{'policy': 'opportunistic', 'seed': 13, 'executed': False, 'exec_step': None, 'first_visible_step': None, 'chores_done': 3}
+{'policy': 'opportunistic', 'seed': 14, 'executed': True, 'exec_step': 19, 'first_visible_step': 10, 'chores_done': 4}
+{'policy': 'opportunistic', 'seed': 15, 'executed': True, 'exec_step': 17, 'first_visible_step': 10, 'chores_done': 3}
+{'policy': 'opportunistic', 'seed': 16, 'executed': True, 'exec_step': 14, 'first_visible_step': 11, 'chores_done': 4}
+{'policy': 'opportunistic', 'seed': 17, 'executed': True, 'exec_step': 17, 'first_visible_step': 10, 'chores_done': 4}
+{'policy': 'opportunistic', 'seed': 18, 'executed': False, 'exec_step': None, 'first_visible_step': None, 'chores_done': 5}
+{'policy': 'opportunistic', 'seed': 19, 'executed': False, 'exec_step': None, 'first_visible_step': 49, 'chores_done': 5}
+{'policy': 'opportunistic', 'seed': 20, 'executed': False, 'exec_step': None, 'first_visible_step': 15, 'chores_done': 4}
+{'policy': 'opportunistic', 'seed': 21, 'executed': False, 'exec_step': None, 'first_visible_step': 14, 'chores_done': 6}
+{'policy': 'opportunistic', 'seed': 22, 'executed': False, 'exec_step': None, 'first_visible_step': 34, 'chores_done': 6}
+{'policy': 'opportunistic', 'seed': 23, 'executed': False, 'exec_step': None, 'first_visible_step': 45, 'chores_done': 5}
+wrote 24 rows -> results/habitat3.csv
++ python pm_habitat.py --policy opportunistic --episodes 24 --cancel early --out results/habitat3.csv
+PluginManager::Manager: duplicate static plugin AssimpImporter, ignoring
+PluginManager::Manager: duplicate static plugin BasisImporter, ignoring
+PluginManager::Manager: duplicate static plugin AnySceneImporter, ignoring
+PluginManager::Manager: duplicate static plugin StbImageImporter, ignoring
+PluginManager::Manager: duplicate static plugin AnyImageImporter, ignoring
+PluginManager::Manager: duplicate static plugin GltfImporter, ignoring
+Renderer: Apple M5 Pro by Apple
+OpenGL version: 4.1 Metal - 90.5
+Using optional features:
+    GL_ARB_vertex_array_object
+    GL_ARB_ES2_compatibility
+    GL_ARB_separate_shader_objects
+    GL_ARB_texture_storage
+    GL_EXT_texture_filter_anisotropic
+    GL_EXT_debug_label
+    GL_EXT_debug_marker
+Using driver workarounds:
+    no-layout-qualifiers-on-old-glsl
+    apple-buffer-texture-unbind-on-buffer-modify
+[16:43:05:638708]:[Warning]:[Metadata] SceneDatasetAttributes.cpp(107)::addNewSceneInstanceToDataset : Dataset : 'default' : Lighting Layout Attributes 'no_lights' specified in Scene Attributes but does not exist in dataset, so creating default.
+[16:43:05:638882]:[Warning]:[Scene] SemanticScene.h(328)::checkFileExists : ::loadSemanticSceneDescriptor: File/Users/jianxin/Desktop/my_project/embodied_pm/data/scene_datasets/habitat-test-scenes/apartment_1.scndoes not exist.  Aborting load.
+[16:43:05:638908]:[Warning]:[Scene] SemanticScene.cpp(121)::loadSemanticSceneDescriptor : SSD File Naming Issue! Neither SemanticAttributes-provided name : `/Users/jianxin/Desktop/my_project/embodied_pm/data/scene_datasets/habitat-test-scenes/apartment_1.scn` nor constructed filename : `/Users/jianxin/Desktop/my_project/embodied_pm/data/scene_datasets/habitat-test-scenes/info_semantic.json` exist on disk.
+[16:43:05:638926]:[Error]:[Scene] SemanticScene.cpp(137)::loadSemanticSceneDescriptor : SSD Load Failure! File with SemanticAttributes-provided name `/Users/jianxin/Desktop/my_project/embodied_pm/data/scene_datasets/habitat-test-scenes/apartment_1.scn` exists but failed to load.
+[16:43:06:014028]:[Warning]:[Sim] Simulator.cpp(594)::instanceStageForSceneAttributes : The active scene does not contain semantic annotations : activeSemanticSceneID_ = 0
+{'policy': 'opportunistic', 'seed': 0, 'executed': False, 'exec_step': None, 'first_visible_step': 40, 'chores_done': 3}
+{'policy': 'opportunistic', 'seed': 1, 'executed': False, 'exec_step': None, 'first_visible_step': 39, 'chores_done': 6}
+{'policy': 'opportunistic', 'seed': 2, 'executed': False, 'exec_step': None, 'first_visible_step': 38, 'chores_done': 6}
+{'policy': 'opportunistic', 'seed': 3, 'executed': False, 'exec_step': None, 'first_visible_step': 38, 'chores_done': 5}
+{'policy': 'opportunistic', 'seed': 4, 'executed': False, 'exec_step': None, 'first_visible_step': None, 'chores_done': 6}
+{'policy': 'opportunistic', 'seed': 5, 'executed': False, 'exec_step': None, 'first_visible_step': 34, 'chores_done': 5}
+{'policy': 'opportunistic', 'seed': 6, 'executed': False, 'exec_step': None, 'first_visible_step': 14, 'chores_done': 5}
+{'policy': 'opportunistic', 'seed': 7, 'executed': False, 'exec_step': None, 'first_visible_step': 12, 'chores_done': 4}
+{'policy': 'opportunistic', 'seed': 8, 'executed': False, 'exec_step': None, 'first_visible_step': None, 'chores_done': 5}
+{'policy': 'opportunistic', 'seed': 9, 'executed': False, 'exec_step': None, 'first_visible_step': None, 'chores_done': 6}
+{'policy': 'opportunistic', 'seed': 10, 'executed': False, 'exec_step': None, 'first_visible_step': 24, 'chores_done': 4}
+{'policy': 'opportunistic', 'seed': 11, 'executed': False, 'exec_step': None, 'first_visible_step': 15, 'chores_done': 6}
+{'policy': 'opportunistic', 'seed': 12, 'executed': False, 'exec_step': None, 'first_visible_step': 10, 'chores_done': 4}
+{'policy': 'opportunistic', 'seed': 13, 'executed': False, 'exec_step': None, 'first_visible_step': None, 'chores_done': 3}
+{'policy': 'opportunistic', 'seed': 14, 'executed': False, 'exec_step': None, 'first_visible_step': 10, 'chores_done': 4}
+{'policy': 'opportunistic', 'seed': 15, 'executed': False, 'exec_step': None, 'first_visible_step': 10, 'chores_done': 3}
+{'policy': 'opportunistic', 'seed': 16, 'executed': False, 'exec_step': None, 'first_visible_step': 11, 'chores_done': 4}
+{'policy': 'opportunistic', 'seed': 17, 'executed': False, 'exec_step': None, 'first_visible_step': 10, 'chores_done': 4}
+{'policy': 'opportunistic', 'seed': 18, 'executed': False, 'exec_step': None, 'first_visible_step': None, 'chores_done': 5}
+{'policy': 'opportunistic', 'seed': 19, 'executed': False, 'exec_step': None, 'first_visible_step': 49, 'chores_done': 5}
+{'policy': 'opportunistic', 'seed': 20, 'executed': False, 'exec_step': None, 'first_visible_step': 15, 'chores_done': 4}
+{'policy': 'opportunistic', 'seed': 21, 'executed': False, 'exec_step': None, 'first_visible_step': 14, 'chores_done': 6}
+{'policy': 'opportunistic', 'seed': 22, 'executed': False, 'exec_step': None, 'first_visible_step': 34, 'chores_done': 6}
+{'policy': 'opportunistic', 'seed': 23, 'executed': False, 'exec_step': None, 'first_visible_step': 45, 'chores_done': 5}
+wrote 24 rows -> results/habitat3.csv
++ echo '=== H5 second scene (skokloster: big open hall) ==='
+=== H5 second scene (skokloster: big open hall) ===
++ python pm_habitat.py --policy oracle --episodes 12 --scene skokloster-castle --out results/habitat3.csv
+PluginManager::Manager: duplicate static plugin AssimpImporter, ignoring
+PluginManager::Manager: duplicate static plugin BasisImporter, ignoring
+PluginManager::Manager: duplicate static plugin AnySceneImporter, ignoring
+PluginManager::Manager: duplicate static plugin StbImageImporter, ignoring
+PluginManager::Manager: duplicate static plugin AnyImageImporter, ignoring
+PluginManager::Manager: duplicate static plugin GltfImporter, ignoring
+Renderer: Apple M5 Pro by Apple
+OpenGL version: 4.1 Metal - 90.5
+Using optional features:
+    GL_ARB_vertex_array_object
+    GL_ARB_ES2_compatibility
+    GL_ARB_separate_shader_objects
+    GL_ARB_texture_storage
+    GL_EXT_texture_filter_anisotropic
+    GL_EXT_debug_label
+    GL_EXT_debug_marker
+Using driver workarounds:
+    no-layout-qualifiers-on-old-glsl
+    apple-buffer-texture-unbind-on-buffer-modify
+[16:43:06:965674]:[Warning]:[Metadata] SceneDatasetAttributes.cpp(107)::addNewSceneInstanceToDataset : Dataset : 'default' : Lighting Layout Attributes 'no_lights' specified in Scene Attributes but does not exist in dataset, so creating default.
+[16:43:06:965875]:[Warning]:[Scene] SemanticScene.h(328)::checkFileExists : ::loadSemanticSceneDescriptor: File/Users/jianxin/Desktop/my_project/embodied_pm/data/scene_datasets/habitat-test-scenes/skokloster-castle.scndoes not exist.  Aborting load.
+[16:43:06:965896]:[Warning]:[Scene] SemanticScene.cpp(121)::loadSemanticSceneDescriptor : SSD File Naming Issue! Neither SemanticAttributes-provided name : `/Users/jianxin/Desktop/my_project/embodied_pm/data/scene_datasets/habitat-test-scenes/skokloster-castle.scn` nor constructed filename : `/Users/jianxin/Desktop/my_project/embodied_pm/data/scene_datasets/habitat-test-scenes/info_semantic.json` exist on disk.
+[16:43:06:965910]:[Error]:[Scene] SemanticScene.cpp(137)::loadSemanticSceneDescriptor : SSD Load Failure! File with SemanticAttributes-provided name `/Users/jianxin/Desktop/my_project/embodied_pm/data/scene_datasets/habitat-test-scenes/skokloster-castle.scn` exists but failed to load.
+[16:43:07:513209]:[Warning]:[Sim] Simulator.cpp(594)::instanceStageForSceneAttributes : The active scene does not contain semantic annotations : activeSemanticSceneID_ = 0
+{'policy': 'oracle', 'seed': 0, 'executed': True, 'exec_step': 32, 'first_visible_step': 22, 'chores_done': 1}
+{'policy': 'oracle', 'seed': 1, 'executed': True, 'exec_step': 28, 'first_visible_step': 18, 'chores_done': 1}
+{'policy': 'oracle', 'seed': 2, 'executed': True, 'exec_step': 35, 'first_visible_step': 25, 'chores_done': 0}
+{'policy': 'oracle', 'seed': 3, 'executed': True, 'exec_step': 25, 'first_visible_step': 15, 'chores_done': 4}
+{'policy': 'oracle', 'seed': 4, 'executed': True, 'exec_step': 31, 'first_visible_step': 21, 'chores_done': 2}
+{'policy': 'oracle', 'seed': 5, 'executed': True, 'exec_step': 25, 'first_visible_step': 14, 'chores_done': 1}
+{'policy': 'oracle', 'seed': 6, 'executed': True, 'exec_step': 40, 'first_visible_step': 30, 'chores_done': 0}
+{'policy': 'oracle', 'seed': 7, 'executed': True, 'exec_step': 27, 'first_visible_step': 17, 'chores_done': 2}
+{'policy': 'oracle', 'seed': 8, 'executed': True, 'exec_step': 29, 'first_visible_step': 18, 'chores_done': 3}
+{'policy': 'oracle', 'seed': 9, 'executed': True, 'exec_step': 21, 'first_visible_step': 11, 'chores_done': 2}
+{'policy': 'oracle', 'seed': 10, 'executed': True, 'exec_step': 24, 'first_visible_step': 14, 'chores_done': 1}
+{'policy': 'oracle', 'seed': 11, 'executed': True, 'exec_step': 39, 'first_visible_step': 29, 'chores_done': 0}
+wrote 12 rows -> results/habitat3.csv
++ python pm_habitat.py --policy opportunistic --episodes 12 --scene skokloster-castle --out results/habitat3.csv
+PluginManager::Manager: duplicate static plugin AssimpImporter, ignoring
+PluginManager::Manager: duplicate static plugin BasisImporter, ignoring
+PluginManager::Manager: duplicate static plugin AnySceneImporter, ignoring
+PluginManager::Manager: duplicate static plugin StbImageImporter, ignoring
+PluginManager::Manager: duplicate static plugin AnyImageImporter, ignoring
+PluginManager::Manager: duplicate static plugin GltfImporter, ignoring
+Renderer: Apple M5 Pro by Apple
+OpenGL version: 4.1 Metal - 90.5
+Using optional features:
+    GL_ARB_vertex_array_object
+    GL_ARB_ES2_compatibility
+    GL_ARB_separate_shader_objects
+    GL_ARB_texture_storage
+    GL_EXT_texture_filter_anisotropic
+    GL_EXT_debug_label
+    GL_EXT_debug_marker
+Using driver workarounds:
+    no-layout-qualifiers-on-old-glsl
+    apple-buffer-texture-unbind-on-buffer-modify
+[16:43:08:364612]:[Warning]:[Metadata] SceneDatasetAttributes.cpp(107)::addNewSceneInstanceToDataset : Dataset : 'default' : Lighting Layout Attributes 'no_lights' specified in Scene Attributes but does not exist in dataset, so creating default.
+[16:43:08:364829]:[Warning]:[Scene] SemanticScene.h(328)::checkFileExists : ::loadSemanticSceneDescriptor: File/Users/jianxin/Desktop/my_project/embodied_pm/data/scene_datasets/habitat-test-scenes/skokloster-castle.scndoes not exist.  Aborting load.
+[16:43:08:364852]:[Warning]:[Scene] SemanticScene.cpp(121)::loadSemanticSceneDescriptor : SSD File Naming Issue! Neither SemanticAttributes-provided name : `/Users/jianxin/Desktop/my_project/embodied_pm/data/scene_datasets/habitat-test-scenes/skokloster-castle.scn` nor constructed filename : `/Users/jianxin/Desktop/my_project/embodied_pm/data/scene_datasets/habitat-test-scenes/info_semantic.json` exist on disk.
+[16:43:08:364869]:[Error]:[Scene] SemanticScene.cpp(137)::loadSemanticSceneDescriptor : SSD Load Failure! File with SemanticAttributes-provided name `/Users/jianxin/Desktop/my_project/embodied_pm/data/scene_datasets/habitat-test-scenes/skokloster-castle.scn` exists but failed to load.
+[16:43:08:914209]:[Warning]:[Sim] Simulator.cpp(594)::instanceStageForSceneAttributes : The active scene does not contain semantic annotations : activeSemanticSceneID_ = 0
+{'policy': 'opportunistic', 'seed': 0, 'executed': False, 'exec_step': None, 'first_visible_step': None, 'chores_done': 2}
+{'policy': 'opportunistic', 'seed': 1, 'executed': True, 'exec_step': 57, 'first_visible_step': 47, 'chores_done': 2}
+{'policy': 'opportunistic', 'seed': 2, 'executed': False, 'exec_step': None, 'first_visible_step': None, 'chores_done': 3}
+{'policy': 'opportunistic', 'seed': 3, 'executed': True, 'exec_step': 25, 'first_visible_step': 15, 'chores_done': 4}
+{'policy': 'opportunistic', 'seed': 4, 'executed': True, 'exec_step': 39, 'first_visible_step': 28, 'chores_done': 3}
+{'policy': 'opportunistic', 'seed': 5, 'executed': True, 'exec_step': 45, 'first_visible_step': 35, 'chores_done': 2}
+{'policy': 'opportunistic', 'seed': 6, 'executed': False, 'exec_step': None, 'first_visible_step': None, 'chores_done': 4}
+{'policy': 'opportunistic', 'seed': 7, 'executed': False, 'exec_step': None, 'first_visible_step': 51, 'chores_done': 3}
+{'policy': 'opportunistic', 'seed': 8, 'executed': False, 'exec_step': None, 'first_visible_step': None, 'chores_done': 4}
+{'policy': 'opportunistic', 'seed': 9, 'executed': True, 'exec_step': 21, 'first_visible_step': 11, 'chores_done': 2}
+{'policy': 'opportunistic', 'seed': 10, 'executed': True, 'exec_step': 37, 'first_visible_step': 27, 'chores_done': 3}
+{'policy': 'opportunistic', 'seed': 11, 'executed': True, 'exec_step': 53, 'first_visible_step': 43, 'chores_done': 2}
+wrote 12 rows -> results/habitat3.csv
++ python pm_habitat.py --policy patroller --k 8 --episodes 12 --scene skokloster-castle --out results/habitat3.csv
+PluginManager::Manager: duplicate static plugin AssimpImporter, ignoring
+PluginManager::Manager: duplicate static plugin BasisImporter, ignoring
+PluginManager::Manager: duplicate static plugin AnySceneImporter, ignoring
+PluginManager::Manager: duplicate static plugin StbImageImporter, ignoring
+PluginManager::Manager: duplicate static plugin AnyImageImporter, ignoring
+PluginManager::Manager: duplicate static plugin GltfImporter, ignoring
+Renderer: Apple M5 Pro by Apple
+OpenGL version: 4.1 Metal - 90.5
+Using optional features:
+    GL_ARB_vertex_array_object
+    GL_ARB_ES2_compatibility
+    GL_ARB_separate_shader_objects
+    GL_ARB_texture_storage
+    GL_EXT_texture_filter_anisotropic
+    GL_EXT_debug_label
+    GL_EXT_debug_marker
+Using driver workarounds:
+    no-layout-qualifiers-on-old-glsl
+    apple-buffer-texture-unbind-on-buffer-modify
+[16:43:09:809583]:[Warning]:[Metadata] SceneDatasetAttributes.cpp(107)::addNewSceneInstanceToDataset : Dataset : 'default' : Lighting Layout Attributes 'no_lights' specified in Scene Attributes but does not exist in dataset, so creating default.
+[16:43:09:809790]:[Warning]:[Scene] SemanticScene.h(328)::checkFileExists : ::loadSemanticSceneDescriptor: File/Users/jianxin/Desktop/my_project/embodied_pm/data/scene_datasets/habitat-test-scenes/skokloster-castle.scndoes not exist.  Aborting load.
+[16:43:09:809816]:[Warning]:[Scene] SemanticScene.cpp(121)::loadSemanticSceneDescriptor : SSD File Naming Issue! Neither SemanticAttributes-provided name : `/Users/jianxin/Desktop/my_project/embodied_pm/data/scene_datasets/habitat-test-scenes/skokloster-castle.scn` nor constructed filename : `/Users/jianxin/Desktop/my_project/embodied_pm/data/scene_datasets/habitat-test-scenes/info_semantic.json` exist on disk.
+[16:43:09:809831]:[Error]:[Scene] SemanticScene.cpp(137)::loadSemanticSceneDescriptor : SSD Load Failure! File with SemanticAttributes-provided name `/Users/jianxin/Desktop/my_project/embodied_pm/data/scene_datasets/habitat-test-scenes/skokloster-castle.scn` exists but failed to load.
+[16:43:10:354416]:[Warning]:[Sim] Simulator.cpp(594)::instanceStageForSceneAttributes : The active scene does not contain semantic annotations : activeSemanticSceneID_ = 0
+{'policy': 'patroller8', 'seed': 0, 'executed': False, 'exec_step': None, 'first_visible_step': 54, 'chores_done': 1}
+{'policy': 'patroller8', 'seed': 1, 'executed': False, 'exec_step': None, 'first_visible_step': None, 'chores_done': 0}
+{'policy': 'patroller8', 'seed': 2, 'executed': False, 'exec_step': None, 'first_visible_step': None, 'chores_done': 1}
+{'policy': 'patroller8', 'seed': 3, 'executed': True, 'exec_step': 25, 'first_visible_step': 15, 'chores_done': 1}
+{'policy': 'patroller8', 'seed': 4, 'executed': False, 'exec_step': None, 'first_visible_step': None, 'chores_done': 0}
+{'policy': 'patroller8', 'seed': 5, 'executed': False, 'exec_step': None, 'first_visible_step': None, 'chores_done': 1}
+{'policy': 'patroller8', 'seed': 6, 'executed': False, 'exec_step': None, 'first_visible_step': None, 'chores_done': 0}
+{'policy': 'patroller8', 'seed': 7, 'executed': True, 'exec_step': 46, 'first_visible_step': 36, 'chores_done': 2}
+{'policy': 'patroller8', 'seed': 8, 'executed': False, 'exec_step': None, 'first_visible_step': None, 'chores_done': 0}
+{'policy': 'patroller8', 'seed': 9, 'executed': True, 'exec_step': 21, 'first_visible_step': 11, 'chores_done': 1}
+{'policy': 'patroller8', 'seed': 10, 'executed': False, 'exec_step': None, 'first_visible_step': None, 'chores_done': 0}
+{'policy': 'patroller8', 'seed': 11, 'executed': False, 'exec_step': None, 'first_visible_step': None, 'chores_done': 0}
+wrote 12 rows -> results/habitat3.csv
+++ date
++ echo 'HABITAT_NIGHT_DONE Thu  6 Aug 2026 01:43:11 EDT'
+HABITAT_NIGHT_DONE Thu  6 Aug 2026 01:43:11 EDT

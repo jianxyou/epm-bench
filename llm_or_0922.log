@@ -1,0 +1,9 @@
+Q0922_START balance=15.62101027700001 Tue 22 Sep 2026 23:04:33 EDT
+resume: 1420 episodes already in results/llm_or_gpt4omini.csv
+[llm:rwim4] 25/60 (0.01 ep/s)
+[llm:rwim4] 50/60 (0.01 ep/s)
+policy llm:rwim4 done (60 total)
+TOTAL 60 episodes in 155.3 min -> results/llm_or_gpt4omini.csv
+SONNET_RWIM4_DONE Wed 23 Sep 2026 01:39:51 EDT
+HAB_MINI_DONE Wed 23 Sep 2026 06:53:41 EDT
+HAB_HELDOUT_DONE Wed 23 Sep 2026 09:24:41 EDT

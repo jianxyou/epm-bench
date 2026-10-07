@@ -1,0 +1,18 @@
+\section{Conclusion}
+\label{sec:conclusion}
+
+We asked what an embodied language-model agent does with an instruction it
+was given and then told to drop, in the situation where nobody is asking:
+the cue appears in the world, out of view, while the agent is busy. Across
+six model families, two simulators and six memory designs, the answer
+depends almost entirely on how the intention is stored. The stores in
+common use, a re-injected briefing, retrieval or a rolling summary,
+produce the action after cancellation in 12 to 64\% of episodes. An entry
+with a status, rewritten when the user withdraws the instruction, brings
+this to 7\% or less on every model at no systematic cost to execution. A model
+can keep that entry itself, so the design is a method rather than an upper
+bound, though the two smallest bookkeepers invent obligations that were never given,
+and with six standing intentions the advantage is intact for two of the
+four actors we tested, reduced for one and gone for one. Retrospective memory asks whether an
+agent can recall what it was told; an agent that acts on its own must also
+be able to drop it.

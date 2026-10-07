@@ -1,0 +1,62 @@
+resume: 1 episodes already in results/llm_or_gemini_load.csv
+policy llm:bank done (20 total)
+policy llm:bank done (20 total)
+policy llm:sched2 done (40 total)
+TOTAL 40 episodes in 17.2 min -> results/llm_or_gemini_load.csv
+resume: 78 episodes already in results/llm_or_gemini_load.csv
+policy llm:sched2 done (40 total)
+TOTAL 40 episodes in 17.2 min -> results/llm_or_gemini_load.csv
+resume: 81 episodes already in results/llm_or_gemini_load.csv
+policy llm:bank done (20 total)
+policy llm:bank done (20 total)
+policy llm:sched2 done (40 total)
+TOTAL 40 episodes in 19.8 min -> results/llm_or_gemini_load.csv
+policy llm:sched2 done (40 total)
+TOTAL 40 episodes in 19.9 min -> results/llm_or_gemini_load.csv
+LOAD_DONE gemini Sun 20 Sep 2026 01:17:29 EDT
+policy llm:bank done (20 total)
+policy llm:bank done (20 total)
+policy llm:sched2 done (40 total)
+TOTAL 40 episodes in 31.7 min -> results/llm_or_gpt4omini_load.csv
+resume: 79 episodes already in results/llm_or_gpt4omini_load.csv
+policy llm:sched2 done (40 total)
+TOTAL 40 episodes in 31.6 min -> results/llm_or_gpt4omini_load.csv
+resume: 80 episodes already in results/llm_or_gpt4omini_load.csv
+policy llm:bank done (20 total)
+policy llm:bank done (20 total)
+policy llm:sched2 done (40 total)
+TOTAL 40 episodes in 31.5 min -> results/llm_or_gpt4omini_load.csv
+policy llm:sched2 done (40 total)
+TOTAL 40 episodes in 31.3 min -> results/llm_or_gpt4omini_load.csv
+LOAD_DONE gpt4omini Sun 20 Sep 2026 17:42:21 EDT
+resume: 160 episodes already in results/llm_or_gpt4omini_load.csv
+[llm:bank] 25/40 (0.02 ep/s)
+policy llm:bank done (40 total)
+[llm:sched2] 25/40 (0.02 ep/s)
+policy llm:sched2 done (80 total)
+[llm:retr2] 25/40 (0.01 ep/s)
+llm:retr2 thor/FloorPlan1/s18/d6/l4 cancel_early attempt1: APIConnectionError Connection error.
+llm:retr2 thor/FloorPlan1/s18/d6/l4 cancel_early attempt2: APIConnectionError Connection error.
+policy llm:retr2 done (119 total)
+[llm:retr] 25/40 (0.01 ep/s)
+policy llm:retr done (159 total)
+TOTAL 159 episodes in 229.2 min -> results/llm_or_gpt4omini_load.csv
+LOAD4_CANCEL_DONE Wed 30 Sep 2026 22:57:28 EDT
+resume: 319 episodes already in results/llm_or_gpt4omini_load.csv
+[llm:retr2] 25/40 (0.02 ep/s)
+policy llm:retr2 done (40 total)
+[llm:retr] 25/40 (0.02 ep/s)
+policy llm:retr done (80 total)
+TOTAL 80 episodes in 57.6 min -> results/llm_or_gpt4omini_load.csv
+resume: 399 episodes already in results/llm_or_gpt4omini_load.csv
+[llm:retr2] 25/40 (0.02 ep/s)
+policy llm:retr2 done (40 total)
+[llm:retr] 25/40 (0.02 ep/s)
+policy llm:retr done (80 total)
+TOTAL 80 episodes in 56.3 min -> results/llm_or_gpt4omini_load.csv
+LOAD23_RETR_DONE Thu  1 Oct 2026 00:51:29 EDT
+resume: 479 episodes already in results/llm_or_gpt4omini_load.csv
+policy llm:bank done (20 total)
+policy llm:sched2 done (40 total)
+TOTAL 40 episodes in 34.0 min -> results/llm_or_gpt4omini_load.csv
+LOAD_ALL_DONE Thu  1 Oct 2026 01:25:32 EDT

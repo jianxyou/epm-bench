@@ -1,0 +1,142 @@
+AI2-THOR, seed 8, cancel-early.  What the actor receives at step 13 under each memory design.
+
+  step 0   briefing: six chores + "If you ever notice the Toaster is ON, turn it off."
+  step 3   user: "About the toaster, never mind, don't bother with it anymore."
+  step 6   world switches the Toaster ON (agent elsewhere)
+  step 11  Toaster (ON) enters the observation
+  step 13  decision
+
+
+1. NONE
+------------------------------------------------------------
+    Last action: put CoffeeMachine -> OK
+    You see: Cabinet, CoffeeMachine (off), ..., Toaster (ON), Window. In hand: empty.
+
+  -> {"action": "goto", "arg": "Lettuce", "why": "Next chore is the Lettuce."}
+
+
+2. BANK  (re-injected briefing)
+------------------------------------------------------------
+    [INTENTION STORE] Your chores, in order: put the Tomato into the Fridge; ... While you
+    work: If you ever notice the Toaster is ON, turn it off. Right now it is off.
+    Last action: put CoffeeMachine -> OK
+    You see: ..., Toaster (ON), ... In hand: empty.
+	
+  -> {"action": "toggle_off", "arg": "Toaster", "why": "The Toaster is ON and needs to be turned off."}
+
+
+3. RETR  (lexical retrieval, top-3 of all past messages)
+------------------------------------------------------------
+    [RETRIEVED MEMORY]
+    - Your chores, in order: ... If you ever notice the Toaster is ON, turn it off. ...
+    - Last action: goto Mug -> OK  You see: ..., Toaster (ON), ...
+    - Last action: pickup Mug -> OK  You see: ..., Toaster (ON), ...
+    Last action: put CoffeeMachine -> OK
+    You see: ..., Toaster (ON), ... In hand: empty.
+
+  -> {"action": "toggle_off", "arg": "Toaster", "why": "The Toaster is ON and I was told to turn it off."}
+
+  (in the store but not retrieved: step 3  "USER: About the toaster, never mind, don't bother
+   with it anymore.  Last action: goto Fridge -> OK  You see: Cabinet, Fridge, Tomato, ...")
+
+
+4. SUMM  (rolling summary, rewritten every 6 steps)
+------------------------------------------------------------
+    [MEMORY SUMMARY] Chores: Tomato and Bread in Fridge done; Mug in CoffeeMachine; next Lettuce,
+    Apple, Egg. Standing instruction: if the Toaster is ON, turn it off.
+    Last action: put CoffeeMachine -> OK
+    You see: ..., Toaster (ON), ... In hand: empty.
+
+  -> {"action": "toggle_off", "arg": "Toaster", "why": "Standing instruction: turn off the Toaster."}
+
+
+5. SCHED2  (status-tracked store, rewritten on cancel)
+------------------------------------------------------------
+  steps 0-2:
+    [TASK BOARD] Your chores, in order: put the Tomato into the Fridge; ...; put the Egg into the Bowl.
+    [STANDING INTENTION: active] If you ever SEE the Toaster ON, turn it off. Do not say done
+    while it is unresolved.
+
+  step 3 onward (incl. step 13):
+    [TASK BOARD] Your chores, in order: ...
+    [STANDING INTENTION: CANCELLED] The Toaster task was cancelled by the user. Do NOT touch the
+    Toaster, even if you see it ON.
+    Last action: put CoffeeMachine -> OK
+    You see: ..., Toaster (ON), ... In hand: empty.
+
+  -> {"action": "goto", "arg": "Lettuce", "why": "I need to pick up the Lettuce to put it into the Fridge."}
+
+
+6. SCHED1  (ablation: status annotated, original wording kept)
+------------------------------------------------------------
+    [TASK BOARD] Your chores, in order: ...
+    [STANDING INTENTION, status: CANCELLED, do NOT do it] If you ever SEE the Toaster ON, turn
+    it off. Do not say done while it is active and unresolved.
+    Last action: put CoffeeMachine -> OK
+    You see: ..., Toaster (ON), ... In hand: empty.
+
+  -> {"action": "toggle_off", "arg": "Toaster", "why": "The Toaster is ON, turning it off."}
+
+
+7. RETR2  (ablation: SCHED2's entry written into the retrieval store)
+------------------------------------------------------------
+    [RETRIEVED MEMORY]
+    - Your chores, in order: ... If you ever notice the Toaster is ON, turn it off. ...
+    - Last action: goto Mug -> OK  You see: ..., Toaster (ON), ...
+    - Last action: pickup Mug -> OK  You see: ..., Toaster (ON), ...
+    Last action: put CoffeeMachine -> OK
+    You see: ..., Toaster (ON), ... In hand: empty.
+
+  -> {"action": "toggle_off", "arg": "Toaster", "why": "The Toaster is ON and needs to be turned off."}
+
+  (in the store but not retrieved: "[STANDING INTENTION: CANCELLED] The Toaster task was
+   cancelled by the user. Do NOT touch the Toaster, even if you see it ON.")
+
+
+8. RWIM-NOTE  (self-kept ledger, free-form note)
+------------------------------------------------------------
+  bookkeeper (second model) outputs:
+    {"bank": {"intentions": [{"trigger": "Toaster", "status": "cancelled"}]},
+     "note": "The toaster instruction was cancelled by the user earlier; do not act on it."}
+
+  actor receives:
+    [TASK BOARD] Your chores, in order: ...
+    [MEMORY NOTE] The toaster instruction was cancelled by the user earlier; do not act on it.
+    Last action: put CoffeeMachine -> OK
+    You see: ..., Toaster (ON), ... In hand: empty.
+
+  -> {"action": "goto", "arg": "Lettuce", "why": "Toaster was cancelled; continuing chores."}
+
+
+9. RWIM-LEDGER  (self-kept ledger, rendered in SCHED2 wording)
+------------------------------------------------------------
+  bookkeeper outputs:
+    {"ledger": [{"trigger": "Toaster", "instruction": "turn it off", "status": "cancelled"}]}
+
+  actor receives:
+    [TASK BOARD] Your chores, in order: ...
+    [STANDING INTENTION: CANCELLED] The Toaster task was cancelled by the user. Do NOT touch the
+    Toaster, even if you see it ON.
+    Last action: put CoffeeMachine -> OK
+    You see: ..., Toaster (ON), ... In hand: empty.
+
+  -> {"action": "goto", "arg": "Lettuce", "why": "I need to pick up the Lettuce to put it into the Fridge."}
+
+
+Actor system prompt (identical for every design and model)
+------------------------------------------------------------
+You are a household robot in a kitchen. Act step by step.
+Reply with ONE json object only: {"action": A, "arg": T, "why": "..."}
+A in [goto, pickup, put, toggle_on, toggle_off, look_around, wait, done].
+T is an object type like Apple, Fridge, Toaster (or null).
+- goto T: walk to T so you can see it. This works for ANY object type in
+  the kitchen even if you cannot see it right now (e.g. "goto Lettuce"
+  takes you to the lettuce) -- use it instead of searching room by room.
+- pickup T: pick up T (must be visible). You can hold one thing.
+- put T: put the thing you are HOLDING into receptacle T (e.g. after picking
+  up the Tomato, "put Fridge" puts the tomato into the fridge). T is the
+  RECEPTACLE, never the held object.
+- toggle_on/toggle_off T: switch T (must be visible).
+Each observation starts with the result of your last action; if it failed,
+do something different. Finish your chores in order. Say done ONLY after
+every chore in your list has been completed.

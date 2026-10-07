@@ -1,0 +1,10 @@
+ts,sim,policy,seed,scene,delay,cancel,k,event_step,first_visible_step,exec_step,executed,cancelled,cancel_step,eac_strict,steps_total,chores_done
+1785995736,habitat,smartpatrol8,0,apartment_1,10,none,8,10,13,23,True,False,,False,60,1
+1785995736,habitat,smartpatrol8,1,apartment_1,10,none,8,10,20,29,True,False,,False,60,2
+1785995736,habitat,smartpatrol8,2,apartment_1,10,none,8,10,10,16,True,False,,False,60,0
+1785995737,habitat,idle,0,apartment_1,10,none,8,10,10,16,True,False,,False,60,3
+1785995737,habitat,idle,1,apartment_1,10,none,8,10,10,20,True,False,,False,60,5
+1785995737,habitat,idle,2,apartment_1,10,none,8,10,10,16,True,False,,False,60,6
+1785995739,habitat,informed8_hot,0,apartment_1,10,none,8,10,35,46,True,False,,False,60,0
+1785995739,habitat,informed8_hot,1,apartment_1,10,none,8,10,30,41,True,False,,False,60,1
+1785995739,habitat,informed8_hot,2,apartment_1,10,none,8,10,10,16,True,False,,False,60,1

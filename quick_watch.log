@@ -1,0 +1,48 @@
+CREDITS LIVE at probe 1, Thu  6 Aug 2026 13:34:33 EDT
+=== smoke 2 eps ===
+{'policy': 'llm-none', 'seed': 0, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 2}
+{'policy': 'llm-none', 'seed': 1, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 2}
+wrote 2 rows -> results/llm_smoke.csv
+=== full pilot ===
+{'policy': 'llm-none', 'seed': 0, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 30, 'chores_done': 6}
+{'policy': 'llm-none', 'seed': 1, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 2}
+{'policy': 'llm-none', 'seed': 2, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 14, 'chores_done': 2}
+{'policy': 'llm-none', 'seed': 3, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 22, 'chores_done': 2}
+{'policy': 'llm-none', 'seed': 4, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 0}
+{'policy': 'llm-none', 'seed': 5, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 14, 'chores_done': 2}
+{'policy': 'llm-none', 'seed': 6, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 9}
+{'policy': 'llm-none', 'seed': 7, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 13, 'chores_done': 2}
+{'policy': 'llm-none', 'seed': 8, 'scene': 'FloorPlan1', 'executed': False, 'executed_after_cancel': False, 'exec_step': None, 'chores_done': 2}
+{'policy': 'llm-none', 'seed': 9, 'scene': 'FloorPlan1', 'executed': True, 'executed_after_cancel': False, 'exec_step': 7, 'chores_done': 1}
+wrote 10 rows -> results/pilot.csv
+wrote 0 rows -> results/pilot.csv
+Traceback (most recent call last):
+  File "/Users/jianxin/Library/Python/3.9/lib/python/site-packages/ai2thor/controller.py", line 979, in step
+    self.last_event = self.server.receive()
+  File "/Users/jianxin/Library/Python/3.9/lib/python/site-packages/ai2thor/fifo_server.py", line 229, in receive
+    metadata, files = self._recv_message(
+  File "/Users/jianxin/Library/Python/3.9/lib/python/site-packages/ai2thor/fifo_server.py", line 145, in _recv_message
+    header = self._read_with_timeout(
+  File "/Users/jianxin/Library/Python/3.9/lib/python/site-packages/ai2thor/fifo_server.py", line 134, in _read_with_timeout
+    raise TimeoutError(f"Reading from AI2-THOR backend timed out (using {timeout}s) timeout.")
+TimeoutError: Reading from AI2-THOR backend timed out (using 100.0s) timeout.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/jianxin/Desktop/my_project/embodied_pm/run_pilot.py", line 128, in <module>
+    main()
+  File "/Users/jianxin/Desktop/my_project/embodied_pm/run_pilot.py", line 104, in main
+    r = run_one(envh, args.policy, args.seed0 + i, args.delay,
+  File "/Users/jianxin/Desktop/my_project/embodied_pm/run_pilot.py", line 46, in run_one
+    info = agents.run_llm(envh, spec, mem=mem, model=model, window=window)
+  File "/Users/jianxin/Desktop/my_project/embodied_pm/agents.py", line 339, in run_llm
+    rec = env.act(action, arg)
+  File "/Users/jianxin/Desktop/my_project/embodied_pm/env.py", line 98, in act
+    ok = bool(tgt) and self._teleport_near(tgt)
+  File "/Users/jianxin/Desktop/my_project/embodied_pm/env.py", line 87, in _teleport_near
+    ev = self.c.step(action="TeleportFull", position=best,
+  File "/Users/jianxin/Library/Python/3.9/lib/python/site-packages/ai2thor/controller.py", line 997, in step
+    raise (TimeoutError if isinstance(e, TimeoutError) else RuntimeError)(
+TimeoutError: Error encountered when running action {'action': 'TeleportFull', 'position': {'x': -1.25, 'y': 0.900999128818512, 'z': -0.25}, 'rotation': {'x': 0, 'y': -85.21439106660875, 'z': 0}, 'horizon': 30, 'standing': True, 'sequenceId': 39} in scene FloorPlan1_physics.
+LLM_ALL_DONE Thu  6 Aug 2026 13:42:23 EDT

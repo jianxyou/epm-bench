@@ -1,0 +1,98 @@
+resume: 12 episodes already in results/llm_or_deepseek_load_v1obs.csv
+policy llm:bank done (15 total)
+TOTAL 15 episodes in 26.1 min -> results/llm_or_deepseek_load_v1obs.csv
+PASS1 llm:bank cancel_early done Sun  4 Oct 2026 22:49:14 EDT
+resume: 27 episodes already in results/llm_or_deepseek_load_v1obs.csv
+policy llm:sched2 done (20 total)
+TOTAL 20 episodes in 33.7 min -> results/llm_or_deepseek_load_v1obs.csv
+PASS1 llm:sched2 cancel_early done Sun  4 Oct 2026 23:23:02 EDT
+resume: 47 episodes already in results/llm_or_deepseek_load_v1obs.csv
+policy llm:rwim5 done (20 total)
+TOTAL 20 episodes in 97.7 min -> results/llm_or_deepseek_load_v1obs.csv
+PASS1 llm:rwim5 cancel_early done Mon  5 Oct 2026 01:00:49 EDT
+resume: 67 episodes already in results/llm_or_deepseek_load_v1obs.csv
+policy llm:bank done (20 total)
+TOTAL 20 episodes in 41.2 min -> results/llm_or_deepseek_load_v1obs.csv
+PASS1 llm:bank live done Mon  5 Oct 2026 01:42:03 EDT
+resume: 87 episodes already in results/llm_or_deepseek_load_v1obs.csv
+policy llm:sched2 done (20 total)
+TOTAL 20 episodes in 31.9 min -> results/llm_or_deepseek_load_v1obs.csv
+PASS1 llm:sched2 live done Mon  5 Oct 2026 02:13:59 EDT
+resume: 107 episodes already in results/llm_or_deepseek_load_v1obs.csv
+policy llm:rwim5 done (20 total)
+TOTAL 20 episodes in 106.1 min -> results/llm_or_deepseek_load_v1obs.csv
+PASS1 llm:rwim5 live done Mon  5 Oct 2026 04:00:07 EDT
+resume: 127 episodes already in results/llm_or_deepseek_load_v1obs.csv
+llm:bank thor/FloorPlan1/s16/d6/l6 cancel_late attempt1: JSONDecodeError Expecting value: line 3 column 1 (char 11)
+policy llm:bank done (20 total)
+TOTAL 20 episodes in 28.7 min -> results/llm_or_deepseek_load_v1obs.csv
+PASS1 llm:bank cancel_late done Mon  5 Oct 2026 04:28:55 EDT
+resume: 147 episodes already in results/llm_or_deepseek_load_v1obs.csv
+policy llm:sched2 done (20 total)
+TOTAL 20 episodes in 37.9 min -> results/llm_or_deepseek_load_v1obs.csv
+PASS1 llm:sched2 cancel_late done Mon  5 Oct 2026 05:06:50 EDT
+resume: 167 episodes already in results/llm_or_deepseek_load_v1obs.csv
+policy llm:rwim5 done (20 total)
+TOTAL 20 episodes in 152.3 min -> results/llm_or_deepseek_load_v1obs.csv
+PASS1 llm:rwim5 cancel_late done Mon  5 Oct 2026 07:39:11 EDT
+resume: 187 episodes already in results/llm_or_deepseek_load_v1obs.csv
+policy llm:bank done (20 total)
+TOTAL 20 episodes in 23.4 min -> results/llm_or_deepseek_load_v1obs.csv
+PASS1 llm:bank control done Mon  5 Oct 2026 08:02:38 EDT
+resume: 207 episodes already in results/llm_or_deepseek_load_v1obs.csv
+policy llm:sched2 done (20 total)
+TOTAL 20 episodes in 38.2 min -> results/llm_or_deepseek_load_v1obs.csv
+PASS1 llm:sched2 control done Mon  5 Oct 2026 08:40:51 EDT
+resume: 227 episodes already in results/llm_or_deepseek_load_v1obs.csv
+policy llm:rwim5 done (20 total)
+TOTAL 20 episodes in 71.8 min -> results/llm_or_deepseek_load_v1obs.csv
+PASS1 llm:rwim5 control done Mon  5 Oct 2026 09:52:40 EDT
+resume: 247 episodes already in results/llm_or_deepseek_load_v1obs.csv
+policy llm:bank done (0 total)
+TOTAL 0 episodes in 0.0 min -> results/llm_or_deepseek_load_v1obs.csv
+PASS2 llm:bank cancel_early done Mon  5 Oct 2026 09:52:44 EDT
+resume: 247 episodes already in results/llm_or_deepseek_load_v1obs.csv
+policy llm:sched2 done (0 total)
+TOTAL 0 episodes in 0.0 min -> results/llm_or_deepseek_load_v1obs.csv
+PASS2 llm:sched2 cancel_early done Mon  5 Oct 2026 09:52:47 EDT
+resume: 247 episodes already in results/llm_or_deepseek_load_v1obs.csv
+policy llm:rwim5 done (0 total)
+TOTAL 0 episodes in 0.0 min -> results/llm_or_deepseek_load_v1obs.csv
+PASS2 llm:rwim5 cancel_early done Mon  5 Oct 2026 09:52:50 EDT
+resume: 247 episodes already in results/llm_or_deepseek_load_v1obs.csv
+policy llm:bank done (0 total)
+TOTAL 0 episodes in 0.0 min -> results/llm_or_deepseek_load_v1obs.csv
+PASS2 llm:bank live done Mon  5 Oct 2026 09:52:53 EDT
+resume: 247 episodes already in results/llm_or_deepseek_load_v1obs.csv
+policy llm:sched2 done (0 total)
+TOTAL 0 episodes in 0.0 min -> results/llm_or_deepseek_load_v1obs.csv
+PASS2 llm:sched2 live done Mon  5 Oct 2026 09:52:56 EDT
+resume: 247 episodes already in results/llm_or_deepseek_load_v1obs.csv
+policy llm:rwim5 done (0 total)
+TOTAL 0 episodes in 0.0 min -> results/llm_or_deepseek_load_v1obs.csv
+PASS2 llm:rwim5 live done Mon  5 Oct 2026 09:52:59 EDT
+resume: 247 episodes already in results/llm_or_deepseek_load_v1obs.csv
+policy llm:bank done (0 total)
+TOTAL 0 episodes in 0.0 min -> results/llm_or_deepseek_load_v1obs.csv
+PASS2 llm:bank cancel_late done Mon  5 Oct 2026 09:53:02 EDT
+resume: 247 episodes already in results/llm_or_deepseek_load_v1obs.csv
+policy llm:sched2 done (0 total)
+TOTAL 0 episodes in 0.0 min -> results/llm_or_deepseek_load_v1obs.csv
+PASS2 llm:sched2 cancel_late done Mon  5 Oct 2026 09:53:05 EDT
+resume: 247 episodes already in results/llm_or_deepseek_load_v1obs.csv
+policy llm:rwim5 done (0 total)
+TOTAL 0 episodes in 0.0 min -> results/llm_or_deepseek_load_v1obs.csv
+PASS2 llm:rwim5 cancel_late done Mon  5 Oct 2026 09:53:08 EDT
+resume: 247 episodes already in results/llm_or_deepseek_load_v1obs.csv
+policy llm:bank done (0 total)
+TOTAL 0 episodes in 0.0 min -> results/llm_or_deepseek_load_v1obs.csv
+PASS2 llm:bank control done Mon  5 Oct 2026 09:53:11 EDT
+resume: 247 episodes already in results/llm_or_deepseek_load_v1obs.csv
+policy llm:sched2 done (0 total)
+TOTAL 0 episodes in 0.0 min -> results/llm_or_deepseek_load_v1obs.csv
+PASS2 llm:sched2 control done Mon  5 Oct 2026 09:53:14 EDT
+resume: 247 episodes already in results/llm_or_deepseek_load_v1obs.csv
+policy llm:rwim5 done (0 total)
+TOTAL 0 episodes in 0.0 min -> results/llm_or_deepseek_load_v1obs.csv
+PASS2 llm:rwim5 control done Mon  5 Oct 2026 09:53:17 EDT
+LOAD6TAB_deepseek_q1_DONE Mon  5 Oct 2026 09:53:17 EDT

@@ -1,0 +1,17 @@
+resume: 894 episodes already in results/llm_or_gemini.csv
+resume: 1328 episodes already in results/llm_or_gpt4omini.csv
+[llm:rwim4] 25/60 (0.02 ep/s)
+[llm:rwim4] 50/60 (0.02 ep/s)
+policy llm:rwim4 done (60 total)
+TOTAL 60 episodes in 50.4 min -> results/llm_or_gemini.csv
+resume: 134 episodes already in results/llm_or_gemini_ctrl2.csv
+[llm:rwim4] 25/60 (0.01 ep/s)
+policy llm:rwim4 done (20 total)
+TOTAL 20 episodes in 16.9 min -> results/llm_or_gemini_ctrl2.csv
+[llm:rwim4] 50/60 (0.01 ep/s)
+policy llm:rwim4 done (60 total)
+TOTAL 60 episodes in 94.1 min -> results/llm_or_gpt4omini.csv
+resume: 180 episodes already in results/llm_or_gpt4omini_ctrl2.csv
+policy llm:rwim4 done (20 total)
+TOTAL 20 episodes in 35.7 min -> results/llm_or_gpt4omini_ctrl2.csv
+RWIM4_SELF_DONE Sun 20 Sep 2026 19:08:28 EDT

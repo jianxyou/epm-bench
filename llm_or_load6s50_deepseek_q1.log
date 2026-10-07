@@ -1,0 +1,41 @@
+resume: 247 episodes already in results/llm_or_deepseek_load_v1obs.csv
+[llm:bank] 25/50 (0.01 ep/s)
+[llm:bank] 50/50 (0.01 ep/s)
+policy llm:bank done (30 total)
+TOTAL 30 episodes in 91.4 min -> results/llm_or_deepseek_load_v1obs.csv
+PASS1 llm:bank cancel_early done Mon  5 Oct 2026 14:45:20 EDT
+resume: 315 episodes already in results/llm_or_deepseek_load_v1obs.csv
+[llm:bank] 25/50 (0.01 ep/s)
+[llm:bank] 50/50 (0.01 ep/s)
+policy llm:bank done (30 total)
+TOTAL 30 episodes in 83.6 min -> results/llm_or_deepseek_load_v1obs.csv
+PASS1 llm:bank live done Mon  5 Oct 2026 16:09:00 EDT
+resume: 384 episodes already in results/llm_or_deepseek_load_v1obs.csv
+[llm:bank] 25/50 (0.01 ep/s)
+[llm:bank] 50/50 (0.01 ep/s)
+policy llm:bank done (30 total)
+TOTAL 30 episodes in 69.1 min -> results/llm_or_deepseek_load_v1obs.csv
+PASS1 llm:bank cancel_late done Mon  5 Oct 2026 17:18:09 EDT
+resume: 452 episodes already in results/llm_or_deepseek_load_v1obs.csv
+[llm:bank] 25/50 (0.01 ep/s)
+[llm:bank] 50/50 (0.01 ep/s)
+policy llm:bank done (30 total)
+TOTAL 30 episodes in 52.5 min -> results/llm_or_deepseek_load_v1obs.csv
+PASS1 llm:bank control done Mon  5 Oct 2026 18:10:42 EDT
+resume: 519 episodes already in results/llm_or_deepseek_load_v1obs.csv
+policy llm:bank done (0 total)
+TOTAL 0 episodes in 0.0 min -> results/llm_or_deepseek_load_v1obs.csv
+PASS2 llm:bank cancel_early done Mon  5 Oct 2026 18:10:45 EDT
+resume: 519 episodes already in results/llm_or_deepseek_load_v1obs.csv
+policy llm:bank done (0 total)
+TOTAL 0 episodes in 0.0 min -> results/llm_or_deepseek_load_v1obs.csv
+PASS2 llm:bank live done Mon  5 Oct 2026 18:10:48 EDT
+resume: 519 episodes already in results/llm_or_deepseek_load_v1obs.csv
+policy llm:bank done (0 total)
+TOTAL 0 episodes in 0.0 min -> results/llm_or_deepseek_load_v1obs.csv
+PASS2 llm:bank cancel_late done Mon  5 Oct 2026 18:10:51 EDT
+resume: 519 episodes already in results/llm_or_deepseek_load_v1obs.csv
+policy llm:bank done (0 total)
+TOTAL 0 episodes in 0.0 min -> results/llm_or_deepseek_load_v1obs.csv
+PASS2 llm:bank control done Mon  5 Oct 2026 18:10:54 EDT
+LOAD6S50_deepseek_q1_DONE Mon  5 Oct 2026 18:10:54 EDT

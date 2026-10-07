@@ -1,0 +1,76 @@
+{
+ "cells": {
+  "habitat|dev|apartment_1|10|1": 388,
+  "habitat|dev|apartment_1|14|1": 388,
+  "habitat|dev|apartment_1|6|1": 388,
+  "habitat|test|skokloster-castle|10|1": 400,
+  "thor|dev|FloorPlan1|10|1": 400,
+  "thor|dev|FloorPlan1|10|2": 400,
+  "thor|dev|FloorPlan1|10|3": 400,
+  "thor|dev|FloorPlan1|14|1": 400,
+  "thor|dev|FloorPlan1|14|2": 400,
+  "thor|dev|FloorPlan1|14|3": 400,
+  "thor|dev|FloorPlan1|3|1": 400,
+  "thor|dev|FloorPlan1|3|2": 400,
+  "thor|dev|FloorPlan1|3|3": 400,
+  "thor|dev|FloorPlan1|6|1": 400,
+  "thor|dev|FloorPlan1|6|2": 400,
+  "thor|dev|FloorPlan1|6|3": 400,
+  "thor|test|FloorPlan2|6|1": 400,
+  "thor|test|FloorPlan3|6|1": 400,
+  "thor|test|FloorPlan4|6|1": 400
+ },
+ "design": {
+  "habitat": {
+   "dev_delays": [
+    6,
+    10,
+    14
+   ],
+   "dev_scene": "apartment_1",
+   "load_limitation": "habitat tier is single-intention in v0.1",
+   "test_scene": "skokloster-castle"
+  },
+  "thor": {
+   "dev_delays": [
+    3,
+    6,
+    10,
+    14
+   ],
+   "dev_loads": [
+    1,
+    2,
+    3
+   ],
+   "dev_scene": "FloorPlan1",
+   "dev_seeds": [
+    0,
+    99
+   ],
+   "test_seeds": [
+    100,
+    199
+   ]
+  },
+  "variants": [
+   "control",
+   "live",
+   "cancel_early",
+   "cancel_late"
+  ]
+ },
+ "files": {
+  "epm_v0.1_habitat.jsonl": {
+   "episodes": 1564,
+   "sha256": "10798cf7c6ec23ffae36eeff07f25d5ec03a8e6ee6800b3c8f478ba284046c85"
+  },
+  "epm_v0.1_thor.jsonl": {
+   "episodes": 6000,
+   "sha256": "ef4c2bee01f7f759014a8662611e3d6521d4c033724f626fc31f9f58b27c28c4"
+  }
+ },
+ "incomplete_twin_groups": 0,
+ "suite": "epm_v0.1",
+ "twin_groups": 1891
+}
